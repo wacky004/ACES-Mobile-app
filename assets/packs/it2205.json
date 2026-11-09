@@ -1,0 +1,2851 @@
+{
+  "id": "it2205",
+  "subject": "Computer Engineering Laws and Discipline",
+  "code": "IT2205",
+  "org": "ACES - Association of Computer Engineering Students of STI Ortigas-Cainta",
+  "version": "1.1.0",
+  "description": "Prelim to finals reviewer covering computer engineering law, ethics, professionalism, contemporary issues, and the CPE profession.",
+  "authors": [
+    "ACES",
+    "IT2205 Faculty"
+  ],
+  "license": "For ACES classroom use only. Handout content is property of STI.",
+  "terms": [
+    {
+      "id": "prelim",
+      "name": "Prelim",
+      "order": 1,
+      "defaultWeight": 20
+    },
+    {
+      "id": "midterm",
+      "name": "Midterm",
+      "order": 2,
+      "defaultWeight": 20
+    },
+    {
+      "id": "prefinals",
+      "name": "Pre-Finals",
+      "order": 3,
+      "defaultWeight": 20
+    },
+    {
+      "id": "finals",
+      "name": "Finals",
+      "order": 4,
+      "defaultWeight": 40
+    }
+  ],
+  "handouts": [
+    {
+      "id": "prelim-01",
+      "termId": "prelim",
+      "number": "01",
+      "title": "Introduction to CPE Laws and Professional Practice"
+    },
+    {
+      "id": "prelim-02",
+      "termId": "prelim",
+      "number": "02",
+      "title": "Computer Engineering & IT Laws"
+    },
+    {
+      "id": "midterm-03",
+      "termId": "midterm",
+      "number": "03",
+      "title": "Understanding Contemporary Issues"
+    },
+    {
+      "id": "midterm-04",
+      "termId": "midterm",
+      "number": "04",
+      "title": "Analysis of the Current Computer Engineering & IT Field Using Case Study"
+    },
+    {
+      "id": "prefinals-05",
+      "termId": "prefinals",
+      "number": "05",
+      "title": "Responsibilities of Computer Engineers"
+    },
+    {
+      "id": "prefinals-06",
+      "termId": "prefinals",
+      "number": "06",
+      "title": "Professionalism at Work"
+    },
+    {
+      "id": "finals-07",
+      "termId": "finals",
+      "number": "07",
+      "title": "Computer Engineers at Work"
+    },
+    {
+      "id": "finals-08",
+      "termId": "finals",
+      "number": "08",
+      "title": "Application of IT Laws in the Computer Engineering Field"
+    }
+  ],
+  "questions": [
+    {
+      "id": "prelim-01-01",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Nature of the field",
+      "difficulty": "easy",
+      "stem": "Under CHED's policies, what does the Bachelor of Science in Computer Engineering program embody?",
+      "options": [
+        "The study of business processes and accounting information systems",
+        "The science and technology of design, development, implementation, maintenance, and integration of software and hardware components in modern computing systems and computer-controlled equipment",
+        "Only the repair and maintenance of computer hardware and networks",
+        "The legal regulation of cybercrime and data privacy in the Philippines"
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines BSCpE as embodying the science and technology of design, development, implementation, maintenance, and integration of software and hardware components in modern computing systems and computer-controlled equipment.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-01-02",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "CPE vs EE vs CS",
+      "difficulty": "easy",
+      "stem": "Which statement best describes the difference between computer engineers and computer scientists in hardware?",
+      "options": [
+        "Computer engineers only repair hardware, while computer scientists design every processor",
+        "Both professions avoid working with hardware",
+        "Computer scientists build hardware, while computer engineers only write software",
+        "Computer engineers build hardware, while computer scientists generally do not"
+      ],
+      "answerIndex": 3,
+      "explanation": "In hardware, computer engineers build hardware while computer scientists generally do not, although computer scientists know enough about hardware to analyze system operations and interact with hardware engineers.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-01-03",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "CPE vs EE vs CS",
+      "difficulty": "medium",
+      "stem": "In software, which statement is accurate?",
+      "options": [
+        "Computer scientists know more about the theory of computation, programming languages, and operating systems, while computer engineers often work as programmers writing programs for computer-based systems",
+        "Computer engineers know more about the theory of computation than computer scientists",
+        "Computer engineers never work as programmers",
+        "Computer scientists are not allowed to work with operating systems"
+      ],
+      "answerIndex": 0,
+      "explanation": "In software, computer scientists know more about the underlying theory of computation, programming languages, and operating systems, while computer engineers often work as programmers writing programs for computer-based systems.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-01-04",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Characteristics of a CPE",
+      "difficulty": "medium",
+      "stem": "Which is NOT one of the three characteristics a computer engineer should generally satisfy?",
+      "options": [
+        "Having depth of knowledge in mathematics and engineering sciences",
+        "Designing computers, computer-based systems, and networks with both hardware and software subject to trade-offs",
+        "Acquiring and maintaining preparation for professional practice in engineering",
+        "Passing a government board licensure examination before practice"
+      ],
+      "answerIndex": 3,
+      "explanation": "The three characteristics are the ability to design computers and systems subject to trade-offs, depth of knowledge in mathematics and engineering sciences, and preparation for professional practice. A board licensure exam is not required for Computer Engineering.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-01-05",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Characteristics of a CPE",
+      "difficulty": "easy",
+      "stem": "Why must computer engineers be life-long learners?",
+      "options": [
+        "Because the computing field changes rapidly, they must maintain their knowledge and skills within their chosen discipline",
+        "Because schools require them to return as students",
+        "Because their professional licenses expire every five years",
+        "Because hardware and software never change"
+      ],
+      "answerIndex": 0,
+      "explanation": "Because of the rapid pace of change in the computing field, computer engineers must be life-long learners to maintain their knowledge and skills within their chosen discipline.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-01-06",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "CPE duties",
+      "difficulty": "easy",
+      "stem": "Which of the following is NOT listed as a duty of computer engineers?",
+      "options": [
+        "Writing and testing software for mobile devices and computers",
+        "Representing clients in court during cybercrime cases",
+        "Designing and testing computer hardware components such as processors and circuit boards",
+        "Designing, setting up, and testing networks"
+      ],
+      "answerIndex": 1,
+      "explanation": "The listed duties include researching software and hardware, designing and testing hardware components, writing and testing software, designing and testing networks, managing operating systems, designing and testing robots, and creating programs for products. Court representation is not listed.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-01-07",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Professionalism",
+      "difficulty": "easy",
+      "stem": "Professionalism is demonstrated by more than qualifications, knowledge, and skills. What else does it require?",
+      "options": [
+        "Strict adherence to a single employer for life",
+        "A large social media following",
+        "A board license and a master's degree",
+        "Integrity, ethics, and trust"
+      ],
+      "answerIndex": 3,
+      "explanation": "Professionalism is demonstrated by more than just qualifications, knowledge, and skills. It also requires integrity, ethics, and trust.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-01-08",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Core characteristics",
+      "difficulty": "easy",
+      "stem": "Which professionalism characteristic means a professional gets the job done well, with abilities that match the role and results that often exceed expectations?",
+      "options": [
+        "Appropriateness",
+        "Confidence",
+        "Competence",
+        "Conscientiousness"
+      ],
+      "answerIndex": 2,
+      "explanation": "Competence means the professional gets the job done and done well; abilities match the requirements of the role and often produce results that exceed expectations.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-01-09",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Core characteristics",
+      "difficulty": "medium",
+      "stem": "Which professionalism characteristic involves developing detailed, up-to-date, often highly specialized knowledge and putting it into action?",
+      "options": [
+        "Knowledge",
+        "Integrity",
+        "Respect",
+        "Emotional intelligence"
+      ],
+      "answerIndex": 0,
+      "explanation": "Knowledge involves developing detailed, up-to-date, often highly specialized knowledge, and being confident enough to put that knowledge into action to help yourself and others succeed.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-01-10",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Core characteristics",
+      "difficulty": "easy",
+      "stem": "How is respect demonstrated by a professional?",
+      "options": [
+        "By sharing confidential information freely",
+        "By impressing only senior managers",
+        "By being a role model of politeness and good manners to everyone, taking people's needs into account, and upholding their rights",
+        "By avoiding all disagreements"
+      ],
+      "answerIndex": 2,
+      "explanation": "Respect means being a role model for politeness and good manners to everyone, not just people you want to impress. True respect takes other people's needs into account and helps uphold their rights.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-01-11",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Core characteristics",
+      "difficulty": "medium",
+      "stem": "Which characteristic is shown by staying professional under pressure and by being aware of other people's feelings?",
+      "options": [
+        "Appropriateness",
+        "Competence",
+        "Conscientiousness",
+        "Emotional intelligence"
+      ],
+      "answerIndex": 3,
+      "explanation": "Staying professional even under pressure is a sign of a true professional. This takes strategies for managing emotions and a clear awareness of other people's feelings: emotional intelligence.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-01-12",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Core characteristics",
+      "difficulty": "easy",
+      "stem": "Which characteristic keeps professionals true to their word and stops them from compromising their values even when the road is harder?",
+      "options": [
+        "Integrity",
+        "Appropriateness",
+        "Confidence",
+        "Knowledge"
+      ],
+      "answerIndex": 0,
+      "explanation": "Integrity keeps professional people true to their word and stops them from compromising their values, even if that means taking a harder road. It is bound up with honesty.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-01-13",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Core characteristics",
+      "difficulty": "medium",
+      "stem": "Appropriateness covers outward appearances such as dress, grooming, and body language. What else does it cover?",
+      "options": [
+        "The way you speak and write, the topics you discuss, and how you behave with others",
+        "Only the clothes you wear at work",
+        "Only your technical certifications",
+        "Only your social media posts"
+      ],
+      "answerIndex": 0,
+      "explanation": "Appropriateness relates to outward appearances such as dress, grooming, and body language, but it also covers the way you speak and write, the topics you choose to discuss, and how you behave with others.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-01-14",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Core characteristics",
+      "difficulty": "hard",
+      "stem": "Which statement best reflects conscientiousness?",
+      "options": [
+        "Being reliable, setting high standards, planning and prioritizing work, and holding yourself accountable without letting perfectionism take over",
+        "Working longer hours than everyone else and obsessing about details",
+        "Taking credit for the team's output",
+        "Never asking for help under any circumstance"
+      ],
+      "answerIndex": 0,
+      "explanation": "Conscientiousness means being reliable, setting your own high standards, showing care about every aspect of the job, and being industrious, organized, and accountable. The handout warns not to confuse it with working longer hours or obsessing over details.",
+      "sourcePage": 3
+    },
+    {
+      "id": "prelim-01-15",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Core characteristics",
+      "difficulty": "medium",
+      "stem": "What does well-founded confidence do for a professional?",
+      "options": [
+        "It reassures and motivates others, boosts influence and leadership, and encourages taking on new challenges",
+        "It replaces the need for competence and knowledge",
+        "It removes the need to listen to feedback",
+        "It guarantees that mistakes will never happen"
+      ],
+      "answerIndex": 0,
+      "explanation": "Well-founded confidence reassures and motivates other people, boosting the ability to influence and lead. It also pushes you to take on new challenges because the fear of damaging your professional reputation is non-existent.",
+      "sourcePage": 3
+    },
+    {
+      "id": "prelim-02-01",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Cybersecurity and data protection",
+      "difficulty": "easy",
+      "stem": "What is cybersecurity?",
+      "options": [
+        "The law that governs the digital dissemination of information and software",
+        "The act of selling personal data to advertisers",
+        "The process of safeguarding important information from corruption, compromise, or loss",
+        "The practice of protecting systems, networks, and programs from digital attacks"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. It has enormous implications for government security, economic prosperity, and public safety.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-02-02",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Cybersecurity and data protection",
+      "difficulty": "easy",
+      "stem": "What is data protection?",
+      "options": [
+        "A crime committed using information and communication technologies",
+        "Protecting systems from digital attacks",
+        "The process of safeguarding important information from corruption, compromise, or loss",
+        "The acquisition of a domain name in bad faith"
+      ],
+      "answerIndex": 2,
+      "explanation": "Data protection is the process of safeguarding important information from corruption, compromise, or loss. Its importance grows as the amount of data created and stored continues to increase.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-02-03",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Cybercrime",
+      "difficulty": "easy",
+      "stem": "Which best defines cybercrime?",
+      "options": [
+        "A crime that can only be committed by hackers",
+        "A crime committed with or using information and communication technologies such as smartphones, computers, and networks",
+        "A violation of the Anti-Wiretapping Law only",
+        "Any crime committed inside a school"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cybercrime is a crime committed with or using information and communication technologies such as radio, television, smartphones, computers and networks, and other communication devices.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-02-04",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Philippine IT laws",
+      "difficulty": "easy",
+      "stem": "Which law is the Cybercrime Prevention Act of 2012?",
+      "options": [
+        "Republic Act No. 10175",
+        "Republic Act No. 4200",
+        "Republic Act No. 8792",
+        "Republic Act No. 10173"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Cybercrime Prevention Act of 2012 is Republic Act No. 10175. It addresses crimes committed against and through computer systems.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-02-05",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Philippine IT laws",
+      "difficulty": "medium",
+      "stem": "Which law aims to facilitate domestic and international agreements, contracts, and electronic transactions while recognizing the authenticity and reliability of electronic documents?",
+      "options": [
+        "Cybercrime Prevention Act of 2012 (RA 10175)",
+        "Access Device Regulation Act of 1998 (RA 8484)",
+        "E-Commerce Act of 2000 (RA 8792)",
+        "Data Privacy Act of 2012 (RA 10173)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The E-Commerce Act of 2000 (RA 8792) aims to facilitate domestic and international agreements, contracts, exchanges, and storage of information through electronic means and to promote electronic transactions.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-02-06",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Philippine IT laws",
+      "difficulty": "medium",
+      "stem": "A person fraudulently uses another person's credit card and access device. Which law primarily covers this?",
+      "options": [
+        "Anti-Child Pornography Act of 2009 (RA 9775)",
+        "Anti-Wiretapping Law (RA 4200)",
+        "Access Device Regulation Act of 1998 (RA 8484)",
+        "Anti-Photo and Voyeurism Act of 2009 (RA 9995)"
+      ],
+      "answerIndex": 2,
+      "explanation": "RA 8484, the Access Device Regulation Act of 1998, regulates the issuance and use of access devices and prohibits fraudulent acts involving them.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-02-07",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Philippine IT laws",
+      "difficulty": "easy",
+      "stem": "Which law prohibits and penalizes wiretapping and other violations of the privacy of communication?",
+      "options": [
+        "Cybercrime Prevention Act of 2012 (RA 10175)",
+        "Data Privacy Act of 2012 (RA 10173)",
+        "E-Commerce Act of 2000 (RA 8792)",
+        "Anti-Wiretapping Law (RA 4200)"
+      ],
+      "answerIndex": 3,
+      "explanation": "RA 4200, the Anti-Wiretapping Law, prohibits and penalizes wiretapping and other related violations of the privacy of communication.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prelim-02-08",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Philippine IT laws",
+      "difficulty": "medium",
+      "stem": "Which agency administers and implements the Data Privacy Act of 2012?",
+      "options": [
+        "National Privacy Commission",
+        "Cybercrime Investigation and Coordinating Center",
+        "Commission on Elections",
+        "National Bureau of Investigation"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Data Privacy Act of 2012 (RA 10173) protects individual personal information in ICT systems. The National Privacy Commission administers and implements its provisions and ensures compliance with international standards.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-02-09",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Philippine IT laws",
+      "difficulty": "easy",
+      "stem": "Which law defines and penalizes child pornography and promotes the well-being of the youth?",
+      "options": [
+        "E-Commerce Act of 2000 (RA 8792)",
+        "Anti-Photo and Voyeurism Act of 2009 (RA 9995)",
+        "Cybercrime Prevention Act of 2012 (RA 10175)",
+        "Anti-Child Pornography Act of 2009 (RA 9775)"
+      ],
+      "answerIndex": 3,
+      "explanation": "RA 9775, the Anti-Child Pornography Act of 2009, defines the crime of child pornography, prescribes penalties, and promotes the physical, moral, spiritual, intellectual, emotional, psychological, and social well-being of the youth.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-02-10",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Philippine IT laws",
+      "difficulty": "medium",
+      "stem": "Which law penalizes taking or broadcasting photos or videos of a person performing a sexual act without consent?",
+      "options": [
+        "Anti-Child Pornography Act of 2009 (RA 9775)",
+        "Data Privacy Act of 2012 (RA 10173)",
+        "Anti-Wiretapping Law (RA 4200)",
+        "Anti-Photo and Voyeurism Act of 2009 (RA 9995)"
+      ],
+      "answerIndex": 3,
+      "explanation": "RA 9995, the Anti-Photo and Voyeurism Act of 2009, penalizes photo and video voyeurism, including selling, reproducing, or broadcasting such recordings without written consent.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-02-11",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Cybercrime offenses",
+      "difficulty": "easy",
+      "stem": "Accessing the whole or any part of a computer system without right is called:",
+      "options": [
+        "System interference",
+        "Data interference",
+        "Illegal access",
+        "Illegal interception"
+      ],
+      "answerIndex": 2,
+      "explanation": "Illegal access refers to access to the whole or any part of a computer system without right. It is an offense against the confidentiality, integrity, and availability of computer data and systems.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-02-12",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Cybercrime offenses",
+      "difficulty": "hard",
+      "stem": "Which offense refers to intercepting, by technical means and without right, any non-public transmission of computer data to, from, or within a computer system?",
+      "options": [
+        "Illegal interception",
+        "Computer-related forgery",
+        "Illegal access",
+        "Cyber-squatting"
+      ],
+      "answerIndex": 0,
+      "explanation": "Illegal interception is the interception, by technical means and without right, of any non-public transmission of computer data to, from, or within a computer system, including electromagnetic emissions carrying such data.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-02-13",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Cybercrime offenses",
+      "difficulty": "hard",
+      "stem": "Which offense involves intentionally or recklessly altering, damaging, deleting, or deteriorating computer data without right, including introducing viruses?",
+      "options": [
+        "Data interference",
+        "System interference",
+        "Illegal interception",
+        "Misuse of devices"
+      ],
+      "answerIndex": 0,
+      "explanation": "Data interference refers to the intentional or reckless alteration, damaging, deletion, or deterioration of computer data, electronic documents, or electronic data messages without right, including the introduction or transmission of viruses.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prelim-02-14",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "International IT laws",
+      "difficulty": "medium",
+      "stem": "Which statement about the Budapest Convention is correct?",
+      "options": [
+        "It is the first international treaty on crimes committed via the Internet and other computer networks, drawn up by the Council of Europe in Strasbourg in November 2001",
+        "It is a Philippine law enacted in 2012 to punish cybercrime",
+        "It is a United Nations treaty that only covers copyright infringement",
+        "It is a Caribbean project for harmonizing ICT policies"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Convention on Cybercrime (Treaty #185, Budapest Convention) is the first international treaty on crimes committed via the Internet and other computer networks. It was drawn up by the Council of Europe in Strasbourg, France, in November 2001.",
+      "sourcePage": 3
+    },
+    {
+      "id": "prelim-02-15",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Philippine cases",
+      "difficulty": "easy",
+      "stem": "What was the first recorded cybercrime in the Philippines?",
+      "options": [
+        "The 'I Love You' virus released by Onel de Guzman in 2000, which was initially dismissed because no law punished cybercrimes at the time",
+        "The BDO hacking incident in 2021",
+        "The COMELEC data leak in 2016",
+        "The 'Mark Nagoyo' phishing scam in 2021"
+      ],
+      "answerIndex": 0,
+      "explanation": "The first recorded cybercrime in the Philippines was in 2000 when Onel de Guzman released the 'I Love You' virus. It was dismissed at first because there was no law punishing cybercrimes at the time.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-03-01",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "easy",
+      "stem": "Who accused Senator Risa Hontiveros of violating the anti-wiretapping law in 2017?",
+      "options": [
+        "Former Negros Oriental representative Jacinto 'Jing' Paras",
+        "NBI Director Dante Gierran",
+        "Former Justice Secretary Vitaliano Aguirre II",
+        "President Rodrigo Duterte"
+      ],
+      "answerIndex": 0,
+      "explanation": "On September 12, 2017, former Negros Oriental representative Jacinto 'Jing' Paras said that Senator Risa Hontiveros was liable for wiretapping during a privilege speech at the Senate.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-03-02",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "medium",
+      "stem": "What did Hontiveros present during her privilege speech that led to the wiretapping complaint?",
+      "options": [
+        "A photo of a text exchange between Aguirre and a 'CongJing'",
+        "A recording of a phone call",
+        "A screenshot of a GCash phishing site",
+        "A copy of the COMELEC database"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hontiveros presented a photo at the Senate showing Aguirre texting a 'CongJing', later assumed to be Jacinto Paras, during a Senate probe about the extrajudicial killing of Kian delos Santos.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-03-03",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "easy",
+      "stem": "Which law was cited in the complaint against Hontiveros?",
+      "options": [
+        "Cybercrime Prevention Act (RA 10175)",
+        "Data Privacy Act (RA 10173)",
+        "Anti-Wiretapping Law (RA 4200)",
+        "Access Device Regulation Act (RA 8484)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Paras argued that Hontiveros' action violated the Anti-Wiretapping Law, Republic Act No. 4200.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-03-04",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "hard",
+      "stem": "How much bail did Hontiveros post after the arrest order in December 2021?",
+      "options": [
+        "PHP30,000",
+        "PHP3,600",
+        "PHP36,000",
+        "PHP360,000"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hontiveros posted bail of PHP36,000 after the release of the arrest order against her, calling the case 'worthless and baseless'.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-03-05",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "easy",
+      "stem": "In the December 2021 BDO hacking incident, funds were transferred to the UnionBank account of which name?",
+      "options": [
+        "Roneyln Panaligan",
+        "Paul Loui Biteng",
+        "'Mark Nagoyo'",
+        "Jherom Anthony Taupa"
+      ],
+      "answerIndex": 2,
+      "explanation": "BDO users complained about illegal transactions transferring money to the UnionBank account of a certain 'Mark Nagoyo'.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-03-06",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "medium",
+      "stem": "Which laws were cited against the BDO hacking suspects?",
+      "options": [
+        "Anti-Wiretapping Law and Data Privacy Act",
+        "Access Devices Regulation Act of 1998 and Cybercrime Prevention Act of 2012",
+        "Anti-Child Pornography Act and the Revised Penal Code only",
+        "E-Commerce Act and Anti-Photo and Voyeurism Act"
+      ],
+      "answerIndex": 1,
+      "explanation": "The NBI charged the suspects with violating the Access Devices Regulation Act of 1998 and the Cybercrime Prevention Act of 2012.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-03-07",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "hard",
+      "stem": "Who acted as a 'verifier,' pretending to conduct a survey and asking victims for identification cards in exchange for PHP50 in prepaid credit?",
+      "options": [
+        "Clay Revillosa",
+        "Roneyln Panaligan",
+        "Ifesincachi Fountain Anaekwe",
+        "Jherom Anthony Taupa"
+      ],
+      "answerIndex": 1,
+      "explanation": "Panaligan acted as a verifier, pretending to conduct a survey and asking victims for IDs with photographs in exchange for PHP50 in prepaid credit. The information was used to apply for verified GCash or PayMaya accounts.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-03-08",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "medium",
+      "stem": "Who was found selling a 'SCAMPAGE,' a phishing website imitating GCash, for PHP2,000?",
+      "options": [
+        "Chukwuemeka Pete",
+        "Jherom Anthony Taupa",
+        "Roneyln Panaligan",
+        "Clay Revillosa"
+      ],
+      "answerIndex": 1,
+      "explanation": "Taupa was found selling a 'SCAMPAGE' for PHP2,000. It was a phishing website imitating GCash, used to harvest login details, usernames, passwords, and MPINs.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-03-09",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "easy",
+      "stem": "Who was suspected of hacking the COMELEC website and data in 2016?",
+      "options": [
+        "Onel de Guzman, a 23-year-old student",
+        "Jherom Anthony Taupa",
+        "Robert Davies, a 32-year-old from Nottingham",
+        "Paul Loui Biteng, a 20-year-old IT graduate"
+      ],
+      "answerIndex": 3,
+      "explanation": "Paul Loui Biteng, a 20-year-old Information Technology graduate, faced charges for allegedly hacking into the COMELEC website and data.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-03-10",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "medium",
+      "stem": "Which violations were filed against the suspected COMELEC hacker?",
+      "options": [
+        "Illegal access to a computer system, data interference, and misuse of devices",
+        "Child pornography, voyeurism, and identity theft",
+        "Cyber-squatting, forgery, and fraud",
+        "Wiretapping, estafa, and libel"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chief Inquest Prosecutor Atty. Jovencio Senados said there was enough evidence for several violations of the cybercrime prevention law: illegal access to a computer system, data interference, and misuse of devices.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-03-11",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "easy",
+      "stem": "How many Filipino voters' personal information was exposed in the COMELEC data leak?",
+      "options": [
+        "800,000",
+        "5.5 million",
+        "55 million",
+        "106 million"
+      ],
+      "answerIndex": 2,
+      "explanation": "The COMELEC incident was labeled as the biggest private data leak in Philippine history, exposing the personal information of 55 million Filipino voters.",
+      "sourcePage": 3
+    },
+    {
+      "id": "midterm-03-12",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "medium",
+      "stem": "What happened to the cybercrime case against the suspected COMELEC hacker?",
+      "options": [
+        "It was dismissed after four years because the prosecution failed to prove guilt beyond reasonable doubt",
+        "He posted PHP36,000 bail and the case continues",
+        "The case was dismissed because no cybercrime law existed in 2016",
+        "He was convicted and sentenced to 26 months"
+      ],
+      "answerIndex": 0,
+      "explanation": "Four years later, a Manila court dismissed the cybercrime case against Biteng after the prosecution failed to prove him guilty beyond reasonable doubt.",
+      "sourcePage": 3
+    },
+    {
+      "id": "midterm-03-13",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Philippine cases",
+      "difficulty": "hard",
+      "stem": "How many people were charged with cybercrimes related to the pandemic since March 2020, including 52 suspects for spreading fake news?",
+      "options": [
+        "80",
+        "87",
+        "52",
+        "121"
+      ],
+      "answerIndex": 0,
+      "explanation": "Eighty people were charged with various cybercrimes related to the pandemic since March 2020, including 52 suspects spreading fake news about the coronavirus disease.",
+      "sourcePage": 3
+    },
+    {
+      "id": "midterm-03-14",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "International cases",
+      "difficulty": "hard",
+      "stem": "How much data was claimed to have been extracted and deleted in the ransomware attack on Brazil's Ministry of Health in December 2021?",
+      "options": [
+        "50TB",
+        "5TB",
+        "106TB",
+        "500GB"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Lapsus$ Group claimed responsibility and said 50TB worth of data had been extracted from the Ministry of Health's systems and subsequently deleted.",
+      "sourcePage": 3
+    },
+    {
+      "id": "midterm-03-15",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "International cases",
+      "difficulty": "medium",
+      "stem": "What tools did Robert Davies use to infect victims' devices and gain remote access?",
+      "options": [
+        "Keyloggers and SQL injection",
+        "Crypters and remote administration tools (RATs)",
+        "Ransomware and botnets",
+        "Phishing emails and SIM swapping"
+      ],
+      "answerIndex": 1,
+      "explanation": "Davies used crypters, software that encrypts malware to bypass security programs, and remote administration tools (RATs) to gain remote access to victims' devices and steal sexual images.",
+      "sourcePage": 4
+    },
+    {
+      "id": "midterm-04-01",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Case study concepts",
+      "difficulty": "easy",
+      "stem": "What is a case study?",
+      "options": [
+        "A research methodology involving a detailed and intensive analysis of a particular event, situation, organization, or social unit",
+        "An experiment conducted in a controlled laboratory",
+        "A survey of a large random sample",
+        "A statistical method for predicting population parameters"
+      ],
+      "answerIndex": 0,
+      "explanation": "A case study is a research methodology that involves a detailed and intensive analysis of a particular event, situation, organization, or social unit. Case studies are best conceptualized by the scope of interest rather than by specific methods.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-04-02",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Steps in case study",
+      "difficulty": "easy",
+      "stem": "What is the first step in a problem-oriented case study?",
+      "options": [
+        "Outline the purpose of the case study",
+        "Select the major problems",
+        "Identify the problems",
+        "Recommend the best solution"
+      ],
+      "answerIndex": 0,
+      "explanation": "The first step is to outline the purpose of the case study, which serves as a guide and direction as the researchers arrive at a solution.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-04-03",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Steps in case study",
+      "difficulty": "medium",
+      "stem": "Which step comes immediately after identifying the problems in a case study?",
+      "options": [
+        "Suggest solutions to implement",
+        "Select the major problems in the case",
+        "Outline the purpose",
+        "Recommend the best solution"
+      ],
+      "answerIndex": 1,
+      "explanation": "After identifying the problems, the next step is to select the major problems in the case. This helps narrow down problems that do not necessarily affect the study directly.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-04-04",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Steps in case study",
+      "difficulty": "easy",
+      "stem": "What is the final step in the case study process described in the handout?",
+      "options": [
+        "Recommend the best solution",
+        "Identify the problems",
+        "Collect interview data",
+        "Outline the purpose"
+      ],
+      "answerIndex": 0,
+      "explanation": "The fifth step is to recommend the best solution. It should cover most of the problems, with details on how it will be applied to conclude the study.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-04-05",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Benefits and limitations",
+      "difficulty": "medium",
+      "stem": "Which is a benefit of case studies?",
+      "options": [
+        "They provide a comprehensive understanding of a bounded unit and allow readers to learn from the case",
+        "They guarantee statistically generalizable results for all populations",
+        "They always require less data than surveys",
+        "They eliminate the need for data analysis"
+      ],
+      "answerIndex": 0,
+      "explanation": "A case study provides a comprehensive understanding of a bounded unit and helps the reader examine that case so they can learn from it. It also allows transferability, which is different from statistical generalization.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-04-06",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Benefits and limitations",
+      "difficulty": "medium",
+      "stem": "Which is a limitation of case studies?",
+      "options": [
+        "The sheer volume of data can be difficult to organize, and researchers may veer away from the research focus",
+        "They are always unethical",
+        "They cannot use interviews or documents",
+        "They cannot be used in the IT field"
+      ],
+      "answerIndex": 0,
+      "explanation": "Limitations include difficulty organizing the sheer volume of data, the temptation to veer away from the research focus, and challenges in reporting findings from multiple-case studies.",
+      "sourcePage": 1
+    },
+    {
+      "id": "midterm-04-07",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Types of case study",
+      "difficulty": "hard",
+      "stem": "Which type of case study explores differences within and between cases to replicate findings across cases?",
+      "options": [
+        "Instrumental case study",
+        "Collective case study",
+        "Descriptive case study",
+        "Explanatory case study"
+      ],
+      "answerIndex": 1,
+      "explanation": "A collective case study enables the researcher to explore differences within and between cases, with the goal of replicating findings across cases. Cases must be chosen carefully to predict related or contrasting results.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-04-08",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Types of case study",
+      "difficulty": "hard",
+      "stem": "Which type of case study answers a question that seeks to explain presumed causal links in real-life interventions too complex for surveys or experiments?",
+      "options": [
+        "Exploratory case study",
+        "Collective case study",
+        "Instrumental case study",
+        "Explanatory case study"
+      ],
+      "answerIndex": 3,
+      "explanation": "An explanatory case study is used to answer a question that seeks to explain presumed causal links in real-life interventions that are too complex for survey or experimental strategies.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-04-09",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Types of case study",
+      "difficulty": "medium",
+      "stem": "Which type of case study starts with a descriptive theory, observes subjects, and compares gathered information to the pre-existing theory?",
+      "options": [
+        "Instrumental case study",
+        "Descriptive case study",
+        "Explanatory case study",
+        "Collective case study"
+      ],
+      "answerIndex": 1,
+      "explanation": "A descriptive case study starts with a descriptive theory. The subjects are then observed, and the information gathered is compared to the pre-existing theory.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-04-10",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Types of case study",
+      "difficulty": "hard",
+      "stem": "Which type of case study explores situations in which the intervention being evaluated has no clear, single set of outcomes?",
+      "options": [
+        "Explanatory case study",
+        "Exploratory case study",
+        "Descriptive case study",
+        "Collective case study"
+      ],
+      "answerIndex": 1,
+      "explanation": "An exploratory case study is used to explore situations in which the intervention being evaluated has no clear, single set of outcomes.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-04-11",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Types of case study",
+      "difficulty": "hard",
+      "stem": "Which type of case study is used to accomplish something other than understanding a particular situation, with the case playing a supportive role to refine a theory?",
+      "options": [
+        "Exploratory case study",
+        "Descriptive case study",
+        "Instrumental case study",
+        "Collective case study"
+      ],
+      "answerIndex": 2,
+      "explanation": "An instrumental case study provides insight into an issue or helps refine a theory. The case is of secondary interest and plays a supportive role, facilitating understanding of something else.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-04-12",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Case study examples",
+      "difficulty": "hard",
+      "stem": "John W. Scheib's study on role stress in the professional life of school music teachers is an example of which type?",
+      "options": [
+        "Instrumental case study",
+        "Descriptive case study",
+        "Collective case study",
+        "Explanatory case study"
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout gives Scheib's 'Role stress in the professional life of the school music teacher: A collective case study' as an example of a collective case study.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-04-13",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Case study examples",
+      "difficulty": "hard",
+      "stem": "Luiz Joia's study 'Analyzing a Web-based e-commerce community: A case study in Brazil' is an example of which type?",
+      "options": [
+        "Instrumental case study",
+        "Exploratory case study",
+        "Collective case study",
+        "Explanatory case study"
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout gives Joia's study on a Web-based e-commerce community in Brazil as an example of an explanatory case study.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-04-14",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Case study examples",
+      "difficulty": "hard",
+      "stem": "The STAMP study by Lauretta Luck on observable behavior indicating potential patient violence is an example of which type?",
+      "options": [
+        "Instrumental case study",
+        "Descriptive case study",
+        "Explanatory case study",
+        "Exploratory case study"
+      ],
+      "answerIndex": 0,
+      "explanation": "The STAMP study by Lauretta Luck, Debra Jackson, and Kim User is given as an example of an instrumental case study.",
+      "sourcePage": 2
+    },
+    {
+      "id": "midterm-04-15",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Significance in CPE/IT",
+      "difficulty": "medium",
+      "stem": "Which is a significance of case studies in the CPE/IT field?",
+      "options": [
+        "They guarantee that every IT project will succeed",
+        "They eliminate the need for theories and hypotheses",
+        "They help professionals and students understand field behaviors, find causes and solutions, answer complicated questions, and give direction to technical advances",
+        "They replace all technical research and development"
+      ],
+      "answerIndex": 2,
+      "explanation": "Case studies in CPE/IT help understand behaviors in the field, find causes and solutions to specific events, answer complicated questions that simple research and sampling cannot solve, and give clearer direction to technical advances.",
+      "sourcePage": 3
+    },
+    {
+      "id": "prefinals-05-01",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Ethics",
+      "difficulty": "easy",
+      "stem": "What is ethics?",
+      "options": [
+        "The study of computer hardware and software",
+        "The analysis of human actions from the perspective of 'good' and 'evil,' or 'morally correct' and 'morally wrong'",
+        "The set of laws enacted by the government",
+        "The process of protecting systems from digital attacks"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ethics is defined as the analysis of human actions from the perspective of 'good' and 'evil,' or 'morally correct' and 'morally wrong.' It is concerned with rights, responsibilities, language, living an ethical life, and moral decisions.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prefinals-05-02",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Ethical responsibilities",
+      "difficulty": "medium",
+      "stem": "Why do computer engineers have ethical responsibilities that go beyond complying with laws?",
+      "options": [
+        "Because ethical responsibilities are optional",
+        "Because they are required to pass a board exam",
+        "Because laws do not apply to computer engineers",
+        "Their decisions affect the performance and functionality of computer systems, which directly affect the welfare of users"
+      ],
+      "answerIndex": 3,
+      "explanation": "Ethical responsibilities are tasks computer engineers are obligated to perform meticulously because their decisions affect system performance and functionality, which in turn directly affect the welfare of users. These obligations go beyond complying with laws or regulations.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prefinals-05-03",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Ethical responsibilities",
+      "difficulty": "easy",
+      "stem": "Which ethical responsibility affirms an obligation to protect fundamental human rights, respect cultural diversity, and minimize negative consequences of computing systems?",
+      "options": [
+        "Contribute to society and human well-being",
+        "Be honest and trustworthy",
+        "Avoid harm to others",
+        "Give proper credit for intellectual property"
+      ],
+      "answerIndex": 0,
+      "explanation": "Contributing to society and human well-being affirms an obligation to protect fundamental human rights and respect the diversity of all cultures. An essential aim is to minimize negative consequences of computing systems, including threats to health and safety.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prefinals-05-04",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Ethical responsibilities",
+      "difficulty": "medium",
+      "stem": "In computing ethics, what does 'harm' include?",
+      "options": [
+        "Only physical injury to a person",
+        "Only damage to computer hardware",
+        "Injury or negative consequences such as loss of information, loss of property, property damage, or unwanted environmental impacts",
+        "Only financial loss caused by fraud"
+      ],
+      "answerIndex": 2,
+      "explanation": "Harm means injury or negative consequences, such as undesirable loss of information, loss of property, property damage, or unwanted environmental impacts to users, the public, employees, and employers.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prefinals-05-05",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Ethical responsibilities",
+      "difficulty": "easy",
+      "stem": "Which ethical responsibility requires not taking credit for others' ideas or work even when the work is not explicitly protected by copyright or patent?",
+      "options": [
+        "Respect the privacy of others",
+        "Be fair and act not to discriminate",
+        "Give proper credit for intellectual property",
+        "Access resources only when authorized"
+      ],
+      "answerIndex": 2,
+      "explanation": "It is an obligation to protect the integrity of intellectual property. One must not take credit for others' ideas or work, even when the work has not been explicitly protected by copyright, patent, or similar protections.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prefinals-05-06",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Ethical responsibilities",
+      "difficulty": "hard",
+      "stem": "Which practice best respects the privacy of others?",
+      "options": [
+        "Collect only necessary personal information, clearly define retention and disposal periods, and do not use it for other purposes without consent",
+        "Share data with advertisers to fund the system",
+        "Collect as much data as possible in case it becomes useful",
+        "Keep personal data indefinitely to avoid losing records"
+      ],
+      "answerIndex": 0,
+      "explanation": "Respecting privacy includes maintaining the privacy and integrity of personal data, ensuring accuracy, protecting it from unauthorized access, collecting only necessary information, defining retention and disposal periods, and not using it for other purposes without consent.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prefinals-05-07",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Ethical responsibilities",
+      "difficulty": "medium",
+      "stem": "What does the ethical responsibility to be honest and trustworthy require?",
+      "options": [
+        "Hiding system limitations to protect the company's reputation",
+        "Not making deliberately false or deceptive claims about a system, disclosing limitations and problems, and being honest about qualifications and conflicts of interest",
+        "Exaggerating qualifications to win clients",
+        "Avoiding all communication about problems"
+      ],
+      "answerIndex": 1,
+      "explanation": "An honest professional will not make deliberately false or deceptive claims about a system or system design but will provide full disclosure of suitable system limitations and problems. They also have a duty to be honest about their qualifications and conflicts of interest.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-05-08",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Ethical responsibilities",
+      "difficulty": "easy",
+      "stem": "Which ethical responsibility prohibits discrimination based on race, sex, religion, age, disability, national origin, or similar factors?",
+      "options": [
+        "Be honest and trustworthy",
+        "Be fair and act not to discriminate",
+        "Give proper credit for intellectual property",
+        "Contribute to society and human well-being"
+      ],
+      "answerIndex": 1,
+      "explanation": "Discrimination based on race, sex, religion, age, disability, national origin, or other such factors leads to inequities that may result from the use or misuse of information and technology.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-05-09",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Professional responsibilities",
+      "difficulty": "medium",
+      "stem": "What do professional responsibilities of computer engineers mainly deal with?",
+      "options": [
+        "Only their social media presence",
+        "Only their academic grades",
+        "Only their personal finances",
+        "How they act and behave within a company or organization, including relationships with co-workers"
+      ],
+      "answerIndex": 3,
+      "explanation": "Professional responsibilities deal with how computer engineers act and behave within the bounds of a company or organization, including the relationship with their co-workers.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-05-10",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Professional responsibilities",
+      "difficulty": "easy",
+      "stem": "Which professional responsibility states that excellence is the most important obligation of a professional, and poor quality can have serious negative consequences?",
+      "options": [
+        "Improve public understanding of computing",
+        "Honor contracts and agreements",
+        "Access resources only when authorized",
+        "Strive to achieve the highest quality, effectiveness, and dignity"
+      ],
+      "answerIndex": 3,
+      "explanation": "Excellence is the most important obligation of a professional. They must strive to achieve quality and be aware of the serious negative consequences that may result from poor quality in a system.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-05-11",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Professional responsibilities",
+      "difficulty": "medium",
+      "stem": "Which activities are listed as ways to acquire and maintain professional competence?",
+      "options": [
+        "Only earning a single college degree",
+        "Independent study, attending seminars or conferences or courses, and involvement in professional organizations",
+        "Only watching entertainment videos",
+        "Only working overtime"
+      ],
+      "answerIndex": 1,
+      "explanation": "Upgrading technical knowledge and competence can be achieved through independent study; attending seminars, conferences, or courses; and being involved in professional organizations.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-05-12",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Professional responsibilities",
+      "difficulty": "hard",
+      "stem": "Which professional responsibility includes accepting personal accountability for professional work, with ethical judgment as the final guide?",
+      "options": [
+        "Honor contracts, agreements, and assigned responsibilities",
+        "Improve public understanding of computing",
+        "Access resources only when authorized",
+        "Strive for the highest quality"
+      ],
+      "answerIndex": 0,
+      "explanation": "Honoring commitments is a matter of integrity and honesty. The major underlying principle is the obligation to accept personal accountability for professional work, and the computing professional's ethical judgment should be the final guide.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-05-13",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Social responsibilities",
+      "difficulty": "easy",
+      "stem": "Which social responsibility area focuses on protecting public safety, health, and welfare, such as robots for the elderly and sensors for gas leaks?",
+      "options": [
+        "Pro bono publico",
+        "Internet safety",
+        "Human safety",
+        "Environment and sustainability"
+      ],
+      "answerIndex": 2,
+      "explanation": "Human safety is a primary duty to protect public safety, health, and welfare. Examples include robotics that target automation for elderly people and sensors that detect dangers such as gas leaks or chemicals.",
+      "sourcePage": 3
+    },
+    {
+      "id": "prefinals-05-14",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Social responsibilities",
+      "difficulty": "medium",
+      "stem": "Which social responsibility area involves proper disposal of electronic waste and developing machines that separate waste or improve the quality of life of animals and trees?",
+      "options": [
+        "Pro bono publico",
+        "Human safety",
+        "Environment and sustainability",
+        "Internet safety"
+      ],
+      "answerIndex": 2,
+      "explanation": "Environment and sustainability addresses electronic waste. It is the responsibility of computer engineers and computing professionals to dispose of devices and e-waste correctly and to develop smart machines that separate waste or improve life for animals and trees.",
+      "sourcePage": 3
+    },
+    {
+      "id": "prefinals-05-15",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Social responsibilities",
+      "difficulty": "easy",
+      "stem": "What does 'pro bono publico' mean, and what does it require of computer engineers?",
+      "options": [
+        "It means 'by law'; engineers must only follow legal requirements",
+        "It means 'without technology'; engineers should avoid computing",
+        "It means 'for the public good'; engineers should share technical expertise with individuals or organizations unable to access or pay for them",
+        "It means 'for profit'; engineers should prioritize paid work"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pro bono publico is a Latin term meaning 'for the public good.' Computer engineers have a duty to share technical expertise and knowledge with individuals and organizations unable to access or pay for them, such as through outreach programs and trainings.",
+      "sourcePage": 4
+    },
+    {
+      "id": "prefinals-06-01",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Principles of a professional",
+      "difficulty": "easy",
+      "stem": "Which set lists the five principles of professionalism in the workplace?",
+      "options": [
+        "Leadership, interpersonal, self-management, problem solving, and open-mindedness",
+        "Competence, knowledge, respect, integrity, and confidence",
+        "Planning, organizing, staffing, directing, and controlling",
+        "Communication, teamwork, critical thinking, ethics, and humanness"
+      ],
+      "answerIndex": 3,
+      "explanation": "The five principles are communication, teamwork, critical thinking, ethics, and humanness. The second option lists some core professionalism characteristics, and the last option lists professional skills.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prefinals-06-02",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Principles of a professional",
+      "difficulty": "medium",
+      "stem": "Which principle emphasizes verbal and body language, e-etiquette, and the resources needed to develop communication skills?",
+      "options": [
+        "Teamwork",
+        "Humanness",
+        "Communication",
+        "Critical thinking"
+      ],
+      "answerIndex": 2,
+      "explanation": "Communication covers verbal, body language, e-etiquette, and more. Quality communication can eliminate unnecessary problems, promote better performance, increase productivity, and create a strong team.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prefinals-06-03",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Principles of a professional",
+      "difficulty": "medium",
+      "stem": "Which principle builds strong employee relationships and helps eliminate a toxic work culture characterized by drama, fighting, low morale, and lack of communication?",
+      "options": [
+        "Ethics",
+        "Critical thinking",
+        "Communication",
+        "Teamwork"
+      ],
+      "answerIndex": 3,
+      "explanation": "Teamwork builds strong employee relationships. One benefit is that it eliminates toxic work culture, which is characterized by drama, fighting, low morale at work, lack of communication, and the boss's fear.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prefinals-06-04",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Principles of a professional",
+      "difficulty": "easy",
+      "stem": "Which principle allows a person to analyze information, arrive at conclusions, and make sound decisions, and helps connect ideas and evaluate arguments?",
+      "options": [
+        "Ethics",
+        "Teamwork",
+        "Critical thinking",
+        "Humanness"
+      ],
+      "answerIndex": 2,
+      "explanation": "Critical thinking allows a person to analyze information, arrive at conclusions, and make sound decisions. It enhances communication, creativity, problem-solving, and the ability to connect ideas, evaluate arguments, find errors, and solve complex issues.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prefinals-06-05",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Principles of a professional",
+      "difficulty": "medium",
+      "stem": "Which principle aligns employee behavior, fosters openness, partnership, and trust, and helps employees feel secure when supervisors treat them with respect?",
+      "options": [
+        "Ethics",
+        "Critical thinking",
+        "Teamwork",
+        "Communication"
+      ],
+      "answerIndex": 0,
+      "explanation": "An organization that introduces a workplace ethics program aligns employee behavior and fosters openness, partnership, and trust. Employees perform better when they know supervisors' expectations and feel secure because there is no harassment and supervisors treat them with respect.",
+      "sourcePage": 1
+    },
+    {
+      "id": "prefinals-06-06",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Principles of a professional",
+      "difficulty": "hard",
+      "stem": "Which principle is expressed through innate human values, unique talents, purpose, growth, work-life balance, kindness, and emotional availability?",
+      "options": [
+        "Humanness",
+        "Ethics",
+        "Communication",
+        "Teamwork"
+      ],
+      "answerIndex": 0,
+      "explanation": "Humanness is expressed through innate human values and unique talents and perspectives. Humanity is dynamic and encompasses the natural need for purpose, growth, and work-life balance. Practicing kindness, acceptance, and emotional availability is a huge step toward humanness.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-06-07",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Professional skills",
+      "difficulty": "easy",
+      "stem": "Which list contains the professional skills employers look for according to Indeed.com?",
+      "options": [
+        "Leadership, interpersonal, self-management, problem solving, and open-mindedness",
+        "Communication, teamwork, critical thinking, ethics, and humanness",
+        "Competence, knowledge, respect, emotional intelligence, and integrity",
+        "Programming, networking, database administration, web development, and cybersecurity"
+      ],
+      "answerIndex": 0,
+      "explanation": "The professional skills listed are leadership skills, interpersonal skills, self-management skills, problem-solving skills, and open-mindedness. The first option lists the five workplace principles.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-06-08",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Professional skills",
+      "difficulty": "medium",
+      "stem": "Which leadership skill is described as one of the characteristics a good leader should have, with the warning that exploding in rage or screaming at teammates creates a negative environment?",
+      "options": [
+        "Open-mindedness",
+        "Time management",
+        "Emotional intelligence",
+        "Technical expertise"
+      ],
+      "answerIndex": 2,
+      "explanation": "Emotional intelligence is one of the characteristics a good leader should have. A leader who explodes in rage or screams at teammates only generates a negative environment.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-06-09",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Professional skills",
+      "difficulty": "easy",
+      "stem": "Which skill involves building good relationships, understanding family, friends, coworkers, and clients, and showing real interest in teammates' lives while acknowledging their expertise?",
+      "options": [
+        "Interpersonal skills",
+        "Leadership skills",
+        "Self-management skills",
+        "Problem-solving skills"
+      ],
+      "answerIndex": 0,
+      "explanation": "Interpersonal skills are important for communicating and working with groups and individuals. People with strong interpersonal skills build good relationships and work well with others. The best practice is showing real interest in teammates' lives while acknowledging their expertise.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-06-10",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Professional skills",
+      "difficulty": "medium",
+      "stem": "Which skill allows people to control their thoughts, feelings, and actions to maximize productivity and achieve professional goals?",
+      "options": [
+        "Critical thinking",
+        "Open-mindedness",
+        "Self-management skills",
+        "Interpersonal skills"
+      ],
+      "answerIndex": 2,
+      "explanation": "Self-management skills are the abilities that allow people to control their thoughts, feelings, and actions. They allow professionals to maximize productivity, improve workplace performance, and efficiently achieve professional goals.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-06-11",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Professional skills",
+      "difficulty": "easy",
+      "stem": "Which skill helps a professional accept technological changes and new ideas without taking them personally, and can be enhanced by reading books and listening to podcasts about other cultures?",
+      "options": [
+        "Open-mindedness",
+        "Leadership skills",
+        "Self-management skills",
+        "Interpersonal skills"
+      ],
+      "answerIndex": 0,
+      "explanation": "Open-mindedness is important because workplaces are filled with people from different backgrounds, cultures, and life experiences. An open-minded professional also accepts technological changes and new ideas about how to perform a job without taking it personally.",
+      "sourcePage": 2
+    },
+    {
+      "id": "prefinals-06-12",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Workplace challenges",
+      "difficulty": "easy",
+      "stem": "Which list contains the major workplace challenges discussed in the handout?",
+      "options": [
+        "Competence, knowledge, respect, integrity, and confidence",
+        "Communication challenges, low employee motivation, difficult people, lack of skill development, and mental health challenges",
+        "Hardware failures, software bugs, network outages, power cuts, and viruses",
+        "Low salaries, long commutes, food quality, parking, and dress codes"
+      ],
+      "answerIndex": 1,
+      "explanation": "The major challenges are communication challenges, low employee motivation, difficult people, lack of skill development and professional growth, and mental health challenges.",
+      "sourcePage": 3
+    },
+    {
+      "id": "prefinals-06-13",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Workplace challenges",
+      "difficulty": "medium",
+      "stem": "How does the handout suggest handling 'difficult people' at work?",
+      "options": [
+        "Ignore them completely until they resign",
+        "If the conflict gets out of hand, reach out to HR or the person in charge; if manageable, communicate and acknowledge each other's feelings; be kind",
+        "Match their negativity so they stop",
+        "Publicly shame them in meetings"
+      ],
+      "answerIndex": 1,
+      "explanation": "If the conflict gets out of hand, reach out to HR or anyone in charge. If the issue is manageable, communicate with one another, understand and acknowledge each other's feelings, and be kind.",
+      "sourcePage": 3
+    },
+    {
+      "id": "prefinals-06-14",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Workplace challenges",
+      "difficulty": "medium",
+      "stem": "Why is lack of skill development and professional growth a challenge, and what is the suggested response?",
+      "options": [
+        "Skills never change, so employees should wait for the company to require training",
+        "Training is unnecessary if the employee has a degree",
+        "Only managers need training; employees should focus on overtime",
+        "Employees risk becoming irrelevant or outdated; they should seek trainings and seminars and take the first steps themselves"
+      ],
+      "answerIndex": 3,
+      "explanation": "Skill enhancement is essential to improve performance, especially to keep pace with new technology. Otherwise, employees risk becoming irrelevant or outdated. Employees should seek trainings and seminars that cater to their needs and take the first steps themselves.",
+      "sourcePage": 3
+    },
+    {
+      "id": "prefinals-06-15",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Workplace challenges",
+      "difficulty": "medium",
+      "stem": "What does the handout say about mental health challenges at work?",
+      "options": [
+        "Mental health is unrelated to work",
+        "Employees should never take time off",
+        "A negative working environment, harassment, and bullying can harm mental health and lead to depression and anxiety; taking time off and developing a personal space outside work are important",
+        "Only physical health matters in the workplace"
+      ],
+      "answerIndex": 2,
+      "explanation": "Work is good for mental health, but a negative working environment can lead to physical and mental health problems. Harassment and bullying can have a substantial adverse impact and may lead to depression and anxiety. Taking time off and developing a personal space outside work are important.",
+      "sourcePage": 3
+    },
+    {
+      "id": "finals-07-01",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "CPE as a profession",
+      "difficulty": "easy",
+      "stem": "What is true about Computer Engineering as a profession in the Philippines?",
+      "options": [
+        "It requires a lawyer's license",
+        "It requires passing the Computer Engineering Licensure Exam before practice",
+        "It does not require passing a board licensure exam, so graduates can immediately enter the professional world, but they are still expected to take certifications and trainings",
+        "Only graduates with a master's degree may practice"
+      ],
+      "answerIndex": 2,
+      "explanation": "Computer Engineering does not require studying and passing a Board Licensure Exam, so graduates can immediately enter the professional world. However, graduates are still expected to improve their portfolios by taking additional certifications and trainings accredited by legitimate organizations.",
+      "sourcePage": 1
+    },
+    {
+      "id": "finals-07-02",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Salary outlook",
+      "difficulty": "medium",
+      "stem": "According to DOLE's 2019 Labor Market Trends, what rank and average monthly salary did Computer Engineering have among top-paying jobs?",
+      "options": [
+        "7th, with an average of PHP49,335 per month",
+        "1st, with an average of PHP119,560 per month",
+        "6th, with an average of PHP30,000 per month",
+        "5th, with an average of PHP49,335 per month"
+      ],
+      "answerIndex": 0,
+      "explanation": "As per DOLE's 2019 Issue of Labor Market Trends, Computer Engineering ranks 7th among top-paying jobs in the Philippines, with an average of PHP49,335 estimated monthly salary. Computer Programmers and System Analyst and Designers ranked 5th and 6th.",
+      "sourcePage": 1
+    },
+    {
+      "id": "finals-07-03",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Salary outlook",
+      "difficulty": "medium",
+      "stem": "According to the US Bureau of Labor Statistics as of 2020, what was the average yearly pay for computer engineers in the US?",
+      "options": [
+        "$220,000 (about PHP11,000,000)",
+        "$49,335 (about PHP2,500,000)",
+        "$55,000 (about PHP3,000,000)",
+        "$119,560 (about PHP6,147,476)"
+      ],
+      "answerIndex": 3,
+      "explanation": "In the US, an average of $119,560 or PHP6,147,476 is expected for computer engineers yearly, according to the Bureau of Labor Statistics as of 2020.",
+      "sourcePage": 1
+    },
+    {
+      "id": "finals-07-04",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Salary outlook",
+      "difficulty": "hard",
+      "stem": "What growth does the BLS project for computer engineering from 2019 to 2029 compared with other computer-related jobs?",
+      "options": [
+        "8% for computer engineering, compared with 22% for others",
+        "4% for computer engineering, compared with 2% for others",
+        "22% for computer engineering, compared with 8% for others",
+        "2% growth for computer engineering, compared with 4% for other computer-related jobs"
+      ],
+      "answerIndex": 3,
+      "explanation": "The BLS projects 2% growth for computer engineering from 2019 to 2029, compared with 4% growth projected for other job opportunities. Software engineering and web developing are projected to grow 22% and 8%, respectively.",
+      "sourcePage": 1
+    },
+    {
+      "id": "finals-07-05",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Job opportunities",
+      "difficulty": "easy",
+      "stem": "Which role collaborates with end-users to provide technical assistance and support for hardware, software, and technical issues such as access problems, slow performance, and connection problems?",
+      "options": [
+        "Computer Programmer",
+        "Technical Support Specialist",
+        "Web Developer",
+        "Data Scientist"
+      ],
+      "answerIndex": 1,
+      "explanation": "A technical support specialist collaborates with end-users to provide technical assistance and support for hardware, software, and technical issues. Common issues include inability to access data, slow performance, inefficient software, and connection problems.",
+      "sourcePage": 1
+    },
+    {
+      "id": "finals-07-06",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Job opportunities",
+      "difficulty": "easy",
+      "stem": "Which role writes code that turns software designs into instructions a computer's operating system can follow, and checks the program for errors until it is error-free?",
+      "options": [
+        "Web Developer",
+        "Computer Programmer",
+        "Software Developer",
+        "Information Systems Manager"
+      ],
+      "answerIndex": 1,
+      "explanation": "A computer programmer is responsible for creating the code for operating systems and software applications. After software developers design a program, programmers write code that turns that design into instructions the operating system can follow, then check for errors and rewrite until error-free.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-07-07",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Job opportunities",
+      "difficulty": "easy",
+      "stem": "Which role designs and develops websites and website applications, integrates security measures, implements features, and manages site functionality?",
+      "options": [
+        "Database Administrator",
+        "Computer Programmer",
+        "Game Developer",
+        "Web Developer"
+      ],
+      "answerIndex": 3,
+      "explanation": "A web developer designs and develops websites and website applications. Using various web technologies and programming languages, they integrate security measures, implement application features, and manage site functionality.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-07-08",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Job opportunities",
+      "difficulty": "medium",
+      "stem": "Which role works in partnership with clients to help them use IT to overcome problems or achieve business objectives and improve IT system efficiency?",
+      "options": [
+        "Technical Support Specialist",
+        "IT Consultant",
+        "Game Developer",
+        "Data Scientist"
+      ],
+      "answerIndex": 1,
+      "explanation": "An IT consultant works in partnership with clients, helping them utilize information technology to overcome problems or achieve business objectives. They often work to improve the efficiency and structure of IT systems in various organizations.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-07-09",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Job opportunities",
+      "difficulty": "medium",
+      "stem": "Which role oversees a company's computer systems, researches and installs networks, assesses system functionality and user needs, and directs analysts, support specialists, and developers?",
+      "options": [
+        "Web Developer",
+        "Information Systems Manager",
+        "IT Consultant",
+        "Database Administrator"
+      ],
+      "answerIndex": 1,
+      "explanation": "An information systems manager is responsible for overseeing a company's computer systems. They research and install new networks and systems, assess system functionality and user needs, and implement technology that directs the work of analysts, support specialists, developers, and other computer-related workers.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-07-10",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Job opportunities",
+      "difficulty": "easy",
+      "stem": "Which role oversees the developmental process of a video game and is expected to have a passion for video games and proficiency in languages such as C# and C++?",
+      "options": [
+        "Computer Programmer",
+        "Web Developer",
+        "Software Developer",
+        "Game Developer"
+      ],
+      "answerIndex": 3,
+      "explanation": "A game developer oversees the developmental process of a video game. They may design games or use existing designs and write code that brings characters, environments, and other elements to life. They are expected to have a passion for video games and proficiency in languages such as C# and C++.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-07-11",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Job opportunities",
+      "difficulty": "medium",
+      "stem": "Which role stores and organizes company data such as shipping records, payroll data, and financial numbers, and ensures it is secure from corruption, loss, and unauthorized access?",
+      "options": [
+        "Technical Support Specialist",
+        "Data Scientist",
+        "Information Systems Manager",
+        "Database Administrator"
+      ],
+      "answerIndex": 3,
+      "explanation": "A database administrator uses specialized applications to store and organize a company's data, such as customer shipping records, payroll data, and confidential financial numbers. They ensure data is available and kept secure from accidental corruption or loss and unauthorized access.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-07-12",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Job opportunities",
+      "difficulty": "medium",
+      "stem": "Which role creates flowcharts and models that tell computer programmers how to create code, and participates in designing, constructing, maintaining, and testing software?",
+      "options": [
+        "Computer Programmer",
+        "Web Developer",
+        "Game Developer",
+        "Software Developer"
+      ],
+      "answerIndex": 3,
+      "explanation": "A software developer creates various kinds of software for different applications. They spend much of their time creating flowcharts and models that tell computer programmers how to create code, and they participate in all aspects of software development, including designing, constructing, maintaining, and testing.",
+      "sourcePage": 3
+    },
+    {
+      "id": "finals-07-13",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Job opportunities",
+      "difficulty": "medium",
+      "stem": "Which role analyzes raw data and synthesizes it into understandable results using machine learning, statistics, and programming to gain insights and support business decisions?",
+      "options": [
+        "Database Administrator",
+        "IT Consultant",
+        "Data Scientist",
+        "Information Systems Manager"
+      ],
+      "answerIndex": 2,
+      "explanation": "A data scientist analyzes raw data and synthesizes it into results that can easily be understood. They use machine learning, statistics, and programming to analyze data and gain insights for better business decisions.",
+      "sourcePage": 3
+    },
+    {
+      "id": "finals-07-14",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Challenges",
+      "difficulty": "medium",
+      "stem": "Which challenge refers to schools not having the same equipment and materials as the industry, resulting in lower chances of employment, and is addressed through free seminars, online trainings, and focused self-study?",
+      "options": [
+        "Competitive job opportunities",
+        "Interactions",
+        "Expenses",
+        "Slow skills development"
+      ],
+      "answerIndex": 3,
+      "explanation": "Slow skills development happens because schools in the Philippines that offer the degree do not have the same equipment and materials for students to explore and practice the industry, which can result in a lower chance of employment. Students can attend free seminars and trainings, self-study, and focus on one or two skills to master.",
+      "sourcePage": 3
+    },
+    {
+      "id": "finals-07-15",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Challenges",
+      "difficulty": "medium",
+      "stem": "Which challenge describes many applicants competing for the same role, where an impressive resume and skills plus interviews and personality fit matter?",
+      "options": [
+        "Slow skills development",
+        "Interactions",
+        "Expenses",
+        "Competitive job opportunities"
+      ],
+      "answerIndex": 3,
+      "explanation": "Competitive job opportunities mean many applicants vie for the same role. An impressive resume and extensive skill set are factors, but so are interviews; HR also looks at personality, manners, and fit with the current environment. Clear communication and displayed interest can make a candidate stand out.",
+      "sourcePage": 3
+    },
+    {
+      "id": "finals-08-01",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Future of CPE",
+      "difficulty": "easy",
+      "stem": "Which statement about Computer Engineering's role in technological advancement is supported by the handout?",
+      "options": [
+        "It is limited to repairing computers",
+        "It has been at the forefront of every major technological advancement in the last century, from the Internet and smartphones to robotics",
+        "It is unrelated to space exploration",
+        "It has only recently become relevant with social media"
+      ],
+      "answerIndex": 1,
+      "explanation": "Computer Engineering has been at the forefront of every major technological advancement in the last century. From the Internet, smartphones, and automated devices to robotics, it has revolutionized everyone's lifestyle.",
+      "sourcePage": 1
+    },
+    {
+      "id": "finals-08-02",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Future of CPE",
+      "difficulty": "medium",
+      "stem": "What example shows the stakes of computer engineering when done right and when done wrong?",
+      "options": [
+        "It built the first hospitals and then closed them",
+        "It invented the Internet and then banned it",
+        "It helped put people on the moon with less computing power than today, while errors caused two commercial airlines to crash after takeoff",
+        "It created the first legal system and then abolished it"
+      ],
+      "answerIndex": 2,
+      "explanation": "When done right, computer engineering has put people on the moon with less computing power than today. When done wrong, it caused two commercial airlines to tragically crash into the ground after takeoff.",
+      "sourcePage": 1
+    },
+    {
+      "id": "finals-08-03",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Smart factories",
+      "difficulty": "medium",
+      "stem": "What problem has held back the industrial Internet of Things (IoT) in smart factories?",
+      "options": [
+        "The high cost of robots",
+        "The lack of wireless networks",
+        "The absence of computer engineers",
+        "The limited energy supply of sensors and the short lifetimes of their batteries"
+      ],
+      "answerIndex": 3,
+      "explanation": "The industrial IoT holds a lot of promise but has been held back because of the limited energy supply of sensors and the short lifetimes of their batteries. Everactive developed sensors that can run nonstop for over 20 years with minimal maintenance.",
+      "sourcePage": 1
+    },
+    {
+      "id": "finals-08-04",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "VR and AR",
+      "difficulty": "medium",
+      "stem": "Why are VR and AR considered prime candidates for the future of remote work?",
+      "options": [
+        "They eliminate the need for the Internet",
+        "They replace all computers with paper",
+        "They can give users a virtual experience as visual and immersive as a physical one, facilitating collaboration, education, and spontaneity",
+        "They only work for gaming"
+      ],
+      "answerIndex": 2,
+      "explanation": "VR and AR are prime candidates for evolving remote work. By giving users a virtual experience as visual and immersive as a physical one, computer engineers hope to facilitate collaboration, education, and spontaneity.",
+      "sourcePage": 1
+    },
+    {
+      "id": "finals-08-05",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Self-driving cars",
+      "difficulty": "easy",
+      "stem": "What strict requirements must computer engineers meet when designing self-driving cars?",
+      "options": [
+        "Only entertainment features",
+        "Safety and reliability, high-powered sensors, intuitive human-computer interaction, and multiple backups",
+        "Only fuel efficiency",
+        "Low cost and no sensors"
+      ],
+      "answerIndex": 1,
+      "explanation": "Enabling vehicles with elevated levels of autonomy requires meeting strict requirements around safety and reliability. Computer engineers must design vehicles with high-powered sensors, intuitive human-computer interaction, and multiple backups readily available.",
+      "sourcePage": 1
+    },
+    {
+      "id": "finals-08-06",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Self-driving cars",
+      "difficulty": "hard",
+      "stem": "What could Automated Lane Keeping Systems (ALKS) potentially prevent over the next decade?",
+      "options": [
+        "An estimated 470 accidents",
+        "An estimated 4,700 accidents",
+        "An estimated 470,000 accidents",
+        "An estimated 47,000 serious accidents"
+      ],
+      "answerIndex": 3,
+      "explanation": "Automated Lane Keeping Systems (ALKS), currently rolled out in some everyday cars, could prevent an estimated 47,000 serious accidents over the next decade.",
+      "sourcePage": 1
+    },
+    {
+      "id": "finals-08-07",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Spaceflight",
+      "difficulty": "medium",
+      "stem": "What did NASA's Perseverance rover carry when it landed on Mars on February 18, 2021?",
+      "options": [
+        "A human crew",
+        "Ingenuity, the Mars Helicopter",
+        "The Hubble Telescope",
+        "The GPT-3 model"
+      ],
+      "answerIndex": 1,
+      "explanation": "NASA's Perseverance rover landed successfully on Mars on February 18, 2021, with a unique passenger: Ingenuity, the Mars Helicopter. NASA's computer engineers in Southern California built Ingenuity to fly in atmospheric conditions specific to the red planet.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-08-08",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Spaceflight",
+      "difficulty": "hard",
+      "stem": "Why was Ingenuity programmed to pilot itself and make its own decisions?",
+      "options": [
+        "Because NASA wanted to test a video game",
+        "Because of delays inherent in interplanetary communication",
+        "Because it was controlled by students",
+        "Because it had no camera"
+      ],
+      "answerIndex": 1,
+      "explanation": "Due to the delays inherent in interplanetary communication, Ingenuity has been programmed to pilot itself and even make its own decisions. Back on Earth, computer engineers watch and wait.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-08-09",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "GPT-3",
+      "difficulty": "easy",
+      "stem": "How is GPT-3 described in the handout?",
+      "options": [
+        "A Philippine law on data privacy",
+        "A Mars helicopter built by NASA",
+        "The most powerful form of autocomplete ever invented, built by OpenAI",
+        "A self-driving car developed by Microsoft"
+      ],
+      "answerIndex": 2,
+      "explanation": "Built by OpenAI, GPT-3 is described as the most powerful form of autocomplete ever invented. Users have used it to create question-based search engines, generate programming code, compose music, and respond to medical queries.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-08-10",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "GPT-3",
+      "difficulty": "medium",
+      "stem": "Which statement about GPT-3 is accurate according to the handout?",
+      "options": [
+        "It is not perfect and produces several obvious mistakes, but it could automate processes, revolutionize programming, and lead to AI breakthroughs if applied correctly",
+        "It is perfect and never makes mistakes",
+        "It was built by the Council of Europe",
+        "It has no practical uses"
+      ],
+      "answerIndex": 0,
+      "explanation": "GPT-3 is not perfect. For every astounding success, it produces several obvious mistakes. But if applied correctly, it could automate a substantial number of processes, revolutionize computer programming, and lead to important breakthroughs in AI research.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-08-11",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "IT law guidelines",
+      "difficulty": "easy",
+      "stem": "Which guideline suggests planning computer/IT projects for the common good, such as projects for underprivileged groups, water saving, electricity, or mental health?",
+      "options": [
+        "Aim for bigger targets",
+        "Think outside the box",
+        "Be observant",
+        "Plan projects with an attitude and intention of creating systems and devices for the common good"
+      ],
+      "answerIndex": 3,
+      "explanation": "Planning projects with an intention of creating systems and devices for the common good directs focus on achieving morally correct outputs instead of distractions caused by ill-intentioned motives. Examples include projects for underprivileged groups, water saving, electricity, and mental health.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-08-12",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "IT law guidelines",
+      "difficulty": "easy",
+      "stem": "Which guideline emphasizes integrity and ethics, keeping the work environment free from conflicts, and practicing professionalism when creating outputs?",
+      "options": [
+        "Think outside the box",
+        "Aim for bigger targets",
+        "Be professional",
+        "Be observant"
+      ],
+      "answerIndex": 2,
+      "explanation": "Professionalism is not just about qualifications and skills but also about integrity and ethics. Practicing professionalism affects everyone involved in a project and helps keep the work environment free from conflicts, supporting collaboration.",
+      "sourcePage": 2
+    },
+    {
+      "id": "finals-08-13",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "IT law guidelines",
+      "difficulty": "medium",
+      "stem": "Which guideline encourages computer engineers to be pioneers and inventors, create next trends, take risks, and aim for innovations that make society function better?",
+      "options": [
+        "Aim for bigger targets",
+        "Be professional",
+        "Be observant",
+        "Plan for the common good"
+      ],
+      "answerIndex": 0,
+      "explanation": "Computer engineers are pioneers and inventors in nature and are expected to create the next trends in technology. Aiming for bigger technological innovations helps fulfill their social responsibilities. It does not have to be revolutionary all the time, just relevant and able to make society function better.",
+      "sourcePage": 3
+    },
+    {
+      "id": "finals-08-14",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "IT law guidelines",
+      "difficulty": "hard",
+      "stem": "Which guideline encourages creative alternatives, avoiding electronic waste, not relying on existing programs altered to pass as original, and buying used working sensors or processors?",
+      "options": [
+        "Be observant",
+        "Think outside the box",
+        "Be professional",
+        "Plan for the common good"
+      ],
+      "answerIndex": 1,
+      "explanation": "Thinking outside the box means using a creative mind to come up with smart alternatives for new systems and using computer materials that prevent the growth of electronic waste. It also means not relying on existing programs altered to pass as original, and buying used working sensors or processors with the same capabilities as new ones.",
+      "sourcePage": 3
+    },
+    {
+      "id": "finals-08-15",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "IT law guidelines",
+      "difficulty": "medium",
+      "stem": "Which guideline requires reporting blatant motivations that cross what is morally correct, and complying with rules and admitting faults if you are the one reported?",
+      "options": [
+        "Be observant",
+        "Think outside the box",
+        "Aim for bigger targets",
+        "Plan for the common good"
+      ],
+      "answerIndex": 0,
+      "explanation": "Be observant means not letting camaraderie stop you from reporting blatant motivations crossing what is morally correct, such as creating systems and devices that are harmful and illegal. If you are the one reported, comply with rules and procedures and admit your faults.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2205-tf-prelim-01",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Computer Engineering” is defined as: A program that embodies the design, development, implementation, maintenance, and integration of software and hardware in modern computing systems and computer-controlled equipment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Computer Engineering",
+      "correction": "",
+      "explanation": "The correct term is Computer Engineering. The handout defines it as: A program that embodies the design, development, implementation, maintenance, and integration of software and hardware in modern computing systems and computer-controlled equipment.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-prelim-02",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “RA 10173” is defined as: The first international treaty on crimes committed via the Internet and other computer networks; Treaty #185, Council of Europe, November 2001.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "RA 10173",
+      "correction": "Budapest Convention",
+      "explanation": "The correct term is Budapest Convention. The handout defines it as: The first international treaty on crimes committed via the Internet and other computer networks; Treaty #185, Council of Europe, November 2001.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2205-tf-prelim-03",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Professionalism” is defined as: A set of values, behaviors, and responsibilities in how specialist knowledge and skills are applied; requires integrity, ethics, and trust.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Professionalism",
+      "correction": "",
+      "explanation": "The correct term is Professionalism. The handout defines it as: A set of values, behaviors, and responsibilities in how specialist knowledge and skills are applied; requires integrity, ethics, and trust.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-prelim-04",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “RA 8792” is defined as: The law of information technology, including computing and the Internet, governing digital dissemination of information and software.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "RA 8792",
+      "correction": "IT law",
+      "explanation": "The correct term is IT law. The handout defines it as: The law of information technology, including computing and the Internet, governing digital dissemination of information and software.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-prelim-05",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Conscientiousness” is defined as: Being reliable, setting high standards, planning and prioritizing work, and holding yourself accountable without perfectionism.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Conscientiousness",
+      "correction": "",
+      "explanation": "The correct term is Conscientiousness. The handout defines it as: Being reliable, setting high standards, planning and prioritizing work, and holding yourself accountable without perfectionism.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2205-tf-prelim-06",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Confidence” is defined as: Knowing what is appropriate in different situations, including dress, grooming, body language, speech, topics, and behavior.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Confidence",
+      "correction": "Appropriateness",
+      "explanation": "The correct term is Appropriateness. The handout defines it as: Knowing what is appropriate in different situations, including dress, grooming, body language, speech, topics, and behavior.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-prelim-07",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Competence” is defined as: The ability to get the job done well, with abilities that match the role and results that often exceed expectations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Competence",
+      "correction": "",
+      "explanation": "The correct term is Competence. The handout defines it as: The ability to get the job done well, with abilities that match the role and results that often exceed expectations.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-prelim-08",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Emotional intelligence” is defined as: Being a role model of politeness and good manners to everyone, considering their needs and upholding their rights.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Emotional intelligence",
+      "correction": "Respect",
+      "explanation": "The correct term is Respect. The handout defines it as: Being a role model of politeness and good manners to everyone, considering their needs and upholding their rights.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-prelim-09",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Confidence” is defined as: Well-founded confidence that reassures and motivates others, supports leadership, and encourages new challenges.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Confidence",
+      "correction": "",
+      "explanation": "The correct term is Confidence. The handout defines it as: Well-founded confidence that reassures and motivates others, supports leadership, and encourages new challenges.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2205-tf-prelim-10",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “System interference” is defined as: Data Privacy Act of 2012; protects personal information and is administered by the National Privacy Commission.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "System interference",
+      "correction": "RA 10173",
+      "explanation": "The correct term is RA 10173. The handout defines it as: Data Privacy Act of 2012; protects personal information and is administered by the National Privacy Commission.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-midterm-01",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Case study” is defined as: A research methodology involving a detailed and intensive analysis of a particular event, situation, organization, or social unit.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Case study",
+      "correction": "",
+      "explanation": "The correct term is Case study. The handout defines it as: A research methodology involving a detailed and intensive analysis of a particular event, situation, organization, or social unit.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-midterm-02",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Ransomware” is defined as: False or misleading information spread through media and social platforms; pandemic cases were charged under several laws.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Ransomware",
+      "correction": "Fake news",
+      "explanation": "The correct term is Fake news. The handout defines it as: False or misleading information spread through media and social platforms; pandemic cases were charged under several laws.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2205-tf-midterm-03",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Wiretapping” is defined as: Secretly overhearing or recording a private communication without the consent of all parties; covered by RA 4200.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Wiretapping",
+      "correction": "",
+      "explanation": "The correct term is Wiretapping. The handout defines it as: Secretly overhearing or recording a private communication without the consent of all parties; covered by RA 4200.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-midterm-04",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “COMELEC data leak” is defined as: Malware that blocks access to data or systems until a ransom is paid; used against Brazil's Ministry of Health.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "COMELEC data leak",
+      "correction": "Ransomware",
+      "explanation": "The correct term is Ransomware. The handout defines it as: Malware that blocks access to data or systems until a ransom is paid; used against Brazil's Ministry of Health.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2205-tf-midterm-05",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Instrumental case study” is defined as: Uses a case for something other than understanding that case; the case supports insight or theory refinement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Instrumental case study",
+      "correction": "",
+      "explanation": "The correct term is Instrumental case study. The handout defines it as: Uses a case for something other than understanding that case; the case supports insight or theory refinement.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-midterm-06",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Exploratory case study” is defined as: Starts with a descriptive theory, observes subjects, and compares gathered information to the theory.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Exploratory case study",
+      "correction": "Descriptive case study",
+      "explanation": "The correct term is Descriptive case study. The handout defines it as: Starts with a descriptive theory, observes subjects, and compares gathered information to the theory.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-midterm-07",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Collective case study” is defined as: Explores differences within and between cases with the goal of replicating findings across cases.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Collective case study",
+      "correction": "",
+      "explanation": "The correct term is Collective case study. The handout defines it as: Explores differences within and between cases with the goal of replicating findings across cases.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-midterm-08",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Case study” is defined as: Explains presumed causal links in real-life interventions too complex for surveys or experiments.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Case study",
+      "correction": "Explanatory case study",
+      "explanation": "The correct term is Explanatory case study. The handout defines it as: Explains presumed causal links in real-life interventions too complex for surveys or experiments.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-midterm-09",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Mark Nagoyo” is defined as: The name on a UnionBank account used to receive funds in the December 2021 BDO hacking incident.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Mark Nagoyo",
+      "correction": "",
+      "explanation": "The correct term is Mark Nagoyo. The handout defines it as: The name on a UnionBank account used to receive funds in the December 2021 BDO hacking incident.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-midterm-10",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Descriptive case study” is defined as: Applying lessons from a case to other situations; different from statistical generalization.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Descriptive case study",
+      "correction": "Transferability",
+      "explanation": "The correct term is Transferability. The handout defines it as: Applying lessons from a case to other situations; different from statistical generalization.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-prefinals-01",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Honesty and trustworthiness” is defined as: Making no deceptive claims, disclosing limitations, and being honest about qualifications and conflicts of interest.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Honesty and trustworthiness",
+      "correction": "",
+      "explanation": "The correct term is Honesty and trustworthiness. The handout defines it as: Making no deceptive claims, disclosing limitations, and being honest about qualifications and conflicts of interest.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-prefinals-02",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Privacy” is defined as: Injury or negative consequences such as loss of information or property, property damage, or environmental impacts.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Privacy",
+      "correction": "Harm",
+      "explanation": "The correct term is Harm. The handout defines it as: Injury or negative consequences such as loss of information or property, property damage, or environmental impacts.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-prefinals-03",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Privacy” is defined as: Maintaining the privacy and integrity of personal data, including accuracy and protection from unauthorized access.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Privacy",
+      "correction": "",
+      "explanation": "The correct term is Privacy. The handout defines it as: Maintaining the privacy and integrity of personal data, including accuracy and protection from unauthorized access.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-prefinals-04",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Mental health” is defined as: Expressing innate human values, talents, purpose, growth, work-life balance, kindness, and emotional availability.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Mental health",
+      "correction": "Humanness",
+      "explanation": "The correct term is Humanness. The handout defines it as: Expressing innate human values, talents, purpose, growth, work-life balance, kindness, and emotional availability.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-prefinals-05",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Professional competence” is defined as: Maintaining and upgrading technical knowledge through study, seminars, courses, and professional organizations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Professional competence",
+      "correction": "",
+      "explanation": "The correct term is Professional competence. The handout defines it as: Maintaining and upgrading technical knowledge through study, seminars, courses, and professional organizations.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-prefinals-06",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Discrimination” is defined as: Ideas and work that must be credited to their creators, even without explicit copyright or patent protection.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Discrimination",
+      "correction": "Intellectual property",
+      "explanation": "The correct term is Intellectual property. The handout defines it as: Ideas and work that must be credited to their creators, even without explicit copyright or patent protection.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-prefinals-07",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Pro bono publico” is defined as: Latin for 'for the public good'; sharing technical expertise with those unable to access or pay for it.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Pro bono publico",
+      "correction": "",
+      "explanation": "The correct term is Pro bono publico. The handout defines it as: Latin for 'for the public good'; sharing technical expertise with those unable to access or pay for it.",
+      "sourcePage": 4
+    },
+    {
+      "id": "it2205-tf-prefinals-08",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Interpersonal skills” is defined as: A workplace characterized by drama, fighting, low morale, lack of communication, and fear of the boss.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Interpersonal skills",
+      "correction": "Toxic work culture",
+      "explanation": "The correct term is Toxic work culture. The handout defines it as: A workplace characterized by drama, fighting, low morale, lack of communication, and fear of the boss.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-prefinals-09",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Discrimination” is defined as: Unfair treatment based on race, sex, religion, age, disability, national origin, or similar factors.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Discrimination",
+      "correction": "",
+      "explanation": "The correct term is Discrimination. The handout defines it as: Unfair treatment based on race, sex, religion, age, disability, national origin, or similar factors.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-prefinals-10",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Open-mindedness” is defined as: Verbal and body language, e-etiquette, and the resources needed to communicate effectively at work.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Open-mindedness",
+      "correction": "Communication",
+      "explanation": "The correct term is Communication. The handout defines it as: Verbal and body language, e-etiquette, and the resources needed to communicate effectively at work.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-finals-01",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Ingenuity” is defined as: NASA's Mars Helicopter that landed with Perseverance on February 18, 2021 and pilots itself due to communication delays.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Ingenuity",
+      "correction": "",
+      "explanation": "The correct term is Ingenuity. The handout defines it as: NASA's Mars Helicopter that landed with Perseverance on February 18, 2021 and pilots itself due to communication delays.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-finals-02",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Database Administrator” is defined as: A challenge where many applicants compete for the same role; resume, skills, interviews, and personality fit matter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Database Administrator",
+      "correction": "Competitive job opportunities",
+      "explanation": "The correct term is Competitive job opportunities. The handout defines it as: A challenge where many applicants compete for the same role; resume, skills, interviews, and personality fit matter.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2205-tf-finals-03",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “VR and AR” is defined as: Virtual reality and augmented reality; immersive technologies for remote work, collaboration, and education.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "VR and AR",
+      "correction": "",
+      "explanation": "The correct term is VR and AR. The handout defines it as: Virtual reality and augmented reality; immersive technologies for remote work, collaboration, and education.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-finals-04",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Data Scientist” is defined as: A government exam required for some professions; Computer Engineering does not require one for practice.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Data Scientist",
+      "correction": "Board licensure exam",
+      "explanation": "The correct term is Board licensure exam. The handout defines it as: A government exam required for some professions; Computer Engineering does not require one for practice.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-finals-05",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Database Administrator” is defined as: A role that stores, organizes, and protects company data from corruption, loss, and unauthorized access.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Database Administrator",
+      "correction": "",
+      "explanation": "The correct term is Database Administrator. The handout defines it as: A role that stores, organizes, and protects company data from corruption, loss, and unauthorized access.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-finals-06",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “IT Consultant” is defined as: Department of Labor and Employment; its 2019 Labor Market Trends ranked CPE 7th among top-paying jobs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "IT Consultant",
+      "correction": "DOLE",
+      "explanation": "The correct term is DOLE. The handout defines it as: Department of Labor and Employment; its 2019 Labor Market Trends ranked CPE 7th among top-paying jobs.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-finals-07",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Data Scientist” is defined as: A role that analyzes raw data using machine learning, statistics, and programming to produce insights.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Data Scientist",
+      "correction": "",
+      "explanation": "The correct term is Data Scientist. The handout defines it as: A role that analyzes raw data using machine learning, statistics, and programming to produce insights.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2205-tf-finals-08",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Be observant” is defined as: OpenAI's generative pre-trained transformer described as the most powerful autocomplete ever invented.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Be observant",
+      "correction": "GPT-3",
+      "explanation": "The correct term is GPT-3. The handout defines it as: OpenAI's generative pre-trained transformer described as the most powerful autocomplete ever invented.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2205-tf-finals-09",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Automated Lane Keeping Systems (ALKS)” is defined as: Driver-assistance systems that could prevent an estimated 47,000 serious accidents over a decade.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Automated Lane Keeping Systems (ALKS)",
+      "correction": "",
+      "explanation": "The correct term is Automated Lane Keeping Systems (ALKS). The handout defines it as: Driver-assistance systems that could prevent an estimated 47,000 serious accidents over a decade.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2205-tf-finals-10",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Ingenuity” is defined as: Factories using industrial IoT sensors and automation; limited by sensor energy and battery life.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Ingenuity",
+      "correction": "Smart factories",
+      "explanation": "The correct term is Smart factories. The handout defines it as: Factories using industrial IoT sensors and automation; limited by sensor energy and battery life.",
+      "sourcePage": 1
+    }
+  ]
+}

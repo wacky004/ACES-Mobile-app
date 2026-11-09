@@ -1,0 +1,2953 @@
+{
+  "id": "it2102",
+  "subject": "Embedded Systems",
+  "code": "IT2102",
+  "org": "ACES - Association of Computer Engineering Students of STI Ortigas-Cainta",
+  "version": "1.0.0",
+  "description": "Prelim to finals reviewer covering embedded system concepts, structures, communications, interfaces, and optimization.",
+  "authors": [
+    "ACES",
+    "IT2102 Faculty"
+  ],
+  "license": "For ACES classroom use only. Handout content is property of STI.",
+  "terms": [
+    {
+      "id": "prelim",
+      "name": "Prelim",
+      "order": 1,
+      "defaultWeight": 20
+    },
+    {
+      "id": "midterm",
+      "name": "Midterm",
+      "order": 2,
+      "defaultWeight": 20
+    },
+    {
+      "id": "prefinals",
+      "name": "Pre-Finals",
+      "order": 3,
+      "defaultWeight": 20
+    },
+    {
+      "id": "finals",
+      "name": "Finals",
+      "order": 4,
+      "defaultWeight": 40
+    }
+  ],
+  "handouts": [
+    {
+      "id": "it2102-prelim-01",
+      "termId": "prelim",
+      "number": "01",
+      "title": "Introduction to Embedded Systems"
+    },
+    {
+      "id": "it2102-prelim-03",
+      "termId": "prelim",
+      "number": "03",
+      "title": "Embedded System Structure"
+    },
+    {
+      "id": "it2102-midterm-04",
+      "termId": "midterm",
+      "number": "04",
+      "title": "Communications and Protocols"
+    },
+    {
+      "id": "it2102-prefinals-05",
+      "termId": "prefinals",
+      "number": "05",
+      "title": "Interfaces and Mechanisms"
+    },
+    {
+      "id": "it2102-finals-06",
+      "termId": "finals",
+      "number": "06",
+      "title": "Embedded System Optimization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "it2102-prelim-01-mcq-01",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Cyber-physical system”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Cyber-physical system as: An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-mcq-02",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Embedded system”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A combination of hardware and software designed to perform dedicated functions inside a larger product or system.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Embedded system as: A combination of hardware and software designed to perform dedicated functions inside a larger product or system.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-mcq-03",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Model”?",
+      "options": [
+        "A simplified representation containing only the traits of the modeled entity that are relevant to the task.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Model as: A simplified representation containing only the traits of the modeled entity that are relevant to the task.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-01-mcq-04",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Ambient intelligence”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "Intelligence embedded in everyday environments so that the environment becomes sensitive and responsive.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Ambient intelligence as: Intelligence embedded in everyday environments so that the environment becomes sensitive and responsive.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-mcq-05",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Internet of Things”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A network of devices with unique addressing that interact and cooperate to reach common goals.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Internet of Things as: A network of devices with unique addressing that interact and cooperate to reach common goals.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-mcq-06",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Reliability”?",
+      "options": [
+        "The ability of a system to avoid malfunctions caused by components that stop working.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Reliability as: The ability of a system to avoid malfunctions caused by components that stop working.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-01-mcq-07",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Sensor”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A device that measures a physical quantity and converts it into an electrical signal."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Sensor as: A device that measures a physical quantity and converts it into an electrical signal.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-mcq-08",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Hard real-time”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A system designed to meet all deadlines, where a missed deadline is a design flaw.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Hard real-time as: A system designed to meet all deadlines, where a missed deadline is a design flaw.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-01-mcq-09",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Ubiquitous computing”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A computing approach that focuses on providing information anytime and anywhere.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Ubiquitous computing as: A computing approach that focuses on providing information anytime and anywhere.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-mcq-10",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Soft real-time”?",
+      "options": [
+        "A system that meets as many deadlines as possible but may occasionally be late.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Soft real-time as: A system that meets as many deadlines as possible but may occasionally be late.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-01-mcq-11",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Confidentiality”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "The property that information can only be accessed by its intended recipients.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Confidentiality as: The property that information can only be accessed by its intended recipients.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-01-mcq-12",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Security”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "Protection against harm caused by attacks originating from outside the system.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Security as: Protection against harm caused by attacks originating from outside the system.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-01-mcq-13",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Actuator”?",
+      "options": [
+        "A component that converts a control signal into a physical action or output.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Actuator as: A component that converts a control signal into a physical action or output.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-mcq-14",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Repairability”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "The probability that a failing system can be repaired within a certain time."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Repairability as: The probability that a failing system can be repaired within a certain time.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-01-mcq-15",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Firm real-time”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A system that meets all deadlines but allows an occasional missed deadline.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Firm real-time as: A system that meets all deadlines but allows an occasional missed deadline.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-03-mcq-16",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “EPIC”?",
+      "options": [
+        "Explicitly Parallel Instruction Set Computer, a design that explicitly identifies operations to run in parallel.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines EPIC as: Explicitly Parallel Instruction Set Computer, a design that explicitly identifies operations to run in parallel.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-prelim-03-mcq-17",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “VLIW”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "Very Long Instruction Word processing, where several operations are encoded in a single long instruction."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines VLIW as: Very Long Instruction Word processing, where several operations are encoded in a single long instruction.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-03-mcq-18",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Communication media”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "The physical entities that enable communication, such as wires, optical fibers, and wireless links."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Communication media as: The physical entities that enable communication, such as wires, optical fibers, and wireless links.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-03-mcq-19",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Channel”?",
+      "options": [
+        "An abstract communication entity described by properties such as transfer capacity and noise.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Channel as: An abstract communication entity described by properties such as transfer capacity and noise.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-03-mcq-20",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Datapath block”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "The block that coordinates system activities and performs computations and data manipulation.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Datapath block as: The block that coordinates system activities and performs computations and data manipulation.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-03-mcq-21",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Hall sensor”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An omni-polar magnetic sensor used for proximity, positioning, speed, and current sensing.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Hall sensor as: An omni-polar magnetic sensor used for proximity, positioning, speed, and current sensing.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-03-mcq-22",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Ultrasonic sensor”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A non-contact distance sensor that uses sonar timing to measure the distance to an object.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Ultrasonic sensor as: A non-contact distance sensor that uses sonar timing to measure the distance to an object.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-03-mcq-23",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “ROM”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "Read-only memory that stores embedded instructions and data that do not normally change."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines ROM as: Read-only memory that stores embedded instructions and data that do not normally change.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-prelim-03-mcq-24",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Line-tracking sensor”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A sensor that detects white lines in black and black lines in white using a TTL signal."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Line-tracking sensor as: A sensor that detects white lines in black and black lines in white using a TTL signal.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-03-mcq-25",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Input block”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "The part of an embedded system that accepts data signals from the external world.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Input block as: The part of an embedded system that accepts data signals from the external world.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-03-mcq-26",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Photodiode”?",
+      "options": [
+        "A reverse-biased semiconducting optical sensor that produces a very low current.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Photodiode as: A reverse-biased semiconducting optical sensor that produces a very low current.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-03-mcq-27",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “RAM”?",
+      "options": [
+        "Random access memory that is volatile and stores temporary programs and data.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines RAM as: Random access memory that is volatile and stores temporary programs and data.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-prelim-03-mcq-28",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Control block”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "The processing unit that directs the operations of an embedded system.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Control block as: The processing unit that directs the operations of an embedded system.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prelim-03-mcq-29",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Homogeneous multicore”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A multicore architecture that uses multiple identical processor cores.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Homogeneous multicore as: A multicore architecture that uses multiple identical processor cores.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-prelim-03-mcq-30",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Motion sensor”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An electronic device that detects movement within its field of view.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Motion sensor as: An electronic device that detects movement within its field of view.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-tf-01",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Cyber-physical system” is defined as: A combination of hardware and software designed to perform dedicated functions inside a larger product or system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Cyber-physical system",
+      "correction": "Embedded system",
+      "explanation": "The correct term is Embedded system. The handout defines it as: A combination of hardware and software designed to perform dedicated functions inside a larger product or system.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-tf-02",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Ubiquitous computing” is defined as: A computing approach that focuses on providing information anytime and anywhere.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Ubiquitous computing",
+      "correction": "",
+      "explanation": "The correct term is Ubiquitous computing. The handout defines it as: A computing approach that focuses on providing information anytime and anywhere.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-tf-03",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Embedded system” is defined as: An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Embedded system",
+      "correction": "Cyber-physical system",
+      "explanation": "The correct term is Cyber-physical system. The handout defines it as: An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-tf-04",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Internet of Things” is defined as: A network of devices with unique addressing that interact and cooperate to reach common goals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Internet of Things",
+      "correction": "",
+      "explanation": "The correct term is Internet of Things. The handout defines it as: A network of devices with unique addressing that interact and cooperate to reach common goals.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-01-tf-05",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Cyber-physical system” is defined as: A device that measures a physical quantity and converts it into an electrical signal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Cyber-physical system",
+      "correction": "Sensor",
+      "explanation": "The correct term is Sensor. The handout defines it as: A device that measures a physical quantity and converts it into an electrical signal.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-03-tf-06",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Input block” is defined as: The part of an embedded system that accepts data signals from the external world.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Input block",
+      "correction": "",
+      "explanation": "The correct term is Input block. The handout defines it as: The part of an embedded system that accepts data signals from the external world.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-03-tf-07",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “EPIC” is defined as: A reverse-biased semiconducting optical sensor that produces a very low current.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "EPIC",
+      "correction": "Photodiode",
+      "explanation": "The correct term is Photodiode. The handout defines it as: A reverse-biased semiconducting optical sensor that produces a very low current.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-03-tf-08",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Temperature sensor” is defined as: A sensor that provides temperature feedback to a system controller.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Temperature sensor",
+      "correction": "",
+      "explanation": "The correct term is Temperature sensor. The handout defines it as: A sensor that provides temperature feedback to a system controller.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-03-tf-09",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “EPIC” is defined as: A sensor that detects white lines in black and black lines in white using a TTL signal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "EPIC",
+      "correction": "Line-tracking sensor",
+      "explanation": "The correct term is Line-tracking sensor. The handout defines it as: A sensor that detects white lines in black and black lines in white using a TTL signal.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prelim-03-tf-10",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Ultrasonic sensor” is defined as: A non-contact distance sensor that uses sonar timing to measure the distance to an object.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Ultrasonic sensor",
+      "correction": "",
+      "explanation": "The correct term is Ultrasonic sensor. The handout defines it as: A non-contact distance sensor that uses sonar timing to measure the distance to an object.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-01",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Single-ended signaling”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Single-ended signaling as: A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-02",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Local device”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A device located close to the core system, usually within one to three meters, with a specialized interface.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Local device as: A device located close to the core system, usually within one to three meters, with a specialized interface.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-03",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Remote device”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A device located farther from the core system, usually three to five meters or more, with distributed tasks.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Remote device as: A device located farther from the core system, usually three to five meters or more, with distributed tasks.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-04",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “I/O driver”?",
+      "options": [
+        "A software routine associated with an I/O device that manages communication with that device.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines I/O driver as: A software routine associated with an I/O device that manages communication with that device.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-05",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Channel”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "An abstract communication entity characterized by transfer capacity and noise parameters.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Channel as: An abstract communication entity characterized by transfer capacity and noise parameters.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-06",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Differential signaling”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that uses two wires per signal and twisted pairing to reduce noise."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Differential signaling as: A signaling method that uses two wires per signal and twisted pairing to reduce noise.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-07",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Transport mechanism”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "The implementation that moves information through a physical medium or configuration.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Transport mechanism as: The implementation that moves information through a physical medium or configuration.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-08",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Protocol”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A standard set of rules and interfaces used to synchronize tasks and exchange data.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Protocol as: A standard set of rules and interfaces used to synchronize tasks and exchange data.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-09",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Distributed task”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A task that executes on a remote device and interacts with the rest of the system.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Distributed task as: A task that executes on a remote device and interacts with the rest of the system.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-10",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Communication media”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "The wired or wireless physical entities that enable communication.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Communication media as: The wired or wireless physical entities that enable communication.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-11",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Timing requirement”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A constraint on when an I/O exchange or computation must occur."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Timing requirement as: A constraint on when an I/O exchange or computation must occur.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-12",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+      "options": [
+        "Priority inheritance",
+        "Cyber-physical system",
+        "Single-ended signaling",
+        "Pulse Width Modulation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Single-ended signaling is defined as: A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-13",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA device located close to the core system, usually within one to three meters, with a specialized interface.",
+      "options": [
+        "Single-ended signaling",
+        "Priority inheritance",
+        "Local device",
+        "Cyber-physical system"
+      ],
+      "answerIndex": 2,
+      "explanation": "Local device is defined as: A device located close to the core system, usually within one to three meters, with a specialized interface.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-14",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA device located farther from the core system, usually three to five meters or more, with distributed tasks.",
+      "options": [
+        "Single-ended signaling",
+        "Cyber-physical system",
+        "Priority inheritance",
+        "Remote device"
+      ],
+      "answerIndex": 3,
+      "explanation": "Remote device is defined as: A device located farther from the core system, usually three to five meters or more, with distributed tasks.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-15",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA software routine associated with an I/O device that manages communication with that device.",
+      "options": [
+        "Single-ended signaling",
+        "Cyber-physical system",
+        "Priority inheritance",
+        "I/O driver"
+      ],
+      "answerIndex": 3,
+      "explanation": "I/O driver is defined as: A software routine associated with an I/O device that manages communication with that device.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-16",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nAn abstract communication entity characterized by transfer capacity and noise parameters.",
+      "options": [
+        "Cyber-physical system",
+        "Channel",
+        "Single-ended signaling",
+        "Priority inheritance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Channel is defined as: An abstract communication entity characterized by transfer capacity and noise parameters.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-17",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA signaling method that uses two wires per signal and twisted pairing to reduce noise.",
+      "options": [
+        "Priority inheritance",
+        "Single-ended signaling",
+        "Differential signaling",
+        "Cyber-physical system"
+      ],
+      "answerIndex": 2,
+      "explanation": "Differential signaling is defined as: A signaling method that uses two wires per signal and twisted pairing to reduce noise.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-18",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe implementation that moves information through a physical medium or configuration.",
+      "options": [
+        "Priority inheritance",
+        "Transport mechanism",
+        "Cyber-physical system",
+        "Single-ended signaling"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transport mechanism is defined as: The implementation that moves information through a physical medium or configuration.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-19",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA standard set of rules and interfaces used to synchronize tasks and exchange data.",
+      "options": [
+        "Protocol",
+        "Single-ended signaling",
+        "Priority inheritance",
+        "Cyber-physical system"
+      ],
+      "answerIndex": 0,
+      "explanation": "Protocol is defined as: A standard set of rules and interfaces used to synchronize tasks and exchange data.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-20",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA task that executes on a remote device and interacts with the rest of the system.",
+      "options": [
+        "Cyber-physical system",
+        "Priority inheritance",
+        "Distributed task",
+        "Single-ended signaling"
+      ],
+      "answerIndex": 2,
+      "explanation": "Distributed task is defined as: A task that executes on a remote device and interacts with the rest of the system.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-21",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe wired or wireless physical entities that enable communication.",
+      "options": [
+        "Cyber-physical system",
+        "Communication media",
+        "Priority inheritance",
+        "Single-ended signaling"
+      ],
+      "answerIndex": 1,
+      "explanation": "Communication media is defined as: The wired or wireless physical entities that enable communication.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-22",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA constraint on when an I/O exchange or computation must occur.",
+      "options": [
+        "Cyber-physical system",
+        "Single-ended signaling",
+        "Timing requirement",
+        "Priority inheritance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Timing requirement is defined as: A constraint on when an I/O exchange or computation must occur.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-23",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Single-ended signaling”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Single-ended signaling as: A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-24",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Local device”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A device located close to the core system, usually within one to three meters, with a specialized interface."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Local device as: A device located close to the core system, usually within one to three meters, with a specialized interface.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-25",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Remote device”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A device located farther from the core system, usually three to five meters or more, with distributed tasks.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Remote device as: A device located farther from the core system, usually three to five meters or more, with distributed tasks.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-26",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “I/O driver”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A software routine associated with an I/O device that manages communication with that device."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines I/O driver as: A software routine associated with an I/O device that manages communication with that device.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-27",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Channel”?",
+      "options": [
+        "An abstract communication entity characterized by transfer capacity and noise parameters.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Channel as: An abstract communication entity characterized by transfer capacity and noise parameters.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-28",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Differential signaling”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that uses two wires per signal and twisted pairing to reduce noise.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Differential signaling as: A signaling method that uses two wires per signal and twisted pairing to reduce noise.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-mcq-29",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Transport mechanism”?",
+      "options": [
+        "The implementation that moves information through a physical medium or configuration.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Transport mechanism as: The implementation that moves information through a physical medium or configuration.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-mcq-30",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Protocol”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A standard set of rules and interfaces used to synchronize tasks and exchange data.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Protocol as: A standard set of rules and interfaces used to synchronize tasks and exchange data.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-tf-01",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Single-ended signaling” is defined as: A device located close to the core system, usually within one to three meters, with a specialized interface.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Single-ended signaling",
+      "correction": "Local device",
+      "explanation": "The correct term is Local device. The handout defines it as: A device located close to the core system, usually within one to three meters, with a specialized interface.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-tf-02",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Remote device” is defined as: A device located farther from the core system, usually three to five meters or more, with distributed tasks.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Remote device",
+      "correction": "",
+      "explanation": "The correct term is Remote device. The handout defines it as: A device located farther from the core system, usually three to five meters or more, with distributed tasks.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-tf-03",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Single-ended signaling” is defined as: An abstract communication entity characterized by transfer capacity and noise parameters.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Single-ended signaling",
+      "correction": "Channel",
+      "explanation": "The correct term is Channel. The handout defines it as: An abstract communication entity characterized by transfer capacity and noise parameters.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-tf-04",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Communication media” is defined as: The wired or wireless physical entities that enable communication.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Communication media",
+      "correction": "",
+      "explanation": "The correct term is Communication media. The handout defines it as: The wired or wireless physical entities that enable communication.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-tf-05",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Local device” is defined as: A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Local device",
+      "correction": "Single-ended signaling",
+      "explanation": "The correct term is Single-ended signaling. The handout defines it as: A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-tf-06",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Differential signaling” is defined as: A signaling method that uses two wires per signal and twisted pairing to reduce noise.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Differential signaling",
+      "correction": "",
+      "explanation": "The correct term is Differential signaling. The handout defines it as: A signaling method that uses two wires per signal and twisted pairing to reduce noise.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-midterm-04-tf-07",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Single-ended signaling” is defined as: A software routine associated with an I/O device that manages communication with that device.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Single-ended signaling",
+      "correction": "I/O driver",
+      "explanation": "The correct term is I/O driver. The handout defines it as: A software routine associated with an I/O device that manages communication with that device.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-tf-08",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Transport mechanism” is defined as: The implementation that moves information through a physical medium or configuration.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Transport mechanism",
+      "correction": "",
+      "explanation": "The correct term is Transport mechanism. The handout defines it as: The implementation that moves information through a physical medium or configuration.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-tf-09",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Single-ended signaling” is defined as: A standard set of rules and interfaces used to synchronize tasks and exchange data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Single-ended signaling",
+      "correction": "Protocol",
+      "explanation": "The correct term is Protocol. The handout defines it as: A standard set of rules and interfaces used to synchronize tasks and exchange data.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-midterm-04-tf-10",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Distributed task” is defined as: A task that executes on a remote device and interacts with the rest of the system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Distributed task",
+      "correction": "",
+      "explanation": "The correct term is Distributed task. The handout defines it as: A task that executes on a remote device and interacts with the rest of the system.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-01",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Pulse Width Modulation”?",
+      "options": [
+        "A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Pulse Width Modulation as: A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-02",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Interface”?",
+      "options": [
+        "A connection between humans, the environment, phenomena, and machines that provides input, process, or output.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Interface as: A connection between humans, the environment, phenomena, and machines that provides input, process, or output.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-03",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “IEEE-1284”?",
+      "options": [
+        "A parallel printer bus specification that uses a point-to-point asynchronous bidirectional interface.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines IEEE-1284 as: A parallel printer bus specification that uses a point-to-point asynchronous bidirectional interface.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-04",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Bus”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An interface shared among multiple devices rather than a point-to-point link between two devices.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Bus as: An interface shared among multiple devices rather than a point-to-point link between two devices.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-05",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Serial interface”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An interface that sends or receives a sequence of bits one after another over a single line.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Serial interface as: An interface that sends or receives a sequence of bits one after another over a single line.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-06",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Hardware interrupt”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A signal generated when external hardware changes the voltage on an interrupt request line.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Hardware interrupt as: A signal generated when external hardware changes the voltage on an interrupt request line.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-07",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “General-purpose digital I/O”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A digital interface that lets software read or write logical zero and one voltage levels.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines General-purpose digital I/O as: A digital interface that lets software read or write logical zero and one voltage levels.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-08",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Handshake”?",
+      "options": [
+        "A control exchange, such as strobe and acknowledge, that coordinates a data transfer.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Handshake as: A control exchange, such as strobe and acknowledge, that coordinates a data transfer.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-09",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “RS-232”?",
+      "options": [
+        "A serial interface standard introduced by the EIA to connect teletypes to modems.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines RS-232 as: A serial interface standard introduced by the EIA to connect teletypes to modems.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-10",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Parallel interface”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An interface that uses multiple lines to send or receive bits simultaneously."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Parallel interface as: An interface that uses multiple lines to send or receive bits simultaneously.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-11",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Tristate logic”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A digital output state that can be high, low, or electrically off."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Tristate logic as: A digital output state that can be high, low, or electrically off.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-12",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Memory-mapped register”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A register that software accesses through a memory address."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Memory-mapped register as: A register that software accesses through a memory address.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-13",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+      "options": [
+        "Priority inheritance",
+        "Cyber-physical system",
+        "Pulse Width Modulation",
+        "Single-ended signaling"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pulse Width Modulation is defined as: A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-14",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA connection between humans, the environment, phenomena, and machines that provides input, process, or output.",
+      "options": [
+        "Interface",
+        "Single-ended signaling",
+        "Cyber-physical system",
+        "Priority inheritance"
+      ],
+      "answerIndex": 0,
+      "explanation": "Interface is defined as: A connection between humans, the environment, phenomena, and machines that provides input, process, or output.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-15",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA parallel printer bus specification that uses a point-to-point asynchronous bidirectional interface.",
+      "options": [
+        "Single-ended signaling",
+        "IEEE-1284",
+        "Priority inheritance",
+        "Cyber-physical system"
+      ],
+      "answerIndex": 1,
+      "explanation": "IEEE-1284 is defined as: A parallel printer bus specification that uses a point-to-point asynchronous bidirectional interface.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-16",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nAn interface shared among multiple devices rather than a point-to-point link between two devices.",
+      "options": [
+        "Priority inheritance",
+        "Cyber-physical system",
+        "Bus",
+        "Single-ended signaling"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bus is defined as: An interface shared among multiple devices rather than a point-to-point link between two devices.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-17",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nAn interface that sends or receives a sequence of bits one after another over a single line.",
+      "options": [
+        "Cyber-physical system",
+        "Single-ended signaling",
+        "Serial interface",
+        "Priority inheritance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Serial interface is defined as: An interface that sends or receives a sequence of bits one after another over a single line.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-18",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA signal generated when external hardware changes the voltage on an interrupt request line.",
+      "options": [
+        "Cyber-physical system",
+        "Hardware interrupt",
+        "Single-ended signaling",
+        "Priority inheritance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hardware interrupt is defined as: A signal generated when external hardware changes the voltage on an interrupt request line.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-19",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA digital interface that lets software read or write logical zero and one voltage levels.",
+      "options": [
+        "General-purpose digital I/O",
+        "Single-ended signaling",
+        "Cyber-physical system",
+        "Priority inheritance"
+      ],
+      "answerIndex": 0,
+      "explanation": "General-purpose digital I/O is defined as: A digital interface that lets software read or write logical zero and one voltage levels.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-20",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA control exchange, such as strobe and acknowledge, that coordinates a data transfer.",
+      "options": [
+        "Priority inheritance",
+        "Handshake",
+        "Single-ended signaling",
+        "Cyber-physical system"
+      ],
+      "answerIndex": 1,
+      "explanation": "Handshake is defined as: A control exchange, such as strobe and acknowledge, that coordinates a data transfer.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-21",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA serial interface standard introduced by the EIA to connect teletypes to modems.",
+      "options": [
+        "Single-ended signaling",
+        "Cyber-physical system",
+        "Priority inheritance",
+        "RS-232"
+      ],
+      "answerIndex": 3,
+      "explanation": "RS-232 is defined as: A serial interface standard introduced by the EIA to connect teletypes to modems.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-22",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nAn interface that uses multiple lines to send or receive bits simultaneously.",
+      "options": [
+        "Single-ended signaling",
+        "Priority inheritance",
+        "Cyber-physical system",
+        "Parallel interface"
+      ],
+      "answerIndex": 3,
+      "explanation": "Parallel interface is defined as: An interface that uses multiple lines to send or receive bits simultaneously.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-23",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA digital output state that can be high, low, or electrically off.",
+      "options": [
+        "Cyber-physical system",
+        "Priority inheritance",
+        "Single-ended signaling",
+        "Tristate logic"
+      ],
+      "answerIndex": 3,
+      "explanation": "Tristate logic is defined as: A digital output state that can be high, low, or electrically off.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-24",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA register that software accesses through a memory address.",
+      "options": [
+        "Single-ended signaling",
+        "Memory-mapped register",
+        "Priority inheritance",
+        "Cyber-physical system"
+      ],
+      "answerIndex": 1,
+      "explanation": "Memory-mapped register is defined as: A register that software accesses through a memory address.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-25",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Pulse Width Modulation”?",
+      "options": [
+        "A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Pulse Width Modulation as: A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-26",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Interface”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A connection between humans, the environment, phenomena, and machines that provides input, process, or output.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Interface as: A connection between humans, the environment, phenomena, and machines that provides input, process, or output.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-27",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “IEEE-1284”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A parallel printer bus specification that uses a point-to-point asynchronous bidirectional interface."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines IEEE-1284 as: A parallel printer bus specification that uses a point-to-point asynchronous bidirectional interface.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-28",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Bus”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An interface shared among multiple devices rather than a point-to-point link between two devices."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Bus as: An interface shared among multiple devices rather than a point-to-point link between two devices.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-29",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Serial interface”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An interface that sends or receives a sequence of bits one after another over a single line.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Serial interface as: An interface that sends or receives a sequence of bits one after another over a single line.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-mcq-30",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Hardware interrupt”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signal generated when external hardware changes the voltage on an interrupt request line."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Hardware interrupt as: A signal generated when external hardware changes the voltage on an interrupt request line.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-prefinals-05-tf-01",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Pulse Width Modulation” is defined as: A connection between humans, the environment, phenomena, and machines that provides input, process, or output.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Pulse Width Modulation",
+      "correction": "Interface",
+      "explanation": "The correct term is Interface. The handout defines it as: A connection between humans, the environment, phenomena, and machines that provides input, process, or output.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-tf-02",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Pulse Width Modulation” is defined as: A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Pulse Width Modulation",
+      "correction": "",
+      "explanation": "The correct term is Pulse Width Modulation. The handout defines it as: A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-tf-03",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Pulse Width Modulation” is defined as: A digital interface that lets software read or write logical zero and one voltage levels.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Pulse Width Modulation",
+      "correction": "General-purpose digital I/O",
+      "explanation": "The correct term is General-purpose digital I/O. The handout defines it as: A digital interface that lets software read or write logical zero and one voltage levels.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-tf-04",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Tristate logic” is defined as: A digital output state that can be high, low, or electrically off.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Tristate logic",
+      "correction": "",
+      "explanation": "The correct term is Tristate logic. The handout defines it as: A digital output state that can be high, low, or electrically off.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-tf-05",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Pulse Width Modulation” is defined as: A register that software accesses through a memory address.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Pulse Width Modulation",
+      "correction": "Memory-mapped register",
+      "explanation": "The correct term is Memory-mapped register. The handout defines it as: A register that software accesses through a memory address.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-prefinals-05-tf-06",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Serial interface” is defined as: An interface that sends or receives a sequence of bits one after another over a single line.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Serial interface",
+      "correction": "",
+      "explanation": "The correct term is Serial interface. The handout defines it as: An interface that sends or receives a sequence of bits one after another over a single line.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-tf-07",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Pulse Width Modulation” is defined as: An interface that uses multiple lines to send or receive bits simultaneously.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Pulse Width Modulation",
+      "correction": "Parallel interface",
+      "explanation": "The correct term is Parallel interface. The handout defines it as: An interface that uses multiple lines to send or receive bits simultaneously.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-tf-08",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Bus” is defined as: An interface shared among multiple devices rather than a point-to-point link between two devices.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Bus",
+      "correction": "",
+      "explanation": "The correct term is Bus. The handout defines it as: An interface shared among multiple devices rather than a point-to-point link between two devices.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-tf-09",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Pulse Width Modulation” is defined as: A serial interface standard introduced by the EIA to connect teletypes to modems.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Pulse Width Modulation",
+      "correction": "RS-232",
+      "explanation": "The correct term is RS-232. The handout defines it as: A serial interface standard introduced by the EIA to connect teletypes to modems.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-prefinals-05-tf-10",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “IEEE-1284” is defined as: A parallel printer bus specification that uses a point-to-point asynchronous bidirectional interface.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "IEEE-1284",
+      "correction": "",
+      "explanation": "The correct term is IEEE-1284. The handout defines it as: A parallel printer bus specification that uses a point-to-point asynchronous bidirectional interface.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it2102-finals-06-mcq-01",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Priority inheritance”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Priority inheritance as: A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-finals-06-mcq-02",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Software optimization”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "The process of modifying a software system so that it works more efficiently or uses fewer resources.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Software optimization as: The process of modifying a software system so that it works more efficiently or uses fewer resources.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-03",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Loop tiling”?",
+      "options": [
+        "A transformation that chunks nested loops so that memory hierarchies can be used efficiently.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Loop tiling as: A transformation that chunks nested loops so that memory hierarchies can be used efficiently.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-04",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Dynamic voltage and frequency scaling”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A power optimization that reduces dynamic power by adjusting voltage and clock frequency.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Dynamic voltage and frequency scaling as: A power optimization that reduces dynamic power by adjusting voltage and clock frequency.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-finals-06-mcq-05",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Loop unrolling”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A transformation that creates several instances of a loop body to reduce loop overhead."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Loop unrolling as: A transformation that creates several instances of a loop body to reduce loop overhead.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-06",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Loop permutation”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A transformation that swaps the order of two loops to improve parallelism or locality.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Loop permutation as: A transformation that swaps the order of two loops to improve parallelism or locality.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-07",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Spatial locality”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "The tendency to access memory locations that are close to recently accessed locations.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Spatial locality as: The tendency to access memory locations that are close to recently accessed locations.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-08",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Cache”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A small, fast memory near the processor that stores recently or frequently used data.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Cache as: A small, fast memory near the processor that stores recently or frequently used data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-09",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Ordering”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "The scheduling decision of the order in which each processor executes its tasks.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Ordering as: The scheduling decision of the order in which each processor executes its tasks.",
+      "sourcePage": 4
+    },
+    {
+      "id": "it2102-finals-06-mcq-10",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Optimization”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "The process of improving a system's efficiency in time, space, or resources.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Optimization as: The process of improving a system's efficiency in time, space, or resources.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-11",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Assignment”?",
+      "options": [
+        "The scheduling decision of which processor should execute a task.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Assignment as: The scheduling decision of which processor should execute a task.",
+      "sourcePage": 4
+    },
+    {
+      "id": "it2102-finals-06-mcq-12",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Loop fusion”?",
+      "options": [
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A transformation that combines two separate loops into one loop."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Loop fusion as: A transformation that combines two separate loops into one loop.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-13",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Unrolling factor”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "The number of copies of a loop body created by loop unrolling.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Unrolling factor as: The number of copies of a loop body created by loop unrolling.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-14",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Loop fission”?",
+      "options": [
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A transformation that splits a single loop into two loops.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Loop fission as: A transformation that splits a single loop into two loops.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-15",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+      "options": [
+        "Pulse Width Modulation",
+        "Cyber-physical system",
+        "Priority inheritance",
+        "Single-ended signaling"
+      ],
+      "answerIndex": 2,
+      "explanation": "Priority inheritance is defined as: A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-finals-06-mcq-16",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe process of modifying a software system so that it works more efficiently or uses fewer resources.",
+      "options": [
+        "Priority inheritance",
+        "Single-ended signaling",
+        "Software optimization",
+        "Cyber-physical system"
+      ],
+      "answerIndex": 2,
+      "explanation": "Software optimization is defined as: The process of modifying a software system so that it works more efficiently or uses fewer resources.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-17",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA transformation that chunks nested loops so that memory hierarchies can be used efficiently.",
+      "options": [
+        "Single-ended signaling",
+        "Priority inheritance",
+        "Loop tiling",
+        "Cyber-physical system"
+      ],
+      "answerIndex": 2,
+      "explanation": "Loop tiling is defined as: A transformation that chunks nested loops so that memory hierarchies can be used efficiently.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-18",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA power optimization that reduces dynamic power by adjusting voltage and clock frequency.",
+      "options": [
+        "Priority inheritance",
+        "Single-ended signaling",
+        "Dynamic voltage and frequency scaling",
+        "Cyber-physical system"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dynamic voltage and frequency scaling is defined as: A power optimization that reduces dynamic power by adjusting voltage and clock frequency.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-finals-06-mcq-19",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA transformation that creates several instances of a loop body to reduce loop overhead.",
+      "options": [
+        "Loop unrolling",
+        "Priority inheritance",
+        "Cyber-physical system",
+        "Single-ended signaling"
+      ],
+      "answerIndex": 0,
+      "explanation": "Loop unrolling is defined as: A transformation that creates several instances of a loop body to reduce loop overhead.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-20",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA transformation that swaps the order of two loops to improve parallelism or locality.",
+      "options": [
+        "Priority inheritance",
+        "Cyber-physical system",
+        "Single-ended signaling",
+        "Loop permutation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Loop permutation is defined as: A transformation that swaps the order of two loops to improve parallelism or locality.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-21",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe tendency to access memory locations that are close to recently accessed locations.",
+      "options": [
+        "Spatial locality",
+        "Single-ended signaling",
+        "Priority inheritance",
+        "Cyber-physical system"
+      ],
+      "answerIndex": 0,
+      "explanation": "Spatial locality is defined as: The tendency to access memory locations that are close to recently accessed locations.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-22",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA small, fast memory near the processor that stores recently or frequently used data.",
+      "options": [
+        "Single-ended signaling",
+        "Cyber-physical system",
+        "Priority inheritance",
+        "Cache"
+      ],
+      "answerIndex": 3,
+      "explanation": "Cache is defined as: A small, fast memory near the processor that stores recently or frequently used data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-23",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe scheduling decision of the order in which each processor executes its tasks.",
+      "options": [
+        "Ordering",
+        "Single-ended signaling",
+        "Cyber-physical system",
+        "Priority inheritance"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ordering is defined as: The scheduling decision of the order in which each processor executes its tasks.",
+      "sourcePage": 4
+    },
+    {
+      "id": "it2102-finals-06-mcq-24",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe process of improving a system's efficiency in time, space, or resources.",
+      "options": [
+        "Cyber-physical system",
+        "Single-ended signaling",
+        "Optimization",
+        "Priority inheritance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Optimization is defined as: The process of improving a system's efficiency in time, space, or resources.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-25",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe scheduling decision of which processor should execute a task.",
+      "options": [
+        "Cyber-physical system",
+        "Single-ended signaling",
+        "Priority inheritance",
+        "Assignment"
+      ],
+      "answerIndex": 3,
+      "explanation": "Assignment is defined as: The scheduling decision of which processor should execute a task.",
+      "sourcePage": 4
+    },
+    {
+      "id": "it2102-finals-06-mcq-26",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA transformation that combines two separate loops into one loop.",
+      "options": [
+        "Loop fusion",
+        "Cyber-physical system",
+        "Single-ended signaling",
+        "Priority inheritance"
+      ],
+      "answerIndex": 0,
+      "explanation": "Loop fusion is defined as: A transformation that combines two separate loops into one loop.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-27",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe number of copies of a loop body created by loop unrolling.",
+      "options": [
+        "Unrolling factor",
+        "Cyber-physical system",
+        "Priority inheritance",
+        "Single-ended signaling"
+      ],
+      "answerIndex": 0,
+      "explanation": "Unrolling factor is defined as: The number of copies of a loop body created by loop unrolling.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-28",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA transformation that splits a single loop into two loops.",
+      "options": [
+        "Priority inheritance",
+        "Loop fission",
+        "Single-ended signaling",
+        "Cyber-physical system"
+      ],
+      "answerIndex": 1,
+      "explanation": "Loop fission is defined as: A transformation that splits a single loop into two loops.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-mcq-29",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Priority inheritance”?",
+      "options": [
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Priority inheritance as: A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it2102-finals-06-mcq-30",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Software optimization”?",
+      "options": [
+        "The process of modifying a software system so that it works more efficiently or uses fewer resources.",
+        "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+        "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+        "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Software optimization as: The process of modifying a software system so that it works more efficiently or uses fewer resources.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-tf-01",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Priority inheritance” is defined as: The process of improving a system's efficiency in time, space, or resources.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Priority inheritance",
+      "correction": "Optimization",
+      "explanation": "The correct term is Optimization. The handout defines it as: The process of improving a system's efficiency in time, space, or resources.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-tf-02",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Software optimization” is defined as: The process of modifying a software system so that it works more efficiently or uses fewer resources.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Software optimization",
+      "correction": "",
+      "explanation": "The correct term is Software optimization. The handout defines it as: The process of modifying a software system so that it works more efficiently or uses fewer resources.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-tf-03",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Priority inheritance” is defined as: A transformation that swaps the order of two loops to improve parallelism or locality.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Priority inheritance",
+      "correction": "Loop permutation",
+      "explanation": "The correct term is Loop permutation. The handout defines it as: A transformation that swaps the order of two loops to improve parallelism or locality.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-tf-04",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Loop unrolling” is defined as: A transformation that creates several instances of a loop body to reduce loop overhead.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Loop unrolling",
+      "correction": "",
+      "explanation": "The correct term is Loop unrolling. The handout defines it as: A transformation that creates several instances of a loop body to reduce loop overhead.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-tf-05",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Priority inheritance” is defined as: The number of copies of a loop body created by loop unrolling.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Priority inheritance",
+      "correction": "Unrolling factor",
+      "explanation": "The correct term is Unrolling factor. The handout defines it as: The number of copies of a loop body created by loop unrolling.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-tf-06",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Loop fusion” is defined as: A transformation that combines two separate loops into one loop.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Loop fusion",
+      "correction": "",
+      "explanation": "The correct term is Loop fusion. The handout defines it as: A transformation that combines two separate loops into one loop.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-tf-07",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Priority inheritance” is defined as: A transformation that splits a single loop into two loops.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Priority inheritance",
+      "correction": "Loop fission",
+      "explanation": "The correct term is Loop fission. The handout defines it as: A transformation that splits a single loop into two loops.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-tf-08",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Loop tiling” is defined as: A transformation that chunks nested loops so that memory hierarchies can be used efficiently.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Loop tiling",
+      "correction": "",
+      "explanation": "The correct term is Loop tiling. The handout defines it as: A transformation that chunks nested loops so that memory hierarchies can be used efficiently.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-tf-09",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Priority inheritance” is defined as: The tendency to access memory locations that are close to recently accessed locations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Priority inheritance",
+      "correction": "Spatial locality",
+      "explanation": "The correct term is Spatial locality. The handout defines it as: The tendency to access memory locations that are close to recently accessed locations.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it2102-finals-06-tf-10",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Cache” is defined as: A small, fast memory near the processor that stores recently or frequently used data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Cache",
+      "correction": "",
+      "explanation": "The correct term is Cache. The handout defines it as: A small, fast memory near the processor that stores recently or frequently used data.",
+      "sourcePage": 1
+    }
+  ]
+}

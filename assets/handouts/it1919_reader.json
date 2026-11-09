@@ -1,0 +1,1462 @@
+{
+  "subjectId": "it1919",
+  "subject": "Robot Dynamics",
+  "version": "1.0.0",
+  "handouts": [
+    {
+      "id": "it1919-prelim-01",
+      "termId": "prelim",
+      "number": "01",
+      "title": "Embedded Systems Basics",
+      "summary": "Embedded Systems Basics Components and Characteristics • An embedded system is a computer system mainly designed to perform a specific task such as accessing, processing, store and controlling data in an electronics-based system. The components of an embedded system are divided into two (2) parts: 1.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "page": 1,
+          "bullets": [
+            "Embedded Systems Basics Components and Characteristics • An embedded system is a computer system mainly designed to perform a specific task such as accessing, processing, store and controlling data in an electronics-based system.",
+            "The components of an embedded system are divided into two (2) parts: 1.",
+            "Application-Specific Integrated Circuits (ASIC) – integrated circuits customized for a particular use 2.",
+            "Software: assembler, emulator, debugger, compiler • The characteristics of an embedded system are as follows (ElProCus Technologies, 2019): o Single-functioned: It executes a particular operation in a consistent manner."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key concepts",
+          "page": 1,
+          "bullets": [
+            "A design metric is a measure of an execution features like size, power, cost and also performance.",
+            "Real time: It must perform fast enough and consume less power to increase battery life.",
+            "Reactive: It should constantly react to changes in the system and also calculate particular results in real time without any delay o It must be based on a microcontroller or microprocessor.",
+            "It must require a memory, as its software generally inserts in ROM.",
+            "It must have connected peripherals to attach input & output devices.",
+            "Basic Structure of an Embedded System • Sensor: It measures the physical quantity and converts it to an electrical signal readable by any electronic instrument."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key terms",
+          "page": 1,
+          "bullets": [
+            "Embedded system ? A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+            "Power supply ? The component that provides battery or external electrical power to an embedded system.",
+            "Processor ? The component that controls the electrical and mechanical functions of an embedded system.",
+            "Memory ? The component that stores hardware instructions and data.",
+            "Timer ? A component that measures time intervals or elapsed time."
+          ],
+          "tableIds": [
+            "it1919-prelim-01-terms"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "it1919-prelim-01-terms",
+          "title": "Key terms",
+          "headers": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Embedded system",
+              "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+            ],
+            [
+              "Power supply",
+              "The component that provides battery or external electrical power to an embedded system."
+            ],
+            [
+              "Processor",
+              "The component that controls the electrical and mechanical functions of an embedded system."
+            ],
+            [
+              "Memory",
+              "The component that stores hardware instructions and data."
+            ],
+            [
+              "Timer",
+              "A component that measures time intervals or elapsed time."
+            ],
+            [
+              "Communication port",
+              "A port such as UART, USB, or Ethernet used to communicate with other embedded systems."
+            ],
+            [
+              "ASIC",
+              "An application-specific integrated circuit customized for a particular use."
+            ],
+            [
+              "Single-functioned",
+              "An embedded system characteristic where the system executes a particular operation in a consistent manner."
+            ],
+            [
+              "Tightly constrained",
+              "An embedded system characteristic where design metrics such as size, power, cost, and performance are limited."
+            ],
+            [
+              "Real time",
+              "An embedded system characteristic requiring fast operation and low power consumption."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "it1919-prelim-01-t01",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Embedded system",
+          "definition": "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t02",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Power supply",
+          "definition": "The component that provides battery or external electrical power to an embedded system.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t03",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Processor",
+          "definition": "The component that controls the electrical and mechanical functions of an embedded system.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t04",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Memory",
+          "definition": "The component that stores hardware instructions and data.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t05",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Timer",
+          "definition": "A component that measures time intervals or elapsed time.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t06",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Communication port",
+          "definition": "A port such as UART, USB, or Ethernet used to communicate with other embedded systems.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t07",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "ASIC",
+          "definition": "An application-specific integrated circuit customized for a particular use.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t08",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Single-functioned",
+          "definition": "An embedded system characteristic where the system executes a particular operation in a consistent manner.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t09",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Tightly constrained",
+          "definition": "An embedded system characteristic where design metrics such as size, power, cost, and performance are limited.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t10",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Real time",
+          "definition": "An embedded system characteristic requiring fast operation and low power consumption.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t11",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Reactive",
+          "definition": "An embedded system characteristic where the system constantly reacts to changes without delay.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t12",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Sensor",
+          "definition": "A device that measures a physical quantity and converts it into an electrical signal.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t13",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "A-D converter",
+          "definition": "A component that converts the analog signal from a sensor into a digital signal.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-01-t14",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-01",
+          "term": "Actuator",
+          "definition": "A component that receives a control signal and produces a physical action.",
+          "page": 1,
+          "sectionId": "key-terms"
+        }
+      ]
+    },
+    {
+      "id": "it1919-prelim-02",
+      "termId": "prelim",
+      "number": "02",
+      "title": "Overview of Robotics",
+      "summary": "Overview of Robotics Artificial Intelligence and Robotics • Artificial intelligence is the science of training machines to perform human tasks. A robot has the following essential characteristics: o Sensing o Movement o Energy o Intelligence • Isaac Asimov's Three Laws of Robotics (1942): 1.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "page": 1,
+          "bullets": [
+            "Overview of Robotics Artificial Intelligence and Robotics • Artificial intelligence is the science of training machines to perform human tasks.",
+            "A robot has the following essential characteristics: o Sensing o Movement o Energy o Intelligence • Isaac Asimov's Three Laws of Robotics (1942): 1.",
+            "A robot may not injure a human being or, through inaction, allow a human being to come to harm.",
+            "A robot must obey orders given it by human beings except where such orders would conflict with the First Law."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key concepts",
+          "page": 1,
+          "bullets": [
+            "A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.",
+            "History of Robotics • The main era of robotic research and development was the mid- 20th century.",
+            "Robots were mainly employed for tasks that were too dirty, distant or dangerous for humans (Krebs & Volpe, 2013).",
+            "Unimate is the first industrially used robot developed by Joseph Engelberger and George Devol in 1961, a 2-ton robotic arm adopted for automated die-casting (a metal casting process utilizing metal molds or dies).",
+            "Shakey developed by Charles Rosen in 1966, is the first mobile robot with the ability to perceive and reason about its surroundings.",
+            "The Stanford Arm is the first successfully computer-controlled electrically powered robot arm created by Victor Scheinman in 1969, developed industrial assembly techniques for commercial robot arms."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key terms",
+          "page": 1,
+          "bullets": [
+            "Artificial intelligence ? The science of training machines to perform human tasks.",
+            "Reasoning ? An AI subset that makes inferences based on data.",
+            "Natural Language Processing ? An AI subset that understands written text and human speech.",
+            "Planning ? An AI subset that acts autonomously and flexibly to construct a sequence of actions toward a goal.",
+            "Machine learning ? An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+          ],
+          "tableIds": [
+            "it1919-prelim-02-terms"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "it1919-prelim-02-terms",
+          "title": "Key terms",
+          "headers": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Artificial intelligence",
+              "The science of training machines to perform human tasks."
+            ],
+            [
+              "Reasoning",
+              "An AI subset that makes inferences based on data."
+            ],
+            [
+              "Natural Language Processing",
+              "An AI subset that understands written text and human speech."
+            ],
+            [
+              "Planning",
+              "An AI subset that acts autonomously and flexibly to construct a sequence of actions toward a goal."
+            ],
+            [
+              "Machine learning",
+              "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+            ],
+            [
+              "Robotics",
+              "The study of machines that independently perform work following rules programmed by a computer."
+            ],
+            [
+              "Sensing",
+              "A robot characteristic describing the ability to gather information from its environment."
+            ],
+            [
+              "Movement",
+              "A robot characteristic describing the ability to change position or actuate parts."
+            ],
+            [
+              "Unimate",
+              "The first industrially used robot, developed by Joseph Engelberger and George Devol in 1961."
+            ],
+            [
+              "Shakey",
+              "The first mobile robot able to perceive and reason about its surroundings, developed by Charles Rosen in 1966."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "it1919-prelim-02-t01",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Artificial intelligence",
+          "definition": "The science of training machines to perform human tasks.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t02",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Reasoning",
+          "definition": "An AI subset that makes inferences based on data.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t03",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Natural Language Processing",
+          "definition": "An AI subset that understands written text and human speech.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t04",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Planning",
+          "definition": "An AI subset that acts autonomously and flexibly to construct a sequence of actions toward a goal.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t05",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Machine learning",
+          "definition": "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t06",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Robotics",
+          "definition": "The study of machines that independently perform work following rules programmed by a computer.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t07",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Sensing",
+          "definition": "A robot characteristic describing the ability to gather information from its environment.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t08",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Movement",
+          "definition": "A robot characteristic describing the ability to change position or actuate parts.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t09",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Unimate",
+          "definition": "The first industrially used robot, developed by Joseph Engelberger and George Devol in 1961.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t10",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Shakey",
+          "definition": "The first mobile robot able to perceive and reason about its surroundings, developed by Charles Rosen in 1966.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t11",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Stanford Arm",
+          "definition": "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t12",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Industrial robot",
+          "definition": "A robotic arm or manipulator that performs production tasks such as welding, handling, and painting.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t13",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Medical robot",
+          "definition": "A robot used in healthcare and medicine for tasks such as equipment lifting and surgery.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t14",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Military robot",
+          "definition": "A robot used by armed forces for searching, rescue, and surveillance.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t15",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Space robot",
+          "definition": "A robot used to substitute for astronauts in dangerous environments.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prelim-02-t16",
+          "termId": "prelim",
+          "handoutId": "it1919-prelim-02",
+          "term": "Domestic robot",
+          "definition": "A robot primarily used for household chores.",
+          "page": 1,
+          "sectionId": "key-terms"
+        }
+      ]
+    },
+    {
+      "id": "it1919-midterm-03",
+      "termId": "midterm",
+      "number": "03",
+      "title": "Simple Machines Fundamentals",
+      "summary": "Simple Machines Fundamentals • A simple machine is a basic mechanical device for applying a force and doing work. Robots are made up of simple machines that allow them to perform actions.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "page": 1,
+          "bullets": [
+            "Simple Machines Fundamentals • A simple machine is a basic mechanical device for applying a force and doing work.",
+            "Robots are made up of simple machines that allow them to perform actions.",
+            "Types of simple machines: o Lever - is made up of a straight rigid object which pivots on a turning point to move or lift an object.",
+            "The parts of a lever as are follows: ▪ Bar or Beam – a long plank."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key concepts",
+          "page": 1,
+          "bullets": [
+            "(Seesaw) ▪ Class 2: The load is between the effort and the fulcrum.",
+            "(Wheelbarrow) ▪ Class 3: The effort is between the load and the fulcrum.",
+            "(Shovel) o Wheel and Axle – is used to move objects across distances.",
+            "It uses a wheel with a rod attached in the middle as an axle to help it to lift or move loads.",
+            "Examples: Doorknob, motor, electric fan o Pulley – uses a wheel with a groove in it and a rope.",
+            "It is used to move the load or change direction of the force."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key terms",
+          "page": 1,
+          "bullets": [
+            "Simple machine ? A basic mechanical device for applying a force and doing work.",
+            "Lever ? A straight rigid object that pivots on a turning point to move or lift an object.",
+            "Fulcrum ? The pivot point on a lever bar.",
+            "Effort ? The force applied at one point to move or lift a load.",
+            "Load ? The object to be moved or lifted by a machine."
+          ],
+          "tableIds": [
+            "it1919-midterm-03-terms"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "it1919-midterm-03-terms",
+          "title": "Key terms",
+          "headers": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Simple machine",
+              "A basic mechanical device for applying a force and doing work."
+            ],
+            [
+              "Lever",
+              "A straight rigid object that pivots on a turning point to move or lift an object."
+            ],
+            [
+              "Fulcrum",
+              "The pivot point on a lever bar."
+            ],
+            [
+              "Effort",
+              "The force applied at one point to move or lift a load."
+            ],
+            [
+              "Load",
+              "The object to be moved or lifted by a machine."
+            ],
+            [
+              "Class 1 lever",
+              "A lever where the fulcrum is between the effort and the load."
+            ],
+            [
+              "Class 2 lever",
+              "A lever where the load is between the effort and the fulcrum."
+            ],
+            [
+              "Class 3 lever",
+              "A lever where the effort is between the load and the fulcrum."
+            ],
+            [
+              "Wheel and axle",
+              "A simple machine using a wheel with a rod axle to move or lift loads."
+            ],
+            [
+              "Pulley",
+              "A simple machine with a wheel and groove that uses a rope to move a load or change force direction."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "it1919-midterm-03-t01",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Simple machine",
+          "definition": "A basic mechanical device for applying a force and doing work.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t02",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Lever",
+          "definition": "A straight rigid object that pivots on a turning point to move or lift an object.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t03",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Fulcrum",
+          "definition": "The pivot point on a lever bar.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t04",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Effort",
+          "definition": "The force applied at one point to move or lift a load.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t05",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Load",
+          "definition": "The object to be moved or lifted by a machine.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t06",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Class 1 lever",
+          "definition": "A lever where the fulcrum is between the effort and the load.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t07",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Class 2 lever",
+          "definition": "A lever where the load is between the effort and the fulcrum.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t08",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Class 3 lever",
+          "definition": "A lever where the effort is between the load and the fulcrum.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t09",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Wheel and axle",
+          "definition": "A simple machine using a wheel with a rod axle to move or lift loads.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t10",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Pulley",
+          "definition": "A simple machine with a wheel and groove that uses a rope to move a load or change force direction.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t11",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Fixed pulley",
+          "definition": "A pulley whose axle is fixed in place and cannot move.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t12",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Movable pulley",
+          "definition": "A pulley where the load is attached and both the pulley and load can move.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t13",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Compound pulley",
+          "definition": "A combination of pulleys designed to make the effort less than half the load.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t14",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Inclined plane",
+          "definition": "A flat surface with one end higher than the other that helps move objects to a different height.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t15",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Wedge",
+          "definition": "A simple machine made of two inclined planes used to cut, split, or tighten an object.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t16",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Screw",
+          "definition": "An inclined plane wrapped around a cylinder, used to lift or hold things together.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-03-t17",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-03",
+          "term": "Mechanical advantage",
+          "definition": "A measure of how much a machine increases or decreases the force applied to a load.",
+          "page": 2,
+          "sectionId": "key-terms"
+        }
+      ]
+    },
+    {
+      "id": "it1919-midterm-04",
+      "termId": "midterm",
+      "number": "04",
+      "title": "Fundamentals of Electricity and Electronics",
+      "summary": "SI prefix notations Fundamentals of Electricity and Electronics An electrical circuit is an interconnection of electrical components. These electrical components include resistors, inductors, capacitors, generators (or sources), transformers, diodes, transistors, and many more.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "page": 1,
+          "bullets": [
+            "SI prefix notations Fundamentals of Electricity and Electronics An electrical circuit is an interconnection of electrical components.",
+            "These electrical components include resistors, inductors, capacitors, generators (or sources), transformers, diodes, transistors, and many more.",
+            "Scientific Notation It is a special way of expressing very large or very small numbers.",
+            "It is scientifically used to represent accuracy and precision of data in decimal form."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key concepts",
+          "page": 1,
+          "bullets": [
+            "The International System of Units (SI) is an international measurement language and a basis of standard of measurement that some countries follow for quantity and counting purposes.",
+            "This particular system of units can be derived into other measurable units through combination and/or formulation.",
+            "𝑭= 𝒎𝒂 𝐹= 7 𝑘𝑔× 9.8 𝑚 𝑠2 = 68.6 2) What is the equivalent power if 25 𝐽 of work is done for 10 𝑠?",
+            "Charge • Electric charge is a fundamental property of matter to describe force interactions among particles.",
+            "It is an electrical property of the atomic particles measured in coulombs (C).",
+            "Like charges repel (negative to negative), Unlike charges attract (positive to negative)."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key terms",
+          "page": 1,
+          "bullets": [
+            "Electrical circuit ? An interconnection of electrical components such as resistors, capacitors, and sources.",
+            "Scientific notation ? A way of expressing very large or very small numbers for accuracy and precision.",
+            "SI ? The International System of Units, an international measurement language and standard.",
+            "Atom ? The basic unit of matter that can be built up into elements.",
+            "Proton ? A positively charged particle in an atom."
+          ],
+          "tableIds": [
+            "it1919-midterm-04-terms"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "it1919-midterm-04-terms",
+          "title": "Key terms",
+          "headers": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Electrical circuit",
+              "An interconnection of electrical components such as resistors, capacitors, and sources."
+            ],
+            [
+              "Scientific notation",
+              "A way of expressing very large or very small numbers for accuracy and precision."
+            ],
+            [
+              "SI",
+              "The International System of Units, an international measurement language and standard."
+            ],
+            [
+              "Atom",
+              "The basic unit of matter that can be built up into elements."
+            ],
+            [
+              "Proton",
+              "A positively charged particle in an atom."
+            ],
+            [
+              "Neutron",
+              "A neutral particle in an atom."
+            ],
+            [
+              "Electron",
+              "A negatively charged particle in an atom."
+            ],
+            [
+              "Electric charge",
+              "A fundamental property of matter measured in coulombs."
+            ],
+            [
+              "Coulomb",
+              "The SI unit used to measure electric charge."
+            ],
+            [
+              "Electric current",
+              "The flow of electric charge, measured in amperes."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "it1919-midterm-04-t01",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Electrical circuit",
+          "definition": "An interconnection of electrical components such as resistors, capacitors, and sources.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t02",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Scientific notation",
+          "definition": "A way of expressing very large or very small numbers for accuracy and precision.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t03",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "SI",
+          "definition": "The International System of Units, an international measurement language and standard.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t04",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Atom",
+          "definition": "The basic unit of matter that can be built up into elements.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t05",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Proton",
+          "definition": "A positively charged particle in an atom.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t06",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Neutron",
+          "definition": "A neutral particle in an atom.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t07",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Electron",
+          "definition": "A negatively charged particle in an atom.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t08",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Electric charge",
+          "definition": "A fundamental property of matter measured in coulombs.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t09",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Coulomb",
+          "definition": "The SI unit used to measure electric charge.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t10",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Electric current",
+          "definition": "The flow of electric charge, measured in amperes.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t11",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Voltage",
+          "definition": "The electrical potential difference that drives current, measured in volts.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t12",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Resistance",
+          "definition": "The opposition to electric current, measured in ohms.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t13",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Ohm's law",
+          "definition": "The relationship between voltage, current, and resistance, commonly written as V = IR.",
+          "page": 3,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t14",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Conductor",
+          "definition": "A material that allows electric charge to flow easily.",
+          "page": 3,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-midterm-04-t15",
+          "termId": "midterm",
+          "handoutId": "it1919-midterm-04",
+          "term": "Insulator",
+          "definition": "A material that resists the flow of electric charge.",
+          "page": 3,
+          "sectionId": "key-terms"
+        }
+      ]
+    },
+    {
+      "id": "it1919-prefinals-05",
+      "termId": "prefinals",
+      "number": "05",
+      "title": "Microcontrollers Fundamentals",
+      "summary": "Microcontrollers Fundamentals • A microcomputer typically consists of a microprocessor (CPU) chip, input and output chips, and memory chips in which programs (instructions and data) are stored. A microprocessor is the CPU of a microcomputer contained in a single chip and must be interfaced with memory and I/O chips in order to function.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "page": 1,
+          "bullets": [
+            "Microcontrollers Fundamentals • A microcomputer typically consists of a microprocessor (CPU) chip, input and output chips, and memory chips in which programs (instructions and data) are stored.",
+            "A microprocessor is the CPU of a microcomputer contained in a single chip and must be interfaced with memory and I/O chips in order to function.",
+            "A microcontroller is implemented in a single chip containing a CPU, memory, and IOP (I/O and peripherals).",
+            "A typical IOP contains an I/O unit, timers, AD (Analog-to-Digital) converter, and other peripheral functions."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key concepts",
+          "page": 1,
+          "bullets": [
+            "The basic blocks of a microcomputer are as follows: o Central Processing Unit (CPU) – executes all the instructions and performs arithmetic and logic operations on data.",
+            "Read-Only Memory (ROM) - retains its content when the power is turned off (non-volatile).",
+            "It is typically used to store instructions and data that do not change.",
+            "Random Access Memory (RAM) – does not retain its content when the power is turned off (volatile).",
+            "It is used to store programs and data that are temporary and might change during the course of executing a program.",
+            "Input/output (I/O) – transfers data between the microcomputer and the external devices via I/O ports (registers)."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key terms",
+          "page": 1,
+          "bullets": [
+            "Microcomputer ? A computer made of a microprocessor, input/output chips, and memory chips.",
+            "Microprocessor ? The CPU of a microcomputer contained in a single chip, requiring memory and I/O chips to function.",
+            "Microcontroller ? A single chip containing a CPU, memory, and input/output peripherals.",
+            "Central Processing Unit ? The component that executes instructions and performs arithmetic and logic operations on data.",
+            "ROM ? Read-only memory that retains its contents when power is off and stores fixed instructions and data."
+          ],
+          "tableIds": [
+            "it1919-prefinals-05-terms"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "it1919-prefinals-05-terms",
+          "title": "Key terms",
+          "headers": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Microcomputer",
+              "A computer made of a microprocessor, input/output chips, and memory chips."
+            ],
+            [
+              "Microprocessor",
+              "The CPU of a microcomputer contained in a single chip, requiring memory and I/O chips to function."
+            ],
+            [
+              "Microcontroller",
+              "A single chip containing a CPU, memory, and input/output peripherals."
+            ],
+            [
+              "Central Processing Unit",
+              "The component that executes instructions and performs arithmetic and logic operations on data."
+            ],
+            [
+              "ROM",
+              "Read-only memory that retains its contents when power is off and stores fixed instructions and data."
+            ],
+            [
+              "RAM",
+              "Random access memory that loses its contents when power is off and stores temporary programs and data."
+            ],
+            [
+              "System bus",
+              "The internal set of address, data, and control buses that carries information during program execution."
+            ],
+            [
+              "Address bus",
+              "The bus that transfers addresses in one direction from the processor to memory or I/O."
+            ],
+            [
+              "Data bus",
+              "The bidirectional bus that carries data to or from the CPU."
+            ],
+            [
+              "Control bus",
+              "The bus that carries signals used to synchronize the operation of microcomputer components."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "it1919-prefinals-05-t01",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Microcomputer",
+          "definition": "A computer made of a microprocessor, input/output chips, and memory chips.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t02",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Microprocessor",
+          "definition": "The CPU of a microcomputer contained in a single chip, requiring memory and I/O chips to function.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t03",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Microcontroller",
+          "definition": "A single chip containing a CPU, memory, and input/output peripherals.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t04",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Central Processing Unit",
+          "definition": "The component that executes instructions and performs arithmetic and logic operations on data.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t05",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "ROM",
+          "definition": "Read-only memory that retains its contents when power is off and stores fixed instructions and data.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t06",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "RAM",
+          "definition": "Random access memory that loses its contents when power is off and stores temporary programs and data.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t07",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "System bus",
+          "definition": "The internal set of address, data, and control buses that carries information during program execution.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t08",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Address bus",
+          "definition": "The bus that transfers addresses in one direction from the processor to memory or I/O.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t09",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Data bus",
+          "definition": "The bidirectional bus that carries data to or from the CPU.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t10",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Control bus",
+          "definition": "The bus that carries signals used to synchronize the operation of microcomputer components.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t11",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Clock",
+          "definition": "A timing circuit that synchronizes the components and instruction execution of a microcontroller.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t12",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Register",
+          "definition": "A small volatile storage location for bits inside the CPU.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t13",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Program counter",
+          "definition": "The register that contains the address of the next instruction.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t14",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Instruction register",
+          "definition": "The register that stores the instruction currently being processed.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t15",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Memory address register",
+          "definition": "The register that contains the address of data being accessed.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-prefinals-05-t16",
+          "termId": "prefinals",
+          "handoutId": "it1919-prefinals-05",
+          "term": "Harvard architecture",
+          "definition": "A processor architecture with separate program and data memories and separate buses.",
+          "page": 2,
+          "sectionId": "key-terms"
+        }
+      ]
+    },
+    {
+      "id": "it1919-finals-06",
+      "termId": "finals",
+      "number": "06",
+      "title": "Microcontroller Programming Fundamentals",
+      "summary": "Microcontroller Programming Fundamentals • Programs written using Arduino Software (IDE) are called sketches, saved with the file extension, .ino. The Arduino programming language can be divided into three (3) main parts: functions, variables and constants, and structure.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "page": 1,
+          "bullets": [
+            "Microcontroller Programming Fundamentals • Programs written using Arduino Software (IDE) are called sketches, saved with the file extension, .ino.",
+            "The Arduino programming language can be divided into three (3) main parts: functions, variables and constants, and structure.",
+            "Functions are used for controlling the Arduino board and performing computations.",
+            "There are two (2) special functions that are required in every Arduino sketch: setup() and loop()."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key concepts",
+          "page": 1,
+          "bullets": [
+            "It is used for tasks like setting pin modes or initializing libraries.",
+            "Some of the most commonly used functions in a sketch: o The pinMode() function configures a pin as either an input or an output.",
+            "To use this, indicate the number (or variable name) of the pin to configure and the constant, INPUT or OUTPUT.",
+            "pinMode(13, OUTPUT); o The digitalWrite() functions outputs a value on a pin.",
+            "To use this, indicate the number (or variable name) of the pin and the constant, HIGH or LOW.",
+            "digitalWrite(13, HIGH); o The delay() pauses the program for the specified number of milliseconds before continuing to the next line."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key terms",
+          "page": 1,
+          "bullets": [
+            "Sketch ? An Arduino program written in the Arduino IDE and saved with the .ino extension.",
+            "setup() ? The Arduino function called once when a sketch starts, used to set pin modes or initialize libraries.",
+            "loop() ? The Arduino function that executes statements repeatedly and is considered the heart of a sketch.",
+            "pinMode() ? The Arduino function that configures a pin as an input or an output.",
+            "digitalWrite() ? The Arduino function that outputs a HIGH or LOW value on a pin."
+          ],
+          "tableIds": [
+            "it1919-finals-06-terms"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "it1919-finals-06-terms",
+          "title": "Key terms",
+          "headers": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Sketch",
+              "An Arduino program written in the Arduino IDE and saved with the .ino extension."
+            ],
+            [
+              "setup()",
+              "The Arduino function called once when a sketch starts, used to set pin modes or initialize libraries."
+            ],
+            [
+              "loop()",
+              "The Arduino function that executes statements repeatedly and is considered the heart of a sketch."
+            ],
+            [
+              "pinMode()",
+              "The Arduino function that configures a pin as an input or an output."
+            ],
+            [
+              "digitalWrite()",
+              "The Arduino function that outputs a HIGH or LOW value on a pin."
+            ],
+            [
+              "delay()",
+              "The Arduino function that pauses the program for a specified number of milliseconds."
+            ],
+            [
+              "Variable",
+              "A named storage location holding values that may change as the program runs."
+            ],
+            [
+              "Constant",
+              "A named identifier whose value cannot change while the program runs."
+            ],
+            [
+              "Function",
+              "A programming construct used to control the Arduino board and perform computations."
+            ],
+            [
+              "Structure",
+              "The elements of an Arduino sketch such as setup(), loop(), operators, and comments."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "it1919-finals-06-t01",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "Sketch",
+          "definition": "An Arduino program written in the Arduino IDE and saved with the .ino extension.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t02",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "setup()",
+          "definition": "The Arduino function called once when a sketch starts, used to set pin modes or initialize libraries.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t03",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "loop()",
+          "definition": "The Arduino function that executes statements repeatedly and is considered the heart of a sketch.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t04",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "pinMode()",
+          "definition": "The Arduino function that configures a pin as an input or an output.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t05",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "digitalWrite()",
+          "definition": "The Arduino function that outputs a HIGH or LOW value on a pin.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t06",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "delay()",
+          "definition": "The Arduino function that pauses the program for a specified number of milliseconds.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t07",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "Variable",
+          "definition": "A named storage location holding values that may change as the program runs.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t08",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "Constant",
+          "definition": "A named identifier whose value cannot change while the program runs.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t09",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "Function",
+          "definition": "A programming construct used to control the Arduino board and perform computations.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t10",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "Structure",
+          "definition": "The elements of an Arduino sketch such as setup(), loop(), operators, and comments.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t11",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "LED_BUILTIN",
+          "definition": "The constant giving the pin number connected to the board's on-board LED.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t12",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "Data type",
+          "definition": "A category such as int, float, boolean, or char that defines the kind of value a variable holds.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it1919-finals-06-t13",
+          "termId": "finals",
+          "handoutId": "it1919-finals-06",
+          "term": "Array",
+          "definition": "A collection of values of the same data type stored under one name.",
+          "page": 1,
+          "sectionId": "key-terms"
+        }
+      ]
+    }
+  ]
+}

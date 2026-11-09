@@ -1,0 +1,1167 @@
+{
+  "subjectId": "it2102",
+  "subject": "Embedded Systems",
+  "version": "1.0.0",
+  "handouts": [
+    {
+      "id": "it2102-prelim-01",
+      "termId": "prelim",
+      "number": "01",
+      "title": "Introduction to Embedded Systems",
+      "summary": "Introduction to Embedded Systems Embedded systems are a combination of hardware and software parts. When these two parts are combined, embedded systems bring together products such as a cell phone, a music player, a network router, an aircraft guidance system, and many others.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "page": 1,
+          "bullets": [
+            "Introduction to Embedded Systems Embedded systems are a combination of hardware and software parts.",
+            "When these two parts are combined, embedded systems bring together products such as a cell phone, a music player, a network router, an aircraft guidance system, and many others.",
+            "Embedded means something that is attached to another thing.",
+            "A system is an arrangement in which all its units assemble work according to a set of rules."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key concepts",
+          "page": 1,
+          "bullets": [
+            "It can also be defined as working, organizing, or doing one or many tasks according to a fixed plan.",
+            "Definition of Terms (Marwedel, 2017) • Ubiquitous computing (Pervasive computing) describes that computing focuses more on providing information anytime, anywhere.",
+            "(Weiser, 1988) o Definition (Dictionary) ▪ Ubiquitous – connotes to everywhere.",
+            "Invisible computer implicates that computers are going to be integrated into products that it will become invisible.",
+            "This is in the sense of being more miniscule and unseen in today’s interpretation.",
+            "Ambient intelligence implies that intelligence can be implanted in our everyday environments and makes those environments sensitive."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key terms",
+          "page": 1,
+          "bullets": [
+            "Embedded system ? A combination of hardware and software designed to perform dedicated functions inside a larger product or system.",
+            "Ubiquitous computing ? A computing approach that focuses on providing information anytime and anywhere.",
+            "Cyber-physical system ? An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+            "Internet of Things ? A network of devices with unique addressing that interact and cooperate to reach common goals.",
+            "Sensor ? A device that measures a physical quantity and converts it into an electrical signal."
+          ],
+          "tableIds": [
+            "it2102-prelim-01-terms"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "it2102-prelim-01-terms",
+          "title": "Key terms",
+          "headers": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Embedded system",
+              "A combination of hardware and software designed to perform dedicated functions inside a larger product or system."
+            ],
+            [
+              "Ubiquitous computing",
+              "A computing approach that focuses on providing information anytime and anywhere."
+            ],
+            [
+              "Cyber-physical system",
+              "An integration of computation and physical processes that is observed through sensors and controlled through actuators."
+            ],
+            [
+              "Internet of Things",
+              "A network of devices with unique addressing that interact and cooperate to reach common goals."
+            ],
+            [
+              "Sensor",
+              "A device that measures a physical quantity and converts it into an electrical signal."
+            ],
+            [
+              "Actuator",
+              "A component that converts a control signal into a physical action or output."
+            ],
+            [
+              "Safety",
+              "The condition of being protected from harm or other non-desirable outcomes."
+            ],
+            [
+              "Security",
+              "Protection against harm caused by attacks originating from outside the system."
+            ],
+            [
+              "Confidentiality",
+              "The property that information can only be accessed by its intended recipients."
+            ],
+            [
+              "Reliability",
+              "The ability of a system to avoid malfunctions caused by components that stop working."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "it2102-prelim-01-t01",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Embedded system",
+          "definition": "A combination of hardware and software designed to perform dedicated functions inside a larger product or system.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t02",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Ubiquitous computing",
+          "definition": "A computing approach that focuses on providing information anytime and anywhere.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t03",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Cyber-physical system",
+          "definition": "An integration of computation and physical processes that is observed through sensors and controlled through actuators.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t04",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Internet of Things",
+          "definition": "A network of devices with unique addressing that interact and cooperate to reach common goals.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t05",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Sensor",
+          "definition": "A device that measures a physical quantity and converts it into an electrical signal.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t06",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Actuator",
+          "definition": "A component that converts a control signal into a physical action or output.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t07",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Safety",
+          "definition": "The condition of being protected from harm or other non-desirable outcomes.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t08",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Security",
+          "definition": "Protection against harm caused by attacks originating from outside the system.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t09",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Confidentiality",
+          "definition": "The property that information can only be accessed by its intended recipients.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t10",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Reliability",
+          "definition": "The ability of a system to avoid malfunctions caused by components that stop working.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t11",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Repairability",
+          "definition": "The probability that a failing system can be repaired within a certain time.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t12",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Availability",
+          "definition": "The probability that a system is available when it is needed.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t13",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Hard real-time",
+          "definition": "A system designed to meet all deadlines, where a missed deadline is a design flaw.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t14",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Firm real-time",
+          "definition": "A system that meets all deadlines but allows an occasional missed deadline.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t15",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Soft real-time",
+          "definition": "A system that meets as many deadlines as possible but may occasionally be late.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t16",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Model",
+          "definition": "A simplified representation containing only the traits of the modeled entity that are relevant to the task.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-01-t17",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-01",
+          "term": "Ambient intelligence",
+          "definition": "Intelligence embedded in everyday environments so that the environment becomes sensitive and responsive.",
+          "page": 1,
+          "sectionId": "key-terms"
+        }
+      ]
+    },
+    {
+      "id": "it2102-prelim-03",
+      "termId": "prelim",
+      "number": "03",
+      "title": "Embedded System Structure",
+      "summary": "Embedded System Structure Input Block (Marwedel, 2017 & Pan, 2018) The input block accepts the data signals from the external world into the system which may be directed to any number of destinations. A sensor is a device that measures a physical quantity.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "page": 1,
+          "bullets": [
+            "Embedded System Structure Input Block (Marwedel, 2017 & Pan, 2018) The input block accepts the data signals from the external world into the system which may be directed to any number of destinations.",
+            "A sensor is a device that measures a physical quantity.",
+            "It can be designed for virtually every physical quantity.",
+            "Light Sensitive Sensor - an electromagnetic radiation detector that uses ultraviolet to far infrared spectral range."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key concepts",
+          "page": 1,
+          "bullets": [
+            "Electric signals can be detected as an input when photons are absorbed by the material.",
+            "Photodiode is a reverse-biased semiconducting optical sensor that is biased against its easy flow direction so that the current is very low.",
+            "Temperature Sensor - provides temperature feedback to a system controller to make decisions.",
+            "Line-tracking Sensor - can detect white lines in black and black lines in white via the TTL signal.",
+            "Ultrasonic Sensor - uses sonar to determine the distance from an object.",
+            "The sensor is a non-contact distance measurement equipment that uses a timing variable, measured from the transmission signal till a reflected signal is received from the object."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key terms",
+          "page": 1,
+          "bullets": [
+            "Input block ? The part of an embedded system that accepts data signals from the external world.",
+            "Photodiode ? A reverse-biased semiconducting optical sensor that produces a very low current.",
+            "Temperature sensor ? A sensor that provides temperature feedback to a system controller.",
+            "Line-tracking sensor ? A sensor that detects white lines in black and black lines in white using a TTL signal.",
+            "Ultrasonic sensor ? A non-contact distance sensor that uses sonar timing to measure the distance to an object."
+          ],
+          "tableIds": [
+            "it2102-prelim-03-terms"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "it2102-prelim-03-terms",
+          "title": "Key terms",
+          "headers": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Input block",
+              "The part of an embedded system that accepts data signals from the external world."
+            ],
+            [
+              "Photodiode",
+              "A reverse-biased semiconducting optical sensor that produces a very low current."
+            ],
+            [
+              "Temperature sensor",
+              "A sensor that provides temperature feedback to a system controller."
+            ],
+            [
+              "Line-tracking sensor",
+              "A sensor that detects white lines in black and black lines in white using a TTL signal."
+            ],
+            [
+              "Ultrasonic sensor",
+              "A non-contact distance sensor that uses sonar timing to measure the distance to an object."
+            ],
+            [
+              "Motion sensor",
+              "An electronic device that detects movement within its field of view."
+            ],
+            [
+              "Hall sensor",
+              "An omni-polar magnetic sensor used for proximity, positioning, speed, and current sensing."
+            ],
+            [
+              "Datapath block",
+              "The block that coordinates system activities and performs computations and data manipulation."
+            ],
+            [
+              "Control block",
+              "The processing unit that directs the operations of an embedded system."
+            ],
+            [
+              "Channel",
+              "An abstract communication entity described by properties such as transfer capacity and noise."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "it2102-prelim-03-t01",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Input block",
+          "definition": "The part of an embedded system that accepts data signals from the external world.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t02",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Photodiode",
+          "definition": "A reverse-biased semiconducting optical sensor that produces a very low current.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t03",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Temperature sensor",
+          "definition": "A sensor that provides temperature feedback to a system controller.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t04",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Line-tracking sensor",
+          "definition": "A sensor that detects white lines in black and black lines in white using a TTL signal.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t05",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Ultrasonic sensor",
+          "definition": "A non-contact distance sensor that uses sonar timing to measure the distance to an object.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t06",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Motion sensor",
+          "definition": "An electronic device that detects movement within its field of view.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t07",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Hall sensor",
+          "definition": "An omni-polar magnetic sensor used for proximity, positioning, speed, and current sensing.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t08",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Datapath block",
+          "definition": "The block that coordinates system activities and performs computations and data manipulation.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t09",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Control block",
+          "definition": "The processing unit that directs the operations of an embedded system.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t10",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Channel",
+          "definition": "An abstract communication entity described by properties such as transfer capacity and noise.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t11",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Communication media",
+          "definition": "The physical entities that enable communication, such as wires, optical fibers, and wireless links.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t12",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "VLIW",
+          "definition": "Very Long Instruction Word processing, where several operations are encoded in a single long instruction.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t13",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "EPIC",
+          "definition": "Explicitly Parallel Instruction Set Computer, a design that explicitly identifies operations to run in parallel.",
+          "page": 3,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t14",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "Homogeneous multicore",
+          "definition": "A multicore architecture that uses multiple identical processor cores.",
+          "page": 3,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t15",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "ROM",
+          "definition": "Read-only memory that stores embedded instructions and data that do not normally change.",
+          "page": 3,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prelim-03-t16",
+          "termId": "prelim",
+          "handoutId": "it2102-prelim-03",
+          "term": "RAM",
+          "definition": "Random access memory that is volatile and stores temporary programs and data.",
+          "page": 3,
+          "sectionId": "key-terms"
+        }
+      ]
+    },
+    {
+      "id": "it2102-midterm-04",
+      "termId": "midterm",
+      "number": "04",
+      "title": "Communications and Protocols",
+      "summary": "Communications and Protocols Types of Processor Communication • Outbound Embedded systems utilize microprocessors as the main control element in various kinds of measurement or control systems. I/O subsystem views the hardware and software within the range of communication: o Local devices – These devices tend to be in closer proximity (1 - 3m less) to the core system and typically have proprietary or specialized interfaces.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "page": 1,
+          "bullets": [
+            "Communications and Protocols Types of Processor Communication • Outbound Embedded systems utilize microprocessors as the main control element in various kinds of measurement or control systems.",
+            "I/O subsystem views the hardware and software within the range of communication: o Local devices – These devices tend to be in closer proximity (1 - 3m less) to the core system and typically have proprietary or specialized interfaces.",
+            "Any tasks executing on such devices are usually associated with the function of the specific device and are not considered to be part of the embedded application proper.",
+            "Remote devices - These devices tend to be located at a greater physical distance (3 - 5m more)."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key concepts",
+          "page": 1,
+          "bullets": [
+            "Interaction with remote external devices begins with the notion of distributed tasks executing on these devices and forms.",
+            "Inbound Information must be communicated before it can be processed in an embedded system.",
+            "Information can be communicated through various channels and beyond.",
+            "Channels are abstract entities characterized by the essential properties of communication.",
+            "The physical entities enabling communication are called communication media: wired or wireless.",
+            "Communication and Synchronization Model (Peckol, 2019 & Mardewel, 2018) The requirements for synchronization and for exchanging data and information among tasks are to be identified through protocol standards and interfaces."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key terms",
+          "page": 1,
+          "bullets": [
+            "Local device ? A device located close to the core system, usually within one to three meters, with a specialized interface.",
+            "Remote device ? A device located farther from the core system, usually three to five meters or more, with distributed tasks.",
+            "Channel ? An abstract communication entity characterized by transfer capacity and noise parameters.",
+            "Communication media ? The wired or wireless physical entities that enable communication.",
+            "Single-ended signaling ? A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+          ],
+          "tableIds": [
+            "it2102-midterm-04-terms"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "it2102-midterm-04-terms",
+          "title": "Key terms",
+          "headers": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Local device",
+              "A device located close to the core system, usually within one to three meters, with a specialized interface."
+            ],
+            [
+              "Remote device",
+              "A device located farther from the core system, usually three to five meters or more, with distributed tasks."
+            ],
+            [
+              "Channel",
+              "An abstract communication entity characterized by transfer capacity and noise parameters."
+            ],
+            [
+              "Communication media",
+              "The wired or wireless physical entities that enable communication."
+            ],
+            [
+              "Single-ended signaling",
+              "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise."
+            ],
+            [
+              "Differential signaling",
+              "A signaling method that uses two wires per signal and twisted pairing to reduce noise."
+            ],
+            [
+              "I/O driver",
+              "A software routine associated with an I/O device that manages communication with that device."
+            ],
+            [
+              "Transport mechanism",
+              "The implementation that moves information through a physical medium or configuration."
+            ],
+            [
+              "Protocol",
+              "A standard set of rules and interfaces used to synchronize tasks and exchange data."
+            ],
+            [
+              "Distributed task",
+              "A task that executes on a remote device and interacts with the rest of the system."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "it2102-midterm-04-t01",
+          "termId": "midterm",
+          "handoutId": "it2102-midterm-04",
+          "term": "Local device",
+          "definition": "A device located close to the core system, usually within one to three meters, with a specialized interface.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-midterm-04-t02",
+          "termId": "midterm",
+          "handoutId": "it2102-midterm-04",
+          "term": "Remote device",
+          "definition": "A device located farther from the core system, usually three to five meters or more, with distributed tasks.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-midterm-04-t03",
+          "termId": "midterm",
+          "handoutId": "it2102-midterm-04",
+          "term": "Channel",
+          "definition": "An abstract communication entity characterized by transfer capacity and noise parameters.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-midterm-04-t04",
+          "termId": "midterm",
+          "handoutId": "it2102-midterm-04",
+          "term": "Communication media",
+          "definition": "The wired or wireless physical entities that enable communication.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-midterm-04-t05",
+          "termId": "midterm",
+          "handoutId": "it2102-midterm-04",
+          "term": "Single-ended signaling",
+          "definition": "A signaling method that propagates a signal on one wire with respect to a common ground and is susceptible to noise.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-midterm-04-t06",
+          "termId": "midterm",
+          "handoutId": "it2102-midterm-04",
+          "term": "Differential signaling",
+          "definition": "A signaling method that uses two wires per signal and twisted pairing to reduce noise.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-midterm-04-t07",
+          "termId": "midterm",
+          "handoutId": "it2102-midterm-04",
+          "term": "I/O driver",
+          "definition": "A software routine associated with an I/O device that manages communication with that device.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-midterm-04-t08",
+          "termId": "midterm",
+          "handoutId": "it2102-midterm-04",
+          "term": "Transport mechanism",
+          "definition": "The implementation that moves information through a physical medium or configuration.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-midterm-04-t09",
+          "termId": "midterm",
+          "handoutId": "it2102-midterm-04",
+          "term": "Protocol",
+          "definition": "A standard set of rules and interfaces used to synchronize tasks and exchange data.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-midterm-04-t10",
+          "termId": "midterm",
+          "handoutId": "it2102-midterm-04",
+          "term": "Distributed task",
+          "definition": "A task that executes on a remote device and interacts with the rest of the system.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-midterm-04-t11",
+          "termId": "midterm",
+          "handoutId": "it2102-midterm-04",
+          "term": "Timing requirement",
+          "definition": "A constraint on when an I/O exchange or computation must occur.",
+          "page": 2,
+          "sectionId": "key-terms"
+        }
+      ]
+    },
+    {
+      "id": "it2102-prefinals-05",
+      "termId": "prefinals",
+      "number": "05",
+      "title": "Interfaces and Mechanisms",
+      "summary": "Interfaces and Mechanisms Today’s embedded systems integrate computing and physical dynamics. Dynamics refers to the capability to do actions required in a computing system.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "page": 1,
+          "bullets": [
+            "Interfaces and Mechanisms Today’s embedded systems integrate computing and physical dynamics.",
+            "Dynamics refers to the capability to do actions required in a computing system.",
+            "It supports all interaction with the outside world in which it passes through so called interfaces.",
+            "Interfaces establish connection between humans, environment, phenomena, and machines, thus providing input, process, or output."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key concepts",
+          "page": 1,
+          "bullets": [
+            "Physical I/O Interfaces (Lee & Seshia, 2017) All embedded systems include some form of input and output (I/O) operations.",
+            "I/O operations are interpreted differently depending on the viewpoint taken and place different requirements on the level of understanding of the hardware details such as: • I/O operations imply communicating with the device.",
+            "Performing actual data transfer between the device and the system.",
+            "Common I/O Interfaces • Pulse Width Modulation - is a technique for delivering a variable amount of power efficiently to external hardware devices.",
+            "A PWM signal rapidly switches between high and low at some fixed frequency, varying the amount of time that it holds the signal high.",
+            "General-Purpose Digital I/O - enables the software to either read or write voltage levels representing a logical zero or one."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key terms",
+          "page": 1,
+          "bullets": [
+            "Interface ? A connection between humans, the environment, phenomena, and machines that provides input, process, or output.",
+            "Pulse Width Modulation ? A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+            "General-purpose digital I/O ? A digital interface that lets software read or write logical zero and one voltage levels.",
+            "Serial interface ? An interface that sends or receives a sequence of bits one after another over a single line.",
+            "Parallel interface ? An interface that uses multiple lines to send or receive bits simultaneously."
+          ],
+          "tableIds": [
+            "it2102-prefinals-05-terms"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "it2102-prefinals-05-terms",
+          "title": "Key terms",
+          "headers": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Interface",
+              "A connection between humans, the environment, phenomena, and machines that provides input, process, or output."
+            ],
+            [
+              "Pulse Width Modulation",
+              "A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency."
+            ],
+            [
+              "General-purpose digital I/O",
+              "A digital interface that lets software read or write logical zero and one voltage levels."
+            ],
+            [
+              "Serial interface",
+              "An interface that sends or receives a sequence of bits one after another over a single line."
+            ],
+            [
+              "Parallel interface",
+              "An interface that uses multiple lines to send or receive bits simultaneously."
+            ],
+            [
+              "Bus",
+              "An interface shared among multiple devices rather than a point-to-point link between two devices."
+            ],
+            [
+              "RS-232",
+              "A serial interface standard introduced by the EIA to connect teletypes to modems."
+            ],
+            [
+              "IEEE-1284",
+              "A parallel printer bus specification that uses a point-to-point asynchronous bidirectional interface."
+            ],
+            [
+              "Tristate logic",
+              "A digital output state that can be high, low, or electrically off."
+            ],
+            [
+              "Handshake",
+              "A control exchange, such as strobe and acknowledge, that coordinates a data transfer."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "it2102-prefinals-05-t01",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "Interface",
+          "definition": "A connection between humans, the environment, phenomena, and machines that provides input, process, or output.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prefinals-05-t02",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "Pulse Width Modulation",
+          "definition": "A technique for delivering variable power by rapidly switching a signal between high and low at a fixed frequency.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prefinals-05-t03",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "General-purpose digital I/O",
+          "definition": "A digital interface that lets software read or write logical zero and one voltage levels.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prefinals-05-t04",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "Serial interface",
+          "definition": "An interface that sends or receives a sequence of bits one after another over a single line.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prefinals-05-t05",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "Parallel interface",
+          "definition": "An interface that uses multiple lines to send or receive bits simultaneously.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prefinals-05-t06",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "Bus",
+          "definition": "An interface shared among multiple devices rather than a point-to-point link between two devices.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prefinals-05-t07",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "RS-232",
+          "definition": "A serial interface standard introduced by the EIA to connect teletypes to modems.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prefinals-05-t08",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "IEEE-1284",
+          "definition": "A parallel printer bus specification that uses a point-to-point asynchronous bidirectional interface.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prefinals-05-t09",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "Tristate logic",
+          "definition": "A digital output state that can be high, low, or electrically off.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prefinals-05-t10",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "Handshake",
+          "definition": "A control exchange, such as strobe and acknowledge, that coordinates a data transfer.",
+          "page": 2,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prefinals-05-t11",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "Hardware interrupt",
+          "definition": "A signal generated when external hardware changes the voltage on an interrupt request line.",
+          "page": 3,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-prefinals-05-t12",
+          "termId": "prefinals",
+          "handoutId": "it2102-prefinals-05",
+          "term": "Memory-mapped register",
+          "definition": "A register that software accesses through a memory address.",
+          "page": 1,
+          "sectionId": "key-terms"
+        }
+      ]
+    },
+    {
+      "id": "it2102-finals-06",
+      "termId": "finals",
+      "number": "06",
+      "title": "Embedded System Optimization",
+      "summary": "Embedded System Optimization The aspect of optimization plays a central role during the design of embedded systems. Optimization is a process of improving the efficiency of a system in time (speed), space (size), or resources.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "page": 1,
+          "bullets": [
+            "Embedded System Optimization The aspect of optimization plays a central role during the design of embedded systems.",
+            "Optimization is a process of improving the efficiency of a system in time (speed), space (size), or resources.",
+            "The first step in optimization is to determine the problems that have been existing.",
+            "Most of the optimizations performed on code involve a tradeoff between execution speed and code size."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key concepts",
+          "page": 1,
+          "bullets": [
+            "High-Level Optimizations Software optimization is the process of modifying a software system to make some aspects work more efficiently or use fewer resources.",
+            "Simple Loop Transformations o Loop Permutations – These permutations swap the order of two loops to increase parallelism, improve spatial locality, or enable other transformations.",
+            "It may have a positive effect on the reuse of array elements in the cache since the next iteration of the innermost loop will access an adjacent location in memory.",
+            "Caches are normally organized such that adjacent locations can be accessed significantly faster than locations that are further away from the previously accessed location in which it is exploiting spatial locality.",
+            "Loop Unrolling - is a standard transformation creating several instances of the loop body.",
+            "The number of copies of the loop is called the unrolling factor."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key terms",
+          "page": 1,
+          "bullets": [
+            "Optimization ? The process of improving a system's efficiency in time, space, or resources.",
+            "Software optimization ? The process of modifying a software system so that it works more efficiently or uses fewer resources.",
+            "Loop permutation ? A transformation that swaps the order of two loops to improve parallelism or locality.",
+            "Loop unrolling ? A transformation that creates several instances of a loop body to reduce loop overhead.",
+            "Unrolling factor ? The number of copies of a loop body created by loop unrolling."
+          ],
+          "tableIds": [
+            "it2102-finals-06-terms"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "it2102-finals-06-terms",
+          "title": "Key terms",
+          "headers": [
+            "Term",
+            "Definition"
+          ],
+          "rows": [
+            [
+              "Optimization",
+              "The process of improving a system's efficiency in time, space, or resources."
+            ],
+            [
+              "Software optimization",
+              "The process of modifying a software system so that it works more efficiently or uses fewer resources."
+            ],
+            [
+              "Loop permutation",
+              "A transformation that swaps the order of two loops to improve parallelism or locality."
+            ],
+            [
+              "Loop unrolling",
+              "A transformation that creates several instances of a loop body to reduce loop overhead."
+            ],
+            [
+              "Unrolling factor",
+              "The number of copies of a loop body created by loop unrolling."
+            ],
+            [
+              "Loop fusion",
+              "A transformation that combines two separate loops into one loop."
+            ],
+            [
+              "Loop fission",
+              "A transformation that splits a single loop into two loops."
+            ],
+            [
+              "Loop tiling",
+              "A transformation that chunks nested loops so that memory hierarchies can be used efficiently."
+            ],
+            [
+              "Spatial locality",
+              "The tendency to access memory locations that are close to recently accessed locations."
+            ],
+            [
+              "Cache",
+              "A small, fast memory near the processor that stores recently or frequently used data."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "it2102-finals-06-t01",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Optimization",
+          "definition": "The process of improving a system's efficiency in time, space, or resources.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t02",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Software optimization",
+          "definition": "The process of modifying a software system so that it works more efficiently or uses fewer resources.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t03",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Loop permutation",
+          "definition": "A transformation that swaps the order of two loops to improve parallelism or locality.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t04",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Loop unrolling",
+          "definition": "A transformation that creates several instances of a loop body to reduce loop overhead.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t05",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Unrolling factor",
+          "definition": "The number of copies of a loop body created by loop unrolling.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t06",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Loop fusion",
+          "definition": "A transformation that combines two separate loops into one loop.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t07",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Loop fission",
+          "definition": "A transformation that splits a single loop into two loops.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t08",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Loop tiling",
+          "definition": "A transformation that chunks nested loops so that memory hierarchies can be used efficiently.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t09",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Spatial locality",
+          "definition": "The tendency to access memory locations that are close to recently accessed locations.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t10",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Cache",
+          "definition": "A small, fast memory near the processor that stores recently or frequently used data.",
+          "page": 1,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t11",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Dynamic voltage and frequency scaling",
+          "definition": "A power optimization that reduces dynamic power by adjusting voltage and clock frequency.",
+          "page": 3,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t12",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Priority inheritance",
+          "definition": "A scheduling technique where a task holding a lock temporarily inherits the priority of a higher-priority blocked task.",
+          "page": 3,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t13",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Assignment",
+          "definition": "The scheduling decision of which processor should execute a task.",
+          "page": 4,
+          "sectionId": "key-terms"
+        },
+        {
+          "id": "it2102-finals-06-t14",
+          "termId": "finals",
+          "handoutId": "it2102-finals-06",
+          "term": "Ordering",
+          "definition": "The scheduling decision of the order in which each processor executes its tasks.",
+          "page": 4,
+          "sectionId": "key-terms"
+        }
+      ]
+    }
+  ]
+}

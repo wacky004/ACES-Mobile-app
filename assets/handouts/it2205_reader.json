@@ -1,0 +1,2178 @@
+{
+  "subjectId": "it2205",
+  "subject": "Computer Engineering Laws and Discipline",
+  "version": "1.0.0",
+  "handouts": [
+    {
+      "id": "prelim-01",
+      "termId": "prelim",
+      "number": "01",
+      "title": "Introduction to CPE Laws and Professional Practice",
+      "summary": "The Computer Engineering field, how it differs from Electrical Engineering and Computer Science, what computer engineers do, and the eight traits of professionalism.",
+      "sections": [
+        {
+          "id": "nature",
+          "title": "Nature of the Field Study",
+          "page": 1,
+          "bullets": [
+            "CHED defines BSCpE as the science and technology of design, development, implementation, maintenance, and integration of software and hardware in modern computing systems and computer-controlled equipment.",
+            "The goal is to match hardware and software to the technological, scientific, and administrative needs of businesses and industries.",
+            "CPE integrates electrical engineering and computer science practices.",
+            "Computers are built from electronic circuits, so CPE and EE are closely related."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "compare",
+          "title": "CPE vs. EE vs. CS",
+          "page": 1,
+          "bullets": [
+            "In hardware, computer engineers build hardware while computer scientists generally do not.",
+            "In software, computer scientists know more theory, programming languages, and operating systems.",
+            "Computer engineers often work as programmers writing programs for computer-based systems.",
+            "Computer scientists still know enough hardware to analyze system operations and interact with hardware engineers."
+          ],
+          "tableIds": [
+            "cpe-vs-ee-cs"
+          ]
+        },
+        {
+          "id": "characteristics",
+          "title": "Characteristics of a Computer Engineer",
+          "page": 1,
+          "bullets": [
+            "Design computers, computer-based systems, and networks with both hardware and software, subject to trade-offs.",
+            "Have depth of knowledge in mathematics and engineering sciences.",
+            "Acquire and maintain preparation for professional practice.",
+            "Be life-long learners because the computing field changes rapidly."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "duties",
+          "title": "What Computer Engineers Do",
+          "page": 1,
+          "bullets": [
+            "Research software and computer hardware.",
+            "Design and test processors, circuit boards, memory devices, and routers.",
+            "Write and test software for mobile devices and computers.",
+            "Design, set up, and test networks; manage operating systems; design robots; create programs for products from aircraft to surgical technology."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "professionalism",
+          "title": "Professionalism and its 8 Traits",
+          "page": 2,
+          "bullets": [
+            "Professionalism is more than qualifications, knowledge, and skills; it also requires integrity, ethics, and trust.",
+            "The essence is not just the job to be done but how the job is done.",
+            "The eight traits are competence, knowledge, respect, emotional intelligence, integrity, appropriateness, conscientiousness, and confidence."
+          ],
+          "tableIds": [
+            "professionalism-traits"
+          ]
+        },
+        {
+          "id": "trait-details",
+          "title": "Trait Details",
+          "page": 2,
+          "bullets": [
+            "Competence: the job gets done well; abilities match the role and results often exceed expectations.",
+            "Knowledge: detailed, up-to-date, specialized knowledge that is put into action.",
+            "Respect: politeness and good manners to everyone; consider needs and uphold rights.",
+            "Emotional intelligence: stay professional under pressure and stay aware of others' feelings.",
+            "Integrity: be true to your word and do not compromise values even when the road is harder.",
+            "Appropriateness: dress, grooming, body language, speech, topics, and behavior.",
+            "Conscientiousness: reliable, high standards, organized, accountable; not overwork or perfectionism.",
+            "Confidence: well-founded confidence reassures, motivates, supports leadership, and encourages challenges."
+          ],
+          "tableIds": []
+        }
+      ],
+      "tables": [
+        {
+          "id": "cpe-vs-ee-cs",
+          "title": "CPE vs. Electrical Engineering vs. Computer Science",
+          "headers": [
+            "Aspect",
+            "Computer Engineering",
+            "Electrical Engineering",
+            "Computer Science"
+          ],
+          "rows": [
+            [
+              "Hardware",
+              "Builds hardware and integrates systems",
+              "Designs electrical and electronic systems",
+              "Generally does not build hardware"
+            ],
+            [
+              "Software",
+              "Writes programs for computer-based systems",
+              "Applies electrical/electronic design",
+              "Studies theory, programming languages, and operating systems"
+            ],
+            [
+              "Focus",
+              "Hardware and software trade-offs",
+              "Electrical and electronic systems",
+              "Computation and software"
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        },
+        {
+          "id": "professionalism-traits",
+          "title": "Eight Core Characteristics of Professionalism",
+          "headers": [
+            "Characteristic",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Competence",
+              "Gets the job done well; abilities match the role and results often exceed expectations."
+            ],
+            [
+              "Knowledge",
+              "Develops up-to-date, specialized knowledge and puts it into action."
+            ],
+            [
+              "Respect",
+              "Shows politeness and good manners to everyone and upholds their rights."
+            ],
+            [
+              "Emotional intelligence",
+              "Stays professional under pressure and is aware of others' feelings."
+            ],
+            [
+              "Integrity",
+              "Keeps true to their word and does not compromise values."
+            ],
+            [
+              "Appropriateness",
+              "Knows what is appropriate in dress, speech, topics, and behavior."
+            ],
+            [
+              "Conscientiousness",
+              "Is reliable, organized, accountable, and committed to high standards."
+            ],
+            [
+              "Confidence",
+              "Shows well-founded confidence that reassures, motivates, and leads."
+            ]
+          ],
+          "page": 2,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "p01-cpe",
+          "term": "Computer Engineering",
+          "aliases": [
+            "CPE"
+          ],
+          "definition": "A program that embodies the design, development, implementation, maintenance, and integration of software and hardware in modern computing systems and computer-controlled equipment.",
+          "page": 1,
+          "sectionId": "nature"
+        },
+        {
+          "id": "p01-cmo",
+          "term": "CHED BSCpE memorandum",
+          "aliases": [
+            "CHED CMO"
+          ],
+          "definition": "The CHED policies, standards, and guidelines for the Bachelor of Science in Computer Engineering.",
+          "page": 1,
+          "sectionId": "nature"
+        },
+        {
+          "id": "p01-professionalism",
+          "term": "Professionalism",
+          "aliases": [],
+          "definition": "A set of values, behaviors, and responsibilities in how specialist knowledge and skills are applied; requires integrity, ethics, and trust.",
+          "page": 2,
+          "sectionId": "professionalism"
+        },
+        {
+          "id": "p01-competence",
+          "term": "Competence",
+          "aliases": [],
+          "definition": "The ability to get the job done well, with abilities that match the role and results that often exceed expectations.",
+          "page": 2,
+          "sectionId": "trait-details"
+        },
+        {
+          "id": "p01-knowledge",
+          "term": "Knowledge",
+          "aliases": [],
+          "definition": "Detailed, up-to-date, often highly specialized knowledge that is put into action.",
+          "page": 2,
+          "sectionId": "trait-details"
+        },
+        {
+          "id": "p01-respect",
+          "term": "Respect",
+          "aliases": [],
+          "definition": "Being a role model of politeness and good manners to everyone, considering their needs and upholding their rights.",
+          "page": 2,
+          "sectionId": "trait-details"
+        },
+        {
+          "id": "p01-eq",
+          "term": "Emotional intelligence",
+          "aliases": [
+            "EQ"
+          ],
+          "definition": "Staying professional under pressure, managing emotions, and being aware of other people's feelings.",
+          "page": 2,
+          "sectionId": "trait-details"
+        },
+        {
+          "id": "p01-integrity",
+          "term": "Integrity",
+          "aliases": [],
+          "definition": "Keeping true to your word and refusing to compromise your values, even when the road is harder.",
+          "page": 2,
+          "sectionId": "trait-details"
+        },
+        {
+          "id": "p01-appropriateness",
+          "term": "Appropriateness",
+          "aliases": [],
+          "definition": "Knowing what is appropriate in different situations, including dress, grooming, body language, speech, topics, and behavior.",
+          "page": 2,
+          "sectionId": "trait-details"
+        },
+        {
+          "id": "p01-conscientiousness",
+          "term": "Conscientiousness",
+          "aliases": [],
+          "definition": "Being reliable, setting high standards, planning and prioritizing work, and holding yourself accountable without perfectionism.",
+          "page": 3,
+          "sectionId": "trait-details"
+        },
+        {
+          "id": "p01-confidence",
+          "term": "Confidence",
+          "aliases": [],
+          "definition": "Well-founded confidence that reassures and motivates others, supports leadership, and encourages new challenges.",
+          "page": 3,
+          "sectionId": "trait-details"
+        },
+        {
+          "id": "p01-lifelong",
+          "term": "Life-long learner",
+          "aliases": [],
+          "definition": "A computer engineer who continuously updates knowledge and skills because the computing field changes rapidly.",
+          "page": 1,
+          "sectionId": "characteristics"
+        }
+      ]
+    },
+    {
+      "id": "prelim-02",
+      "termId": "prelim",
+      "number": "02",
+      "title": "Computer Engineering & IT Laws",
+      "summary": "Cybersecurity and data protection, the Philippine IT laws, cybercrime offenses, and the international agreements behind them.",
+      "sections": [
+        {
+          "id": "definitions",
+          "title": "Cybersecurity, Data Protection, and Cybercrime",
+          "page": 1,
+          "bullets": [
+            "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.",
+            "Data protection is the process of safeguarding important information from corruption, compromise, or loss.",
+            "IT law governs the digital dissemination of information and software, including computing and the Internet.",
+            "Cybercrime is a crime committed with or using information and communication technologies."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "categories",
+          "title": "Budapest Convention Categories",
+          "page": 1,
+          "bullets": [
+            "Crimes against the confidentiality, integrity, and availability of computer data and systems.",
+            "Computer-related offenses.",
+            "Content-related offenses.",
+            "Crimes related to copyright and related rights infringements."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "ph-laws",
+          "title": "Philippine IT Laws",
+          "page": 1,
+          "bullets": [
+            "RA 10175: Cybercrime Prevention Act of 2012.",
+            "RA 8792: E-Commerce Act of 2000.",
+            "RA 8484: Access Device Regulation Act of 1998.",
+            "RA 4200: Anti-Wiretapping Law.",
+            "RA 10173: Data Privacy Act of 2012, administered by the National Privacy Commission.",
+            "RA 9775: Anti-Child Pornography Act of 2009.",
+            "RA 9995: Anti-Photo and Voyeurism Act of 2009.",
+            "The first recorded PH cybercrime was the 2000 I Love You virus by Onel de Guzman; it was initially dismissed because no cybercrime law existed."
+          ],
+          "tableIds": [
+            "ph-it-laws"
+          ]
+        },
+        {
+          "id": "offenses-a",
+          "title": "Offenses Against Data and Systems",
+          "page": 2,
+          "bullets": [
+            "Illegal access: accessing a computer system without right.",
+            "Illegal interception: intercepting non-public computer data transmissions without right.",
+            "Data interference: altering, damaging, deleting, or deteriorating data, including introducing viruses.",
+            "System interference: hindering or interfering with a computer or network's functioning.",
+            "Misuse of devices: using, producing, selling, or distributing a computer program or password without right.",
+            "Cyber-squatting: acquiring a domain name in bad faith to profit, mislead, destroy reputation, or deprive others."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "offenses-b",
+          "title": "Computer-related Offenses",
+          "page": 2,
+          "bullets": [
+            "Computer-related forgery: inputting, altering, or deleting data without right, resulting in inauthentic data.",
+            "Computer-related fraud: altering or deleting data or a program with fraudulent intent, causing damage.",
+            "Computer-related identity theft: acquiring, using, misusing, transferring, or altering another person's identifying information without right."
+          ],
+          "tableIds": [
+            "cybercrime-offenses"
+          ]
+        },
+        {
+          "id": "international",
+          "title": "International IT Laws",
+          "page": 3,
+          "bullets": [
+            "As of 2021, 154 countries (79%) had cybercrime legislation; Europe had 93% adoption and Asia-Pacific 55%.",
+            "The Budapest Convention is the first international treaty on crimes committed via the Internet; it was drawn up by the Council of Europe in Strasbourg in November 2001 (Treaty #185).",
+            "HIPCAR supports Caribbean countries in harmonizing ICT policies, legislation, and regulatory procedures.",
+            "The Malabo Convention is the African Union convention on cyber security and personal data protection."
+          ],
+          "tableIds": [
+            "international-laws"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "ph-it-laws",
+          "title": "Philippine IT Laws",
+          "headers": [
+            "Republic Act",
+            "Law",
+            "Main Purpose"
+          ],
+          "rows": [
+            [
+              "RA 10175",
+              "Cybercrime Prevention Act of 2012",
+              "Punishes crimes committed against and through computer systems."
+            ],
+            [
+              "RA 8792",
+              "E-Commerce Act of 2000",
+              "Facilitates electronic transactions and recognizes electronic documents."
+            ],
+            [
+              "RA 8484",
+              "Access Device Regulation Act of 1998",
+              "Regulates access devices and punishes fraudulent use."
+            ],
+            [
+              "RA 4200",
+              "Anti-Wiretapping Law",
+              "Prohibits wiretapping and privacy violations in communication."
+            ],
+            [
+              "RA 10173",
+              "Data Privacy Act of 2012",
+              "Protects personal information; administered by the NPC."
+            ],
+            [
+              "RA 9775",
+              "Anti-Child Pornography Act of 2009",
+              "Defines and penalizes child pornography."
+            ],
+            [
+              "RA 9995",
+              "Anti-Photo and Voyeurism Act of 2009",
+              "Penalizes photo and video voyeurism."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        },
+        {
+          "id": "cybercrime-offenses",
+          "title": "Core Cybercrime Offenses",
+          "headers": [
+            "Offense",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Illegal access",
+              "Accessing all or part of a computer system without right."
+            ],
+            [
+              "Illegal interception",
+              "Intercepting non-public computer data transmissions without right."
+            ],
+            [
+              "Data interference",
+              "Altering, damaging, deleting, or deteriorating computer data without right."
+            ],
+            [
+              "System interference",
+              "Hindering or interfering with a computer or network without right."
+            ],
+            [
+              "Misuse of devices",
+              "Using, producing, selling, or distributing a computer program or password without right."
+            ],
+            [
+              "Cyber-squatting",
+              "Acquiring a domain name in bad faith to profit, mislead, or deprive others."
+            ],
+            [
+              "Computer-related forgery",
+              "Producing inauthentic data through unauthorized input, alteration, or deletion."
+            ],
+            [
+              "Computer-related fraud",
+              "Causing damage through unauthorized data or program changes with fraudulent intent."
+            ],
+            [
+              "Computer-related identity theft",
+              "Using another person's identifying information without right."
+            ]
+          ],
+          "page": 2,
+          "note": ""
+        },
+        {
+          "id": "international-laws",
+          "title": "International IT Instruments",
+          "headers": [
+            "Instrument",
+            "Focus"
+          ],
+          "rows": [
+            [
+              "Budapest Convention",
+              "First international treaty on Internet and computer-network crimes; Council of Europe, November 2001."
+            ],
+            [
+              "HIPCAR",
+              "Harmonization of ICT policies, legislation, and regulatory procedures in the Caribbean."
+            ],
+            [
+              "Malabo Convention",
+              "African Union convention on cyber security and personal data protection."
+            ]
+          ],
+          "page": 3,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "p02-cybersecurity",
+          "term": "Cybersecurity",
+          "aliases": [],
+          "definition": "The practice of protecting systems, networks, and programs from digital attacks.",
+          "page": 1,
+          "sectionId": "definitions"
+        },
+        {
+          "id": "p02-data-protection",
+          "term": "Data protection",
+          "aliases": [],
+          "definition": "Safeguarding important information from corruption, compromise, or loss.",
+          "page": 1,
+          "sectionId": "definitions"
+        },
+        {
+          "id": "p02-it-law",
+          "term": "IT law",
+          "aliases": [],
+          "definition": "The law of information technology, including computing and the Internet, governing digital dissemination of information and software.",
+          "page": 1,
+          "sectionId": "definitions"
+        },
+        {
+          "id": "p02-cybercrime",
+          "term": "Cybercrime",
+          "aliases": [],
+          "definition": "A crime committed with or using information and communication technologies.",
+          "page": 1,
+          "sectionId": "definitions"
+        },
+        {
+          "id": "p02-budapest",
+          "term": "Budapest Convention",
+          "aliases": [
+            "Convention on Cybercrime"
+          ],
+          "definition": "The first international treaty on crimes committed via the Internet and other computer networks; Treaty #185, Council of Europe, November 2001.",
+          "page": 3,
+          "sectionId": "international"
+        },
+        {
+          "id": "p02-ra10175",
+          "term": "RA 10175",
+          "aliases": [
+            "Cybercrime Prevention Act"
+          ],
+          "definition": "Cybercrime Prevention Act of 2012; addresses crimes committed against and through computer systems.",
+          "page": 1,
+          "sectionId": "ph-laws"
+        },
+        {
+          "id": "p02-ra8792",
+          "term": "RA 8792",
+          "aliases": [
+            "E-Commerce Act"
+          ],
+          "definition": "E-Commerce Act of 2000; facilitates electronic transactions and recognizes electronic documents.",
+          "page": 1,
+          "sectionId": "ph-laws"
+        },
+        {
+          "id": "p02-ra8484",
+          "term": "RA 8484",
+          "aliases": [
+            "Access Device Regulation Act"
+          ],
+          "definition": "Access Device Regulation Act of 1998; regulates access devices and punishes fraudulent acts.",
+          "page": 1,
+          "sectionId": "ph-laws"
+        },
+        {
+          "id": "p02-ra4200",
+          "term": "RA 4200",
+          "aliases": [
+            "Anti-Wiretapping Law"
+          ],
+          "definition": "Anti-Wiretapping Law; prohibits wiretapping and privacy violations in communication.",
+          "page": 1,
+          "sectionId": "ph-laws"
+        },
+        {
+          "id": "p02-ra10173",
+          "term": "RA 10173",
+          "aliases": [
+            "Data Privacy Act"
+          ],
+          "definition": "Data Privacy Act of 2012; protects personal information and is administered by the National Privacy Commission.",
+          "page": 2,
+          "sectionId": "ph-laws"
+        },
+        {
+          "id": "p02-ra9775",
+          "term": "RA 9775",
+          "aliases": [
+            "Anti-Child Pornography Act"
+          ],
+          "definition": "Anti-Child Pornography Act of 2009; defines and penalizes child pornography.",
+          "page": 2,
+          "sectionId": "ph-laws"
+        },
+        {
+          "id": "p02-ra9995",
+          "term": "RA 9995",
+          "aliases": [
+            "Anti-Photo and Voyeurism Act"
+          ],
+          "definition": "Anti-Photo and Voyeurism Act of 2009; penalizes photo and video voyeurism.",
+          "page": 2,
+          "sectionId": "ph-laws"
+        },
+        {
+          "id": "p02-illegal-access",
+          "term": "Illegal access",
+          "aliases": [],
+          "definition": "Accessing all or part of a computer system without right.",
+          "page": 2,
+          "sectionId": "offenses-a"
+        },
+        {
+          "id": "p02-illegal-interception",
+          "term": "Illegal interception",
+          "aliases": [],
+          "definition": "Intercepting non-public computer data transmissions without right.",
+          "page": 2,
+          "sectionId": "offenses-a"
+        },
+        {
+          "id": "p02-data-interference",
+          "term": "Data interference",
+          "aliases": [],
+          "definition": "Altering, damaging, deleting, or deteriorating computer data without right, including viruses.",
+          "page": 2,
+          "sectionId": "offenses-a"
+        },
+        {
+          "id": "p02-system-interference",
+          "term": "System interference",
+          "aliases": [],
+          "definition": "Hindering or interfering with a computer or network's functioning without right.",
+          "page": 2,
+          "sectionId": "offenses-a"
+        },
+        {
+          "id": "p02-cybersquatting",
+          "term": "Cyber-squatting",
+          "aliases": [],
+          "definition": "Acquiring a domain name in bad faith to profit, mislead, destroy reputation, or deprive others.",
+          "page": 2,
+          "sectionId": "offenses-a"
+        },
+        {
+          "id": "p02-npc",
+          "term": "National Privacy Commission",
+          "aliases": [
+            "NPC"
+          ],
+          "definition": "The agency that administers and implements the Data Privacy Act of 2012.",
+          "page": 2,
+          "sectionId": "ph-laws"
+        }
+      ]
+    },
+    {
+      "id": "midterm-03",
+      "termId": "midterm",
+      "number": "03",
+      "title": "Understanding Contemporary Issues",
+      "summary": "Philippine and international incidents that show how cybercrime laws apply in practice.",
+      "sections": [
+        {
+          "id": "hontiveros",
+          "title": "Hontiveros Wiretapping Case",
+          "page": 1,
+          "bullets": [
+            "On September 12, 2017, former Negros Oriental representative Jacinto 'Jing' Paras said Senator Risa Hontiveros was liable for wiretapping.",
+            "Hontiveros presented a photo of Justice Secretary Vitaliano Aguirre II texting a 'CongJing' during a Senate probe on the killing of Kian delos Santos.",
+            "Paras cited the Anti-Wiretapping Law (RA 4200).",
+            "The case moved forward in December 2021; Hontiveros posted PHP36,000 bail and called the case baseless."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "bdo",
+          "title": "BDO Hacking and 'Mark Nagoyo'",
+          "page": 1,
+          "bullets": [
+            "In December 2021, BDO users reported unauthorized transfers to the UnionBank account of 'Mark Nagoyo'.",
+            "The NBI arrested five suspects and charged them under RA 8484 and RA 10175.",
+            "Roneyln Panaligan acted as a verifier, pretending to conduct surveys and collecting IDs for PHP50 in prepaid credit.",
+            "Clay Revillosa sold 800,000 mailing lists with login credentials for PHP30,000.",
+            "Jherom Anthony Taupa sold a 'SCAMPAGE,' a GCash phishing site, for PHP2,000.",
+            "Ifesincachi Fountain Anaekwe and Chukwuemeka Pete were described as the alleged brains who provided access devices."
+          ],
+          "tableIds": [
+            "ph-cases"
+          ]
+        },
+        {
+          "id": "comelec",
+          "title": "COMELEC Data Leak",
+          "page": 2,
+          "bullets": [
+            "In 2016, 20-year-old IT graduate Paul Loui Biteng was suspected of hacking the COMELEC website and data.",
+            "He was charged with illegal access, data interference, and misuse of devices.",
+            "The incident exposed the personal information of 55 million Filipino voters and was called the biggest private data leak in Philippine history.",
+            "Four years later, a Manila court dismissed the case after the prosecution failed to prove guilt beyond reasonable doubt."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "covid",
+          "title": "COVID-19 Fake News and Misinformation",
+          "page": 3,
+          "bullets": [
+            "Eighty people were charged with pandemic-related cybercrimes since March 2020, including 52 for spreading fake news.",
+            "The PNP recorded 121 criminal complaints from March 9, 2020 to August 9, 2021; 87 were filed in court.",
+            "Charges included Article 154 of the Revised Penal Code, RA 10175, and Presidential Decree No. 90."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "international",
+          "title": "International Computer-related Issues",
+          "page": 3,
+          "bullets": [
+            "Brazil's Ministry of Health suffered a ransomware attack in December 2021; Lapsus$ claimed 50TB of data was extracted and deleted.",
+            "Robert Davies of the UK used crypters and remote administration tools (RATs) to spy on victims; he was jailed for 26 months.",
+            "More than 106 million travelers to Thailand had personal details leaked in August 2021.",
+            "Nepal registered 3,906 cybercrime cases in fiscal year 2020/21, including 2,003 women, 1,471 men, and 1,108 minors."
+          ],
+          "tableIds": [
+            "international-cases"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "ph-cases",
+          "title": "Philippine Cases at a Glance",
+          "headers": [
+            "Case",
+            "Issue",
+            "Law or Lesson"
+          ],
+          "rows": [
+            [
+              "Hontiveros wiretapping complaint",
+              "Photo of a text exchange presented in a Senate speech",
+              "RA 4200; privacy of communication"
+            ],
+            [
+              "BDO / Mark Nagoyo hacking",
+              "Unauthorized bank transfers and phishing infrastructure",
+              "RA 8484 and RA 10175"
+            ],
+            [
+              "COMELEC data leak",
+              "Hacking and exposure of 55 million voters' data",
+              "Illegal access, data interference, misuse of devices"
+            ],
+            [
+              "COVID-19 fake news",
+              "False pandemic information on social media",
+              "Article 154 RPC, RA 10175, PD 90"
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        },
+        {
+          "id": "international-cases",
+          "title": "International Cases at a Glance",
+          "headers": [
+            "Case",
+            "What Happened",
+            "Lesson"
+          ],
+          "rows": [
+            [
+              "Brazil Ministry of Health",
+              "Ransomware; 50TB claimed extracted by Lapsus$",
+              "Critical services are high-value targets"
+            ],
+            [
+              "UK cyber voyeur",
+              "Crypters and RATs used to spy on victims",
+              "Malware can be hidden from antivirus"
+            ],
+            [
+              "Thailand traveler leak",
+              "106 million travelers' details exposed",
+              "Large databases need protection"
+            ],
+            [
+              "Nepal cybercrime cases",
+              "3,906 cases in FY 2020/21",
+              "Cybercrime affects adults and minors"
+            ]
+          ],
+          "page": 3,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "m03-wiretapping",
+          "term": "Wiretapping",
+          "aliases": [
+            "anti-wiretapping"
+          ],
+          "definition": "Secretly overhearing or recording a private communication without the consent of all parties; covered by RA 4200.",
+          "page": 1,
+          "sectionId": "hontiveros"
+        },
+        {
+          "id": "m03-mark-nagoyo",
+          "term": "Mark Nagoyo",
+          "aliases": [],
+          "definition": "The name on a UnionBank account used to receive funds in the December 2021 BDO hacking incident.",
+          "page": 1,
+          "sectionId": "bdo"
+        },
+        {
+          "id": "m03-scampage",
+          "term": "SCAMPAGE",
+          "aliases": [],
+          "definition": "A phishing website imitating GCash, sold to harvest login details and MPINs.",
+          "page": 2,
+          "sectionId": "bdo"
+        },
+        {
+          "id": "m03-comelec-leak",
+          "term": "COMELEC data leak",
+          "aliases": [
+            "COMELEC hack"
+          ],
+          "definition": "The 2016 breach that exposed personal information of 55 million Filipino voters.",
+          "page": 3,
+          "sectionId": "comelec"
+        },
+        {
+          "id": "m03-fake-news",
+          "term": "Fake news",
+          "aliases": [],
+          "definition": "False or misleading information spread through media and social platforms; pandemic cases were charged under several laws.",
+          "page": 3,
+          "sectionId": "covid"
+        },
+        {
+          "id": "m03-ransomware",
+          "term": "Ransomware",
+          "aliases": [],
+          "definition": "Malware that blocks access to data or systems until a ransom is paid; used against Brazil's Ministry of Health.",
+          "page": 3,
+          "sectionId": "international"
+        },
+        {
+          "id": "m03-crypter",
+          "term": "Crypter",
+          "aliases": [],
+          "definition": "Software that encrypts malware to help it bypass security programs.",
+          "page": 4,
+          "sectionId": "international"
+        },
+        {
+          "id": "m03-rat",
+          "term": "Remote administration tool (RAT)",
+          "aliases": [
+            "RAT"
+          ],
+          "definition": "Software that gives an attacker remote access to a victim's device.",
+          "page": 4,
+          "sectionId": "international"
+        },
+        {
+          "id": "m03-data-breach",
+          "term": "Data breach",
+          "aliases": [],
+          "definition": "Unauthorized access to or exposure of personal or confidential data.",
+          "page": 3,
+          "sectionId": "comelec"
+        },
+        {
+          "id": "m03-nbi",
+          "term": "National Bureau of Investigation",
+          "aliases": [
+            "NBI"
+          ],
+          "definition": "The agency that investigated and charged the BDO hacking suspects.",
+          "page": 1,
+          "sectionId": "bdo"
+        }
+      ]
+    },
+    {
+      "id": "midterm-04",
+      "termId": "midterm",
+      "number": "04",
+      "title": "Analysis of the Current CPE & IT Field Using Case Study",
+      "summary": "Case-study research: definition, steps, benefits, limitations, five types, examples, and its significance in CPE/IT.",
+      "sections": [
+        {
+          "id": "definition",
+          "title": "What Is a Case Study?",
+          "page": 1,
+          "bullets": [
+            "A research methodology involving a detailed and intensive analysis of a particular event, situation, organization, or social unit.",
+            "Case studies are best conceptualized by scope of interest, not by specific methods.",
+            "A successful case study analyzes a real-life situation where existing problems are resolved and relates theory to practice."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "steps",
+          "title": "Steps in a Case Study",
+          "page": 1,
+          "bullets": [
+            "Outline the purpose of the case study.",
+            "Identify the problems.",
+            "Select the major problems in the case.",
+            "Suggest solutions to implement.",
+            "Recommend the best solution."
+          ],
+          "tableIds": [
+            "case-steps"
+          ]
+        },
+        {
+          "id": "benefits",
+          "title": "Benefits of Case Studies",
+          "page": 1,
+          "bullets": [
+            "Focuses researchers within the confines of space and time on a specific case.",
+            "Allows collection of interviews, documents, observations, and surveys for an in-depth look.",
+            "Provides a comprehensive understanding of a bounded unit so readers can learn from it.",
+            "Allows transferability of lessons, unlike statistical generalization in quantitative studies."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "limitations",
+          "title": "Limitations of Case Studies",
+          "page": 1,
+          "bullets": [
+            "The volume of data is difficult to organize, and analysis strategies must be planned carefully.",
+            "Researchers may be tempted to veer away from the research focus.",
+            "Reporting findings from multiple-case studies can be challenging."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "types",
+          "title": "Five Types of Case Study",
+          "page": 2,
+          "bullets": [
+            "Collective: explores differences within and between cases to replicate findings; cases must be chosen carefully.",
+            "Explanatory: explains presumed causal links in real-life interventions too complex for surveys or experiments.",
+            "Descriptive: starts with a descriptive theory, observes subjects, and compares data to the theory.",
+            "Exploratory: explores situations where the intervention has no clear, single set of outcomes.",
+            "Instrumental: the case is secondary and supportive; it provides insight or helps refine a theory."
+          ],
+          "tableIds": [
+            "case-types"
+          ]
+        },
+        {
+          "id": "examples",
+          "title": "Examples and Significance",
+          "page": 2,
+          "bullets": [
+            "Scheib's study on role stress among school music teachers is a collective case study.",
+            "Joia's Web-based e-commerce community study in Brazil is an explanatory case study.",
+            "Lotzkar and Bottorff's nurse-patient relationship study is exploratory.",
+            "Luck's STAMP study on patient violence is instrumental.",
+            "In CPE/IT, case studies help understand field behavior, find causes and solutions, answer complex questions, and give direction to technical advances."
+          ],
+          "tableIds": []
+        }
+      ],
+      "tables": [
+        {
+          "id": "case-types",
+          "title": "Case Study Types",
+          "headers": [
+            "Type",
+            "Definition",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Collective",
+              "Explores differences within and between cases to replicate findings.",
+              "Scheib: role stress in school music teachers"
+            ],
+            [
+              "Explanatory",
+              "Explains causal links in complex real-life interventions.",
+              "Joia: Web-based e-commerce community in Brazil"
+            ],
+            [
+              "Descriptive",
+              "Starts with a descriptive theory, observes, and compares.",
+              "Starts from an existing descriptive theory"
+            ],
+            [
+              "Exploratory",
+              "Explores situations with no clear, single set of outcomes.",
+              "Lotzkar & Bottorff: nurse-patient relationship"
+            ],
+            [
+              "Instrumental",
+              "The case supports insight or theory refinement.",
+              "Luck: STAMP patient violence indicators"
+            ]
+          ],
+          "page": 2,
+          "note": ""
+        },
+        {
+          "id": "case-steps",
+          "title": "Steps in a Case Study",
+          "headers": [
+            "Step",
+            "Purpose"
+          ],
+          "rows": [
+            [
+              "Outline the purpose",
+              "Sets the guide and direction for the study."
+            ],
+            [
+              "Identify the problems",
+              "Focuses on issues that can lead to a solution."
+            ],
+            [
+              "Select the major problems",
+              "Narrows down problems that do not directly affect the study."
+            ],
+            [
+              "Suggest solutions",
+              "Creates a better understanding of the outcome."
+            ],
+            [
+              "Recommend the best solution",
+              "Covers most problems and explains how it will be applied."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "m04-case-study",
+          "term": "Case study",
+          "aliases": [],
+          "definition": "A research methodology involving a detailed and intensive analysis of a particular event, situation, organization, or social unit.",
+          "page": 1,
+          "sectionId": "definition"
+        },
+        {
+          "id": "m04-collective",
+          "term": "Collective case study",
+          "aliases": [],
+          "definition": "Explores differences within and between cases with the goal of replicating findings across cases.",
+          "page": 2,
+          "sectionId": "types"
+        },
+        {
+          "id": "m04-explanatory",
+          "term": "Explanatory case study",
+          "aliases": [],
+          "definition": "Explains presumed causal links in real-life interventions too complex for surveys or experiments.",
+          "page": 2,
+          "sectionId": "types"
+        },
+        {
+          "id": "m04-descriptive",
+          "term": "Descriptive case study",
+          "aliases": [],
+          "definition": "Starts with a descriptive theory, observes subjects, and compares gathered information to the theory.",
+          "page": 2,
+          "sectionId": "types"
+        },
+        {
+          "id": "m04-exploratory",
+          "term": "Exploratory case study",
+          "aliases": [],
+          "definition": "Explores situations in which the intervention has no clear, single set of outcomes.",
+          "page": 2,
+          "sectionId": "types"
+        },
+        {
+          "id": "m04-instrumental",
+          "term": "Instrumental case study",
+          "aliases": [],
+          "definition": "Uses a case for something other than understanding that case; the case supports insight or theory refinement.",
+          "page": 2,
+          "sectionId": "types"
+        },
+        {
+          "id": "m04-transferability",
+          "term": "Transferability",
+          "aliases": [],
+          "definition": "Applying lessons from a case to other situations; different from statistical generalization.",
+          "page": 1,
+          "sectionId": "benefits"
+        },
+        {
+          "id": "m04-bounded",
+          "term": "Bounded unit",
+          "aliases": [],
+          "definition": "A case with clear boundaries in space and time.",
+          "page": 1,
+          "sectionId": "benefits"
+        }
+      ]
+    },
+    {
+      "id": "prefinals-05",
+      "termId": "prefinals",
+      "number": "05",
+      "title": "Responsibilities of Computer Engineers",
+      "summary": "The ethical, professional, and social responsibilities of computer engineers, including human safety, sustainability, internet safety, and pro bono publico.",
+      "sections": [
+        {
+          "id": "ethics",
+          "title": "What Is Ethics?",
+          "page": 1,
+          "bullets": [
+            "Ethics analyzes human actions from the perspective of good/evil or morally correct/wrong.",
+            "It is concerned with rights, responsibilities, language, ethical living, and moral decisions.",
+            "Ethical obligations go beyond laws; for example, privacy should be protected even before a privacy law exists."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "ethical",
+          "title": "Ethical Responsibilities",
+          "page": 1,
+          "bullets": [
+            "Contribute to society and human well-being; protect human rights and minimize negative consequences.",
+            "Avoid harm: prevent injury, loss of information or property, property damage, and environmental impacts.",
+            "Give proper credit for intellectual property; do not take credit for others' ideas or work.",
+            "Respect privacy: collect only necessary data, keep it accurate, define retention, and do not reuse it without consent.",
+            "Be honest and trustworthy: make no deceptive claims and disclose limitations and conflicts of interest.",
+            "Be fair and act not to discriminate based on race, sex, religion, age, disability, national origin, or similar factors."
+          ],
+          "tableIds": [
+            "ethical-responsibilities"
+          ]
+        },
+        {
+          "id": "professional",
+          "title": "Professional Responsibilities",
+          "page": 2,
+          "bullets": [
+            "Strive for the highest quality, effectiveness, and dignity; excellence is the most important obligation.",
+            "Acquire and maintain professional competence through study, seminars, courses, and professional organizations.",
+            "Improve public understanding of computing and counter false views.",
+            "Honor contracts, agreements, and assigned responsibilities; accept personal accountability.",
+            "Access computing and communication resources only when authorized; unauthorized use is prohibited."
+          ],
+          "tableIds": [
+            "professional-responsibilities"
+          ]
+        },
+        {
+          "id": "social",
+          "title": "Social Responsibilities",
+          "page": 2,
+          "bullets": [
+            "Human safety: protect public safety, health, and welfare; examples include robots for the elderly and sensors for gas leaks or chemicals.",
+            "Environment and sustainability: dispose of e-waste correctly and develop machines that separate waste or improve life for animals and trees.",
+            "Internet safety: develop systems that do not jeopardize information, privacy, or public content; enforce stricter rules and monitor harmful content."
+          ],
+          "tableIds": [
+            "social-responsibilities"
+          ]
+        },
+        {
+          "id": "pro-bono",
+          "title": "Pro Bono Publico",
+          "page": 4,
+          "bullets": [
+            "Pro bono publico means 'for the public good.'",
+            "Computer engineers should share expertise with individuals or organizations unable to access or pay for it.",
+            "Examples include outreach programs, trainings, and the STI computer lab on wheels.",
+            "The Antikythera mechanism is an early analog computer used to display astronomical information."
+          ],
+          "tableIds": []
+        }
+      ],
+      "tables": [
+        {
+          "id": "ethical-responsibilities",
+          "title": "Ethical Responsibilities",
+          "headers": [
+            "Responsibility",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Contribute to society and well-being",
+              "Protect human rights, respect cultural diversity, and minimize negative consequences of computing."
+            ],
+            [
+              "Avoid harm",
+              "Prevent injury, loss of information or property, property damage, and environmental impacts."
+            ],
+            [
+              "Give proper credit for intellectual property",
+              "Do not take credit for others' ideas or work, even without copyright or patent."
+            ],
+            [
+              "Respect privacy",
+              "Collect only necessary data, keep it accurate, define retention, and do not reuse it without consent."
+            ],
+            [
+              "Be honest and trustworthy",
+              "Do not make deceptive claims; disclose limitations and conflicts of interest."
+            ],
+            [
+              "Be fair and not discriminate",
+              "Avoid discrimination based on race, sex, religion, age, disability, national origin, and similar factors."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        },
+        {
+          "id": "professional-responsibilities",
+          "title": "Professional Responsibilities",
+          "headers": [
+            "Responsibility",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Highest quality, effectiveness, and dignity",
+              "Excellence is the most important professional obligation."
+            ],
+            [
+              "Maintain professional competence",
+              "Upgrade knowledge through study, seminars, and professional organizations."
+            ],
+            [
+              "Improve public understanding",
+              "Share technical knowledge and counter false views about computing."
+            ],
+            [
+              "Honor contracts and responsibilities",
+              "Accept personal accountability; ethical judgment is the final guide."
+            ],
+            [
+              "Access resources only when authorized",
+              "No trespassing or unauthorized use of systems, accounts, or files."
+            ]
+          ],
+          "page": 2,
+          "note": ""
+        },
+        {
+          "id": "social-responsibilities",
+          "title": "Social Responsibilities",
+          "headers": [
+            "Area",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Human safety",
+              "Protect public safety, health, and welfare, such as robots for the elderly and danger sensors."
+            ],
+            [
+              "Environment and sustainability",
+              "Dispose of e-waste correctly and develop waste-separating or life-improving machines."
+            ],
+            [
+              "Internet safety",
+              "Protect information, privacy, and public content; enforce rules and monitor harmful content."
+            ]
+          ],
+          "page": 3,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "pf05-ethics",
+          "term": "Ethics",
+          "aliases": [],
+          "definition": "The analysis of human actions from the perspective of good/evil or morally correct/wrong.",
+          "page": 1,
+          "sectionId": "ethics"
+        },
+        {
+          "id": "pf05-harm",
+          "term": "Harm",
+          "aliases": [],
+          "definition": "Injury or negative consequences such as loss of information or property, property damage, or environmental impacts.",
+          "page": 1,
+          "sectionId": "ethical"
+        },
+        {
+          "id": "pf05-ip",
+          "term": "Intellectual property",
+          "aliases": [
+            "IP"
+          ],
+          "definition": "Ideas and work that must be credited to their creators, even without explicit copyright or patent protection.",
+          "page": 1,
+          "sectionId": "ethical"
+        },
+        {
+          "id": "pf05-privacy",
+          "term": "Privacy",
+          "aliases": [],
+          "definition": "Maintaining the privacy and integrity of personal data, including accuracy and protection from unauthorized access.",
+          "page": 1,
+          "sectionId": "ethical"
+        },
+        {
+          "id": "pf05-honesty",
+          "term": "Honesty and trustworthiness",
+          "aliases": [],
+          "definition": "Making no deceptive claims, disclosing limitations, and being honest about qualifications and conflicts of interest.",
+          "page": 2,
+          "sectionId": "ethical"
+        },
+        {
+          "id": "pf05-discrimination",
+          "term": "Discrimination",
+          "aliases": [],
+          "definition": "Unfair treatment based on race, sex, religion, age, disability, national origin, or similar factors.",
+          "page": 2,
+          "sectionId": "ethical"
+        },
+        {
+          "id": "pf05-competence",
+          "term": "Professional competence",
+          "aliases": [],
+          "definition": "Maintaining and upgrading technical knowledge through study, seminars, courses, and professional organizations.",
+          "page": 2,
+          "sectionId": "professional"
+        },
+        {
+          "id": "pf05-authorized",
+          "term": "Authorized access",
+          "aliases": [],
+          "definition": "Using computing and communication resources only with appropriate approval.",
+          "page": 2,
+          "sectionId": "professional"
+        },
+        {
+          "id": "pf05-human-safety",
+          "term": "Human safety",
+          "aliases": [],
+          "definition": "Protecting public safety, health, and welfare through responsible computing and engineering.",
+          "page": 3,
+          "sectionId": "social"
+        },
+        {
+          "id": "pf05-environment",
+          "term": "Environment and sustainability",
+          "aliases": [],
+          "definition": "Reducing e-waste and developing technology that protects the environment.",
+          "page": 3,
+          "sectionId": "social"
+        },
+        {
+          "id": "pf05-internet-safety",
+          "term": "Internet safety",
+          "aliases": [],
+          "definition": "Developing systems that do not jeopardize users' information, privacy, or public content.",
+          "page": 3,
+          "sectionId": "social"
+        },
+        {
+          "id": "pf05-pro-bono",
+          "term": "Pro bono publico",
+          "aliases": [],
+          "definition": "Latin for 'for the public good'; sharing technical expertise with those unable to access or pay for it.",
+          "page": 4,
+          "sectionId": "pro-bono"
+        },
+        {
+          "id": "pf05-ewaste",
+          "term": "E-waste",
+          "aliases": [],
+          "definition": "Discarded electronic devices and components that must be disposed of responsibly.",
+          "page": 3,
+          "sectionId": "social"
+        },
+        {
+          "id": "pf05-antikythera",
+          "term": "Antikythera mechanism",
+          "aliases": [],
+          "definition": "An early analog computer used to calculate and display astronomical information.",
+          "page": 2,
+          "sectionId": "pro-bono"
+        }
+      ]
+    },
+    {
+      "id": "prefinals-06",
+      "termId": "prefinals",
+      "number": "06",
+      "title": "Professionalism at Work",
+      "summary": "Five principles of professionalism, five professional skills, and five common workplace challenges.",
+      "sections": [
+        {
+          "id": "principles",
+          "title": "Five Principles of a Professional",
+          "page": 1,
+          "bullets": [
+            "Communication: verbal and body language, e-etiquette, and the resources to develop communication skills.",
+            "Teamwork: builds strong relationships and eliminates toxic work culture (drama, fighting, low morale, lack of communication, boss's fear).",
+            "Critical thinking: analyze information, reach conclusions, make decisions, connect ideas, and evaluate arguments.",
+            "Ethics: aligns behavior and fosters openness, partnership, and trust; employees feel secure.",
+            "Humanness: innate values, unique talents, purpose, growth, work-life balance, kindness, and emotional availability."
+          ],
+          "tableIds": [
+            "principles"
+          ]
+        },
+        {
+          "id": "skills",
+          "title": "Professional Skills Required",
+          "page": 2,
+          "bullets": [
+            "Leadership: communicate well, motivate, delegate, listen, and stay flexible; emotional intelligence matters.",
+            "Interpersonal: build relationships, understand others, show real interest, and acknowledge expertise.",
+            "Self-management: control thoughts, feelings, and actions; organize tasks and set goals.",
+            "Problem solving: observe, judge, act quickly, research, and implement solutions.",
+            "Open-mindedness: accept different backgrounds, cultures, technologies, and new ideas without taking them personally."
+          ],
+          "tableIds": [
+            "skills"
+          ]
+        },
+        {
+          "id": "challenges",
+          "title": "Workplace Challenges",
+          "page": 3,
+          "bullets": [
+            "Communication challenges: different response times and lack of coordination; drop egos and set aside personal problems.",
+            "Low employee motivation: seek support, HR activities, seminars, and alternative approaches; encourage curiosity.",
+            "Difficult people: unhappy employees spread negativity; involve HR if needed and communicate with kindness.",
+            "Lack of skill development: employees risk becoming outdated; seek trainings and seminars.",
+            "Mental health challenges: negative environments, harassment, and bullying can cause depression and anxiety; time off and personal space matter."
+          ],
+          "tableIds": [
+            "challenges"
+          ]
+        },
+        {
+          "id": "conclusion",
+          "title": "Conclusion",
+          "page": 3,
+          "bullets": [
+            "Applying professional skills in accordance with professional principles helps avoid and prevent workplace challenges."
+          ],
+          "tableIds": []
+        }
+      ],
+      "tables": [
+        {
+          "id": "principles",
+          "title": "Five Principles of Professionalism",
+          "headers": [
+            "Principle",
+            "Focus"
+          ],
+          "rows": [
+            [
+              "Communication",
+              "Verbal, body language, e-etiquette, and clear expectations."
+            ],
+            [
+              "Teamwork",
+              "Strong relationships and elimination of toxic work culture."
+            ],
+            [
+              "Critical thinking",
+              "Analyzing information, evaluating arguments, and making sound decisions."
+            ],
+            [
+              "Ethics",
+              "Aligned behavior, openness, partnership, trust, and security."
+            ],
+            [
+              "Humanness",
+              "Innate values, purpose, growth, work-life balance, and kindness."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        },
+        {
+          "id": "skills",
+          "title": "Five Professional Skills",
+          "headers": [
+            "Skill",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Leadership",
+              "Communicate, motivate, delegate, listen, and solve problems."
+            ],
+            [
+              "Interpersonal",
+              "Build good relationships and work well with others."
+            ],
+            [
+              "Self-management",
+              "Control thoughts, feelings, and actions; organize and prioritize."
+            ],
+            [
+              "Problem solving",
+              "Observe, judge, and act quickly to resolve difficulties."
+            ],
+            [
+              "Open-mindedness",
+              "Accept different ideas, cultures, and technological changes."
+            ]
+          ],
+          "page": 2,
+          "note": ""
+        },
+        {
+          "id": "challenges",
+          "title": "Five Workplace Challenges",
+          "headers": [
+            "Challenge",
+            "Suggested Response"
+          ],
+          "rows": [
+            [
+              "Communication challenges",
+              "Drop egos, talk about the problem, and set aside personal issues."
+            ],
+            [
+              "Low motivation",
+              "Seek support, HR activities, seminars, and new approaches."
+            ],
+            [
+              "Difficult people",
+              "Involve HR if needed; communicate, acknowledge feelings, and be kind."
+            ],
+            [
+              "Lack of skill development",
+              "Seek trainings and seminars to stay relevant."
+            ],
+            [
+              "Mental health challenges",
+              "Take time off, build personal space, and address harassment or bullying."
+            ]
+          ],
+          "page": 3,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "pf06-communication",
+          "term": "Communication",
+          "aliases": [],
+          "definition": "Verbal and body language, e-etiquette, and the resources needed to communicate effectively at work.",
+          "page": 1,
+          "sectionId": "principles"
+        },
+        {
+          "id": "pf06-teamwork",
+          "term": "Teamwork",
+          "aliases": [],
+          "definition": "Working closely with others to build relationships and eliminate toxic work culture.",
+          "page": 1,
+          "sectionId": "principles"
+        },
+        {
+          "id": "pf06-critical-thinking",
+          "term": "Critical thinking",
+          "aliases": [],
+          "definition": "Analyzing information, reaching conclusions, and making sound decisions.",
+          "page": 1,
+          "sectionId": "principles"
+        },
+        {
+          "id": "pf06-ethics",
+          "term": "Ethics",
+          "aliases": [],
+          "definition": "A workplace principle that aligns behavior and fosters openness, partnership, trust, and security.",
+          "page": 1,
+          "sectionId": "principles"
+        },
+        {
+          "id": "pf06-humanness",
+          "term": "Humanness",
+          "aliases": [],
+          "definition": "Expressing innate human values, talents, purpose, growth, work-life balance, kindness, and emotional availability.",
+          "page": 2,
+          "sectionId": "principles"
+        },
+        {
+          "id": "pf06-leadership",
+          "term": "Leadership",
+          "aliases": [],
+          "definition": "Communicating well, motivating a team, delegating, listening, and staying flexible.",
+          "page": 2,
+          "sectionId": "skills"
+        },
+        {
+          "id": "pf06-interpersonal",
+          "term": "Interpersonal skills",
+          "aliases": [],
+          "definition": "Building good relationships and working well with groups and individuals.",
+          "page": 2,
+          "sectionId": "skills"
+        },
+        {
+          "id": "pf06-self-management",
+          "term": "Self-management",
+          "aliases": [],
+          "definition": "Controlling thoughts, feelings, and actions to maximize productivity and achieve goals.",
+          "page": 2,
+          "sectionId": "skills"
+        },
+        {
+          "id": "pf06-problem-solving",
+          "term": "Problem solving",
+          "aliases": [],
+          "definition": "Observing, judging, and acting quickly when difficulties arise.",
+          "page": 2,
+          "sectionId": "skills"
+        },
+        {
+          "id": "pf06-open-mindedness",
+          "term": "Open-mindedness",
+          "aliases": [],
+          "definition": "Accepting various ideas, behaviors, cultures, and technological changes.",
+          "page": 2,
+          "sectionId": "skills"
+        },
+        {
+          "id": "pf06-toxic",
+          "term": "Toxic work culture",
+          "aliases": [],
+          "definition": "A workplace characterized by drama, fighting, low morale, lack of communication, and fear of the boss.",
+          "page": 1,
+          "sectionId": "principles"
+        },
+        {
+          "id": "pf06-mental-health",
+          "term": "Mental health",
+          "aliases": [],
+          "definition": "Psychological well-being at work; harassment, bullying, and negative environments can harm it.",
+          "page": 3,
+          "sectionId": "challenges"
+        }
+      ]
+    },
+    {
+      "id": "finals-07",
+      "termId": "finals",
+      "number": "07",
+      "title": "Computer Engineers at Work",
+      "summary": "Computer Engineering as a profession, salary outlook, nine common job roles, and four challenges.",
+      "sections": [
+        {
+          "id": "profession",
+          "title": "Computer Engineering as a Profession",
+          "page": 1,
+          "bullets": [
+            "Computer Engineering does not require a board licensure exam; graduates can enter the professional world immediately.",
+            "Graduates are still expected to take certifications and trainings accredited by legitimate organizations.",
+            "A CPE degree offers opportunities locally and overseas."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "salary",
+          "title": "Salary Outlook",
+          "page": 1,
+          "bullets": [
+            "DOLE 2019: CPE ranked 7th among top-paying jobs with an average of PHP49,335 per month; programmers and systems analysts ranked 5th and 6th.",
+            "US BLS 2020: $119,560 per year (about PHP6,147,476) for computer engineers; salary depends on experience and specialization.",
+            "BLS projects 2% growth for CPE from 2019 to 2029 versus 4% for other computer jobs.",
+            "Software engineering and web developing are projected to grow 22% and 8%, respectively."
+          ],
+          "tableIds": [
+            "salary-snapshot"
+          ]
+        },
+        {
+          "id": "roles",
+          "title": "Job Opportunities",
+          "page": 1,
+          "bullets": [
+            "Technical Support Specialist: helps end-users with hardware, software, access, performance, and connection issues.",
+            "Computer Programmer: turns designs into code, checks for errors, and rewrites until error-free.",
+            "Web Developer: designs websites and web apps, integrates security, and manages site functionality.",
+            "IT Consultant: helps clients use IT to solve problems and achieve business objectives.",
+            "Information Systems Manager: oversees computer systems, networks, and technology work.",
+            "Game Developer: oversees game development and writes code for characters, environments, and elements.",
+            "Database Administrator: stores and protects company data and ensures secure access.",
+            "Software Developer: creates flowcharts/models and participates in designing, building, maintaining, and testing software.",
+            "Data Scientist: analyzes raw data using machine learning, statistics, and programming."
+          ],
+          "tableIds": [
+            "job-roles"
+          ]
+        },
+        {
+          "id": "challenges",
+          "title": "Challenges",
+          "page": 3,
+          "bullets": [
+            "Slow skills development: schools lack industry equipment; take free seminars, online trainings, and focus on one or two skills.",
+            "Expenses: trainings and certifications cost money; start with a job that fits current skills and save for future training.",
+            "Competitive job opportunities: many applicants; an impressive resume, skills, interviews, and personality fit matter.",
+            "Interactions: most of the day is spent at a computer; find the right time to interact, take breaks, and join after-work events."
+          ],
+          "tableIds": [
+            "career-challenges"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "salary-snapshot",
+          "title": "Salary and Growth Snapshot",
+          "headers": [
+            "Metric",
+            "Value"
+          ],
+          "rows": [
+            [
+              "DOLE 2019 CPE rank",
+              "7th top-paying job"
+            ],
+            [
+              "DOLE 2019 average monthly salary",
+              "PHP49,335"
+            ],
+            [
+              "US BLS 2020 average yearly salary",
+              "$119,560 (about PHP6,147,476)"
+            ],
+            [
+              "BLS 2019-2029 CPE growth",
+              "2% (4% for other computer jobs)"
+            ],
+            [
+              "Software engineering growth",
+              "22%"
+            ],
+            [
+              "Web developing growth",
+              "8%"
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        },
+        {
+          "id": "job-roles",
+          "title": "Nine Common CPE Roles",
+          "headers": [
+            "Role",
+            "Main Duties",
+            "Key Skills"
+          ],
+          "rows": [
+            [
+              "Technical Support Specialist",
+              "Assist end-users with hardware, software, and connection issues.",
+              "Problem solving, interpersonal skills, OS proficiency, attention to detail"
+            ],
+            [
+              "Computer Programmer",
+              "Write and debug code from software designs.",
+              "Time management, OOP, databases/SQL, data structures"
+            ],
+            [
+              "Web Developer",
+              "Build websites and web applications; integrate security.",
+              "Problem solving, creativity, programming, web design"
+            ],
+            [
+              "IT Consultant",
+              "Help clients use IT to meet business objectives.",
+              "Hardware/software solutions, network maintenance, web support"
+            ],
+            [
+              "Information Systems Manager",
+              "Oversee systems, networks, and technology staff.",
+              "Analytical thinking, networking, system management"
+            ],
+            [
+              "Game Developer",
+              "Develop games and code characters and environments.",
+              "Passion for games, creativity, C#/C++"
+            ],
+            [
+              "Database Administrator",
+              "Store, organize, and protect company data.",
+              "Data manipulation, database design, organization"
+            ],
+            [
+              "Software Developer",
+              "Design, build, maintain, and test software.",
+              "JavaScript, Python, PHP, Ruby, Linux/Unix"
+            ],
+            [
+              "Data Scientist",
+              "Analyze data with ML, statistics, and programming.",
+              "Statistics, machine learning, deep learning, visualization"
+            ]
+          ],
+          "page": 2,
+          "note": ""
+        },
+        {
+          "id": "career-challenges",
+          "title": "Four CPE Career Challenges",
+          "headers": [
+            "Challenge",
+            "Suggested Response"
+          ],
+          "rows": [
+            [
+              "Slow skills development",
+              "Free seminars, online trainings, self-study, and focus on one or two skills."
+            ],
+            [
+              "Expenses",
+              "Take a job that fits current skills and save for future certifications."
+            ],
+            [
+              "Competitive job opportunities",
+              "Build a strong resume, skills, interview presence, and personality fit."
+            ],
+            [
+              "Interactions",
+              "Use breaks and after-work events to socialize without distracting others."
+            ]
+          ],
+          "page": 3,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "f07-board",
+          "term": "Board licensure exam",
+          "aliases": [],
+          "definition": "A government exam required for some professions; Computer Engineering does not require one for practice.",
+          "page": 1,
+          "sectionId": "profession"
+        },
+        {
+          "id": "f07-dole",
+          "term": "DOLE",
+          "aliases": [
+            "Department of Labor and Employment"
+          ],
+          "definition": "Department of Labor and Employment; its 2019 Labor Market Trends ranked CPE 7th among top-paying jobs.",
+          "page": 1,
+          "sectionId": "salary"
+        },
+        {
+          "id": "f07-bls",
+          "term": "Bureau of Labor Statistics",
+          "aliases": [
+            "BLS"
+          ],
+          "definition": "The US agency that reported the 2020 CPE salary and the 2019-2029 growth projection.",
+          "page": 1,
+          "sectionId": "salary"
+        },
+        {
+          "id": "f07-tech-support",
+          "term": "Technical Support Specialist",
+          "aliases": [],
+          "definition": "A role that helps end-users with hardware, software, access, performance, and connection issues.",
+          "page": 1,
+          "sectionId": "roles"
+        },
+        {
+          "id": "f07-programmer",
+          "term": "Computer Programmer",
+          "aliases": [],
+          "definition": "A role that writes and debugs code from software designs until the program is error-free.",
+          "page": 2,
+          "sectionId": "roles"
+        },
+        {
+          "id": "f07-web-dev",
+          "term": "Web Developer",
+          "aliases": [],
+          "definition": "A role that designs websites and web applications and integrates security and features.",
+          "page": 2,
+          "sectionId": "roles"
+        },
+        {
+          "id": "f07-consultant",
+          "term": "IT Consultant",
+          "aliases": [],
+          "definition": "A role that helps clients use information technology to solve problems and meet business goals.",
+          "page": 2,
+          "sectionId": "roles"
+        },
+        {
+          "id": "f07-is-manager",
+          "term": "Information Systems Manager",
+          "aliases": [],
+          "definition": "A role that oversees a company's computer systems, networks, and technology staff.",
+          "page": 2,
+          "sectionId": "roles"
+        },
+        {
+          "id": "f07-game-dev",
+          "term": "Game Developer",
+          "aliases": [],
+          "definition": "A role that oversees video game development and codes characters, environments, and elements.",
+          "page": 2,
+          "sectionId": "roles"
+        },
+        {
+          "id": "f07-dba",
+          "term": "Database Administrator",
+          "aliases": [
+            "DBA"
+          ],
+          "definition": "A role that stores, organizes, and protects company data from corruption, loss, and unauthorized access.",
+          "page": 2,
+          "sectionId": "roles"
+        },
+        {
+          "id": "f07-software-dev",
+          "term": "Software Developer",
+          "aliases": [],
+          "definition": "A role that designs, builds, maintains, and tests software and creates models for programmers.",
+          "page": 3,
+          "sectionId": "roles"
+        },
+        {
+          "id": "f07-data-scientist",
+          "term": "Data Scientist",
+          "aliases": [],
+          "definition": "A role that analyzes raw data using machine learning, statistics, and programming to produce insights.",
+          "page": 3,
+          "sectionId": "roles"
+        },
+        {
+          "id": "f07-competitive",
+          "term": "Competitive job opportunities",
+          "aliases": [],
+          "definition": "A challenge where many applicants compete for the same role; resume, skills, interviews, and personality fit matter.",
+          "page": 3,
+          "sectionId": "challenges"
+        }
+      ]
+    },
+    {
+      "id": "finals-08",
+      "termId": "finals",
+      "number": "08",
+      "title": "Application of IT Laws in the Computer Engineering Field",
+      "summary": "Future innovations in Computer Engineering and five guidelines for applying IT laws and professional practice.",
+      "sections": [
+        {
+          "id": "future",
+          "title": "The Future of Computer Engineering",
+          "page": 1,
+          "bullets": [
+            "Computer Engineering has been at the forefront of major technological advances: the Internet, smartphones, automated devices, and robotics.",
+            "When done right, it helped put people on the moon with less computing power than today; when done wrong, errors caused commercial airline crashes.",
+            "Today's mistakes can become existential threats, while successes can produce medicines and other advances."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "innovations",
+          "title": "Projected Innovations",
+          "page": 1,
+          "bullets": [
+            "Smart factories: industrial IoT is limited by sensor energy and battery life; Everactive sensors can run over 20 years with minimal maintenance.",
+            "VR and AR: immersive remote work, collaboration, education, and spontaneity; Facebook prototypes and PwC growth projections.",
+            "Self-driving cars: require safety, reliability, high-powered sensors, intuitive HCI, and backups; ALKS could prevent 47,000 serious accidents over a decade.",
+            "Spaceflight: alternative propulsion, subsurface water instruments, HCI, and semi-autonomous drones; Perseverance and Ingenuity landed on Mars on February 18, 2021.",
+            "GPT-3: OpenAI's powerful autocomplete; used for search, code, music, and medical queries, but it makes mistakes and needs hard engineering."
+          ],
+          "tableIds": [
+            "innovations"
+          ]
+        },
+        {
+          "id": "professional-practice",
+          "title": "Grounded Professional Practice",
+          "page": 2,
+          "bullets": [
+            "IT laws keep ethical behavior checked, grounded, and balanced.",
+            "Computer engineering professionals have a moral responsibility to ground their outputs and technological achievements in existing IT laws.",
+            "Apply the five guidelines below when planning projects, building systems, and working with others."
+          ],
+          "tableIds": []
+        },
+        {
+          "id": "guidelines",
+          "title": "IT Laws and Professional Practice Guidelines",
+          "page": 2,
+          "bullets": [
+            "Plan projects for the common good, especially for underprivileged groups, water, electricity, or mental health.",
+            "Be professional: practice integrity and ethics and keep the work environment free from conflicts.",
+            "Aim for bigger targets: be a pioneer and inventor, create next trends, take risks, and make society function better.",
+            "Think outside the box: use creative alternatives, avoid e-waste, do not pass off altered programs as original, and buy used working hardware.",
+            "Be observant: report blatant motivations that cross what is morally correct; if you are reported, comply and admit faults."
+          ],
+          "tableIds": [
+            "guidelines"
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "id": "innovations",
+          "title": "Projected Innovations",
+          "headers": [
+            "Innovation",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Smart factories",
+              "Industrial IoT sensors with long battery life; Everactive sensors run over 20 years."
+            ],
+            [
+              "VR and AR",
+              "Immersive remote work and collaboration; Facebook prototypes and projected growth."
+            ],
+            [
+              "Self-driving cars",
+              "Safety, sensors, HCI, and backups; ALKS could prevent 47,000 serious accidents over a decade."
+            ],
+            [
+              "Spaceflight",
+              "Alternative propulsion, water-detection instruments, HCI, and drones; Perseverance and Ingenuity."
+            ],
+            [
+              "GPT-3",
+              "Powerful autocomplete for search, code, music, and medical queries; not perfect and needs hard engineering."
+            ]
+          ],
+          "page": 1,
+          "note": ""
+        },
+        {
+          "id": "guidelines",
+          "title": "Five IT Law Guidelines",
+          "headers": [
+            "Guideline",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Plan for the common good",
+              "Create systems and devices that help society, especially underprivileged groups."
+            ],
+            [
+              "Be professional",
+              "Use integrity and ethics and keep the work environment free from conflicts."
+            ],
+            [
+              "Aim for bigger targets",
+              "Be a pioneer, create next trends, take risks, and make society function better."
+            ],
+            [
+              "Think outside the box",
+              "Use creative alternatives, avoid e-waste, and do not pass off altered programs as original."
+            ],
+            [
+              "Be observant",
+              "Report morally wrong or illegal work; comply and admit faults if you are reported."
+            ]
+          ],
+          "page": 2,
+          "note": ""
+        }
+      ],
+      "terms": [
+        {
+          "id": "f08-smart-factories",
+          "term": "Smart factories",
+          "aliases": [],
+          "definition": "Factories using industrial IoT sensors and automation; limited by sensor energy and battery life.",
+          "page": 1,
+          "sectionId": "innovations"
+        },
+        {
+          "id": "f08-iot",
+          "term": "Internet of Things (IoT)",
+          "aliases": [
+            "IoT"
+          ],
+          "definition": "A network of connected sensors and devices that collect and exchange data.",
+          "page": 1,
+          "sectionId": "innovations"
+        },
+        {
+          "id": "f08-everactive",
+          "term": "Everactive",
+          "aliases": [],
+          "definition": "A startup that developed industrial sensors running over 20 years with minimal maintenance.",
+          "page": 1,
+          "sectionId": "innovations"
+        },
+        {
+          "id": "f08-vrar",
+          "term": "VR and AR",
+          "aliases": [
+            "VR/AR"
+          ],
+          "definition": "Virtual reality and augmented reality; immersive technologies for remote work, collaboration, and education.",
+          "page": 1,
+          "sectionId": "innovations"
+        },
+        {
+          "id": "f08-alks",
+          "term": "Automated Lane Keeping Systems (ALKS)",
+          "aliases": [
+            "ALKS"
+          ],
+          "definition": "Driver-assistance systems that could prevent an estimated 47,000 serious accidents over a decade.",
+          "page": 1,
+          "sectionId": "innovations"
+        },
+        {
+          "id": "f08-ingenuity",
+          "term": "Ingenuity",
+          "aliases": [
+            "Mars Helicopter"
+          ],
+          "definition": "NASA's Mars Helicopter that landed with Perseverance on February 18, 2021 and pilots itself due to communication delays.",
+          "page": 2,
+          "sectionId": "innovations"
+        },
+        {
+          "id": "f08-gpt3",
+          "term": "GPT-3",
+          "aliases": [
+            "GPT-3"
+          ],
+          "definition": "OpenAI's generative pre-trained transformer described as the most powerful autocomplete ever invented.",
+          "page": 2,
+          "sectionId": "innovations"
+        },
+        {
+          "id": "f08-common-good",
+          "term": "Common good",
+          "aliases": [],
+          "definition": "The principle of creating systems and devices that benefit society and underprivileged groups.",
+          "page": 2,
+          "sectionId": "guidelines"
+        },
+        {
+          "id": "f08-outside-box",
+          "term": "Think outside the box",
+          "aliases": [],
+          "definition": "Using creative alternatives, avoiding e-waste, and not passing off altered programs as original.",
+          "page": 3,
+          "sectionId": "guidelines"
+        },
+        {
+          "id": "f08-observant",
+          "term": "Be observant",
+          "aliases": [],
+          "definition": "Report morally wrong or illegal work and comply with rules if you are reported.",
+          "page": 3,
+          "sectionId": "guidelines"
+        }
+      ]
+    }
+  ]
+}

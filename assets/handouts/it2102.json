@@ -1,0 +1,888 @@
+{
+  "subjectId": "it2102",
+  "subject": "Embedded Systems",
+  "chunks": [
+    {
+      "id": "it2102-prelim-01-p1-c1",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 1,
+      "text": "Introduction to Embedded Systems Embedded systems are a combination of hardware and software parts. When these two parts are combined, embedded systems bring together products such as a cell phone, a music player, a network router, an aircraft guidance system, and many others. Embedded means something that is attached to another thing. A system is an arrangement in which all its units assemble work according to a set of rules. It can also be defined as working, organizing, or doing one or many tasks according to a fixed plan. Definition of Terms (Marwedel, 2017) • Ubiquitous computing (Pervasive computing) describes that computing focuses more on providing information anytime, anywhere."
+    },
+    {
+      "id": "it2102-prelim-01-p1-c2",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 1,
+      "text": "(Weiser, 1988) o Definition (Dictionary) ▪ Ubiquitous – connotes to everywhere. ▪ Pervasive – connotes to diffused throughout every part of. o Invisible computer implicates that computers are going to be integrated into products that it will become invisible. This is in the sense of being more miniscule and unseen in today’s interpretation. o Ambient intelligence implies that intelligence can be implanted in our everyday environments and makes those environments sensitive. • Embedded systems are information processing systems embedded into enclosing products. (Marwedel, 2017) • Cyber-Physical Systems (CPS) are integrations of computation and physical processes."
+    },
+    {
+      "id": "it2102-prelim-01-p1-c3",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 1,
+      "text": "(Lee, 2017) o It integrates computation with physical processes whose behavior is defined by both cyber and physical parts of the system. o These CPS are designed to be observed (through sensors) and control something (through actuators). • The Internet of Things “…describes the pervasive presence of a variety of devices – such as sensors, actuators, and mobile phones – which, through unique addressing schemes, can interact and cooperate to reach common goals.” (Giusto, et al., 2010) History of Embedded Systems (OmniSci, n.d.) • The first modern, real-time embedded computing system was the Apollo Guidance Computer, developed by Dr. Charles Stark Draper at the MIT for the Apollo Program."
+    },
+    {
+      "id": "it2102-prelim-01-p1-c4",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 1,
+      "text": "(1960) • Intel released the first commercially available microprocessor unit Intel 4004 – an early microprocessor that still required support chips and external memory. (1971) • In the early 1980s, memory, input, and output system components had been integrated into the same chip as the processor, forming a microcontroller. Basic Structure of an Embedded System (TechTarget) • Sensor − It measures the physical quantity and converts it to an electrical signal which can be read by an observer or by any electronic instrument like an ADC. • A-D Converter − It converts the analog signal sent by the sensor into a digital signal."
+    },
+    {
+      "id": "it2102-prelim-01-p1-c5",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 1,
+      "text": "• Processor – It processes the data to measure the output and store it in the memory. • D-A Converter – It converts the digital data fed by the processor to analog data • Actuator – It compares the output (from DAC) to the actual output stored in it and stores the approved output. • Memory – it is the storage unit of the whole system. Figure 1. Basic Structure of an Embedded System Source: TechTarget.com"
+    },
+    {
+      "id": "it2102-prelim-01-p2-c6",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 2,
+      "text": "Characteristics of an Embedded System (Marwedel, 2017) ➢ Cyber-physical and IoT systems must be dependable. o Safety: It is the state of being ‘safe’, the condition of being protected from harm or other non- desirable outcomes”. o Security: A system is secure if it is protected against harm caused by attacks originating from outside the system. o Confidentiality: The information can only be accessed by the intended recipients. o Reliability: This term refers to malfunctions of systems resulting from components not working. o Repairability: It is the probability that a failing system can be repaired within a certain time. o Availability: It is the probability that the system is available."
+    },
+    {
+      "id": "it2102-prelim-01-p2-c7",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 2,
+      "text": "➢ Mismatches between physical and cyber models will happen. o Real-time constraints. It refers to not completing computations within a given time frame can result in a serious loss of the quality provided by the system or may cause harm to the user. ▪ Hard Real-time – a system designed to meet all deadlines. A missed deadline is a design flaw. Ex: Nuclear reactor monitoring system, Anti-lock braking system. ▪ Firm Real-time – a system designed to meet all deadlines, but occasional missed deadline is allowed. Ex: In multimedia systems, audio or video quality is affected due to interference. ▪ Soft Real-time – a system designed to meet as many deadlines as possible."
+    },
+    {
+      "id": "it2102-prelim-01-p2-c8",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 2,
+      "text": "It will do its best effort to complete a task within specified time, but it may be late. Ex: Switch or router. “A time constraint is called hard if not meeting that constraint could result in a catastrophe”. (Kopetz, 1997) ➢ Embedded systems must be resource-aware. o Energy: Electronic information processing uses electrical energy for information processing. For embedded systems, the availability of electrical power and energy is a deciding factor. o Run-time: Embedded systems should exploit the available hardware architecture. It implies optimization of execution times in processes and avoidance of wasting process cycles."
+    },
+    {
+      "id": "it2102-prelim-01-p2-c9",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 2,
+      "text": "o Code Size: There may be constraints on the storage capacity of the system. o Weight: All portable systems must be lightweight. o Cost: A minimum amount of resources should be used for implementing the required functionality. ➢ Reactive − Many embedded systems must continually react to changes in the system's environment. ➢ Heterogeneity - It implies that the availability and compatibility of design and materials are needed for producing components. Embedded System Models (Marwedel, 2017) According to Jantsch (2004), a model is a simplified representation of something else, a physical thing or another model."
+    },
+    {
+      "id": "it2102-prelim-01-p2-c10",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 2,
+      "text": "It contains only the modeled entity’s traits and properties that are relevant to the job at hand. • Hierarchy: o Behavioral hierarchies: These hierarchies contain objects necessary to describe the system behavior. ▪ Example: Objects such as states, events, and output signals. o Structural hierarchies: These describe how systems are composed of physical components. ▪ Example: components such as processors, memories, actuators, and sensors. • Concurrency: Real-life systems are distributed, concurrent systems composed of components. • Behaviors: o Timing behavior: Time is one of the key dimensions of running systems."
+    },
+    {
+      "id": "it2102-prelim-01-p2-c11",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 2,
+      "text": "o State-oriented behavior: Automata (states) provides a mechanism for modeling reactive systems. o Exception-oriented behavior: To design dependable systems, it must be possible to describe actions to handle exceptions easily. • Event handling: Due to the reactive nature, mechanisms for describing events must exist. Such events may be external (caused by the environment) or internal events (caused by components of the system under design). • Executability: Executing the specification is a means of plausibility checking."
+    },
+    {
+      "id": "it2102-prelim-01-p3-c12",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 3,
+      "text": "• Readability: Specifications should be captured in languages that are readable by humans and by computers. • Portability and flexibility: An embedded system should be independent of specific hardware platforms so that they can be easily used for a variety of target platforms. • Non-functional properties: An embedded system exhibits some non-functional properties, such as fault tolerance, size, extendibility, expected lifetime, power consumption, weight, disposability, user-friendliness, and others. Common Types of Embedded Systems (Barkalov, 2019) • Cyber-physical systems - These systems are combining computations with physical processes."
+    },
+    {
+      "id": "it2102-prelim-01-p3-c13",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 3,
+      "text": "Embedded systems execute monitoring and control of physical processes. Feedback loop included in these systems. • Real-time systems – These systems are based on the time of response in which it determines the quality of the system. It means that the computations should be executed with a given time frame. • Dedicated systems - These systems execute only calculations connected with this algorithm. • Reactive systems – These systems execute when events are triggered depending on the state of a controlled object. The events are determined by signals on the system inputs."
+    },
+    {
+      "id": "it2102-prelim-01-p3-c14",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 3,
+      "text": "• Systems with a dedicated user interface – These systems have a dedicated user interface including steering wheels, pedals, push buttons, small LED displays. Applications of Embedded Systems (Marwedel, 2017) • Transportation and mobility: o Automotive electronics: These include engine control systems, anti-braking systems (ABS), electronic stability programs (ESP), GPS systems, driver assistance systems, and others. o Avionics: Includes flight control systems, pilot information systems, autopilots, and autonomous flying (drones). • Factory automation: CPS/IoT technology is the key toward a more flexible production, being the target of “Industry 4.0”."
+    },
+    {
+      "id": "it2102-prelim-01-p3-c15",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 3,
+      "text": "Example: RFID technology provides easy identification of every object. • Health sector: These technologies allow significantly improved result monitoring, giving doctors a better means for checking certain ailments or treatment. • Smart buildings: Information processing is used to increase the comfort level in buildings. It can reduce the energy consumption within buildings, and can improve safety and security. • Public safety: Identification/authentication of people – fingerprint sensors or face recognition systems. • Robotics: Robotics is also a traditional area in which embedded/cyber-physical systems have been used."
+    },
+    {
+      "id": "it2102-prelim-01-p3-c16",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 3,
+      "text": "• Military applications: Information processing has been used in military equipment such as improvement of military radar signals. • Telecommunication: It includes mobile phones, radio frequency design, digital signal processing, low-power design, and IoT. References: Barkalov, A., Titarenko L. & Mazurkiewicz, M. (2019). Foundations of embedded systems. Springer International. Embedded Systems. In Omnisci.com [Article]. Retrieved on June 2, 2021, from https://www.omnisci.com/technical- glossary/embedded-systems Embedded Systems Tutorial. In Tutorialspoint.com [Webpage]. Retrieved on June 2, 2021, from https://www.tutorialspoint.com/embedded_systems/es_overview.htm Lee, E., Seshia, S. (2017)."
+    },
+    {
+      "id": "it2102-prelim-01-p3-c17",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to Embedded Systems",
+      "page": 3,
+      "text": "Introduction to embedded systems: a cyber-physical systems approach [2nd ed.]. MIT Press. Lutkevich, B. (n.d.). Embedded system [Article]. Retrieved on June 2, 2021, from https://internetofthingsagenda.techtarget.com/definition/embedded-system Marwedel, P. (2018). Embedded system design: Embedded systems, foundations of cyber-physical systems, and the internet of things [3rd ed.]. Springer International. Pan, T., Zhu, Y. (2018). Designing embedded systems with Arduino a fundamental technology for makers. Springer. Peckol, J. (2019). Embedded systems – A contemporary design tool [2nd ed.]. Wiley."
+    },
+    {
+      "id": "it2102-prelim-03-p1-c1",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 1,
+      "text": "Embedded System Structure Input Block (Marwedel, 2017 & Pan, 2018) The input block accepts the data signals from the external world into the system which may be directed to any number of destinations. A sensor is a device that measures a physical quantity. It can be designed for virtually every physical quantity. ▪ Light Sensitive Sensor - an electromagnetic radiation detector that uses ultraviolet to far infrared spectral range. Electric signals can be detected as an input when photons are absorbed by the material. o Photodiode is a reverse-biased semiconducting optical sensor that is biased against its easy flow direction so that the current is very low."
+    },
+    {
+      "id": "it2102-prelim-03-p1-c2",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 1,
+      "text": "• Temperature Sensor - provides temperature feedback to a system controller to make decisions. • Line-tracking Sensor - can detect white lines in black and black lines in white via the TTL signal. • Ultrasonic Sensor - uses sonar to determine the distance from an object. The sensor is a non-contact distance measurement equipment that uses a timing variable, measured from the transmission signal till a reflected signal is received from the object. • Motion Sensor - is an electronic device that is used for motion detection."
+    },
+    {
+      "id": "it2102-prelim-03-p1-c3",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 1,
+      "text": "It contains an electronic sensor that quantifies motion and can either be integrated with or connected to other devices that alert a user of the presence of a moving object that is within the field of view of the sensor. • Gas Sensors - are wieldy used to detect gas leakages of LPG, Butane, Propane, Methane, Alcohol, Hydrogen, and smoke in houses and factories. It is composed of a micro AL2O3 ceramic tube, tin dioxide sensitive layer, electrode, and heater measurer fixed into a sensitive component. • Hall Sensor - is an omni-polar magnet sensor used to detect magnetic objects. It can be used for proximity switching, positioning, speed detection, and current sensing applications."
+    },
+    {
+      "id": "it2102-prelim-03-p1-c4",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 1,
+      "text": "• Color Sensor - is a complete color detector that can detect and measure a nearly limitless range of visible colors. The applications include test strip reading, sorting color, ambient light sensing/calibration, etc. • Digital Tilt Sensor - is a digital tilt switch in which there are two modules: mercury-based and ball-based. • Triple Axis Accelerometer - is an analog voltage output sensor that detects the acceleration of a moving object. It can be used for detecting acceleration information or measuring the slope angle for your devices. • Analog Sound Sensor - is used in detecting loud sounds in an ambient environment."
+    },
+    {
+      "id": "it2102-prelim-03-p1-c5",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 1,
+      "text": "It uses an electret condenser microphone to convert sound energy into an electrical signal, just like how a speaker operates. • Voice recognition - is a technology through which sounds, words, or phrases spoken by humans are converted into electrical signals. These signals are transformed into coding patterns that have been assigned meaning. • Vibration Sensor - is a digital plug that plays sensor blocks. It is made up of a spring and a conductive material passing through the center of the spring. • Flame Sensor - can be used to detect fire or other wavelengths at 760-1100 nm light. The detection angle is roughly 60° and the sensor is particularly sensitive to the flame spectrum."
+    },
+    {
+      "id": "it2102-prelim-03-p1-c6",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 1,
+      "text": "• Capacitive Touch Sensor - When any object with capacitive characteristics comes close to a capacitive touch sensor, it acts as another capacitor due to its dielectric nature. • Image sensors o CMOS sensor - The architecture of CMOS sensor arrays is similar to that of standard memories in which individual pixels can be randomly addressed and read out. o Charge-coupled Devices (CCDs) - In CCD technology, charges must be transferred from one pixel to the next until they can finally be read out at an array boundary. • Joystick Module - simply connects to two analog outputs based on the commands: X and Y control."
+    },
+    {
+      "id": "it2102-prelim-03-p1-c7",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 1,
+      "text": "It is made up of two potentiometers and a press button which provides a solution to move robots to a target directly. • Biometric sensors - Methods for biometric authentication include iris scans, fingerprint sensors, and face recognition. • Radio-frequency identification (RFID) - This technology is based on the response of a tag to radio frequency signals. o The tag consists of an integrated circuit and an antenna which provides identity to an RFID reader."
+    },
+    {
+      "id": "it2102-prelim-03-p2-c8",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 2,
+      "text": "Datapath Block and Control Block Information must be communicated before it can be processed in an embedded system. The datapath and control block coordinates the activities of the system as well as performing the computations and data manipulation operations necessary to execute the application. • Datapath Communication (Marwedel, 2017) o Channels are abstract entities characterized by the essential properties of communication, such as maximum information transfer capacity and noise parameters. o Communication media are the physical entities enabling communication. The probability of communication errors can be computed using communication theory techniques."
+    },
+    {
+      "id": "it2102-prelim-03-p2-c9",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 2,
+      "text": "▪ Wireless media (RF, infrared), optical media (fibers), and wires. • Control Block - Processing Units (Allaboutcircuits.com & Marwedel, 2017) o Package Type ▪ System-in-Package (SiP) - This module is a single component that embeds in a package all necessary components of an electronic sub-system such as processors, power module ICs, RAM, passive components, and crystal oscillators. This module is soldered on top of the motherboard. ▪ Package-on-a-Package (PoP) - It stacks single-component packages vertically, connected via ball grid arrays. Packages can be discrete components (memory, CPU, other logic) or a System-in-a-Package stacked with another package for added or expanded functionality."
+    },
+    {
+      "id": "it2102-prelim-03-p2-c10",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 2,
+      "text": "▪ System-on-a-Chip (SoC) - It brings together all the necessary components of a computer into a single chip or integrated circuit. It can be based on either a microcontroller or a microprocessor. Example: Rasp Pi. o Processor Type ▪ Very Long Instruction Word (VLIW) Processors - Several operations or instructions are encoded in a long instruction word (called instruction packet) and are assumed to be executed in parallel. • Explicit Parallelism Instruction Set Computer (EPIC) - uses instructions that explicitly identify operations to be performed in parallel. ▪ Multicore Processors - These processors integrated on the same chip are called multicores."
+    },
+    {
+      "id": "it2102-prelim-03-p2-c11",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 2,
+      "text": "The integration of multiple cores on the same die enables much faster communication. • Homogeneous multicore architecture - Advantages of homogeneous multi-core architectures include the design effort is limited and the software can be migrated from one processor to another one. • Heterogeneous multicore architecture - This is best suited for certain applications or run-time scenarios. This architecture must be used to achieve the best energy efficiency that is feasible. ▪ Graphics Processing Units (GPU) - Current GPUs try to run a large number of computations concurrently in order to achieve the desired performance. The goal is to keep many processing units busy."
+    },
+    {
+      "id": "it2102-prelim-03-p2-c12",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 2,
+      "text": "▪ Multiprocessor Systems-on-a-Chip (MPSoCs) - These are heterogeneous multi-core systems that have been merged with GPUs. • The architecture does not only contain processor cores but it comprises a number of additional system components, such as memory management units and interfaces for peripheral devices. The whole system is integrated on one chip."
+    },
+    {
+      "id": "it2102-prelim-03-p3-c13",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 3,
+      "text": "Memory Block (Pan, 2018 & Delkin Industrial, 2021) The role of memory blocks is to move and read instructions generated by the CPU. This can lead to operations being performed that cause data to be written back to memory. The memory block serves to hold collections of program instructions, as well as to provide short-term storage for input data, output data, and intermediate results of computations."
+    },
+    {
+      "id": "it2102-prelim-03-p3-c14",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 3,
+      "text": "• Types o ROM - Read-Only Memory (Embedded instructions and flash-programmable) o RAM - Random Access Memory (Volatile) ▪ Processor registers ▪ Working memory (Main Memory Ram) ▪ Buffer memory (Caches, Buffers, and scratchpad memory) • Compression Techniques o Predicated Execution - This is a method of execution wherein an instruction is executed if and only if a certain condition concerning values in the condition code registers is met. o Dictionaries - Each instruction pattern is stored only once. For each value of the program counter, a lookup table provides a pointer to the corresponding instruction in the instruction table."
+    },
+    {
+      "id": "it2102-prelim-03-p3-c15",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 3,
+      "text": "Output Block (Lee, 2017) The output block provides the means to send data or other signals back to the outside world. An actuator is a device that alters a physical quantity. It is commonly driven by a voltage that may be converted from a number by a digital-to- analog converter (DAC) and is packaged with a DAC. • Light-Emitting Diodes - provide a way for the system to provide a visual indication via light. • Motor Control - applies a torque to a load proportional to the current through the motor windings. o DC Motor - uses a driver circuit and starters to increase torque."
+    },
+    {
+      "id": "it2102-prelim-03-p3-c16",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 3,
+      "text": "▪ H-bridge is an electronic circuit that can drive the motor in both directions in which it uses four transistors that the schematic diagram appears like an “H”. o Stepper Motor - is a brushless, synchronous electric motor that converts digital pulses into mechanical shaft rotations. Each rotation of a stepper motor is divided into a set number of steps. o Servo Motor - consists of several main parts, the motor and gearbox, a position sensor, an error amplifier and motor driver, and a circuit to decode the requested position. ▪ A technique called pulse width modulation (PWM) can efficiently deliver large amounts of power under digital control. References: Delkin Industrial. (2021, June 9)."
+    },
+    {
+      "id": "it2102-prelim-03-p3-c17",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 3,
+      "text": "Understanding embedded memory systems [Article]. Retrieved on July 7, 2021, from https://www.delkin.com/blog/understanding-embedded-memory-systems/ Lee, E., Seshia, S. (2017). Introduction to embedded systems: A cyber-physical systems approach (2nd ed.). MIT Press. Marwedel, P. (2018). Embedded system design: Embedded systems, foundations of cyber-physical systems, and the Internet of Things (3rd ed.). Springer International. Pan, T., Zhu, Y. (2018). Designing embedded systems with Arduino: A fundamental technology for makers. Springer. SiP, SoC, SoM, CoM—What’s the Difference? In allaboutcircuits.com."
+    },
+    {
+      "id": "it2102-prelim-03-p3-c18",
+      "termId": "prelim",
+      "handoutId": "it2102-prelim-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Embedded System Structure",
+      "page": 3,
+      "text": "Retrieved on June 4, 2021, from https://www.allaboutcircuits.com/news/sip-soc-som-comwhats-the-difference/"
+    },
+    {
+      "id": "it2102-midterm-04-p1-c1",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 1,
+      "text": "Communications and Protocols Types of Processor Communication • Outbound Embedded systems utilize microprocessors as the main control element in various kinds of measurement or control systems. I/O subsystem views the hardware and software within the range of communication: o Local devices – These devices tend to be in closer proximity (1 - 3m less) to the core system and typically have proprietary or specialized interfaces. ▪ Any tasks executing on such devices are usually associated with the function of the specific device and are not considered to be part of the embedded application proper. o Remote devices - These devices tend to be located at a greater physical distance (3 - 5m more)."
+    },
+    {
+      "id": "it2102-midterm-04-p1-c2",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 1,
+      "text": "▪ Interaction with remote external devices begins with the notion of distributed tasks executing on these devices and forms. • Inbound Information must be communicated before it can be processed in an embedded system. Information can be communicated through various channels and beyond. o Channels are abstract entities characterized by the essential properties of communication. o The physical entities enabling communication are called communication media: wired or wireless."
+    },
+    {
+      "id": "it2102-midterm-04-p1-c3",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 1,
+      "text": "Communication and Synchronization Model (Peckol, 2019 & Mardewel, 2018) The requirements for synchronization and for exchanging data and information among tasks are to be identified through protocol standards and interfaces. • The information is the data or signals being moved that convey the intent or goals. o It will be expressed either directly (voltage, current, or electromagnetic wave) or indirectly (information, data or signals, pressure, strain, sonic, or temperature). ▪ The nature of the information: unidirectional and bidirectional. o Techniques for electrical robustness: ▪ Single-ended signaling - signals are propagated on a single wire."
+    },
+    {
+      "id": "it2102-midterm-04-p1-c4",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 1,
+      "text": "These are represented by voltages with respect to a common ground and are susceptible to external noise. ▪ Differential signaling - each signal needs two wires propagating binary values. • Twisted pairing is used to lessen noise. • Places refer to the information, such as data signals, moving to or from an existing system. The source and destination for the exchange extend to locations outside of the local address space. o Point-to-point - It is the interaction with a specific component, system, subsystem, or other piece of equipment."
+    },
+    {
+      "id": "it2102-midterm-04-p1-c5",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 1,
+      "text": "▪ The exchange may command a measurement, alter the configuration of the component, perform a specific operation and return a value, set its output to a designated value, or simply request status information. o Broadcast - The destination may include all of the subsystems comprising the application. It is used to send the same information to all components. ▪ The information may direct all member subsystems to a reset state, to initiate a self-test sequence or signal that the state of some system variable has changed and that an update is necessary. o Multicast - It transfers information only to those for whom it is relevant such as a subsystem."
+    },
+    {
+      "id": "it2102-midterm-04-p1-c6",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 1,
+      "text": "• Control and synchronization is a combination of both hardware synchronization and software. It controls and synchronization of actions and the movement of the information. o The hardware portion comprises the overall structure and organization of the transport mechanism, any connected devices, and any necessary control signals."
+    },
+    {
+      "id": "it2102-midterm-04-p2-c7",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 2,
+      "text": "o The software portion includes a special collection of routines, which are used to manage communication with individual devices or classes of devices. ▪ Driver (Device driver) is associated with each I/O device and supports interaction: ▪ The source or destination for any exchange. ▪ The location of the I/O driver. ▪ The I/O ports on the microprocessor. ▪ The protocol for the data exchange. ▪ Local and global memory address space. ▪ Timing requirements. ▪ Exchange as an event, a shared variable, or a message. ▪ The physical medium of the exchange. ▪ The aspects are characterized by the flow of information, I/O timing, and software drivers."
+    },
+    {
+      "id": "it2102-midterm-04-p2-c8",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 2,
+      "text": "• The transport mechanism implies the implementation of moving the information through a variety of physical mediums and configurations. It can be a piece of wire, a bundle of fiber-optic filaments, or the surrounding air. Communication Protocols • Protocol is a set of rules and regulations that is to be followed. One of the functions of these protocols is to exchange messages from one computer system to another. It covers error detection & correction, signaling, and authentication. • Communication protocol is a set of rules and regulations that allow two (2) or more electronic devices to exchange data with each other."
+    },
+    {
+      "id": "it2102-midterm-04-p2-c9",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 2,
+      "text": "o The intersystem protocol uses two (2) different devices to communicate such as a computer to a microcontroller kit. The communication is done through an inter bus system. ▪ Universal Asynchronous Receiver and Transmitter (UART) • It is a serial communication with two wired protocols in which its data cable signal lines are labeled as Rx and Tx. It transmits and receives the data serially bit by bit without class pulses in a sequential manner via half-duplex protocol. Ex: Emails, SMS, Walkie-talkie. ▪ Universal Synchronous and Asynchronous Receiver and Transmitter (USART) • It is a serial communication of a two-wire protocol."
+    },
+    {
+      "id": "it2102-midterm-04-p2-c10",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 2,
+      "text": "The data cable signal lines are the same as UART, which is labeled as Rx and Tx. This protocol is used to transmitting and receiving the data byte by byte along with the clock pulses via full-duplex protocol. Other devices can communicate using a microcontroller with this protocol. Ex: Telecommunications. ▪ Universal Serial Bus (USB). • It is a serial communication of two-wire protocol in which the data cable signal lines are labeled D+ and D-. This protocol is used to communicate with the system peripherals. USB protocol is used to send and receive the data serially to the host and peripheral devices."
+    },
+    {
+      "id": "it2102-midterm-04-p2-c11",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 2,
+      "text": "USB communication requires driver software that is based on the functionality of the system. Ex: Mouse, Keyboard, Hubs, switches, pen drive. o The intrasystem protocol is used to communicate the two devices within the circuit board which expands the peripherals of the microcontroller. The circuit complexity and power consumption will be increased by using the intrasystem protocol. ▪ Inter-Integrated Circuit (I2C) • It requires only two wires connecting all peripherals to the microcontroller: two bidirectional active wires SDA (serial data line) and SCL (serial clock line) to carry information between devices. It is a master-to-slave communication protocol."
+    },
+    {
+      "id": "it2102-midterm-04-p2-c12",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 2,
+      "text": "▪ Serial Peripheral Interface (SPI) • It is one of the serial communication protocols developed by Motorola. Sometimes SPI protocol is also called a 4-wire protocol consisting of four wires MOSI, MISO, SS, and SCLK. This protocol used to communicate the master and slave devices. The master first configures the clock using a frequency."
+    },
+    {
+      "id": "it2102-midterm-04-p3-c13",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 3,
+      "text": "▪ Controller Area Network (CAN) • It is a serial communication protocol that requires two wires CAN High (H+) and m. It was developed by the Robert bosh company in 1985 for in-vehicle networks. It is based on a message-oriented transmission protocol. o IoT Protocols are types of communication that ensure the finest security toward the data being exchanged among the IoT-connected devices. Its main benefits are high quality, credibility, interoperability, innovation flexibility & global scalability. ▪ IoT protocols are available in two types: IoT network protocols and IoT data protocols. • WiFi, SigFox, Bluetooth, LoRaWAN, NFC, Z wave, Zigbee, OPC- UA, Cellular, & MQTT."
+    },
+    {
+      "id": "it2102-midterm-04-p3-c14",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 3,
+      "text": "o PLC Protocol (Programming Logic Circuit) depends on the three basic parts: baud rate, length of network, and the number of nodes. Profibus Optomux Ethernet Global Data (EGD) Interbus Host Link Protocol Factory Interface Network Service Protocol (FINS) ControlNet therNet/IP Open Smart Grid Protocol (OSGP) ProfiNet PPI- Point to Point Distributed Network Protocol (DNP3) DF-1 Protocol Ethernet Powerlink Service Request Transport Protocol (SRTP) RAPIENet Multi-Point Interface (MPI) Smart Distributed System Protocol (SDS) o Cloud Computing Communication Protocol supports two (2) protocols through Cloud IoT Core."
+    },
+    {
+      "id": "it2102-midterm-04-p3-c15",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 3,
+      "text": "▪ Message Queuing Telemetry Transport (MQTT) is used frequently and it is supported through embedded devices which has common interactions from a machine to another. ▪ Hypertext Transfer Protocol (HTTP) is a connectionless protocol, so devices do not maintain a connection to the cloud IoT core. It is an alternative, they send requests as well as get responses. References: Barkalov, A., Titarenko L., & Mazurkiewicz, M. (2019). Foundations of embedded systems. Springer International. Lee, E. & Seshia, S. (2017). Introduction to embedded systems: a cyber-physical systems approach (2nd ed.). MIT Press. Marwedel, P. (2018)."
+    },
+    {
+      "id": "it2102-midterm-04-p3-c16",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 3,
+      "text": "Embedded system design: Embedded systems, foundations of cyber-physical systems, and the Internet of Things (3rd ed.). Springer International. Pan, T., Zhu, Y. (2018). Designing embedded systems with Arduino: A fundamental technology for makers. Springer. Peckol, J. (2019). Embedded systems – A contemporary design tool [2nd ed.]. Wiley. Popular communication protocols in Embedded systems – Part I. (2020, July 29). In Gadgetronicx.com. Retrieved on July 7, 2021, from https://www.gadgetronicx.com/popular-communication-protocols-embedded-systems/ What are Communication Protocols & Their Working. (n.d.). In Elprocus.com."
+    },
+    {
+      "id": "it2102-midterm-04-p3-c17",
+      "termId": "midterm",
+      "handoutId": "it2102-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Communications and Protocols",
+      "page": 3,
+      "text": "Retrieved on July 7, 2021, from https://www.elprocus.com/communication-protocols/"
+    },
+    {
+      "id": "it2102-prefinals-05-p1-c1",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 1,
+      "text": "Interfaces and Mechanisms Today’s embedded systems integrate computing and physical dynamics. Dynamics refers to the capability to do actions required in a computing system. It supports all interaction with the outside world in which it passes through so called interfaces. • Interfaces establish connection between humans, environment, phenomena, and machines, thus providing input, process, or output. Physical I/O Interfaces (Lee & Seshia, 2017) All embedded systems include some form of input and output (I/O) operations."
+    },
+    {
+      "id": "it2102-prefinals-05-p1-c2",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 1,
+      "text": "I/O operations are interpreted differently depending on the viewpoint taken and place different requirements on the level of understanding of the hardware details such as: • I/O operations imply communicating with the device. • Programming the device to initiate an I/O request. • Performing actual data transfer between the device and the system. Common I/O Interfaces • Pulse Width Modulation - is a technique for delivering a variable amount of power efficiently to external hardware devices. A PWM signal rapidly switches between high and low at some fixed frequency, varying the amount of time that it holds the signal high."
+    },
+    {
+      "id": "it2102-prefinals-05-p1-c3",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 1,
+      "text": "• General-Purpose Digital I/O - enables the software to either read or write voltage levels representing a logical zero or one. o If the processor supply voltage is in active-high logic, a voltage close to VDD represents a logical one, while a voltage near zero represents a logical zero. ▪ As output, this enables software to then write to a memory-mapped register to set the output voltage to be either high or low. ▪ As inputs, in which case software will be able to react to provided voltage levels. ▪ Having a tristate logic, it produces an output high or low voltage which the I/O pin may be adjusted into the off state."
+    },
+    {
+      "id": "it2102-prefinals-05-p1-c4",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 1,
+      "text": "• Serial Interfaces - sends or receives a sequence of bits sequentially over a single line. One way to use pins and wires efficiently is to send information over them serially as sequences of bits. o RS-232 was standardized by the Electronics Industries Association (EIA) and introduced to connect teletypes to modems. ▪ Interface mechanism: • The sender and receiver first must agree on a transmission rate (which is slow by modern standards). • The sender initiates transmission of a byte with a start bit, which alerts the receiver that a byte is coming. • The sender then clocks out the sequence of bits at the agreed-upon rate, following them by one or two stop bits."
+    },
+    {
+      "id": "it2102-prefinals-05-p1-c5",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 1,
+      "text": "• The receiver’s clock resets upon receiving the start bit and is expected to track the sender’s clock closely enough to be able to sample the incoming signal sequentially and recover the sequence of bits. o The USB standard defines more on the transport of bytes and more complicated control logic. It is intended to enhance plug-and-play and allow hot swapping. ▪ Plug-and-play enables the operating system (OS) to spontaneously configure and discover a new peripheral device without having to restart the computer. o Joint Test Action Group (JTAG) or IEEE 1149.1 standard test access port and boundary-scan architecture."
+    },
+    {
+      "id": "it2102-prefinals-05-p1-c6",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 1,
+      "text": "This interface solves the problem of testing circuits that need to be accessed and inaccessible to electrical probes. The notion of a boundary scan allows the state of a logical boundary of a circuit) to be read or written serially through pins that are made accessible."
+    },
+    {
+      "id": "it2102-prefinals-05-p2-c7",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 2,
+      "text": "• Parallel Interfaces - uses multiple lines to simultaneously send bits. Each line of a parallel interface is also a serial interface, but the logical grouping and coordinated action of these lines are what makes the interface a parallel interface. o IEEE-1284 printer port defines a parallel printer bus specification with speeds above 1MBps which uses a point-to-point asynchronous bi-directional interface. ▪ This printer port protocol uses a simple 2-wire handshake in which the PC asserts a strobe signal until the printer asserts an acknowledge signal. This repeats for each byte transferred."
+    },
+    {
+      "id": "it2102-prefinals-05-p2-c8",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 2,
+      "text": "o With careful programming, a group of GPIO pins can be used together to realize a parallel interface. • Bus - is an interface shared among multiple devices, in contrast to a point-to-point interconnection linking exactly two devices. Buses can be serial interfaces or parallel interfaces. o SCSI (Small Computer System Interface) is an example of peripheral bus architecture, used to connect computers to peripherals such as sound cards, disk drives, and tape drives. o IEEE-488 was originally developed to connect automated test equipment to controlling computers."
+    },
+    {
+      "id": "it2102-prefinals-05-p2-c9",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 2,
+      "text": "This interface was designed at Hewlett Packard and is also widely known as HP-IB (Hewlett Packard interface bus) and GPIB (general-purpose interface bus). I/O Modules A module comprises a bunch of electrical components compiled together to form a part of a system that caters to a particular function. It varies depending on how it deals with I/O interfaces, how it is used as requirements, and how it responds to certain exceptions. Examples of Wireless I/O Modules Nowadays, wireless communication is in motion since it has a capability to remove clutter from tons and tons of physical wirings in a system."
+    },
+    {
+      "id": "it2102-prefinals-05-p2-c10",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 2,
+      "text": "• Infrared Transmitter and Receiver Module o An infrared (IR) transmitter consists of an infrared LED array, which functions as a luminophore, and a PN junction made of a special material with high infrared radiation efficiency, which is usually GaAs. o The infrared receiver is a semiconductor device used for translating infrared light signals into electrical signals. The core component of it is a PN junction made of a special material. o One downfall of using infrared for data transmission is the presence of infrared sources other than that of the data transmitter. The receiver is simply “tuned” to react to that frequency."
+    },
+    {
+      "id": "it2102-prefinals-05-p2-c11",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 2,
+      "text": "It will ignore any infrared signals that are outside of that carrier frequency. • Bluetooth® wireless technology is convenient to use and has the bandwidth to meet most of today’s demands for mobile and personal communications (using short-wavelength UHF radio waves in the ISM band from 2.4 to 2.485 GHz). o It handles the wireless part of the communication channel; it transmits and receives data wirelessly between these devices. o It delivers the received data and receives the data to be transmitted to and from a host system through a host controller interface (HCI). o Bluetooth is a packet-based protocol with a master-slave structure."
+    },
+    {
+      "id": "it2102-prefinals-05-p2-c12",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 2,
+      "text": "One master may communicate with up to seven slaves in a piconet. All devices share the master’s clock. • GSM/GPRS Module o The GSM (Global System for Mobile Communication) is a digital cellular technology used for transmitting mobile voice and data services. It is also sometimes referred to as 2G, as it is a second- generation cellular network. GSM supports outgoing and incoming voice calls, SMS or text messaging, and data communication (via GPRS). o The GPRS (General Packet Radio Service) is a wireless packet data service that is an extension of the GSM network."
+    },
+    {
+      "id": "it2102-prefinals-05-p2-c13",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 2,
+      "text": "The GPRS radio resources allocator allows the provision of multiple radio channels to a single user in order to ensure a high data user rate. GPRS offers direct Internet Protocol (IP) connectivity in a point-to-point or a point-to-multipoint mode and provides packet radio access to external packet data networks (PDN)."
+    },
+    {
+      "id": "it2102-prefinals-05-p3-c14",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 3,
+      "text": "o It requires a SIM (Subscriber Identity Module) card just like mobile phones to activate communication with the network. The power supply circuit is also built in the module that can be activated by using a suitable adaptor. A GSM/GPRS module can perform the following operations: ▪ Receive, send, or delete SMS messages in a SIM. ▪ Make, receive, or reject a voice call. ▪ Receive/send data from/to a remote location through GPRS. • Wi-Fi, or Wireless Fidelity, is a term that is used generically to refer to any product or service using any type of 802.11 technology."
+    },
+    {
+      "id": "it2102-prefinals-05-p3-c15",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 3,
+      "text": "Wi-Fi networks operate in the unlicensed 2.4–2.5 GHz radio bands, with an 11 Mbps (802.11b) or 54 Mbps (802.11a) data rate, respectively. o Wireless Ethernet. Wi-Fi is an Ethernet replacement. Wi-Fi and Ethernet, both IEEE 802 networks, share some core elements. o Extended Access. The absence of wires and cables extends access to places where wires and cables cannot go or where it is too expensive for them to go. o Cost Reduction. The absence of wires and cables brings down cost. o Mobility. Wires tie you down to one location. Going wireless means you have the freedom to change your location without losing your connection. o Flexibility."
+    },
+    {
+      "id": "it2102-prefinals-05-p3-c16",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 3,
+      "text": "Extended access, cost reductions, and mobility create opportunities for new applications as well as the possibility of creating new solutions for legacy applications. I/O Interface Mechanisms (Lee & Seshia, 2017) • Interrupts and Exceptions o An interrupt is a mechanism for pausing execution of whatever a processor is currently doing and executing a pre-defined code sequence such as interrupt service routine (ISR) or interrupt handler. ▪ Hardware interrupt - external hardware changes the voltage level on an interrupt request line. ▪ Software interrupt - the program that triggers the interrupt by executing a special instruction or by writing to a memory-mapped register."
+    },
+    {
+      "id": "it2102-prefinals-05-p3-c17",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 3,
+      "text": "▪ Exception - where the interrupt is triggered by internal hardware that detects a fault, such as a segmentation fault. o A programmable interval timer (PIT) counts down from some value to zero. ▪ The initial value is set by writing to a memory-mapped register. ▪ When the value hits zero, the PIT raises an interrupt request. ▪ By writing to a memory-mapped control register, a timer might be set up to trigger repeatedly without having to be reset by the software. • Atomicity o An interrupt service routine (ISR) can be invoked between any two instructions of the main program."
+    },
+    {
+      "id": "it2102-prefinals-05-p3-c18",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 3,
+      "text": "▪ The term “atomic” comes from the Greek word “indivisible” which implies that the operation may happen or not, due to some instructional events or sharing of hardware resources. ▪ If the programmer is writing assembly code, then it may be safe to assume that each assembly language instruction is atomic. • Interrupt Controllers o It is the logic in the processor that handles interrupts. It supports some interrupts and priority levels. Each interrupt has an interrupt vector, which is the address of an ISR or an index into an array called the interrupt vector table that contains the addresses of all the ISRs. References: Barkalov, A., Titarenko L. & Mazurkiewicz, M. (2019)."
+    },
+    {
+      "id": "it2102-prefinals-05-p3-c19",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 3,
+      "text": "Foundations of embedded systems. Springer International. Lee, E., Seshia, S. (2017). Introduction to embedded systems: A cyber-physical systems approach [2nd ed.]. MIT Press. Lee, E. & Ha, S. (1989). Scheduling strategies for multiprocessor real-time DSP. In Global Telecommunications Conference (GLOBECOM). doi:10.1109/GLOCOM.1989.64160."
+    },
+    {
+      "id": "it2102-prefinals-05-p4-c20",
+      "termId": "prefinals",
+      "handoutId": "it2102-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Interfaces and Mechanisms",
+      "page": 4,
+      "text": "Li, Q., & Yao, C. (2012). Real-Time Concepts for Embedded Systems: Chapter 12 - I/O Subsystem [Lecture Slides]. Retrieved on August 9, 2021, from http://osnet.cs.nchu.edu.tw/powpoint/Embedded/Chapter%2012.pdf Marwedel, P. (2018). Embedded system design: Embedded systems, foundations of cyber-physical systems, and the Internet of Things (3rd ed.). Springer International. Pan, T., Zhu, Y. (2018). Designing embedded systems with Arduino: A fundamental technology for makers. Springer. Peckol, J. (2019). Embedded systems: A contemporary design tool (2nd ed.). Wiley."
+    },
+    {
+      "id": "it2102-finals-06-p1-c1",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 1,
+      "text": "Embedded System Optimization The aspect of optimization plays a central role during the design of embedded systems. Optimization is a process of improving the efficiency of a system in time (speed), space (size), or resources. The first step in optimization is to determine the problems that have been existing. Most of the optimizations performed on code involve a tradeoff between execution speed and code size. High-Level Optimizations Software optimization is the process of modifying a software system to make some aspects work more efficiently or use fewer resources."
+    },
+    {
+      "id": "it2102-finals-06-p1-c2",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 1,
+      "text": "• Simple Loop Transformations o Loop Permutations – These permutations swap the order of two loops to increase parallelism, improve spatial locality, or enable other transformations. o It may have a positive effect on the reuse of array elements in the cache since the next iteration of the innermost loop will access an adjacent location in memory. ▪ Caches are normally organized such that adjacent locations can be accessed significantly faster than locations that are further away from the previously accessed location in which it is exploiting spatial locality. o Loop Unrolling - is a standard transformation creating several instances of the loop body."
+    },
+    {
+      "id": "it2102-finals-06-p1-c3",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 1,
+      "text": "▪ The number of copies of the loop is called the unrolling factor. Unrolling factors larger than two are possible. Unrolling reduces the loop overhead (fewer branches per execution), and therefore typically improves the speed. o Loop Fusion and Fission – implies the combining or separating of loop nests. ▪ There may be cases in which two separate loops can be merged, and there may be cases in which a single loop is split into two. ▪ Some versions might lead to an improved cache behavior and increase the potential for parallel computations within the loop body. • Loop Tiling/Blocking – It implies the chunking of nested loops."
+    },
+    {
+      "id": "it2102-finals-06-p1-c4",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 1,
+      "text": "In this optimization, the use of memory hierarchies may be beneficial in which it includes caches and scratchpad memories. A significant reuse factor for the information in those memories is required. Otherwise, the memory hierarchy cannot be exploited. • Loop Splitting – Performing this loop splitting manually is very difficult and error-prone. There are published algorithms is based on a sophisticated analysis of accesses to array elements in loops. Optimized solutions are generated using genetic algorithms. Run-times can be reduced by loop splitting for various applications and architectures. • Array Folding – Combining different array elements into one to avoid resource mismanagement."
+    },
+    {
+      "id": "it2102-finals-06-p1-c5",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 1,
+      "text": "At any time, only a subset of array elements is needed. o The maximum number of elements needed is called the address reference window. Each array is allocated the maximum of the space it requires during the entire execution time. Embedded System Concurrency (Lee, 2017) The physical world is concurrent with many things happening at once. Bridging this mismatch in semantics is one of the major challenges that an embedded system designer face. • Threads are imperative programs that run concurrently and share a memory space in which each program can access the other’s variables."
+    },
+    {
+      "id": "it2102-finals-06-p1-c6",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 1,
+      "text": "o Creating Threads - The mechanism is provided in the form of a collection of procedures that a programmer can use, such as a standardized API (application program interface). o Implementing Threads - The core of the implementation of threads is a scheduler that decides which thread to execute next when a processor is available to execute a thread. o Mutual Exclusion (mutex) - A thread may be suspended between any two atomic operations to execute another thread and/or an interrupt service routine. o Deadlock - As mutex locks proliferate in programs, the risk of deadlock increases. A deadlock occurs when some threads become permanently blocked trying to acquire locks."
+    },
+    {
+      "id": "it2102-finals-06-p2-c7",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 2,
+      "text": "• Processes are imperative programs with their own memory spaces. These programs cannot refer to each other’s variables and do not exhibit the same difficulties as threads. o To achieve concurrency, processes need to be able to communicate. ▪ Operating systems provide a variety of mechanisms such as creating shared memory spaces leading to potential difficulties to multithreaded programming. ▪ A file system is simply a way to create a body of data that is persistent in the sense that it outlives the process that creates it. • One process can create data and write it to a file, and another process can read data from the same file."
+    },
+    {
+      "id": "it2102-finals-06-p2-c8",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 2,
+      "text": "▪ Message Passing – One process creates a chunk of data, deposits it in a carefully controlled section of memory that is shared, and then notifies other processes that the message is ready. Those other processes can block waiting for the data to become ready. • Semaphores are named after mechanical signals traditionally used on railroad tracks to signal that a section of track has a train on it. o It is possible to use a single section of track for trains to travel in both directions (the semaphore implements mutex, preventing two trains from simultaneously being on the same section of track)."
+    },
+    {
+      "id": "it2102-finals-06-p2-c9",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 2,
+      "text": "Basics of Scheduling (Lee & Seshia, 2017) • Multitasking is where multiple imperative tasks execute concurrently, either interleaved on a single processor or in parallel on multiple processors. o A scheduler decides what to do next at certain points in time, such as the time when a processor becomes available. • Real-time systems are collections of tasks where in addition to any ordering constraints imposed by each precedence between the tasks. o These constraints relate the execution of a task to real-time and physical time in the environment of the computer executing the task. o Tasks have deadlines in which are values of physical time by which the task must be completed."
+    },
+    {
+      "id": "it2102-finals-06-p2-c10",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 2,
+      "text": "The deadline is the time by which a task must be completed. ▪ Hard real-time deadline is a real physical constraint imposed by the application, where missing the deadline is considered an error. ▪ Soft real-time deadline reflects a design decision that need not be enforced strictly. It is better to meet the deadline, but missing the deadline is not an error. • Scheduling Decisions - A scheduler decides what task to execute next when faced with a choice in the execution of a concurrent program or set of programs. A scheduling decision is a decision to execute a task. o Assignment: which processor should execute the task; The choice of processor is called processor assignment."
+    },
+    {
+      "id": "it2102-finals-06-p2-c11",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 2,
+      "text": "o Ordering: in what order each processor should execute its tasks; and o Timing: the time at which each task executes. Types of Schedulers (Lee & Ha, 1989) • A fully-static scheduler makes all decisions at design time in which it does not need semaphores or locks. It can use timing instead to enforce mutual exclusion and precedence constraints. • A static order scheduler performs the task assignment and ordering at design time but defers until the run time the decision of when in physical time to execute a task. • A static assignment scheduler performs the assignment at design time and everything else at run time."
+    },
+    {
+      "id": "it2102-finals-06-p2-c12",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 2,
+      "text": "Each processor is given a set of tasks to execute, and a run-time scheduler decides during execution what task to execute next. • A fully-dynamic scheduler performs all decisions at run time. When a processor becomes available (e.g., it finishes executing a task or a task block acquiring a mutex), the scheduler decides at that point about what task to execute next on that processor."
+    },
+    {
+      "id": "it2102-finals-06-p3-c13",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 3,
+      "text": "• A preemptive scheduler may make a scheduling decision during the execution of a task, assigning a new task to the same processor. That is, a task may be in the middle of executing when the scheduler decides to stop that execution and begin the execution of another task. o The interruption of the first task is called preemption. • A non-preemptive scheduler always lets tasks run to completion before assigning another task to execute on the same processor. • A priority-based scheduler assumes each task is assigned a number called a priority, and the scheduler will always choose to execute the task with the highest priority."
+    },
+    {
+      "id": "it2102-finals-06-p3-c14",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 3,
+      "text": "▪ A fixed priority is a priority that remains constant over all executions of a task. ▪ A dynamic priority is allowed to change during execution. o A preemptive priority-based scheduler is a scheduler that supports the arrival of tasks and executes the enabled task with the highest priority all the time. o A non-preemptive priority-based scheduler is a scheduler that uses priorities to determine which task to execute next after the current task execution completes, but never interrupts a task during execution to schedule another task. Scheduler Implementation (Lee & Seshia, 2017) • A scheduler may be part of a compiler or code generator, part of an operating system or microkernel, or both."
+    },
+    {
+      "id": "it2102-finals-06-p3-c15",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 3,
+      "text": "A run-time scheduler will typically implement tasks as threads (or as processes, but the distinction is not important here). o A timer interrupt occurs. o An I/O interrupt occurs. o An operating system service is invoked. o A task attempts to acquire a mutex. o A task tests a semaphore. • Priority inversion is a scheduling anomaly where a high-priority task is blocked while unrelated lower-priority tasks are executing. o Priority inheritance - when a task blocks attempting to acquire a lock, then the task that holds the lock inherits the priority of the blocked task."
+    },
+    {
+      "id": "it2102-finals-06-p3-c16",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 3,
+      "text": "Thus, the task that holds the lock cannot be preempted by a task with lower priority than the one attempting to acquire the lock. Power Management (Peckol, 2019) Embedded systems are now integrated into smartphones, smartwatches, wireless data modems, video cameras, net browsers, wearable systems, and so on. All these devices use batteries as a source of energy supply. • Categories of Power Consumption (CMOS-based systems) o The dynamic power consumption relates to the charging and discharging of the load capacitance and the short circuit currents. o The static power (or leakage power) relates to leakage currents flowing even when a transistor is closed. • Importance of Power Management 1."
+    },
+    {
+      "id": "it2102-finals-06-p3-c17",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 3,
+      "text": "Power consumption determines how long an embedded system can operate. Power consumption determines the sizes of power supplies, the heat-dissipation overhead, the cost, weight, and area. 2. If temperature increases, then the device failure rates increase, too. The power dissipation leads to heating. 3. There are hard time constraints in embedded systems. Designers use pessimistic estimations of worst-case execution time. It leads to redundancy in system resources (wastage) to meet worst-case performance requirements. 4. Embedded systems often execute functions that require resource-intensive applications (for example, multimedia processing)."
+    },
+    {
+      "id": "it2102-finals-06-p3-c18",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 3,
+      "text": "It leads to the optimization of embedded systems in the performance direction. 5. The development of CMOS technology leads to increasing both on-chip transistor density and speed. It results in the chip utilization wall, which limits the fraction of the chip that can be simultaneously used at full speed within the power budget."
+    },
+    {
+      "id": "it2102-finals-06-p4-c19",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 4,
+      "text": "6. More and more embedded systems are used in mobile convergence applications. For example, they are key platforms for web browsing, video streaming, and others. Such an amount of these makes their total power consumption very high. 7. Data processing leads to power consumption. Now many corporate IT departments follow the main tendency of green computing. It means that they try to reduce the environmental effect of their activity. Efficient power management is very important for achieving these goals."
+    },
+    {
+      "id": "it2102-finals-06-p4-c20",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 4,
+      "text": "Energy Saving Approaches (Marwedel, 2018) • Dynamic Voltage and Frequency Scaling (DVFS) - is a technique that aims at reducing dynamic power consumption by dynamically adjusting the voltage and frequency of a CPU. Typically, such an optimization step follows code generation by the compiler. o It is possible to shut down the processor during the slack time of 5 seconds. o Another option is to initially run the processor at full speed and then reduce the voltage when the remaining cycles can be completed at the lowest voltage. o Run the processor at a clock rate just large enough to complete the cycles within the available time."
+    },
+    {
+      "id": "it2102-finals-06-p4-c21",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 4,
+      "text": "o If a variable voltage processor completes a task before the deadline, the energy consumption can be reduced. o If a processor uses a single supply voltage and completes a task just at its deadline, then the supply voltage is the unique supply voltage that minimizes the energy consumption of the task. o If a processor can only use some discrete voltage levels, then a voltage schedule using the two voltages, which are the two immediate neighbors of the ideal voltage can be chosen. These two voltages lead to the minimum energy consumption except if the need to use an integer number of cycles results in a small deviation from the minimum."
+    },
+    {
+      "id": "it2102-finals-06-p4-c22",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 4,
+      "text": "• Dynamic Power Management (DPM) – allows a system or system's blocks to be placed in low-power sleep modes when the systems are inactive. Normally, not all blocks of a system participate in performing different functions, and it is useful to shut down inactive blocks to reduce power consumption. o Straightforward approaches just use a simple timer to transition into a power-saving state. o More sophisticated approaches model the idle times by stochastic processes and use these to predict • Thermal Management - It is necessary to use run-time monitoring of temperatures. This means that thermal sensors must be available in systems that potentially could get too hot."
+    },
+    {
+      "id": "it2102-finals-06-p4-c23",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 4,
+      "text": "This information is then used to control the generation of additional heat and possibly has an impact on cooling mechanisms as well. o Controlling fans (when available) can be considered. o Systems may be shutting down completely if temperatures are exceeding maximum thresholds. o Adjusting the configuration that reduces performance of the system will lead to more available hardware resources. o Issuing less instructions per clock cycle leads to lessen the usage of some processor pipelines. References: Barkalov, A., Titarenko L. & Mazurkiewicz, M. (2019). Foundations of embedded systems. Springer International. Barr. M, & Massa, A. (2006). Programming embedded systems (2nd ed.). Chap."
+    },
+    {
+      "id": "it2102-finals-06-p4-c24",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 4,
+      "text": "14 - optimization techniques. O'Reilly. Cardoso, J., Coutinho, J., & Diniz, P. (2017). Embedded computing for high performance - Efficient mapping of computations using customization, code transformations and compilation. Elsevier. Colorado State University – Department of Computer Science. (n.d.). Legality of loop interchange [PDF]. Retrieved on 2021, July 9, from https://www.cs.colostate.edu/~mstrout/CS553Fall07/Slides/lecture23-looptransform.pdf Darwish, T. & Bayoumi, M. (2005). The electrical engineering handbook (1st ed.). Academic Press. Emertxe Information Technologies Pvt Ltd. (2014). Embedded C - optimization techniques [Slides]. SlideShare."
+    },
+    {
+      "id": "it2102-finals-06-p4-c25",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 4,
+      "text": "Retrieved on 2021, August 11, from https://www.slideshare.net/EmertxeSlides/embedded-c-optimization-techniques Lee, E., Seshia, S. (2017). Introduction to embedded systems: a cyber-physical systems approach [2nd ed.]. MIT Press. Lee, E., Ha, S. (1989). Scheduling strategies for multiprocessor real-time DSP. In Global Telecommunications Conference (GLOBECOM). doi:10.1109/GLOCOM.1989.64160."
+    },
+    {
+      "id": "it2102-finals-06-p5-c26",
+      "termId": "finals",
+      "handoutId": "it2102-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Embedded System Optimization",
+      "page": 5,
+      "text": "Marwedel, P. (2018). Embedded system design: Embedded systems, foundations of cyber-physical systems, and the internet of things (3rd ed.). Springer International. Pan, T., Zhu, Y. (2018). Designing embedded systems with Arduino: a fundamental technology for makers. Springer. Peckol, J. (2019). Embedded systems – A contemporary design tool. (2nd ed.). Wiley. Technische Universitt Hamburg. (n.d.). Optimization in embedded systems [Article]. Retrieved on 2021, August 11, from https://www.tuhh.de/es/embedded-systems-design/teaching/seminars/optimization-in-embedded-systems.html"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+name: cpe_reviewer
+description: "Offline reviewer for Computer Engineering Laws and Discipline (IT2205) and future subject packs."
+publish_to: 'none'
+
+version: 1.6.0+7
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  sembast: ^3.10.0
+  sembast_web: ^2.4.6+1
+  path_provider: ^2.1.6
+  shared_preferences: ^2.5.6
+  file_picker: ^13.3.2
+  intl: ^0.20.2
+  path: ^1.9.1
+  flutter_edge_ai: ^2.6.0
+  flutter_edge_ai_llama: ^0.1.0
+  http: ^1.6.0
+  crypto: ^3.0.8
+  pdfrx: ^2.4.8
+  google_mlkit_text_recognition: ^1.0.1
+  wakelock_plus: ^1.8.2
+  flutter_secure_storage: ^11.2.0
+  image_picker: ^1.2.4
+  image: ^4.12.0
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.8
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/packs/
+    - assets/handouts/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/logo_foreground.png"
+  adaptive_icon_foreground_inset: 0
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/logo.png"
+    background_color: "#FFFFFF"
+    theme_color: "#0A1220"
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/logo_splash.png
+  color_dark: "#FFFFFF"
+  image_dark: assets/images/logo_splash.png
+  android_12:
+    image: assets/images/logo_splash_android12.png
+    color: "#FFFFFF"
+    image_dark: assets/images/logo_splash_android12.png
+    color_dark: "#FFFFFF"
+  android: true
+  web: true
+  web_image_mode: center
+  fullscreen: false
+
+hooks:
+  user_defines:
+    llamadart:
+      llamadart_native_runtimes: [llama_cpp]

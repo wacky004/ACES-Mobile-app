@@ -1,0 +1,1257 @@
+{
+  "subjectId": "it2205",
+  "subject": "Computer Engineering Laws and Discipline",
+  "chunks": [
+    {
+      "id": "prelim-01-p1-c1",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 1,
+      "text": " student.feedback@sti.edu INTRODUCTION TO CPE LAWS AND PROFESSIONAL PRACTICE What’s in Computer Engineering? Nature of the Field Study According to CHED’s Memorandum Order No. 8 – Series of 2017, Bachelor of Science in Computer Engineering is a program that embodies the science and technology of design, development, implementation, maintenance, and integration of software and hardware components in modern computing systems and computer- controlled equipment."
+    },
+    {
+      "id": "prelim-01-p1-c2",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 1,
+      "text": "To simplify, the goal of computer engineers is to match the proper hardware and software to meet the technological, scientific, and administrative needs of businesses and industries through the integration of electrical engineering and computer science practices. Differences and Comparisons between Computer Engineering, Electrical Engineering, and Computer Science As computers are built out of electronic circuits, computer and electrical engineering will be closely related. As to why computer engineering and computer science are typically in two different departments can be attributed to opinions held by some that the disciplines are broad enough to separate them somewhere."
+    },
+    {
+      "id": "prelim-01-p1-c3",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 1,
+      "text": "• In Hardware: Computer engineers build hardware while computer scientists generally do not. However, computer scientists certainly know enough about hardware to analyze computer system operations and to interact with hardware engineers. • In Software: Computer scientists know more about the underlying theory of computation, programming languages, and operating systems. While computer engineers often work as programmers that usually write the programs for computer- based systems."
+    },
+    {
+      "id": "prelim-01-p1-c4",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 1,
+      "text": "Characteristics of a Computer Engineer While the distinctions between computer engineers, electrical engineers, and other computer and engineering professionals are sometimes ambiguous, computer engineers generally should satisfy these three (3) characteristics: 1. Possess the ability to design computers, computer-based systems, and networks that include both hardware and software to solve complex engineering problems, subject to trade-offs involving a set of competing goals and constraints. 2. Have a depth of knowledge in mathematics and engineering sciences, associated with the broader scope of engineering and beyond that narrowly required for the field. 3."
+    },
+    {
+      "id": "prelim-01-p1-c5",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 1,
+      "text": "Acquire and maintain a preparation for professional practice in engineering. Because of the rapid pace of change in the computing field, computer engineers must be life-long learners to maintain their knowledge and skills within their chosen discipline. Overview of What Computer Engineers Do Computer engineers work in a variety of roles, focused on developing, deploying, and maintaining computer systems, networks, and infrastructure."
+    },
+    {
+      "id": "prelim-01-p1-c6",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 1,
+      "text": "Computer engineer duties include: • Researching software and computer hardware; • Designing and testing computer hardware components, such as processors, circuit boards, memory devices, and routers; • Writing and testing software for mobile devices and computers; • Designing, setting up, and testing networks; • Managing operating systems; • Designing and testing robots; and • Creating programs to support a range of products, from aircraft components to surgical technology."
+    },
+    {
+      "id": "prelim-01-p2-c1",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 2,
+      "text": " student.feedback@sti.edu Core Characteristics of Professionalism Professionalism Professionalism is demonstrated by more than just qualifications, knowledge, and skills. It also requires integrity, ethics, and trust. Demonstrating and maintaining a high level of professionalism in your conduct and values will create stronger relationships with clients, and employers, as well as the team you work with, the people you do business with, and the public who will use, or benefit from, the products of your work. Core Characteristics of Professionalism The essence of professionalism is not just the job to be done, but it is how the job is done."
+    },
+    {
+      "id": "prelim-01-p2-c2",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 2,
+      "text": "It is having a set of values, behaviors, and wider responsibilities in how you apply your specialist knowledge and skills. Here are the eight (8) characteristics true professionals possess in the workplace: 1. Competence: As a professional who gets the job done – and done well. The abilities match the requirements of the role and often produce results that exceed expectations. But never rely on simply for the sake of appearances. Instead, professionalism allows you to manage your own and others' expectations and to ask for support when necessary. 2. Knowledge: Professionalism involves developing detailed, up-to-date knowledge, which is often highly specialized."
+    },
+    {
+      "id": "prelim-01-p2-c3",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 2,
+      "text": "Professionals can strive to master a specific role by adding new knowledge at every stage of their careers. It is also important to put the knowledge into action. Being professional means feeling confident to show that knowledge – not for self-promotion, but to help yourself and others to succeed. 3. Respect: Professionalism means being a role model for politeness and good manners – to everyone, not just to people to impress. To show true respect for other people, take their needs into account, and by helping to uphold their rights. 4. Emotional Intelligence: Staying professional even under pressure is a sign of a true professional."
+    },
+    {
+      "id": "prelim-01-p2-c4",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 2,
+      "text": "This takes strategies for managing emotions and a clear awareness of other people's feelings. In short, emotional intelligence is essential. Sometimes, professionalism means keeping emotions in check. But at other times, it is important to express your feelings to have meaningful conversations or to stand up for what you believe in. 5. Integrity: Integrity is what keeps professional people true to their word. It also stops them from compromising their values, even if that means taking a harder road. Integrity is bound up with being honest – to yourself and to the people you meet. Beliefs and behaviors are aligned, and everyone can see the genuineness. 6."
+    },
+    {
+      "id": "prelim-01-p2-c5",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 2,
+      "text": "Appropriateness: A big part of being professional is knowing what is appropriate in different situations as it avoids awkwardness or upset, boosts credibility, and helps to feel secure in your role. Appropriateness relates to outward appearances, such as dress, personal grooming, and body language, but it also covers the way you speak and write, the topics you choose to discuss, and how you behave with others. 7. Conscientiousness: Professionalism involves being reliable, setting own high standards, and showing care about every aspect of the job. It is about being industrious and organized, and holding yourself accountable for your thoughts, words, and actions."
+    },
+    {
+      "id": "prelim-01-p3-c1",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 3,
+      "text": " student.feedback@sti.edu But don't confuse conscientiousness with working longer hours than everyone else or obsessing about details. True professionals plan and prioritize their work to keep it under control, and they don't let perfectionism hold them back. 8. Confidence: Well-founded confidence reassures and motivates other people, boosting the ability to influence and lead. It also pushes you to take on new challenges because the fear of damaging your professional reputation if things go wrong is non-existent. Professionalism makes you confident about what you’re doing now but always eager to do it better and achieve more. References: Brindley, R. (2022). Professionalism at work."
+    },
+    {
+      "id": "prelim-01-p3-c2",
+      "termId": "prelim",
+      "handoutId": "prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Introduction to CPE Laws and Professional Practice",
+      "page": 3,
+      "text": "RIBA Commission on Higher Education (2017). Policies, standards, and guidelines for the bachelor of science in computer engineering effective 2018- 2019. [PDF file]. Retrieved on January 21, 2022, from https://ched.gov.ph/wp-content/uploads/2018/04/CMO-87-s.-2017-BS- Computer-Engineering.pdf Master’s in Data Science (2021). How to become a computer engineer? [Web Article]. Retrieved on January 21, 2022, from https://www.mastersindatascience.org/careers/computer-engineer/ MindTools (2018). Professionalism: Meeting the standards that matter [Web Article]. Retrieved on January 21, 2022, from https://www.mindtools.com/pages/article/professionalism.htm#.YepgoE g8mf0"
+    },
+    {
+      "id": "prelim-02-p1-c1",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 1,
+      "text": " student.feedback@sti.edu COMPUTER ENGINEERING & IT LAWS Cybersecurity and Data Protection Cybersecurity – the practice of protecting systems, networks, and programs from digital attacks. It is also one of the fastest-growing challenges across the globe and is becoming increasingly important. Furthermore, cybersecurity has enormous implications for government security, economic prosperity, and public safety. Cyber laws have been enacted by every nation, including the United States, South Africa, Europe, and the Philippines. Data Protection – the process of safeguarding important information from corruption, compromise, or loss."
+    },
+    {
+      "id": "prelim-02-p1-c2",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 1,
+      "text": "The importance of data protection increases as the amount of data created and stored continues to grow at unprecedented rates. Information Technology (IT) Law refers to the law of IT, including computing and the Internet, that governs the digital dissemination of both information and software. Cybercrime is a crime committed with or using information and communication technologies such as radio, television, smartphones, computer and network, and other communication devices. Types of Cybercrime in the Philippines There are various types and kinds of cybercrimes."
+    },
+    {
+      "id": "prelim-02-p1-c3",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 1,
+      "text": "The 2001 Budapest Convention on Cybercrime categorizes the cybercrime offenses into the following: • crimes against the confidentiality, integrity, and availability of computer data and systems; • computer-related offenses; • content-related offenses; and • crimes related to infringements of copyright and related rights. IT-related Laws in the Philippines The first recorded cybercrime in Philippines was in 2000 when Onel de Guzman released the “I Love You” virus but was dismissed at first stage as there was no law punishing cybercrimes at the time. Here are computer-related laws enacted in the Philippines as of today: 1. Cybercrime Prevention Act of 2012 (Republic Act No."
+    },
+    {
+      "id": "prelim-02-p1-c4",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 1,
+      "text": "10175) – an act addressing crimes committed against and through computer systems, providing protection and safeguarding the integrity of computer, computer and communications systems, networks, and databases. 2. E-Commerce Act of 2000 (Republic Act No. 8792) – this act aims to facilitate domestic and international agreements, contracts, and exchanges and storage of information through the utilization of electronic, mode, instrumentality, and technology to recognize the authenticity and reliability of electronic documents related to such activities, and to promote the universal use of electronic transactions in the government and by the public. 3."
+    },
+    {
+      "id": "prelim-02-p1-c5",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 1,
+      "text": "Access Device Regulation Act of 1998 (Republic Act No. 8484) – an act regulating the issuance and use of access devices, prohibiting fraudulent acts committed, providing penalties, and for other purposes. The State recognizes the recent advances in technology and the widespread use of access devices in commercial transactions. The State shall protect the rights and define the liabilities of parties in such commercial transactions by regulating the issuance and use of access devices. 4. Anti-Wiretapping Law (Republic Act No. 4200) – an act to prohibit and penalize wiretapping and other related violations of the privacy of communication and for other purposes."
+    },
+    {
+      "id": "prelim-02-p1-c6",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 1,
+      "text": "It shall be unlawful for any person, not being authorized by all the parties to any private communication or spoken word, to tap any wire, to secretly overhear, intercept, or record such communication or spoken word by using a device commonly known as a dictagraph, walkie-talkie, or tape recorder."
+    },
+    {
+      "id": "prelim-02-p2-c1",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 2,
+      "text": " student.feedback@sti.edu 5. Data Privacy Act of 2012 (Republic Act No. 10173) – enacted to protect individual personal information in ICT systems in the government and the private sector. The National Privacy Commission administers and implements the provisions of the law and ensure compliance of the country with international standards set for data protection 6. Anti-Child Pornography Act of 2009 (Republic Act No. 9775) – an act defining the crime of child pornography, prescribing penalties and for other purposes."
+    },
+    {
+      "id": "prelim-02-p2-c2",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 2,
+      "text": "The State recognizes the vital role of the youth in nation building and shall promote and protect their physical, moral, spiritual, intellectual, emotional, psychological, and social well-being. 7. Anti-Photo and Voyeurism Act of 2009 (Republic Act No. 9995) – an act penalizing the crime of photo and video voyeurism. Photo or video voyeurism means the act of taking a photo or video of a person or group of persons performing a sexual act without the latter’s consent. It also includes the act of selling, reproducing, and broadcasting the photo, video, or recordings of such sexual act through the Internet and similar means or device without the written consent of the person/s involved."
+    },
+    {
+      "id": "prelim-02-p2-c3",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 2,
+      "text": "Cybercrime Offenses in the Philippines The following acts constitute the offense of core cybercrime punishable in the Philippines. A. Offenses against the confidentiality, integrity, and availability of computer data systems 1. Illegal Access – refers to the access to the whole or any part of a computer system without right. 2. Illegal Interception – refers to the interception made by technical means without right of any non-public transmission of computer data to, from, or within a computer system including electromagnetic emissions from a computer system carrying such computer data. 3."
+    },
+    {
+      "id": "prelim-02-p2-c4",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 2,
+      "text": "Data Interference – refers to the intentional or reckless alteration, damaging, deletion, or deterioration of computer data, electronic document, or electronic data message, without right, including the introduction or transmission of viruses. 4. System Interference – refers to the intentional alteration or reckless hindering or interference with the functioning of a computer or computer network by inputting, transmitting, damaging, deleting, deteriorating, altering, or suppressing computer data or program, electronic document, or electronic data message, without right or authority, including the introduction or transmission of viruses. 5."
+    },
+    {
+      "id": "prelim-02-p2-c5",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 2,
+      "text": "Misuse of Devices – refers to the use, production, sale, procurement, importation, distribution, or otherwise making available, without the right of a computer program or a computer password. 6. Cyber-squatting – the acquisition of a domain name over the internet, in bad faith, to profit, mislead, destroy reputation, and deprive others of registering the same name. B. Computer-related Offenses 1. Computer-related Forgery – the input, alteration, or deletion of any computer data without right, resulting in inauthentic data, regardless of whether the data is directly readable and intelligible. 2."
+    },
+    {
+      "id": "prelim-02-p2-c6",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 2,
+      "text": "Computer-related Fraud – the input, alteration, or deletion of computer data or program causing damage thereby with fraudulent intent. 3. Computer-related Identity Theft – the intentional acquisition, use, misuse, transfer, or alteration of identifying information belonging to another, whether natural or juridical, without right."
+    },
+    {
+      "id": "prelim-02-p3-c1",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 3,
+      "text": " student.feedback@sti.edu Overview of International IT-related Laws Cybercrime is a growing concern to countries at all levels of developments and affects both consumers and sellers. While 154 countries (79%) have enacted cybercrime legislation as of 2021, the pattern varies by region: Europe has the highest adoption rate (93%) and Asia and the Pacific the lowest (55%). The evolving cybercrime landscape and resulting skills gaps are a significant challenge for law enforcement agencies and prosecutors, especially for cross-border enforcement."
+    },
+    {
+      "id": "prelim-02-p3-c2",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 3,
+      "text": "Convention on Cybercrime (Treaty #185 – Budapest Convention) The Convention is the first international treaty on crimes committed via the Internet and other computer networks, dealing particularly with infringements of copyright, computer-related fraud, child pornography and violations of network security. It also contains a series of powers and procedures such as the search of computer networks and interception. Its main objective, set out in the preamble, is to pursue a common criminal policy aimed at the protection of society against cybercrime, especially by adopting appropriate legislation and fostering international cooperation."
+    },
+    {
+      "id": "prelim-02-p3-c3",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 3,
+      "text": "The convention happened on November 2001 and was drawn up by the Council of Europe in Strasbourg, France, with the active participation of the Council of Europe's observer states Canada, Japan, Philippines, South Africa, and the United States. HIPCAR Project - Harmonization of ICT Policies, Legislation and Regulatory Procedures in the Caribbeans (Cybercrime/e-Crimes) HIPCAR was designed to support the Caribbean countries in improving their competitiveness by harmonizing approaches to ICT development. It brought together the Caribbean governments, regulators, service providers, civil society, private sector, regional and international organizations involved in ICT."
+    },
+    {
+      "id": "prelim-02-p3-c4",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 3,
+      "text": "African Union Convention on Cyber Security and Personal Data Protection (Malabo Convention) The AU convention objective is setting the essential rules for establishing a credible digital environment (cyber space) and address the gaps affecting the regulation and legal recognition of electronic communications and electronic signature; as well as the absence of specific legal rules that protect consumers, intellectual property rights, personal data and information systems and privacy online."
+    },
+    {
+      "id": "prelim-02-p3-c5",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 3,
+      "text": "The convention aims also to set up a minimum standard and procedures to reach a common approach on the security issues in Africa and Address the need for harmonized legislations necessary to enhance cooperation in cyber security in Member States of the African Union. References: Alexandrou, A. (2021). Cybercrime and information technology: Theory and practice. CRC Press Cortez, E. (2021). Data protection around the world. Springer Department of Justice (2012) Cybersecurity and cybercrime: Philippine perspective. [PDF file]. Retrieved on January 21, 2022, https://doj.gov.ph/files/cybercrime_office/Cybersecurity%20and%20Cy bercrime-Philippine%20Perspective.pdf Michalsons (n.d.a)."
+    },
+    {
+      "id": "prelim-02-p3-c6",
+      "termId": "prelim",
+      "handoutId": "prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Computer Engineering & IT Laws",
+      "page": 3,
+      "text": "Cybercrime law around the world | Links and updates [Web Article]. Retrieved on January 27, 2022, from https://www.michalsons.com/focus-areas/cybercrime-law Sherloc (n.d.a). Database of Legislations [Web Article]. Retrieved on January 27, 2022, https://sherloc.unodc.org/cld/en/legislation/phl/republic_act_no._10175 _cybercrime_prevention_act_of_2012/chapter_ii/article_4-a/article_4- a.html"
+    },
+    {
+      "id": "midterm-03-p1-c1",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 1,
+      "text": " student.feedback@sti.edu UNDERSTANDING CONTEMPORARY ISSUES Computer-related Issues in the Philippines To further understand the value of enacting computer-related laws, here are contemporary issues and events in the Philippines concerning computer-related violations. Aguirre files wiretapping complaint against Hontiveros On September 12, 2017, former Negros Oriental representative Jacinto “Jing” Paras said that Senator Risa Hontiveros was liable for wiretapping during a privilege speech at the Senate. In her speech a day before, Hontiveros presented a photo at the Senate (shown below) during a privilege speech calling for the resignation of then Justice Secretary Vitaliano Aguirre II."
+    },
+    {
+      "id": "midterm-03-p1-c2",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 1,
+      "text": "Source: https://www.rappler.com/nation/181806-hontiveros-aguirre-text-expedite- cases/ Figure 1. Text exchange between Aguirre and a “CongJing” The photo shows Aguirre texting a “CongJing”, later assumed as Jacinto Paras. It was said to be taken on the 5th of September during a Senate probe about the extrajudicial killing of Kian delos Santos. The text says that Paras should “expedite” or rush his cases against Hontiveros to hopefully divert her attention. In her privilege speech on the 11th, Hontiveros claims that the exchange was unethical, no less in a hearing of an unrelated topic, and should be a reason to force Aguirre to resign."
+    },
+    {
+      "id": "midterm-03-p1-c3",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 1,
+      "text": "Paras argued that the content does not matter, whether the text is real or not, but finds Hontiveros’ action as a violation of the law on the anti- wiretapping (Republic Act No. 4200). Almost four (4) years later, the case was brought up in December 2021 which Hontiveros says she “was surprised that a case from 2017 suddenly moved forward”. She posted bail for PHP36,000 following the release of the arrest order against her. She calls for the dismissal of the case as it was “worthless and baseless”."
+    },
+    {
+      "id": "midterm-03-p1-c4",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 1,
+      "text": "Suspects arrested in December 2021 BDO Hacking In December 2021, Banco De Oro users took to social media to complain about illegal transactions made using their accounts to transfer money to the UninonBank account of a certain “Mark Nagoyo”. A common pattern among the victims is that the alleged cybercriminals were somehow able to access the victims’ BDO accounts even if they were careful about not clicking any suspected phishing links and ensuring on not revealing any of their banking details in public. BDO Unibank was informed and advised their users to never share their login information and OTP (One Time Password), and to regularly change the passwords of their online banking accounts."
+    },
+    {
+      "id": "midterm-03-p1-c5",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 1,
+      "text": "A month later, five (5) suspects of the BDO hacking were arrested and charged by the National Bureau of Investigation (NBI). They believe that Jherom Anthony Taupa, Nwadi, Roneyln Panaligan, Clay Revilosa and Nigerian nationals Ifesincachi Fountain Anaekwe and Chukwuemeka Pete violated the Access Devices Regulation Act of 1998 and the Cybercrime Prevention Act of 2012."
+    },
+    {
+      "id": "midterm-03-p2-c1",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 2,
+      "text": " student.feedback@sti.edu Source: https://abogado.com.ph/5-suspects-in-bdo-hacking-incident-nabbed-in- pampanga-2/ Figure 2. 5 suspects in BDO hacking incident Panaligan, one of the suspects, acts as a “verifier” and pretends to conduct a survey and ask victims for their identification cards with photographs in exchange for PHP50 in prepaid credit loan for “participating in the survey”. The information and photographs of the victims, without their knowledge, would be used to apply for verified GCash or Paymaya accounts. And after securing the debit cards, would offer it for sale to other fraudsters looking to cash out funds from illegitimate sources."
+    },
+    {
+      "id": "midterm-03-p2-c2",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 2,
+      "text": "Revillosa, a third-year college student, was found to be selling 800,000 mailing lists or e-mail addresses containing login credentials of online banking accounts for PHP30,000. The mailing lists are used in the preparatory stages of large-scale fraudulent activities. As for Anaekwe and Nwadi, the DOJ said, they are the brains behind the “Mark Nagoyo Group” and provided access devices such as bank accounts, crypto wallets, or even point of sale (POS) terminals of legitimate merchants to fraudsters. Taupa was found to be selling a “SCAMPAGE” for PHP2,000. It is a phishing website that is an imitation of the website of GCash."
+    },
+    {
+      "id": "midterm-03-p2-c3",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 2,
+      "text": "The \"SCAMPAGE\" was used to harvest the login details, usernames, passwords, and mobile personal identification numbers (MPINs) of victims who would access it under the mistaken belief that they were accessing the GCash official portal. The Biggest Private Data Leak in the Philippine History A 20-year-old Information Technology (IT) graduate Paul Loui Biteng faced charges as Manila City prosecutor’s office found probable cause to file charges against him for allegedly hacking into the Commission on Elections (COMELEC) website and data. Source: https://cnnphilippines.com/news/2016/04/25/Comelec-hack-data- leak.html Figure 3."
+    },
+    {
+      "id": "midterm-03-p2-c4",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 2,
+      "text": "Suspected COMELEC website hacker to face charges Chief Inquest Prosecutor Atty. Jovencio Senados said on April 25, 2016, that there was enough evidence against Biteng for several violations of the cybercrime prevention law. The violations are illegal access to a computer system, data interference, and misuse of devices."
+    },
+    {
+      "id": "midterm-03-p3-c1",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 3,
+      "text": " student.feedback@sti.edu On April 20 of 2016, Biteng admitted defacing the COMELEC website last March but denied NBI’s accusation that he is a part of a group of hackers that led to leakage of what appears to be a large portion of the COMELEC's database, including voters' personal identity information. The incident is labeled as “the biggest private data leak in the Philippine history” exposing the personal information of 55 million Filipino voters. Four (4) years later, a Manila court has dismissed the cybercrime case against him after the prosecution failed to prove him guilty beyond reasonable doubt."
+    },
+    {
+      "id": "midterm-03-p3-c2",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 3,
+      "text": "80 people charged for COVID-19 Fake News and Misinformation Eighty people have been charged with various cybercrimes related to the pandemic since March of 2020, including 52 suspects spreading fake news about the coronavirus disease. Gen. Guillermo Eleazar, Philippine National Police (PNP) chief, said these range from illegal online sale of medical supplies to online scams and fake news as documented by Criminal Investigation and Detection Group (CIDG) and the Anti-Cybercrime Group (ACG). The data released by the PNP showed that 121 criminal complaints have been filed from March 9, 2020 – August 9, 2021."
+    },
+    {
+      "id": "midterm-03-p3-c3",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 3,
+      "text": "Of the total, 87 criminal complaints have already been filed in court against 52 persons who used their social media platforms to spread false information about the pandemic. They have been charged with Unlawful Use of Means of Publication and Unlawful Utterances under Article 154 of the Revised Penal Code, violation of Republic Act of 10175 and violation of Presidential Decree No. 90 on rumormongering and spreading false information. Overview of International Computer-related Issues From cyberattacks to child abuse, the following are some of the computer-related issues and violations worldwide."
+    },
+    {
+      "id": "midterm-03-p3-c4",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 3,
+      "text": "Brazilian Ministry of Health suffer cyberattack On December 10, 2021, websites under Brazil's Ministry of Health (MoH) have suffered a major ransomware attack that resulted in the unavailability of COVID-19 vaccination data of millions of citizens. According to a message left by the Lapsus$ Group, which has claimed responsibility for the attack, 50TB worth of data has been extracted from the MoH's systems and subsequently deleted. The message \"Contact us if you want the data returned\" was seen on the website alongside the contact details for the authors of the attack."
+    },
+    {
+      "id": "midterm-03-p3-c5",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 3,
+      "text": "Source: https://www.zdnet.com/article/brazilian-ministry-of-health-suffers- cyberattack-and-covid-19-vaccination-data-vanishes/ Figure 4. Message left by the hackers on the website Following the attack, Brazilian health minister Marcelo Queiroga said his department holds a backup of the data allegedly copied and erased from the national health service's databases as the National Data Protection Authority (ANPD) said it is following up on the case."
+    },
+    {
+      "id": "midterm-03-p4-c1",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 4,
+      "text": " student.feedback@sti.edu Cyber voyeur from United Kingdom hacked computers to spy on victims A man named Robert Davies, 32, from Nottingham, England has been jailed for more than two (2) years after admitting to illegally accessing several victims’ devices to spy on to build a collection of indecent images of both children and adults. Using crypters, a software that encrypt malwares to bypass security programs, and remote administration tools (RATs), he infects his victims’ phones or computers with malicious software by disguising it with the crypters so their anti-virus protection would not detect it."
+    },
+    {
+      "id": "midterm-03-p4-c2",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 4,
+      "text": "He then used the RATs to gain remote access to their devices and steal any sexual images, mainly of females, they had stored on there. On September 2, 2021, Davies pleaded guilty to 24 Computer Misuse Act offenses, voyeurism, three counts of possessing indecent images of children (IIOC), making IIOC, and possessing extreme pornographic images. He was sentenced on January 11, 2022, at Nottingham Crown Court to 26 months in prison. He was also placed on the sex offenders’ register, given a 10-year restraining order on five of the victims, and a 10-year sexual harm prevention order."
+    },
+    {
+      "id": "midterm-03-p4-c3",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 4,
+      "text": "Information of Thailand Tourists in the last 10 years leaked online More than 106 million travelers to Thailand had their personal details leaked online in August of 2021. Britain-based consumer security company Comparitech said in a report that its head of cybersecurity research Bob Diachenko found a database in August containing the personal information of travelers. Comparitech said Diachenko also found his own name and details about his entries into Thailand on the database, which contained information dating back to 2011. Thailand's Cyber Crime Investigation Bureau said it was unaware of the incident but was looking into it."
+    },
+    {
+      "id": "midterm-03-p4-c4",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 4,
+      "text": "3,906 cases of cybercrime registered in fiscal year 2020-2021 of Nepal The Cyber Bureau of the Nepal Police said that as many as 3,906 cases of cybercrime have been registered in the fiscal year 2020/21, including 2,003 women and 1,471 men victims. Not to mention the 1,108 minors who have also become the victims of cybercrime during this period. The Cyber Bureau Chief Nabindra Aryal said that the cases of cybercrime have been increasing drastically of late due to the greed for money as people have been using the latest technology to commit crimes."
+    },
+    {
+      "id": "midterm-03-p4-c5",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 4,
+      "text": "Police claimed that the children have been becoming the victims as they have easy access to social media and the Internet and cites social media sites such as Facebook, Viber, TikTok, and Instagram as platforms where violators commit the crime. As the social media sites used in Nepal are being operated from abroad, Aryal said that it is easy for people living outside the country to commit the crime that is why they are coordinating with the International Police Organization (INTERPOL) to arrest the criminals."
+    },
+    {
+      "id": "midterm-03-p5-c1",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 5,
+      "text": " student.feedback@sti.edu References: Buan, L. (2017). Hontiveros liable for wiretapping, says VACC’s Jing Paras. [Web Article]. Retrieved on February 7, 2022, from https://www.rappler.com/nation/181891-vacc-jing-paras-aguirre- text-hontiveros/ Gotinga, J. (2016). Suspected COMELEC website hacker to face charges [Web Article]. Retrieved on February 7, 2022, from https://cnnphilippines.com/news/2016/04/25/Comelec-hack-data- leak.html National Crime Agency (2022) Cyber voyeur hacked computers to spy on victims. [Web Article]."
+    },
+    {
+      "id": "midterm-03-p5-c2",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 5,
+      "text": "Retrieved on February 7, 2022, from https://nationalcrimeagency.gov.uk/news/cyber-voyeur-hacked- computers-to-spy-on-victims National Crime Agency (2022) Details of millions who visited Thailand in last 10 years leaked online: Report. [Web Article]. Retrieved on February 7, 2022, from https://www.ndtv.com/world-news/details-of- millions-who-visited-thailand-in-last-10-years-leaked-online-report- 2547513 Pulta, B (2022). 4 suspects in December 2021 BDO hacking charged [Web Article]. Retrieved on February 7, 2022, https://www.pna.gov.ph/articles/1166375 Tupas, E. (2021). 80, charged for fake news, other pandemic offenses [Web Article]."
+    },
+    {
+      "id": "midterm-03-p5-c3",
+      "termId": "midterm",
+      "handoutId": "midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Understanding Contemporary Issues",
+      "page": 5,
+      "text": "Retrieved on February 7, 2022, from https://www.philstar.com/headlines/2021/08/13/2119604/80- charged-fake-news-other-pandemic-offenses"
+    },
+    {
+      "id": "midterm-04-p1-c1",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 1,
+      "text": " student.feedback@sti.edu ANALYSIS OF THE CURRENT COMPUTER ENGINEERING & IT FIELD USING CASE STUDY Concepts of Case Studies Case Study This is a research methodology that involves a detailed and intensive analysis of a particular event, situation, organization, or social unit. Case studies are best conceptualized by the scope of interest and not by specific methods; thus, different studies are conducted under this broad umbrella. Steps in Case Study A successful case study analyses a real-life situation where existing problems are resolved. It should relate the theory to a practical situation. Here are the steps that focus on a problem-oriented method: 1."
+    },
+    {
+      "id": "midterm-04-p1-c2",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 1,
+      "text": "Outline the purpose of the case study: This will serve as a guide and a direction as the researchers arrive at a solution for the study. 2. Identify the problems: This helps the researchers to focus on issues that can lead to a solution to the study. 3. Select the major problems in the case: Identifying the major problems will help narrow down problems that do not necessarily affect the study directly. 4. Suggest solutions to implement: Listing down solutions to the main problems will create a better understanding of the outcome of the study. 5."
+    },
+    {
+      "id": "midterm-04-p1-c3",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 1,
+      "text": "Recommend the best solution: Use the best solution that will cover most of the problems and suggest in detail how it will be applied to conclude the study. Benefits and Limitations of Case Studies Case study research offers benefits in terms of process and outcome. Benefits 1. The case study design will focus the researchers within the confines of space and time on a specific case. 2. It gives an opportunity to collect various kinds of data, such as interviews, documents, observations, surveys, and others, about the case and provides the chance to get an in-depth look at an organization or individual. 3."
+    },
+    {
+      "id": "midterm-04-p1-c4",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 1,
+      "text": "In terms of the outcome, the case study provides a comprehensive understanding of a bounded unit and helps the reader examine that case so they can learn from it. 4. It also allows others to apply the principles and lessons learned in a case to situations that lead to transferability, which is different from the generalization that occurs in quantitative studies. For example, if someone wanted to learn more about being an IT Specialist, a case study could help that person learn about the experience or help that person decide whether being an IT Specialist is their best career path. Limitations 1."
+    },
+    {
+      "id": "midterm-04-p1-c5",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 1,
+      "text": "The sheer volume of data is difficult to organize, and data analysis and integration strategies need to be carefully thought through. 2. There can be a temptation to veer away from the research focus. 3. Reporting of findings from multiple-case research studies is also challenging at times, particularly in relation to the word limits for some journal papers."
+    },
+    {
+      "id": "midterm-04-p2-c1",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 2,
+      "text": " student.feedback@sti.edu Different Types of Case Study There are the different types of case studies that researchers might utilize: 1. Collective: This enables the researcher to explore differences within and between cases whose goal is to replicate findings across cases. As comparisons will be drawn, it is important that the cases are chosen carefully so that the researcher can predict related results across cases or predict contrasting results. One example is the study made about “Role stress in the professional life of the school music teacher: A collective case study” by John W. Scheib."
+    },
+    {
+      "id": "midterm-04-p2-c2",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 2,
+      "text": "The study was based on the description of occupational role stress by music teachers Kahn, Wolfe, Quinn, Snoek, and Beehr affected by role conflict, role ambiguity, and role overload. 2. Explanatory: This type of case study is used in answering a question that sought to explain the presumed causal links in real- life interventions that are too complex for the survey or experimental strategies. An example is a study accomplished by Luiz Joia titled, “Analyzing a Web-based e-commerce community: A case study in Brazil”."
+    },
+    {
+      "id": "midterm-04-p2-c3",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 2,
+      "text": "This study demonstrates the usage of a Web-based participative virtual learning environment, which has enabled graduate students in e-commerce classes to share and disseminate their knowledge among themselves. 3. Descriptive: This starts with a descriptive theory. The subjects are then observed, and the information gathered is compared to the pre-existing theory. 4. Exploratory: This type of case study is used to explore situations in which the intervention being evaluated has no clear, single set of outcomes. An example is a study done by Lotzkar and Bottorff in 2001 titled, “An observation study of the development of a nurse-patient relationship."
+    },
+    {
+      "id": "midterm-04-p2-c4",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 2,
+      "text": "The purpose was to identify features of nurse-patient interactions (NPI) in the development of a nurse-patient relationship (NPR). Observations of interactions in a cancer treatment unit included sixty (60) videotaped, sequential, naturally occurring NPIs involving one pair over a three (3)-day period 5. Instrumental: This is used to accomplish something other than understanding a particular situation. It provides insight into an issue or helps to refine a theory. The case is of secondary interest; it plays a supportive role, facilitating our understanding of something else."
+    },
+    {
+      "id": "midterm-04-p2-c5",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 2,
+      "text": "One example of this study is “STAMP: Components of observable behaviour that indicate potential for patient violence in emergency departments” by Lauretta Luck. Debra Jackson, and Kim User. The aim is to analyze the components of observable behavior that indicate a potential for violence in patients, their family, and friends when presenting at an emergency department. The type of case study that is used depends on the unique characteristics of the situation as well as the case itself."
+    },
+    {
+      "id": "midterm-04-p3-c1",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 3,
+      "text": " student.feedback@sti.edu Case Studies in Computer Engineering & IT Field Significance of Case Studies in Computer Engineering/IT Field Here are some of the benefits of applying case studies in the field of computer engineering and IT. 1. Conducting a case study in the computer engineering/IT field helps professionals and even students to further understand the behaviors of the field, whether they are issues concerning cybercrime laws, technological trends, or failures. 2. It helps in finding causes and solutions to a specific event that influences a situation that professionals face, such as lack of available work, lack of demand, and lack of hardware materials in the field. 3."
+    },
+    {
+      "id": "midterm-04-p3-c2",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 3,
+      "text": "It answers complicated questions concerning the field that cannot be solved by simple research and sampling. 4. It gives a clearer direction in technical advances that can further result in inventions and developments of the current technological fields. 5. Technical observations applied in the research and development of technology are based on theories and hypotheses that can be strengthened using case studies. References: CAEP Conference (n.d.a). Definitions and examples of different types of case studies. [PDF file]."
+    },
+    {
+      "id": "midterm-04-p3-c3",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 3,
+      "text": "Retrieved on February 10, 2022, from https://apprendre.auf.org/wp-content/opera/13-BF-References-et- biblio-RPT- 2014/Definitions%20and%20Examples%20of%20Different%20Typ es%20of%20Case%20Studies.pdf Cherry, K. (2021). What is a case study? [Web Article]. Retrieved on February 10, 2022, from https://www.verywellmind.com/how-to- write-a-psychology-case-study-2795722 CrossMark (2018). Research made simple. [PDF file]. Retrieved on February 10, 2022, from https://ebn.bmj.com/content/ebnurs/21/1/7.full.pdf National Library of Medicine (n.d.a). STAMP: Components of observable behaviour that indicate potential for patient violence in emergency departments [Web Article]."
+    },
+    {
+      "id": "midterm-04-p3-c4",
+      "termId": "midterm",
+      "handoutId": "midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Analysis of the Current Computer Engineering & IT Field Using Case Study",
+      "page": 3,
+      "text": "Retrieved on February 10, 2022, from https://pubmed.ncbi.nlm.nih.gov/17543010/ Schoch, K. (2020). Case study research. [PDF file]. Retrieved on February 10, 2022, from https://uk.sagepub.com/sites/default/files/upm- assets/105275_book_item_105275.pdf"
+    },
+    {
+      "id": "prefinals-05-p1-c1",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 1,
+      "text": " student.feedback@sti.edu RESPONSIBILITIES OF COMPUTER ENGINEERS Ethical and Professional Responsibilities Ethics is defined as the analysis of human actions from the perspective of “good” and “evil,” or of “morally correct” and “morally wrong.” It is concerned with rights, responsibilities, use of language, what it means to live an ethical life, and how people make moral decisions. Ethical Responsibilities of a Computer Engineer These are tasks that they are obligated to perform meticulously as their decisions affect the performance and functionality of computer systems which in turn affect the welfare of the systems’ users directly."
+    },
+    {
+      "id": "prefinals-05-p1-c2",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 1,
+      "text": "The ethical obligations go beyond complying with laws or regulations. Even in the absence of a privacy law before, they should have been aware of the obligation to protect the privacy of personal information. Here are the ethics a computer engineer should have: 1. Contribute to society and human well-being: This affirms an obligation to protect fundamental human rights and to respect the diversity of all cultures. An essential aim is to minimize the negative consequences of computing systems, including threats to health and safety."
+    },
+    {
+      "id": "prefinals-05-p1-c3",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 1,
+      "text": "When designing or implementing systems, there is an attempt to ensure that the output of their efforts will be used in socially responsible ways, meet social needs, and avoid harmful effects on health and welfare. In addition, those who design and develop systems must be alert to, and make others aware of, any potential damage to the local or global environment. 2. Avoid harm to others: ‘‘Harm’’ means injury or negative consequences, such as undesirable loss of information, loss of property, property damage, or unwanted environmental impacts to the users, the public, employees, and employers."
+    },
+    {
+      "id": "prefinals-05-p1-c4",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 1,
+      "text": "Harmful actions include intentional destruction or modification of files and programs leading to serious loss of resources or unnecessary expenditure of human resources such as the time and effort required to purge systems of ‘‘computer viruses.’’ One way to avoid unintentional harm is to carefully consider potential impacts on all those affected by decisions made during design and implementation. To minimize the possibility of indirectly harming others, professionals must minimize malfunctions by following generally accepted standards for system design and testing. 3. Give proper credit for intellectual property: It is an obligation to protect the integrity of intellectual property."
+    },
+    {
+      "id": "prefinals-05-p1-c5",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 1,
+      "text": "Specifically, one must not take credit for others’ ideas or work, even in cases where the work has not been explicitly protected by copyright, patent, etc. 4. Respect the privacy of others: Computing and communication technology enables the collection and exchange of personal information. Thus, there is an increased potential for violating the privacy of individuals and groups. It is the responsibility to maintain the privacy and integrity of personal data. This includes taking precautions to ensure the accuracy of data, as well as protecting it from unauthorized access or accidental disclosure to inappropriate individuals."
+    },
+    {
+      "id": "prefinals-05-p1-c6",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 1,
+      "text": "Furthermore, this implies that only the necessary amount of personal information be collected in a system, that retention and disposal periods for that information be clearly defined and enforced, and that personal information gathered for a specific purpose is not used for other purposes without the consent of the individual."
+    },
+    {
+      "id": "prefinals-05-p2-c1",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 2,
+      "text": " student.feedback@sti.edu 5. Be honest and trustworthy: An honest professional will not make deliberately false or deceptive claims about a system or system design but will instead provide full disclosure of all suitable system limitations and problems. They have a duty to be honest about their own qualifications and about any circumstances that might lead to conflicts of interest. 6. Be fair and act not to discriminate: Discrimination based on race, sex, religion, age, disability, national origin, or other such factors leads to inequities that may result from the use or misuse of information and technology."
+    },
+    {
+      "id": "prefinals-05-p2-c2",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 2,
+      "text": "Professional Responsibilities of a Computer Engineer These are professional responsibilities that deal with how they act and behave within the bounds of a company or organization, which includes the relationship with their co-workers. 1. Strive to achieve the highest quality, effectiveness, and dignity: Excellence is the most important obligation of a professional. They must strive to achieve quality and be aware of the serious negative consequences that may result from poor quality in a system. 2. Acquire and maintain professional competence: They must participate in setting for appropriate levels of competence and strive to achieve those standards."
+    },
+    {
+      "id": "prefinals-05-p2-c3",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 2,
+      "text": "Upgrading technical knowledge and competence can be achieved in several ways: doing independent study; attending seminars, conferences, or courses; and being involved in professional organizations. 3. Improve public understanding of computing and its consequences: It is a responsibility to share technical knowledge with the public by encouraging understanding of computing, including the impacts of computer systems and their limitations. This ethical principle implies an obligation to counter any false views related to computing. 4. Honor contracts, agreements, and assigned responsibilities: Honoring one’s commitments is a matter of integrity and honesty."
+    },
+    {
+      "id": "prefinals-05-p2-c4",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 2,
+      "text": "For computer engineers, this includes ensuring that system elements perform as intended. The major underlying principle here is the obligation to accept personal accountability for professional work. On some occasions, other ethical principles may take greater priority. The computing professional’s ethical judgment should be the final guide in deciding whether to proceed. Regardless of the decision, one must accept the responsibility for the consequences. 5. Access computing and communication resources only when authorized to do so: Trespassing and unauthorized use of a computer or communication system are prohibited."
+    },
+    {
+      "id": "prefinals-05-p2-c5",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 2,
+      "text": "Trespassing includes accessing communication networks and computer systems, or accounts and/or files associated with those systems, without explicit authorization to do so. Individuals and organizations have the right to restrict access to their systems. No one should enter or use another’s computer system, software, or data files without permission. One must always have appropriate approval before using system resources, including communication ports, file space, other system peripherals, and computer time. Social Responsibilities Social responsibilities are a part of all professions. The profession of computer engineering is no different."
+    },
+    {
+      "id": "prefinals-05-p2-c6",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 2,
+      "text": "The field of computer engineering has existed since the first computers were developed. In fact, the people who developed the Antikythera mechanism (an analog computer used to calculate and display information about astronomical phenomena) thousands of years ago could have considered themselves among the first computer engineers, as they developed hardware that acted as the basis for all computational systems that we use and understand today"
+    },
+    {
+      "id": "prefinals-05-p3-c1",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 3,
+      "text": " student.feedback@sti.edu Since this time, the field of computer engineering has grown and developed significantly, providing a wide display of technological advancements that many people use every day. For example, computer engineers were integral in the development of: • Smartphones – include both the hardware that sustains the operating system, as well as the operating system itself. • Wireless networks – allow the world to utilize the Internet. • Robotics – can be developed for both personal and industrial use. But even with the demand for computer engineers, society is still facing issues related to the societal impact of computer engineering."
+    },
+    {
+      "id": "prefinals-05-p3-c2",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 3,
+      "text": "Human Safety It is a primary duty to protect public safety, health, and welfare. One way to fulfill this duty is by creating devices involving robotics that targets automation for elderly people. This can also be applied in creating devices with specific sensors that could help detect possible dangers such as gas leaks or chemicals. Source: https://www.scmp.com/news/hong- kong/community/article/2148223/automated-bathing-device-helps-elderly- shower-safely-and Figure 1. Automated bathing device for the elderly Environment and Sustainability As technology becomes the leading industry, there will come a time when electronic waste or e-waste will become a much bigger problem than it is today."
+    },
+    {
+      "id": "prefinals-05-p3-c3",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 3,
+      "text": "It is a computer engineer or any computing profession’s responsibility to dispose devices and electronic waste into their correct bins. As part of this duty, developments are made such as smart machines that could separate waste for years, either from the streets or the sea, as well as creating machines that could improve the quality of life of animals and trees. Source: https://www.waste360.com/recycling/bin-e-creates-contactless-smart-bin Figure 2. Bin-e Creates Contactless Smart Bin Internet Safety The cyberspace is inevitably controlling how humans act and react. It is a safe place to connect and to expand knowledge, but it can do more harm than good."
+    },
+    {
+      "id": "prefinals-05-p3-c4",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 3,
+      "text": "It is a must to devote on developing systems that will not jeopardize the safety of Internet users in terms of their information, privacy, public content. They can also apply stricter rules to their systems that will not violate enacted laws, as well as close monitoring for possible harmful and explicit words."
+    },
+    {
+      "id": "prefinals-05-p4-c1",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 4,
+      "text": " student.feedback@sti.edu Pro Bono Publico This is a Latin term that means “for the public good”. For computer engineers, they have a duty to share their technical expertise and knowledge with individuals and organizations who are unable to access or pay for them. Initiating outreach programs and trainings is necessary to cater to unprivileged individuals by bringing sets of computers and teaching them basic computer skills. Source https://www.sti.edu/sti_news.asp?id=73 Figure 3. STI computer lab on wheels References: Bielefeldt, A. (2017). Professional social responsibility in engineering. [Web Article]."
+    },
+    {
+      "id": "prefinals-05-p4-c2",
+      "termId": "prefinals",
+      "handoutId": "prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Responsibilities of Computer Engineers",
+      "page": 4,
+      "text": "Retrieved on February 15, 2022, from https://www.intechopen.com/chapters/59158 Gordon, J. (2021). What is code of ethics? [Web Article]. Retrieved on February 14, 2022, from https://thebusinessprofessor.com/en_US/ethics-social- responsibility/code-of-ethics-definition Online Engineering Programs (n.d.a.) What is computer engineering? [Web Article]. Retrieved on February 14, 2022, from https://www.onlineengineeringprograms.com/faq/what-is-computer- engineering Wah, B. (2022). Ethics and professional responsibility in computing. [PDF]. Retrieved on February 14, 2022, from https://www.ideals.illinois.edu/bitstream/handle/2142/12247/ecse90 9.pdf."
+    },
+    {
+      "id": "prefinals-06-p1-c1",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 1,
+      "text": " student.feedback@sti.edu PROFESSIONALISM AT WORK Principles of a Professional As discussed previously, professionalism is all about having an informed ethical and strategic approach to your work, in the interest of the greater good and for the wider public benefit. Here are the main professionalism principles in the workplace. Source: https://memp.pratt.duke.edu/5-principles Figure 1. Five principles of professionals 1. Communication: From verbal, body language, e-Etiquette, and more, it is so important that employees know what is expected of them in terms of how they communicate. It is equally important that employees be given the resources they need to develop their communication skills."
+    },
+    {
+      "id": "prefinals-06-p1-c2",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 1,
+      "text": "Quality communication in the workplace can eliminate unnecessary problems and promote better performance. The ability to communicate effectively in the workplace can increase overall productivity and create a strong team. If employees consult with each other and consider the views of others, they will be interested in cooperating more and finding the best solution together. 2. Teamwork: This builds strong employee relationships because the more employees work close to each other, the more they get to know each other and develop a liking for each other. The more they work together, the more they learn and learn to live with each other’s likes, dislikes, strengths, and weaknesses."
+    },
+    {
+      "id": "prefinals-06-p1-c3",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 1,
+      "text": "One of the benefits of teamwork in organizations is that it eliminates toxic work culture. A toxic work culture is characterized by drama, fighting, low morale at work, lack of communication, and the boss’s fear. Participate in team building activities to practice relying on each other’s strengths and consult doubts and confusions to your teammates as soon as they arise. 3. Critical Thinking: This allows a person to analyze information, arrive at conclusions, and make sound decisions. Applying critical thinking in the workplace is an essential skill everyone should be trying to improve. Critical thinking skills are valuable in all roles in an organization."
+    },
+    {
+      "id": "prefinals-06-p1-c4",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 1,
+      "text": "These skills enhance communication, creativity and problem- solving. Thinking critically in the workplace allows you to connect ideas, evaluate arguments, find errors, and solve complex issues. Always allow yourself to be fearless in taking high-risk problems that need immediate actions to further practice your critical thinking skills while ensuring that the result is correct and thoroughly thought through. 4. Ethics: An organization that introduces the workplace ethics program aligns the behavior of employees. As a result, this fosters openness, partnership, and trust. Moreover, when employees know supervisors’ expectations they perform better in their jobs."
+    },
+    {
+      "id": "prefinals-06-p1-c5",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 1,
+      "text": "Always keep in mind the stakes involved in every aspect of the job to ensure that every action is bounded by what is morally correct and acceptable. Recognizing the importance of ethics at the workplace helps employees to feel secure, because there is no harassment from other workers and the supervisors treat employees with respect."
+    },
+    {
+      "id": "prefinals-06-p2-c1",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 2,
+      "text": " student.feedback@sti.edu 5. Humanness: Humanity in the workplace is expressed through the innate human values and unique talents and perspectives that employees contribute. Humanity is dynamic and encompasses the natural need for purpose, growth, and work-life balance. Practicing being kind, accepting, and emotionally available daily is a huge step to achieve humanness in the workplace. They don’t require additional skills but the innate human values to do good around people. Professionals today want to be a part of something larger than themselves and contribute to something that in some way positively impacts the human experience."
+    },
+    {
+      "id": "prefinals-06-p2-c2",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 2,
+      "text": "Professional Skills Required Professional skills help you succeed no matter what the job is. While it’s important to have specialized knowledge in specific fields, having the skills to show maturity and dedication to the job can help the professionals to advance in the job even further. The following are some of the top skills employers look for in candidates according to Indeed.com. 1. Leadership skills: Effective leaders can communicate well, motivate their team, handle and delegate responsibilities, listen to feedback, and have the flexibility to solve problems in an ever- changing workplace."
+    },
+    {
+      "id": "prefinals-06-p2-c3",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 2,
+      "text": "Leadership skills can be enhanced by simply taking on more projects to develop a sense of responsibility, as well as being a discerning listener to everyone in the team. Emotional intelligence is one of the characteristics that a good leader should have. Having a leader that explodes in rage or screams to their teammates will only generate a negative environment. 2. Interpersonal skills: This is important for communicating and working with groups and individuals. People with strong interpersonal skills tend to build good relationships and can work well with others. They understand family, friends, coworkers, and clients well."
+    },
+    {
+      "id": "prefinals-06-p2-c4",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 2,
+      "text": "People often enjoy working with colleagues who have good interpersonal skills. The best practice to do to improve this skill is showing a real interest in your teammates’ lives while acknowledging their expertise. Professionals must understand the importance of interacting with peers to build a positive relationship among employees and creates a robust work culture. 3. Self-management skills: Self-management skills are the abilities that allow people to control their thoughts, feelings, and actions. This skill allows the professionals to maximize their productivity, improve their workplace performance and efficiently achieve professional goals."
+    },
+    {
+      "id": "prefinals-06-p2-c5",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 2,
+      "text": "This can be improved by developing an organizational system to make sure that tasks are written down and organized. Setting short- and long-term goals tells you what to prioritize whether it’s persona or work development. 4. Problem solving skills: Problem solvers can observe, judge, and act quickly when difficulties arise when they inevitably do. Problem-solving skills will help you pinpoint problems in your workplace and effectively solve them in a timely fashion. This can be enhanced by thorough researching of the problem and identifying the best solutions to implement even for non-work- related problems. 5."
+    },
+    {
+      "id": "prefinals-06-p2-c6",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 2,
+      "text": "Open-mindedness: This modern workplace is filled with people from different backgrounds, cultures, and life experiences. To succeed, it is important to be open-minded to various ideas and behaviors. To enhance this skill, allow yourself to be challenged by other people’s perspectives. Reading books and listening to podcasts based on the lives of other cultures and life experiences can be helpful. When a professional is open-minded, they also accept technological changes and new ideas about how to perform a job without taking it personal."
+    },
+    {
+      "id": "prefinals-06-p3-c1",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 3,
+      "text": " student.feedback@sti.edu Challenges Workplace challenges are neither new nor avoidable. Despite one’s best efforts, there will be many things that create friction in the workplace. Numerous internal and external challenges can make work difficult and slow down growth. Here are major examples of challenges at work: 1. Communication challenges: Different employees communicate differently. Some people tend to respond to emails and messages in a matter of minutes, while others take days. Many don’t even respond to emails or messages at all."
+    },
+    {
+      "id": "prefinals-06-p3-c2",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 3,
+      "text": "This lack of communication and the resultant absence of coordination between different employees can pose a challenge to organizational harmony and success. These challenges can be avoided when everyone involved is willing enough to drop their egos to talk about the problem and when everyone is willing to set aside personal problems to achieve the common goal of the company. 2. Low employee motivation: No matter the effort, there is always a chance of feeling demotivated. Despite your love for your work, you may very well feel demotivated. It is natural to want support, encouragement, and motivation from time to time."
+    },
+    {
+      "id": "prefinals-06-p3-c3",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 3,
+      "text": "In a conventional desk job, the need for motivation is usually more acute and recurring. People can get tired of doing the same work each day. To address this challenge, you can reach out to HR or anyone in charge to create activities and seminars that can boost the employee’s morale. It is also effective to find alternative ways to solve common problems that you and the team haven’t tried before. Doing so allows curiosity to become more creative which can be enjoyed from time to time. 3. Difficult people: This is one of the most common challenges at work. In almost every office, some unhappy employees feel frustrated for some reason."
+    },
+    {
+      "id": "prefinals-06-p3-c4",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 3,
+      "text": "They bring others down with their constant complaints and negativity. And some people are usually unwilling to welcome changes, new activities, or perspectives. If the conflict gets out of hand, reach out to HR or anyone in charge. But if the issue is manageable, communicate with one another and make sure to understand and acknowledge each other’s feelings. The best advice here is to be kind; avoid being difficult to others, and handle difficult people. 4. Lack of skill development and professional growth: Skill enhancement of employees is essential to improve performance, especially to keep pace with new technology. Otherwise, they risk becoming irrelevant or outdated."
+    },
+    {
+      "id": "prefinals-06-p3-c5",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 3,
+      "text": "Seek out trainings and seminars available that cater to your needs as an employee. It might not be initiated by the company, but if you take the first steps, you can prevent feeling stagnant in your professional growth. 5. Mental health challenges: Work is good for mental health, but a negative working environment can lead to physical and mental health problems. Harassment and bullying at work are commonly reported problems and can have a substantial adverse impact on mental health which could result to depression and anxiety. Taking time off work is valid and important when dealing with mental health challenges."
+    },
+    {
+      "id": "prefinals-06-p3-c6",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 3,
+      "text": "Creating and developing a personal space outside of work is essential as life is not all about work. Spend the rest of the day at home doing the things you love and focus your weekends on activities that further improve your mental health and personal growth. In conclusion, if professionals apply their skills in accordance with their principles, challenges in the workplace can be avoided and prevented."
+    },
+    {
+      "id": "prefinals-06-p4-c1",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 4,
+      "text": " student.feedback@sti.edu References: Brindley, R. (2022). Professionalism at work. RIBA Indeed.com. (2020). Top 11 skills employers look for in candidates. [Web Article]. Retrieved on February 18, 2022, from https://www.indeed.com/career-advice/resumes-cover-letters/skills- employers-look-for Glassm J. (2021). Professionalism and the 5 principles. [Web Article]. Retrieved on February 18, 2022, from https://memp.pratt.duke.edu/5- principles Harrapa (2020) Workplace challenges with examples. [Web Article]. Retrieved on February 18, 2022, from https://harappa.education/harappa-diaries/challenges-at-work/ World Health Organization (n.d.a). Mental health and substance use. [Web Article]."
+    },
+    {
+      "id": "prefinals-06-p4-c2",
+      "termId": "prefinals",
+      "handoutId": "prefinals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Professionalism at Work",
+      "page": 4,
+      "text": "Retrieved on February 18, 2022, from https://www.who.int/teams/mental-health-and-substance- use/promotion-prevention/mental-health-in-the-workplace"
+    },
+    {
+      "id": "finals-07-p1-c1",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 1,
+      "text": " student.feedback@sti.edu COMPUTER ENGINEERS AT WORK Computer Engineering as a Profession As Computer Engineering does not require studying and passing a Board Licensure Exam, graduates can immediately go into the professional world to experience the field. With that said, graduates are still expected to improve their portfolios by taking additional certifications and trainings accredited by legitimate organizations. A degree in computer engineering presents a number of opportunities both locally and overseas."
+    },
+    {
+      "id": "finals-07-p1-c2",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 1,
+      "text": "Locally As per the Department of Labor and Employment’s (DOLE) 2019 Issue of Labor Market Trends, Computer Engineering ranks the seventh (7th) top-paying jobs in the Philippines, with an average of PHP49,335 estimated monthly salary. Computer-related positions like Computer Programmers and System Analyst and Designers ranked 5th and 6th, respectively, As our country is on track to become the “call center capital of the world”, job opportunities will grow further for the tech industry, Overseas Obviously, computer engineering jobs abroad pays more."
+    },
+    {
+      "id": "finals-07-p1-c3",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 1,
+      "text": "In the US, an average of $119,560 or PHP6,147,476 is expected for computer engineers yearly, according to their Bureau of Labor Statistics (BLS) as of 2020. Having said that, salaries still depend on several factors like experience and degree specializations. A computer engineer with years of experience often earns higher salaries than entry-level workers. And a computer engineering graduate with a networking specialization will qualify for network administration jobs with a much better average salary than most specializations in the field. The demand for computer engineers continues to grow, although more slowly than other computer-related jobs."
+    },
+    {
+      "id": "finals-07-p1-c4",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 1,
+      "text": "BLS projects 2% growth for this profession from 2019-2029, compared to 4% growth projected for other job opportunities. To progress better, improve skills and knowledge in software engineering and web developing as they are the computer engineering-related roles that are projected to a 22% and 8% growth, respectively. Job Opportunities in the Philippines Job Description A computer engineer is responsible for designing computer systems, software, and hardware applications. Their duties include developing software systems, updating hardware, and designing new equipment. Job Opportunities Computer engineers have several career options."
+    },
+    {
+      "id": "finals-07-p1-c5",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 1,
+      "text": "They can work in hardware development or software development or opt to work in a blend of hardware and software development. Here are some of the most common computer engineering positions. 1. Technical Support Specialist − A technical support specialist collaborates with end-users to provide technical assistance and support for hardware, software, and technical issues. Some of the more common issues they troubleshoot include inabilities to access data, slow performance, inefficient software, and connection problems. Skills needed in this are excellent problem-solving skills, interpersonal skills, proficiency in various operating systems, and attention to detail."
+    },
+    {
+      "id": "finals-07-p2-c1",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 2,
+      "text": " student.feedback@sti.edu 2. Computer Programmer − A computer programmer is responsible for creating the code for operating systems and software applications. After software developers design a computer program, the programmers write code that turns that design into a set of instructions a computer's operating system can follow. Programmers check the program for errors and then rewrite it until it is error-free. Expected skills in this are time management, knowledge of object-oriented programming (OOP) languages, database and SQL, as well as data structures and algorithms. 3. Web Developer − A web developer designs and develops websites and website applications."
+    },
+    {
+      "id": "finals-07-p2-c2",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 2,
+      "text": "Using a variety of web technologies and programming languages, a web developer integrates security measures, implements application features, and manages site functionality. Required skills include problem solving, creative thinking, and being knowledgeable in general computer skills like basic programming, web design, and web management. 4. IT Consultant − An IT consultant works in partnership with clients, helping them utilize information technology to overcome problems or achieve their business objectives. They often work to improve the efficiency and structure of IT systems in various organizations."
+    },
+    {
+      "id": "finals-07-p2-c3",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 2,
+      "text": "Needed skills include advanced knowledge in hardware and software solutions and network maintenance, proficiency in providing efficient web-portal support, and an ability to keep up with IT trends and innovations. 5. Information Systems Manager − An information systems manager is responsible for overseeing a company's computer systems. They research and install new networks and systems and assess system functionality and user needs. They also implement technology that directs the work of business and systems analysts, support specialists, developers, and other computer-related workers."
+    },
+    {
+      "id": "finals-07-p2-c4",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 2,
+      "text": "Skills required include analytical and problem-solving skills, and strong technical skills which involve networking and system management. 6. Game Developer − A game developer is responsible for overseeing the developmental process of a video game. They may design games or use already implemented designs and write coding that brings the game characters, environments, and other elements to life. Game developers are expected to have a passion for video games. Their creativity must be ambitious, which they can translate into their proficiency in programming languages, such as C# and C++. 7."
+    },
+    {
+      "id": "finals-07-p2-c5",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 2,
+      "text": "Database Administrator − A database administrator uses specialized types of applications to store and organize a company's data, such as customer shipping records, payroll data, and confidential financial numbers. They ensure that data is available to users and that it's kept secure from accidental corruption or loss and unauthorized access. Database administrators must have a familiarity with the main data manipulation languages and the principles of database design. Good organization and analytical skills are vital in this profession to succeed as well."
+    },
+    {
+      "id": "finals-07-p3-c1",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 3,
+      "text": " student.feedback@sti.edu 8. Software Developer − A software developer creates various kinds of software for different applications. They spend much of their time creating flowcharts and models that tell computer programmers how to create codes for software. They participate in all aspects of software development, including designing, constructing, maintaining, and testing software. Software developers are expected to analyze complex technical information as well as to lead and deliver complex software systems. They also must have experience, or at least a familiarity, with JavaScript, Python, PHP, Ruby, PHP, and Linux/Unix, among other programming languages. 9."
+    },
+    {
+      "id": "finals-07-p3-c2",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 3,
+      "text": "Data Scientist − A data scientist analyzes raw data and synthesizes it into results that can easily be understood. They use their skills in machine learning, statistics, and programming to analyze the data and use it to gain insights, and make better business decisions. They may work in social media companies and analyze user data to understand behavior and suggest content that users will enjoy. Data scientists are expected to have skills related to statistical analysis and computing, machine learning, deep learning, and data visualization. Challenges Here are some of the challenges that computer engineering graduates might face: 1."
+    },
+    {
+      "id": "finals-07-p3-c3",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 3,
+      "text": "Slow skills development − Computer engineers will only rely on their knowledge and skills based on what they have learned while they are studying the degree. Schools in the Philippines that offer the degree do not have the same equipment and materials for the students to explore and practice the industry, which can result to a lower chance of employment. Students can attend free seminars and trainings offered online or by their local government to further shape their skills. It will also be helpful to self-study and focus on one or two skills to master for faster skills development over a short period of time. 2."
+    },
+    {
+      "id": "finals-07-p3-c4",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 3,
+      "text": "Expenses − To gather enough skills, a computer engineer graduate is expected to take seminars, trainings, and certifications which often cost money. Some of the seminars are free, but to extensively learn about the degree and get certifications, they must spend more money and time to create an impressive portfolio. Admittedly, not every challenge has an easy solution like this one, as not everyone is financially well-off. As a student, you can enter jobs that fit your skillset right now, then save some of your earnings for seminars and trainings for a better opportunity in the future. 3."
+    },
+    {
+      "id": "finals-07-p3-c5",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 3,
+      "text": "Competitive job opportunities − There are a lot of job opportunities available, but so does the number of applicants that are vying for the same role. A well- known BPO company might post a job opportunity that piqued your interest, but so did thousands of people in the industry. These types of jobs often pay a higher salary, but it is also a reality that they might only need one (1) employee out of the thousands who applied. An impressive resumé and extensive skill set and knowledge are factors to getting a job, but so does interviews. HR people also look at a candidate’s personality and manners and if they fit into their current environment."
+    },
+    {
+      "id": "finals-07-p3-c6",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 3,
+      "text": "Developing a way to communicate with clear intentions and a display of interest in the job can make you stand out from the rest of the candidates vying for the same position."
+    },
+    {
+      "id": "finals-07-p4-c1",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 4,
+      "text": " student.feedback@sti.edu 4. Interactions − In the job, a computer engineering professional spends more time in front of a computer most of the day. They are expected to be focused and do the job as error-free as possible. This limits interaction and work relationships compared to other career fields. The best way to resolve this challenge without risking the quality of your output is by making sure that you find the perfect timing to interact with people that is not distracting to their timetables. You can achieve this during breaks, or the team can come up with an after-work event merely for the purpose of socializing and getting to know each other."
+    },
+    {
+      "id": "finals-07-p4-c2",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 4,
+      "text": "References: Department of Labor and Employment (2019). Labor market trends. [PDF]. Retrieved on February 21, 2021, from http://www.ble.dole.gov.ph/downloads/Publications/LMT/LMI-LMT- Top%2010%20Highest%20Paying%20%20Jobs- March%202019%20Issue.pdf Computer Science.org (2022) Computer engineer salary and career outlook. [Web Article]. Retrieved on February 21, 2021, from https://www.computerscience.org/computer- engineering/careers/computer-engineer/career-outlook-and-salary/ Indeed (2021). 17 jobs with a degree in computer engineering. [Web Article]."
+    },
+    {
+      "id": "finals-07-p4-c3",
+      "termId": "finals",
+      "handoutId": "finals-07",
+      "handoutNumber": "07",
+      "handoutTitle": "Computer Engineers at Work",
+      "page": 4,
+      "text": "Retrieved on February 21, 2022, from https://www.indeed.com/career- advice/finding-a-job/jobs-with-a-degree-in-computer-engineering Online Education (n.d.a). Learn more about the computer engineering in the Philippines. [Web Article]. Retrieved on February 21, 2022, from https://oed.com.ph/computer-engineering-philippines/"
+    },
+    {
+      "id": "finals-08-p1-c1",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 1,
+      "text": " student.feedback@sti.edu Application of IT Laws in the Computer Engineering Field The Future of the Computer Engineering Field Computer Engineering has been at the forefront of every major technological advancement in the last century. From the Internet, smartphones, and automated devices to robotics, it has revolutionized everyone’s lifestyle. Computer Engineering’s Potential The stakes keep getting higher for the “next big thing” in technology. When done right, computer engineering has put people on the moon with less computing power than today. When done wrong, it caused two commercial airlines to tragically crash into the ground after takeoff."
+    },
+    {
+      "id": "finals-08-p1-c2",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 1,
+      "text": "Today’s mistakes in computer engineering could be so severe to the point that they can create an existential threat to humanity. But at the same time, the success stories of inventions and innovations can lead to a rapid development of effective new medicines and countless other advances that benefits many. Here are some of the projected innovations in the future: 1. Smart Factories − The industrial Internet of Things (IoT) holds a lot of promise, but it has been held back because of the limited energy supply of sensors and the short lifetimes of their batteries. That is finally changing."
+    },
+    {
+      "id": "finals-08-p1-c3",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 1,
+      "text": "Everactive, a startup, has developed industrial sensors that can run nonstop for over 20 years with minimal maintenance. Factories are the first to benefit, but more applications are coming as the next generation of sensors is built. Everactive’s engineers believe that they are only a few years away from producing translucent, flexible sensors that are smaller than the size of a postage stamp: all customers will need to do is affix a sensor to begin generating data. 2. Virtual Reality and Augmented Reality − The COVID-19 pandemic caused a massive shift to remote work for many white-collar professions. But it also exposed a lot of the weaknesses in the existing tech that powers remote work."
+    },
+    {
+      "id": "finals-08-p1-c4",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 1,
+      "text": "Instead of relying on video conferencing and virtual private networks, computer engineers are reimagining what remote work could look like in the future. Virtual reality (VR) and augmented reality (AR) are prime candidates for evolving the concept of remote work. By giving users a virtual experience that is as visual and immersive as a physical one, computer engineers hope to facilitate collaboration, education, and spontaneity. Experts across the business world are buying in: Facebook already has working prototypes, and Pricewaterhouse Coppers (PwC) projects the VR industry to grow exponentially over the coming years. 3."
+    },
+    {
+      "id": "finals-08-p1-c5",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 1,
+      "text": "Self-Driving Cars − Enabling vehicles with elevated levels of autonomy requires meeting strict requirements around safety and reliability. Computer engineers must design vehicles with high-powered sensors, intuitive human-computer interaction, and multiple backups readily available. In 2018, a self-driving car killed a pedestrian. Since then, some of the hype around self-driving cars has understandably faded. Automated Lane Keeping Systems (ALKS), which are currently rolled out in some everyday cars, could prevent an estimated 47,000 serious accidents over the next decade. As each component gets tested, iterated, and innovated upon, self-driving cars inch closer to the commercial world."
+    },
+    {
+      "id": "finals-08-p1-c6",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 1,
+      "text": "Industry heavyweights like Microsoft are banking on it to happen sooner rather than later."
+    },
+    {
+      "id": "finals-08-p2-c1",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 2,
+      "text": " student.feedback@sti.edu 4. Spaceflight Engineering − If the future of humanity is indeed multi-planetary, computer engineers will be a key part of the team that takes us there. They design forms of alternative propulsion, new instruments for detecting subsurface water, human-computer interfaces for human space travel, and semi-autonomous drones and probes for exploration. NASA’s Perseverance rover landed successfully on Mars on February 18, 2021, with a unique passenger: Ingenuity, the Mars Helicopter. NASA’s computer engineers in Southern California built Ingenuity to fly in atmospheric conditions specific to the red planet."
+    },
+    {
+      "id": "finals-08-p2-c2",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 2,
+      "text": "Due to the delays inherent in interplanetary communication, Ingenuity has been programmed to pilot itself and even make its own decisions. Back on Earth, computer engineers will be watching and waiting. 5. Generative Pre-trained Transformer-3 (GPT-3) − Built by OpenAI, GPT-3 is described as the most powerful form of autocomplete ever invented. Users have leveraged GPT-3 to create question-based search engines, generate programming code, compose music, and respond to medical queries. It is not perfect. For every astounding success, GPT-3 produces several obvious mistakes."
+    },
+    {
+      "id": "finals-08-p2-c3",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 2,
+      "text": "But, if applied correctly, GPT-3 could automate a substantial number of processes, revolutionize computer programming, and lead to important breakthroughs in AI research. What GPT-3 needs now, according to a source at Google, is hard engineering layered on top of it. Going forward, computer engineers will be looking at more ways to transfer the potential of AI-enabled software like GPT-3 into tangible benefits. IT Laws and Professional Practices in the Computer Engineering Field One of the reasons IT Laws or cybercrime laws exist is to keep one’s ethical behavior checked, grounded, and balanced."
+    },
+    {
+      "id": "finals-08-p2-c4",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 2,
+      "text": "As a soon-to-be computer engineering professional, you have a moral responsibility and obligation to ground your outputs and technological achievements on the basis of the existing IT laws. This can be achieved by understanding the following guidelines: 1. Plan computer/IT-related projects with an attitude and intention of creating systems and devices for the common good. Doing this will direct your focus on achieving “morally” correct outputs instead of the possibilities of distractions caused by ill-intentioned motives. For example, when thinking of a project to create, focus on projects that can help a minority or underprivileged group of people."
+    },
+    {
+      "id": "finals-08-p2-c5",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 2,
+      "text": "A project that helps save water, a device that provides electricity, or an application that focuses on mental health wellness. Helping them to better their lives is a good motivation to achieve morally correct outputs as the beneficiaries are certainly in need of these projects. 2. Be professional. As discussed, professionalism is not just about qualifications and skills, but also about integrity and ethics. Practice behaving like a professional when creating outputs as it affects everyone involved in the project, which can cause conflicts and challenges if neglected."
+    },
+    {
+      "id": "finals-08-p2-c6",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 2,
+      "text": "Strive to keep the work environment free from conflicts to not just achieve the common goal of the team, but as well as to create an environment where the spirit of collaboration is present, and interactions are not limited because of misunderstandings."
+    },
+    {
+      "id": "finals-08-p3-c1",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 3,
+      "text": " student.feedback@sti.edu 3. Aim for bigger targets. Computer engineers are pioneers and inventors in nature. They are expected to create the next trends in technology. Aiming for bigger technological innovations in different industries will help fulfill the social responsibilities of computer engineers. Aspire to be that person who would be shown on national news inventing new technologies. Take risks and create bigger stakes. It does not have to be revolutionary all the time; it just needs to be relevant and makes society function better. 4. Think outside the box."
+    },
+    {
+      "id": "finals-08-p3-c2",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 3,
+      "text": "Systems for programs and applications, as well as materials for assembling a new device, can be both readily available and expensive. But it takes a creative mind to come up with smart alternatives and options for new systems that have never been done before, as well as using computer materials that can prevent the growth of electronic waste. Do not rely on existing programs on the Internet that can be altered to pass as an original. Strive on being creative in developing systems to become open-minded in innovative ideas and concepts. In terms of electronic waste, purchase used and working sensors or processors from past computer engineering students with the same capabilities as a new one."
+    },
+    {
+      "id": "finals-08-p3-c3",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 3,
+      "text": "5. Be observant. The camaraderie built in the world of information and technology is helpful in one’s career journey. But that should never stop you from reporting blatant motivations crossing what is morally correct such as creating systems and devices that are harmful and illegal to anyone. Communicate and point out the wrongdoings to the correct people. And if, in any case, you are the one reported, comply with the rules and procedures and admit your faults as professional computer engineers must always bound their creations based on what is morally and legally correct. References: Ilchenko, M. (2021). Advances in information and communication technology and systems."
+    },
+    {
+      "id": "finals-08-p3-c4",
+      "termId": "finals",
+      "handoutId": "finals-08",
+      "handoutNumber": "08",
+      "handoutTitle": "Application of IT Laws in the Computer Engineering Field",
+      "page": 3,
+      "text": "Springer Online Engineering Programs (2020). Tech 2020 update: What’s next in computer engineering in 2021. [Web Article]. Retrieved on February 22, 2022, https://www.onlineengineeringprograms.com/features/tech- 2020-computer Ribbers, E. (2022). Managing information technology outsourcing. Routledge"
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "subjectId": "it1919",
+  "subject": "Robot Dynamics",
+  "chunks": [
+    {
+      "id": "it1919-prelim-01-p1-c1",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Embedded Systems Basics",
+      "page": 1,
+      "text": "Embedded Systems Basics Components and Characteristics • An embedded system is a computer system mainly designed to perform a specific task such as accessing, processing, store and controlling data in an electronics-based system. • The components of an embedded system are divided into two (2) parts: 1."
+    },
+    {
+      "id": "it1919-prelim-01-p1-c2",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Embedded Systems Basics",
+      "page": 1,
+      "text": "Hardware o Power Supply – battery or external source o Processor – controls electrical and mechanical functions o Memory – stores hardware instructions o Timers – measure time intervals or elapsed time o Communication Ports – used to communicate with other types of embedded systems (UART, USB, Ethernet) o Input and Output – Examples of input are switch and keypad while examples of output are LEDs and LCDs. o Application-Specific Integrated Circuits (ASIC) – integrated circuits customized for a particular use 2."
+    },
+    {
+      "id": "it1919-prelim-01-p1-c3",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Embedded Systems Basics",
+      "page": 1,
+      "text": "Software: assembler, emulator, debugger, compiler • The characteristics of an embedded system are as follows (ElProCus Technologies, 2019): o Single-functioned: It executes a particular operation in a consistent manner. o Tightly constrained: It has limitations on design metrics. A design metric is a measure of an execution features like size, power, cost and also performance. o Real time: It must perform fast enough and consume less power to increase battery life. o Reactive: It should constantly react to changes in the system and also calculate particular results in real time without any delay o It must be based on a microcontroller or microprocessor."
+    },
+    {
+      "id": "it1919-prelim-01-p1-c4",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Embedded Systems Basics",
+      "page": 1,
+      "text": "o It must require a memory, as its software generally inserts in ROM. It does not require any secondary memories in the PC. o It must have connected peripherals to attach input & output devices. Basic Structure of an Embedded System Figure 1. Basic Structure of an Embedded System • Sensor: It measures the physical quantity and converts it to an electrical signal readable by any electronic instrument. • A-D Converter: An analog-to-digital converter converts the analog signal sent by the sensor into a digital signal. • Processor & ASICs: A processor receives and interprets commands and performs the processes the user has requested . ASICs are designed for a specific purpose."
+    },
+    {
+      "id": "it1919-prelim-01-p1-c5",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Embedded Systems Basics",
+      "page": 1,
+      "text": "• Memory: It stores information or instructions either temporarily or permanently. • D-A Converter: A digital-to-analog converter converts the digital data fed by the processor to analog data. • Actuator: It is a kind of motor that controls or moves mechanisms or systems. Steps in Developing an Embedded System (Edgefxkits & Solutions, 2019) 1. Determine the requirements. 2. Design the system architecture. 3. Select the operating system. 4. Identify the processor and peripherals. 5. Choose the development platform. 6. Code the application and optimize. 7. Verify the software on the host system. 8. Verify the software on the target system. References: Dey, N. & Mukherjee, A. (2016)."
+    },
+    {
+      "id": "it1919-prelim-01-p1-c6",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "handoutNumber": "01",
+      "handoutTitle": "Embedded Systems Basics",
+      "page": 1,
+      "text": "Embedded systems and robotics with open source tools. Boca Raton: CRC Press, Taylor & Francis Group. ElProCus Technologies. (2018). Basics of embedded system and applications. Retrieved from https://www.elprocus.com/ Iniewski, K. (2013). Embedded systems: Hardware, design, and implementation. Hoboken: John Wiley & Sons, Inc."
+    },
+    {
+      "id": "it1919-prelim-02-p1-c1",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Overview of Robotics",
+      "page": 1,
+      "text": "Overview of Robotics Artificial Intelligence and Robotics • Artificial intelligence is the science of training machines to perform human tasks. • Subsets of artificial intelligence (Hurwitz, 2018): o Reasoning - making inferences based on data o Natural Language Processing (NLP) – understanding both written text and human speech o Planning – acting autonomously and flexibly to construct a sequence of actions to reach a final goal o Machine Learning – enables a system to learn from data, identify patterns, and make decisions with minimal human intervention • Robotics is the study of machines that independently perform work, following a set of rules programmed by a computer."
+    },
+    {
+      "id": "it1919-prelim-02-p1-c2",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Overview of Robotics",
+      "page": 1,
+      "text": "• A robot has the following essential characteristics: o Sensing o Movement o Energy o Intelligence • Isaac Asimov's Three Laws of Robotics (1942): 1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey orders given it by human beings except where such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law. History of Robotics • The main era of robotic research and development was the mid- 20th century. • Robots were mainly employed for tasks that were too dirty, distant or dangerous for humans (Krebs & Volpe, 2013)."
+    },
+    {
+      "id": "it1919-prelim-02-p1-c3",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Overview of Robotics",
+      "page": 1,
+      "text": "• Unimate is the first industrially used robot developed by Joseph Engelberger and George Devol in 1961, a 2-ton robotic arm adopted for automated die-casting (a metal casting process utilizing metal molds or dies). • Shakey developed by Charles Rosen in 1966, is the first mobile robot with the ability to perceive and reason about its surroundings. • The Stanford Arm is the first successfully computer-controlled electrically powered robot arm created by Victor Scheinman in 1969, developed industrial assembly techniques for commercial robot arms."
+    },
+    {
+      "id": "it1919-prelim-02-p1-c4",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Overview of Robotics",
+      "page": 1,
+      "text": "Types of Robots • Industrial Robots: These are the robotic arms or manipulators that perform production tasks such as welding, material handling, painting, and tightening of several parts. • Medical Robots: These are used in healthcare and medicine to perform tasks such as equipment lifting, washing of equipment, and surgery. • Military Robots: These are used by the armed forces for tasks for searching, rescue, and surveillance operations. These are also known as artificial soldiers. • Space Robots: These are used to substitute for astronauts in navigating dangerous environments."
+    },
+    {
+      "id": "it1919-prelim-02-p1-c5",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "handoutNumber": "02",
+      "handoutTitle": "Overview of Robotics",
+      "page": 1,
+      "text": "• Entertainment Robots: These are interactive robots that can take several commands and perform several tricks for fun. • Domestic Robots: These are primarily used for household chores Components of a Robot • Control System – coordinates all the motion of the mechanical system • Sensors • Actuators • Electric Motors • Power Supply References: Corke, P. (2017). Robotics: Vision and control. Brisbane: Springer International Publishing AG 2017. Dey, N. & Mukherjee, A. (2016). Embedded systems and robotics with open source tools. Boca Raton: CRC Press, Taylor & Francis Group."
+    },
+    {
+      "id": "it1919-midterm-03-p1-c1",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Simple Machines Fundamentals",
+      "page": 1,
+      "text": "Simple Machines Fundamentals • A simple machine is a basic mechanical device for applying a force and doing work. • Robots are made up of simple machines that allow them to perform actions. • Types of simple machines: o Lever - is made up of a straight rigid object which pivots on a turning point to move or lift an object. The parts of a lever as are follows: ▪ Bar or Beam – a long plank. It may be wood, metal or any durable material."
+    },
+    {
+      "id": "it1919-midterm-03-p1-c2",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Simple Machines Fundamentals",
+      "page": 1,
+      "text": "▪ Fulcrum - a point on the bar creating a pivot ▪ Effort – applied at one point to move/lift an object ▪ Load – object to be moved/lifted Examples: Seesaw, wheelbarrow, shovel o The three (3) classes of lever indicate that the parts of the lever are not always in the same arrangement. ▪ Class 1: The fulcrum is between the effort and the load. (Seesaw) ▪ Class 2: The load is between the effort and the fulcrum. (Wheelbarrow) ▪ Class 3: The effort is between the load and the fulcrum. (Shovel) o Wheel and Axle – is used to move objects across distances. It uses a wheel with a rod attached in the middle as an axle to help it to lift or move loads."
+    },
+    {
+      "id": "it1919-midterm-03-p1-c3",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Simple Machines Fundamentals",
+      "page": 1,
+      "text": "Examples: Doorknob, motor, electric fan o Pulley – uses a wheel with a groove in it and a rope. It is used to move the load or change direction of the force. The following are the types of pulley. ▪ Fixed Pulley – The axle is fixed in place and cannot be moved. ▪ Movable Pulley: The load is attached to the pulley and both of them can move from place to place. ▪ Compound Pulley – a combination of pulleys designed to make the effort less than half of the weight of the load. (Block and Tackle)"
+    },
+    {
+      "id": "it1919-midterm-03-p2-c4",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Simple Machines Fundamentals",
+      "page": 2,
+      "text": "• An inclined plane is a flat surface with one end higher than the other. It allows heavy objects to slide up to a higher point or down to a lower point. Examples: Slide, ramp, funnel • A wedge consists of two (2) inclined planes, giving it a thin end and thick end to cut, split, or tighten an object. Examples: Knife, axe, nail • A screw is an inclined plane around a cylinder. It can be used to lift things or to hold them together."
+    },
+    {
+      "id": "it1919-midterm-03-p2-c5",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Simple Machines Fundamentals",
+      "page": 2,
+      "text": "The parts of a screw as are follows: o Shaft – cylinder o Threads – ridges around the shaft o Pitch – distance between the threads Mechanical Advantage and Mechanical Efficiency • Mechanical advantage indicates how much a machine can increase or decrease the force on a load, compare with the effort force. The formula for mechanical advantage is: 𝑀𝐴= 𝐹𝑂𝑈𝑇 𝐹𝐼𝑁 Where: MA = Mechanical advantage FOUT = Force of the object (output force) FIN = Effort to overcome the force of the object (input force) If MA is > 1, the output force is greater than the input force. If MA < 1, it does not have a mechanical advantage and requires more input force."
+    },
+    {
+      "id": "it1919-midterm-03-p2-c6",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Simple Machines Fundamentals",
+      "page": 2,
+      "text": "Example: Determine the mechanical advantage if 300N force is required to overcome a load of 700N. Solution: FOUT = 700N FIN = 300N MA = FOUT/FIN = 700N/300N = 2.33 • Mechanical efficiency is the ratio of the work output to work input. The formula for mechanical efficiency is: 𝑀𝐸= 𝑊𝑂𝑈𝑇 𝑊𝐼𝑁 𝑥 100% Where: ME = Mechanical efficiency WOUT = Work output WIN = Work input Example: A construction worker puts 25J of energy in to one strike of his hammer on the head of a nail. The energy transferred to driving the nail in to the wood is 8J. What is the efficiency of the construction worker's hammering?"
+    },
+    {
+      "id": "it1919-midterm-03-p2-c7",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "handoutNumber": "03",
+      "handoutTitle": "Simple Machines Fundamentals",
+      "page": 2,
+      "text": "Solution: WOUT = 8J WIN = 25J 𝑀𝐸= 𝑊𝑂𝑈𝑇 𝑊𝐼𝑁 𝑥 100% = 8𝐽 25𝐽𝑥 100% = 0.32 𝑥 100% = 32% References: Corke, P. (2017). Robotics: Vision and control. Brisbane: Springer International Publishing AG 2017. Dey, N. & Mukherjee, A. (2016). Embedded systems and robotics with open source tools. Boca Raton: CRC Press, Taylor & Francis Group. eSchoolToday. (n.d.). Six types of simple machines. Retrieved from https://eschooltoday.com/science"
+    },
+    {
+      "id": "it1919-midterm-04-p1-c1",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 1,
+      "text": "Table 3. SI prefix notations Fundamentals of Electricity and Electronics An electrical circuit is an interconnection of electrical components. These electrical components include resistors, inductors, capacitors, generators (or sources), transformers, diodes, transistors, and many more. Scientific Notation It is a special way of expressing very large or very small numbers. It is scientifically used to represent accuracy and precision of data in decimal form. The International System of Units (SI) is an international measurement language and a basis of standard of measurement that some countries follow for quantity and counting purposes."
+    },
+    {
+      "id": "it1919-midterm-04-p1-c2",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 1,
+      "text": "This particular system of units can be derived into other measurable units through combination and/or formulation. Examples of SI as expressed in liters (volume of liquids), meters (length and distance), and grams (weight and intensity): THROUGH CONVERSION THROUGH FORMULA 1) 600,000 𝑚 = 600 × 103 𝑚 = 600 𝑘𝑚 = 600,000 × 103 𝑚 = 600,000,000 𝑚𝑚 2) 0.279 𝐿𝑖𝑡𝑒𝑟𝑠× 1000 𝑚𝐿 1 𝐿𝑖𝑡𝑒𝑟= 279 𝑚𝐿 0.279 𝐿𝑖𝑡𝑒𝑟𝑠 × 1 𝑚𝐿 0.001 𝐿= 279𝑚𝐿 3) 126.8 𝑘𝑔= 126.38 × 103 𝑔𝑟𝑎𝑚𝑠 = 126,380 𝑔𝑟𝑎𝑚𝑠 1) How much force is needed to move a 7 𝑘𝑔 mass by 9.8 𝑚/ 𝑠2? 𝑭= 𝒎𝒂 𝐹= 7 𝑘𝑔× 9.8 𝑚 𝑠2 = 68.6 2) What is the equivalent power if 25 𝐽 of work is done for 10 𝑠?"
+    },
+    {
+      "id": "it1919-midterm-04-p1-c3",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 1,
+      "text": "𝑷= 𝑬 𝒕 𝑃= 25 𝐽 10 𝑠= 2.5 𝑊 Basic Units Quantity Basic Unit Symbol Length Meter 𝑚 Mass Kilogram 𝑘𝑔 Time Second 𝑠 Charge Coulomb 𝐶 Temperature Kelvin 𝐾 Luminous Intensity Candela 𝐶𝑑 Derived Units Quantity Basic Unit Symbol Equivalent Force Newton 𝑁 𝑘𝑔 • 𝑚/𝑠² Work or Energy Joule 𝐽 𝑘𝑔 • 𝑚²/𝑠² Electric Current Ampere 𝐴 𝐶/s Power watt 𝑊 𝑘𝑔 • 𝑚²/𝑠³ Notation Prefixes Multiplier Prefix Symbol Value 1012 Tera 𝑇 1,000,000,000,000 109 Giga 𝐺 1,000,000,000 106 Mega 𝑀 1,000,000 103 kilo 𝑘 1,000 10 deka 𝑑 10 10−3 milli 𝑚 0.001 10−6 micro 𝜇 0.000,001 10−9 nano 𝑛 0.000,000,001 10−12 pico 𝑝 0.000,000,000,001 Table 1. SI basic units Table 2. SI derived units"
+    },
+    {
+      "id": "it1919-midterm-04-p2-c4",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 2,
+      "text": "Elements of an Atom • Atom – the basic unit of matter; can be built up into elements • Proton – positively charged particle • Neutron – neutral charged particle • Electron – negatively charged particle When an electron is transferred from a point to the other, it produces a charge. Electron is basically the reason why electricity exists. With electrons moving freely, charge exists. Charge • Electric charge is a fundamental property of matter to describe force interactions among particles. • It is an electrical property of the atomic particles measured in coulombs (C). • There are two kinds of charge: positive and negative."
+    },
+    {
+      "id": "it1919-midterm-04-p2-c5",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 2,
+      "text": "• Like charges repel (negative to negative), Unlike charges attract (positive to negative). • The formula for the charge of an electron is 𝒆= −𝟏.𝟔𝟎𝟐× 𝟏𝟎−𝟏𝟗 𝑪. • The law of conservation of charge states that charge can neither be created nor destroyed, only transferred. • We can also equate charge as the current in movement corresponding to time. • This formula is used to find the charge whenever current is present: 𝑸= 𝑰𝒕 (𝑪𝒉𝒂𝒓𝒈𝒆 = 𝑨𝒎𝒑𝒆𝒓𝒆 × 𝑻𝒊𝒎𝒆 𝒊𝒏 𝑺𝒆𝒄𝒐𝒏𝒅𝒔) Relationship Between Charge and Current • Electric charge can be transferred from one (1) place to another, where it can be converted to another form of energy."
+    },
+    {
+      "id": "it1919-midterm-04-p2-c6",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 2,
+      "text": "• It is conventional to take the current flow as the movement of positive charges, i.e., opposite to the flow of negative charges. Remember positive and negative charges attract. • Whenever there are unlike charges transferred into a conductive medium, there is movement of charge. Thus, it creates electric current. Electric Current • It is the time rate of change of charge measured in amperes (𝐴). • Mathematically, it is equivalent to 𝒊≜ 𝒅𝒒 𝒅𝒕 , in which 1 𝐴 = 1 𝐶𝑜𝑢𝑙𝑜𝑚𝑏/𝑠𝑒𝑐. • The types of electric current are alternating current and direct current. Examples (Electric Current): 1) What current must flow if 0.24 𝐶𝑜𝑢𝑙𝑜𝑚𝑏𝑠 is to be transferred in 15 𝑚𝑠?"
+    },
+    {
+      "id": "it1919-midterm-04-p2-c7",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 2,
+      "text": "𝑰= 𝑸 𝒕= 0.24 𝐶 15 × 10−3 𝑠𝑒𝑐= 16 𝐴 2) If a current of 10 𝐴𝑚𝑝𝑠 flows for four (4) minutes, find the quantity of electricity transferred. 𝑸= 𝑰𝒕 = 10 𝐴× (4min× 60 𝑠𝑒𝑐 1 𝑚𝑖𝑛) 𝑄= 2400 𝐶 Figure 1. Electron flow in a circuit"
+    },
+    {
+      "id": "it1919-midterm-04-p3-c8",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 3,
+      "text": "Since there must be current to move the electron, one must also learn how to measure the distance of the flow in which energy transfer is exerted. This energy transfer, or work, is performed by an external electromotive force (emf). Voltage • Voltage (or potential difference) is the energy required to move a unit charge from a reference point (−) to another point (+), measured in volts (V). • Moving the electron in a conductor in a particular direction requires some work or energy transfer which is performed by an external electromotive force (emf). • Mathematically, it is equivalent to 𝐯≜ 𝒅𝒘 𝒅𝒒."
+    },
+    {
+      "id": "it1919-midterm-04-p3-c9",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 3,
+      "text": "• In simple terms, a volt is equal to the energy exerted (Joules) per charge (Coulomb) or 𝑉= 𝐽 𝐶. Examples (Electric Voltage): 1) Moving charge 𝑞 from point 𝑏 to point 𝑎 requires 25 𝐽. Find the voltage drop 𝑣𝑎𝑏 (the voltage at 𝑎 positive with respect to 𝑏) if (a) 𝑞 = 5 𝐶 and (b) 𝑞 = −10 𝐶. (a) 𝑉= 25 𝐽 5 𝐶= 5 𝑣 (b) 𝑉= 25 𝐽 −10 𝐶= −2.5 𝑣 2) An energy source forces a constant current of 2 𝐴 for 10 𝑠 to flow through a light bulb. If 2.3 𝑘𝐽 is given off in the form of light and heat energy, calculate the voltage drop across the bulb. 𝑸= 𝑰𝒕 𝑄= 2𝐴× 10𝑠= 20 𝐶 𝑽= ∆𝒘 ∆𝒒 𝑉= 2.3 𝑘𝐽 20 𝐶= 115 𝑉 Energy • It is the capacity to do work measured in joules (𝐽)."
+    },
+    {
+      "id": "it1919-midterm-04-p3-c10",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 3,
+      "text": "• This confirms the fact that the total power supplied to the circuit must balance the total power absorbed. Power • Power is the time rate of expending or absorbing energy measured in watts (𝑊). • Its formula is either 𝒑≜ 𝒅𝒘 𝒅𝒕 or 𝒑= 𝒅𝒘 𝒅𝒕= 𝒅𝒘 𝒅𝒒× 𝒅𝒒 𝒅𝒕= 𝒗𝒊. • If the power has a (+) sign, it is being delivered to or absorbed by the element. On the other hand, if the power has a (−) sign, it is being supplied by the element. • The law of conservation of energy, which states that energy cannot be created nor destroyed, must be obeyed in any electric circuit. Example (Energy and Power): A mass of 1000 𝑘𝑔 is raised through a height of 10 𝑚 in 20 𝑠."
+    },
+    {
+      "id": "it1919-midterm-04-p3-c11",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 3,
+      "text": "What is a) the work done and b) the power developed? (Earth’s gravitational acceleration = 9.81 𝑚/𝑠².) 𝑣𝑎𝑏= 9 𝑣𝑜𝑙𝑡𝑠 𝑣𝑏𝑎= −9 𝑣𝑜𝑙𝑡𝑠 Figure 2. Voltage flow and reading orientation"
+    },
+    {
+      "id": "it1919-midterm-04-p4-c12",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 4,
+      "text": "a) 𝑭= 𝒎𝒂 𝐹= 1000 𝑘𝑔× 9.81 𝑚/𝑠2 𝐹= 9,810 𝑁 𝑾= 𝒇𝒅 𝑊= 9,810 𝑁× 10 𝑚 𝑊= 98,100 𝑁𝑚 𝑜𝑟 98.1 𝑘𝐽 b) 𝑷= 𝑾 𝒕 𝑃= 98.1𝑘𝐽 20 𝑠 𝑃= 4,905 𝑤𝑎𝑡𝑡𝑠 𝑜𝑟 4.905 𝑘𝑊 Circuit Elements In an electric circuit, there are different elements or components which make up a device or a system. These elements or components are the basic building blocks of a circuit. An electric circuit is simply an interconnection of the elements. • Circuit Diagram or Schematic is a simplified graphical representation of components or elements in a system of circuits."
+    },
+    {
+      "id": "it1919-midterm-04-p4-c13",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 4,
+      "text": "• Switches Open circuit – switch opened - Battery + Switch: OFF Bulb Closed circuit – switch closed - Battery + Switch: ON Bulb • Battery Symbols / Power Source Single cell Multi-cell DC battery source AC power source • Wirings No contact / No connection Connected / Full contact Terminal Ground • Resistors Fixed Variable (adjustable) Figure 3. Example of a circuit diagram"
+    },
+    {
+      "id": "it1919-midterm-04-p5-c14",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 5,
+      "text": "• Diodes Diode/Rectifier Light-emitting diode (LED) • Transistors (Bipolar Junction Transistor or BJT) NPN PNP Figure 4. A sample circuit diagram/schematic References: Bird, J. (2017). Electrical circuit theory and technology (6th Ed.). New York: Routledge. Alexander, C. & Sadiku, M. (2017). Fundamentals of electric circuits (5th Ed.). New York: McGraw-Hill. Salam, Md. & Rahman, Q. (2018). Fundamentals of electrical circuit analysis. Singapore: Springer Nature. Ergül, Özgür (2017). Introduction to electrical circuit analysis (1st Ed.). New Jersey: John Wiley and Sons Boylestad, R. & Nashelsky, L. (2013). Electronic devices and circuit theory (11th Ed.). New Jersey: Pearson. Hayt, W. Jr."
+    },
+    {
+      "id": "it1919-midterm-04-p5-c15",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "handoutNumber": "04",
+      "handoutTitle": "Fundamentals of Electricity and Electronics",
+      "page": 5,
+      "text": "& Kemmerly, J. (2012). Engineering circuit analysis (8th Ed.). New York: McGraw-Hill."
+    },
+    {
+      "id": "it1919-prefinals-05-p1-c1",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 1,
+      "text": "Microcontrollers Fundamentals • A microcomputer typically consists of a microprocessor (CPU) chip, input and output chips, and memory chips in which programs (instructions and data) are stored. • A microprocessor is the CPU of a microcomputer contained in a single chip and must be interfaced with memory and I/O chips in order to function. • A microcontroller is implemented in a single chip containing a CPU, memory, and IOP (I/O and peripherals). A typical IOP contains an I/O unit, timers, AD (Analog-to-Digital) converter, and other peripheral functions."
+    },
+    {
+      "id": "it1919-prefinals-05-p1-c2",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 1,
+      "text": "• The basic blocks of a microcomputer are as follows: o Central Processing Unit (CPU) – executes all the instructions and performs arithmetic and logic operations on data. o Memory – stores both instructions and data. ▪ Read-Only Memory (ROM) - retains its content when the power is turned off (non-volatile). It is typically used to store instructions and data that do not change. ▪ Random Access Memory (RAM) – does not retain its content when the power is turned off (volatile). It is used to store programs and data that are temporary and might change during the course of executing a program."
+    },
+    {
+      "id": "it1919-prefinals-05-p1-c3",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 1,
+      "text": "o Input/output (I/O) – transfers data between the microcomputer and the external devices via I/O ports (registers). The transfer involves data, status, and control signals. • The microcomputer’s system bus (internal to the microcontroller) contains three (3) buses that carry all the address, data, and control information involved in program execution. o In the address bus, information transfer takes place in only one direction, from the microprocessor to the memory or I/O elements. o In the data bus, data can flow in both directions, that is, to or from the CPU."
+    },
+    {
+      "id": "it1919-prefinals-05-p1-c4",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 1,
+      "text": "o The control bus consists of a number of signals that are used to synchronize the operation of the individual microcomputer elements. • The microcontroller requires synchronization among its components, and this is provided by a clock or timing circuits. • The system clock signals, contained in the control bus, are signals that generate the appropriate clock periods during which instruction executions are carried out by the CPU. • Two (2) types of CPU architectures are used for designing microcontrollers: o In von Neumann architecture, a single memory system with the same address and data buses is used for accessing both programs and data."
+    },
+    {
+      "id": "it1919-prefinals-05-p1-c5",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 1,
+      "text": "This means that programs and data cannot be accessed simultaneously."
+    },
+    {
+      "id": "it1919-prefinals-05-p2-c6",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 2,
+      "text": "o The Harvard Architecture uses separate program and data memory units along with separate buses for instructions and data. This means that these processors can execute instructions and access data simultaneously. • The main functional elements of a CPU are the following: o The register can be considered as volatile storage for a number of bits. These bits may be entered into the register simultaneously (in parallel) or sequentially (serially) from right to left or from left to right, 1 bit at a time. ▪ Instruction Register (IR) – stores instructions. The word size of the CPU normally determines the size of the instruction register."
+    },
+    {
+      "id": "it1919-prefinals-05-p2-c7",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 2,
+      "text": "▪ Program Counter – contains the address of the instruction or operation code (op-code) ▪ Memory Address Register (MAR) - contains the address of data. The content of the address is the actual data that is being transferred. ▪ Accumulator – stores the results of most arithmetic and logic operations. o The Arithmetic and Logic Unit (ALU) performs all the data manipulations, such as arithmetic and logic operations, inside a CPU. The size of the ALU conforms to the word length of the microcontroller. This means that an 8-bit microcontroller will have an 8-bit ALU."
+    },
+    {
+      "id": "it1919-prefinals-05-p2-c8",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 2,
+      "text": "o The main purpose of the control unit is to translate or decode instructions and generate appropriate enable signals to accomplish the desired operation. • To execute a program, the CPU repeats the following three (3) steps for completing each instruction: 1. Fetch: The CPU fetches (instruction read) the instruction from the program memory (external to the CPU) into the instruction register. 2. Decode: The CPU decodes or translates the instruction using the control unit. The control unit inputs the contents of the instruction register and then decodes (translates) the instruction to determine the instruction type. 3. Execute: The CPU executes the instruction using the control unit."
+    },
+    {
+      "id": "it1919-prefinals-05-p2-c9",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 2,
+      "text": "To accomplish the task, the control unit generates a number of enable signals required by the instruction."
+    },
+    {
+      "id": "it1919-prefinals-05-p2-c10",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 2,
+      "text": "• The table below summarizes the differences between RISC and CISC: Reduced Instruction Set Computer (RISC) Complex Instruction Set Computer (CISC) Emphasis on software Emphasis on hardware Single-clock, reduced instruction only Includes multi-clock complex instructions Register to register: \"LOAD\" and \"STORE\" are independent instructions Memory-to-memory: \"LOAD\" and \"STORE\" are incorporated in instructions Low cycles per second, large code sizes Small code sizes, high cycles per second Spends more transistors on memory registers Transistors used for storing complex instructions Arduino • Arduino is an open-source electronics platform based on easy-to- use hardware and software."
+    },
+    {
+      "id": "it1919-prefinals-05-p2-c11",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 2,
+      "text": "It is a microcontroller board, a software/IDE (Integrated Development Environment), and a programming language. • Arduino offers the following advantages: o Inexpensive: Arduino boards are relatively inexpensive compared to other microcontroller platforms. o Cross-platform: The Arduino IDE runs on Windows, Macintosh OSX, and Linux operating systems. o Simple, clear programming environment: The Arduino IDE is easy-to-use for beginners, yet flexible enough for advanced users to take advantage of as well. o Open source and extensible software: The Arduino software is published as open-source tools, available for"
+    },
+    {
+      "id": "it1919-prefinals-05-p3-c12",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 3,
+      "text": "extension by experienced programmers. o Open source and extensible hardware: The plans of the Arduino boards are published under a Creative Commons license, so experienced circuit designers can make their own version of the module, extending it and improving it. • The following are the basic Arduino boards: o Arduino Uno has 14 digital input/output pins (of which 6 can be used as *PWM outputs), 6 analog inputs, a USB connection, and a power jack. o Arduino Nano is a compact board similar to the UNO without a power jack. It works with a Mini-B USB cable instead of a standard one."
+    },
+    {
+      "id": "it1919-prefinals-05-p3-c13",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 3,
+      "text": "o Arduino Leonardo has 20 digital input/output pins (of which 7 can be used as PWM outputs and 12 as analog inputs), a micro USB connection, and a power jack. o Arduino Micro is the smallest board of the Arduino family similar to the Arduino Leonardo. * Pulse Width Modulation, or PWM, is a technique for getting analog results with digital means. • The parts of an Arduino board are as follows: 1. Digital pins – can be used as input or output. 2. Pin 13 LED – the only built-in actuator in the board 3. Power LED – indicates that the board is receiving power 4. ATmega microcontroller – the programmable part of the board 5."
+    },
+    {
+      "id": "it1919-prefinals-05-p3-c14",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 3,
+      "text": "Analog in pins: Each of the analog in pins can read from an analog sensor and convert it into a digital value that we can read. 6. GND and 5v pins – used to provide +5V power and ground to the circuits of the board. 7. Power connector: The board can be powered using an external power supply. 8. TX and RX LEDs – indicate whether the board is transmitting (TX) or receiving (RX) data. 9. USB port – used for powering the board and for uploading sketches/programs to the board. 10. Reset button – used to run a program again from the start. • The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board."
+    },
+    {
+      "id": "it1919-prefinals-05-p3-c15",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "handoutNumber": "05",
+      "handoutTitle": "Microcontrollers Fundamentals",
+      "page": 3,
+      "text": "The environment is written in Java and based on Processing (IDE/programming language) and other open-source software. • The Arduino Web Editor allows you to write code and upload sketches to any official Arduino board from your web browser. References: Arduino. (n.d.). Getting started with Arduino products. Retrieved from https://www.arduino.cc/en/Guide/HomePage Rafiquzza man, M. (2018). Microcontroller theory and applications with the PIC18F (2nd ed.). Hoboken: John Wiley & Sons, Inc. Stanford University. (n.d.). RISC vs CISC. Retrieved from https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/whatis/index.html"
+    },
+    {
+      "id": "it1919-finals-06-p1-c1",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Microcontroller Programming Fundamentals",
+      "page": 1,
+      "text": "Microcontroller Programming Fundamentals • Programs written using Arduino Software (IDE) are called sketches, saved with the file extension, .ino. • The Arduino programming language can be divided into three (3) main parts: functions, variables and constants, and structure. • Functions are used for controlling the Arduino board and performing computations. • There are two (2) special functions that are required in every Arduino sketch: setup() and loop(). o The setup() function is called once when the sketch starts. It is used for tasks like setting pin modes or initializing libraries. o The loop() function executes statements repeatedly. It is considered the heart of a sketch."
+    },
+    {
+      "id": "it1919-finals-06-p1-c2",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Microcontroller Programming Fundamentals",
+      "page": 1,
+      "text": "• Some of the most commonly used functions in a sketch: o The pinMode() function configures a pin as either an input or an output. To use this, indicate the number (or variable name) of the pin to configure and the constant, INPUT or OUTPUT. Ex. pinMode(13, OUTPUT); o The digitalWrite() functions outputs a value on a pin. To use this, indicate the number (or variable name) of the pin and the constant, HIGH or LOW. Ex. digitalWrite(13, HIGH); o The delay() pauses the program for the specified number of milliseconds before continuing to the next line."
+    },
+    {
+      "id": "it1919-finals-06-p1-c3",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Microcontroller Programming Fundamentals",
+      "page": 1,
+      "text": "• A variable stores values which are likely to change as the program runs while a constant is a named identifier that cannot change its value in a program. • The data types most commonly used in Arduino are as follows: ▪ String ▪ array ▪ boolean ▪ byte ▪ char ▪ double ▪ float ▪ int ▪ long ▪ short • The following are examples of string declarations in Arduino. o String text1 = \"This is a string.\"; o String text2 = String(\"This is a string.\"); • The following are examples of array declarations in Arduino: o int a[6]; o int pins[] = {2, 4, 8, 3, 6}; o int sensors[6] = {2, 4, -8, 3, 2}; • The most commonly used constants in Arduino are INPUT, OUTPUT, HIGH, LOW, and LED_BUILTIN."
+    },
+    {
+      "id": "it1919-finals-06-p1-c4",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Microcontroller Programming Fundamentals",
+      "page": 1,
+      "text": "o When a pin is configured to OUTPUT with pinMode() and set to HIGH with digitalWrite(), the pin is at either 5 volts or 3.3 volts. In this state, it can source current, turning an LED on. o When a pin is configured to OUTPUT with pinMode(), and set to LOW with digitalWrite(), the pin is at 0 volts. In this state, it can sink current, turning an LED off. o Most Arduino boards have a pin connected to an on-board LED in series with a resistor. The constant LED_BUILTIN is the number of the pin to which the on-board LED is connected. Most boards have this LED connected to digital pin 13."
+    },
+    {
+      "id": "it1919-finals-06-p1-c5",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "handoutNumber": "06",
+      "handoutTitle": "Microcontroller Programming Fundamentals",
+      "page": 1,
+      "text": "• A structure contains the elements of a sketch such as the setup() and loop() functions, operators, and comments. • Below is a simple example of a sketch, turning an LED on and off for one (1) second each, repeatedly. References: Arduino. (n.d.). Getting started with Arduino products. Retrieved from https://www.arduino.cc/en/Guide/HomePage Dukish, B. (2018). Coding the Arduino: Building Fun Programs, Games, and Electronic Projects. New York: Apress Media, LLC."
+    }
+  ]
+}

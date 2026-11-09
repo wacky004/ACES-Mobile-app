@@ -1,0 +1,2959 @@
+{
+  "id": "it1919",
+  "subject": "Robot Dynamics",
+  "code": "IT1919",
+  "org": "ACES - Association of Computer Engineering Students of STI Ortigas-Cainta",
+  "version": "1.0.0",
+  "description": "Prelim to finals reviewer covering embedded systems basics, robotics, simple machines, electronics, and microcontrollers.",
+  "authors": [
+    "ACES",
+    "IT1919 Faculty"
+  ],
+  "license": "For ACES classroom use only. Handout content is property of STI.",
+  "terms": [
+    {
+      "id": "prelim",
+      "name": "Prelim",
+      "order": 1,
+      "defaultWeight": 20
+    },
+    {
+      "id": "midterm",
+      "name": "Midterm",
+      "order": 2,
+      "defaultWeight": 20
+    },
+    {
+      "id": "prefinals",
+      "name": "Pre-Finals",
+      "order": 3,
+      "defaultWeight": 20
+    },
+    {
+      "id": "finals",
+      "name": "Finals",
+      "order": 4,
+      "defaultWeight": 40
+    }
+  ],
+  "handouts": [
+    {
+      "id": "it1919-prelim-01",
+      "termId": "prelim",
+      "number": "01",
+      "title": "Embedded Systems Basics"
+    },
+    {
+      "id": "it1919-prelim-02",
+      "termId": "prelim",
+      "number": "02",
+      "title": "Overview of Robotics"
+    },
+    {
+      "id": "it1919-midterm-03",
+      "termId": "midterm",
+      "number": "03",
+      "title": "Simple Machines Fundamentals"
+    },
+    {
+      "id": "it1919-midterm-04",
+      "termId": "midterm",
+      "number": "04",
+      "title": "Fundamentals of Electricity and Electronics"
+    },
+    {
+      "id": "it1919-prefinals-05",
+      "termId": "prefinals",
+      "number": "05",
+      "title": "Microcontrollers Fundamentals"
+    },
+    {
+      "id": "it1919-finals-06",
+      "termId": "finals",
+      "number": "06",
+      "title": "Microcontroller Programming Fundamentals"
+    }
+  ],
+  "questions": [
+    {
+      "id": "it1919-prelim-01-mcq-01",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Embedded system”?",
+      "options": [
+        "The first mobile robot able to perceive and reason about its surroundings, developed by Charles Rosen in 1966.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Embedded system as: A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-02",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Tightly constrained”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An embedded system characteristic where design metrics such as size, power, cost, and performance are limited."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Tightly constrained as: An embedded system characteristic where design metrics such as size, power, cost, and performance are limited.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-03",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Single-functioned”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An embedded system characteristic where the system executes a particular operation in a consistent manner."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Single-functioned as: An embedded system characteristic where the system executes a particular operation in a consistent manner.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-04",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Reactive”?",
+      "options": [
+        "An embedded system characteristic where the system constantly reacts to changes without delay.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Reactive as: An embedded system characteristic where the system constantly reacts to changes without delay.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-05",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Processor”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The component that controls the electrical and mechanical functions of an embedded system.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Processor as: The component that controls the electrical and mechanical functions of an embedded system.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-06",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Power supply”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "The component that provides battery or external electrical power to an embedded system.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Power supply as: The component that provides battery or external electrical power to an embedded system.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-07",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Communication port”?",
+      "options": [
+        "A port such as UART, USB, or Ethernet used to communicate with other embedded systems.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Communication port as: A port such as UART, USB, or Ethernet used to communicate with other embedded systems.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-08",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Real time”?",
+      "options": [
+        "An embedded system characteristic requiring fast operation and low power consumption.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Real time as: An embedded system characteristic requiring fast operation and low power consumption.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-09",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Sensor”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "A device that measures a physical quantity and converts it into an electrical signal.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Sensor as: A device that measures a physical quantity and converts it into an electrical signal.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-10",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “A-D converter”?",
+      "options": [
+        "A component that converts the analog signal from a sensor into a digital signal.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines A-D converter as: A component that converts the analog signal from a sensor into a digital signal.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-11",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “ASIC”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "An application-specific integrated circuit customized for a particular use."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines ASIC as: An application-specific integrated circuit customized for a particular use.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-12",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Actuator”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A component that receives a control signal and produces a physical action.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Actuator as: A component that receives a control signal and produces a physical action.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-13",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Memory”?",
+      "options": [
+        "The component that stores hardware instructions and data.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Memory as: The component that stores hardware instructions and data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-14",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Timer”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "A component that measures time intervals or elapsed time."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Timer as: A component that measures time intervals or elapsed time.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-mcq-15",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+      "options": [
+        "Embedded system",
+        "Machine learning",
+        "Shakey",
+        "Stanford Arm"
+      ],
+      "answerIndex": 0,
+      "explanation": "Embedded system is defined as: A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-16",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Machine learning”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first mobile robot able to perceive and reason about its surroundings, developed by Charles Rosen in 1966.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Machine learning as: An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-17",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Stanford Arm”?",
+      "options": [
+        "The first mobile robot able to perceive and reason about its surroundings, developed by Charles Rosen in 1966.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Stanford Arm as: The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-18",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Shakey”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first mobile robot able to perceive and reason about its surroundings, developed by Charles Rosen in 1966.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Shakey as: The first mobile robot able to perceive and reason about its surroundings, developed by Charles Rosen in 1966.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-19",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Industrial robot”?",
+      "options": [
+        "A robotic arm or manipulator that performs production tasks such as welding, handling, and painting.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Industrial robot as: A robotic arm or manipulator that performs production tasks such as welding, handling, and painting.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-20",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Planning”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that acts autonomously and flexibly to construct a sequence of actions toward a goal.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Planning as: An AI subset that acts autonomously and flexibly to construct a sequence of actions toward a goal.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-21",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Robotics”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The study of machines that independently perform work following rules programmed by a computer.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Robotics as: The study of machines that independently perform work following rules programmed by a computer.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-22",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Unimate”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first industrially used robot, developed by Joseph Engelberger and George Devol in 1961.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Unimate as: The first industrially used robot, developed by Joseph Engelberger and George Devol in 1961.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-23",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Sensing”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "A robot characteristic describing the ability to gather information from its environment."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Sensing as: A robot characteristic describing the ability to gather information from its environment.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-24",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Medical robot”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A robot used in healthcare and medicine for tasks such as equipment lifting and surgery.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Medical robot as: A robot used in healthcare and medicine for tasks such as equipment lifting and surgery.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-25",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Movement”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A robot characteristic describing the ability to change position or actuate parts.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Movement as: A robot characteristic describing the ability to change position or actuate parts.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-26",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Military robot”?",
+      "options": [
+        "A robot used by armed forces for searching, rescue, and surveillance.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Military robot as: A robot used by armed forces for searching, rescue, and surveillance.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-27",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Space robot”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A robot used to substitute for astronauts in dangerous environments.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Space robot as: A robot used to substitute for astronauts in dangerous environments.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-28",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Natural Language Processing”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "An AI subset that understands written text and human speech.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Natural Language Processing as: An AI subset that understands written text and human speech.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-29",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Artificial intelligence”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The science of training machines to perform human tasks.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Artificial intelligence as: The science of training machines to perform human tasks.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-mcq-30",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Reasoning”?",
+      "options": [
+        "An AI subset that makes inferences based on data.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Reasoning as: An AI subset that makes inferences based on data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-tf-01",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Tightly constrained” is defined as: A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Tightly constrained",
+      "correction": "Embedded system",
+      "explanation": "The correct term is Embedded system. The handout defines it as: A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-tf-02",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Power supply” is defined as: The component that provides battery or external electrical power to an embedded system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Power supply",
+      "correction": "",
+      "explanation": "The correct term is Power supply. The handout defines it as: The component that provides battery or external electrical power to an embedded system.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-tf-03",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Embedded system” is defined as: The component that controls the electrical and mechanical functions of an embedded system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Embedded system",
+      "correction": "Processor",
+      "explanation": "The correct term is Processor. The handout defines it as: The component that controls the electrical and mechanical functions of an embedded system.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-tf-04",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Memory” is defined as: The component that stores hardware instructions and data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Memory",
+      "correction": "",
+      "explanation": "The correct term is Memory. The handout defines it as: The component that stores hardware instructions and data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-01-tf-05",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-01",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Embedded system” is defined as: A component that measures time intervals or elapsed time.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Embedded system",
+      "correction": "Timer",
+      "explanation": "The correct term is Timer. The handout defines it as: A component that measures time intervals or elapsed time.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-tf-06",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Artificial intelligence” is defined as: The science of training machines to perform human tasks.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Artificial intelligence",
+      "correction": "",
+      "explanation": "The correct term is Artificial intelligence. The handout defines it as: The science of training machines to perform human tasks.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-tf-07",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Machine learning” is defined as: An AI subset that makes inferences based on data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Machine learning",
+      "correction": "Reasoning",
+      "explanation": "The correct term is Reasoning. The handout defines it as: An AI subset that makes inferences based on data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-tf-08",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Natural Language Processing” is defined as: An AI subset that understands written text and human speech.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Natural Language Processing",
+      "correction": "",
+      "explanation": "The correct term is Natural Language Processing. The handout defines it as: An AI subset that understands written text and human speech.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-tf-09",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Machine learning” is defined as: An AI subset that acts autonomously and flexibly to construct a sequence of actions toward a goal.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Machine learning",
+      "correction": "Planning",
+      "explanation": "The correct term is Planning. The handout defines it as: An AI subset that acts autonomously and flexibly to construct a sequence of actions toward a goal.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prelim-02-tf-10",
+      "termId": "prelim",
+      "handoutId": "it1919-prelim-02",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Machine learning” is defined as: An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Machine learning",
+      "correction": "",
+      "explanation": "The correct term is Machine learning. The handout defines it as: An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-mcq-01",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Pulley”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A simple machine with a wheel and groove that uses a rope to move a load or change force direction."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Pulley as: A simple machine with a wheel and groove that uses a rope to move a load or change force direction.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-mcq-02",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Inclined plane”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "A flat surface with one end higher than the other that helps move objects to a different height.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Inclined plane as: A flat surface with one end higher than the other that helps move objects to a different height.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-03-mcq-03",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Wedge”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A simple machine made of two inclined planes used to cut, split, or tighten an object.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Wedge as: A simple machine made of two inclined planes used to cut, split, or tighten an object.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-03-mcq-04",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Mechanical advantage”?",
+      "options": [
+        "A measure of how much a machine increases or decreases the force applied to a load.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Mechanical advantage as: A measure of how much a machine increases or decreases the force applied to a load.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-03-mcq-05",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Screw”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An inclined plane wrapped around a cylinder, used to lift or hold things together.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Screw as: An inclined plane wrapped around a cylinder, used to lift or hold things together.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-03-mcq-06",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Lever”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "A straight rigid object that pivots on a turning point to move or lift an object.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Lever as: A straight rigid object that pivots on a turning point to move or lift an object.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-mcq-07",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Compound pulley”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A combination of pulleys designed to make the effort less than half the load."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Compound pulley as: A combination of pulleys designed to make the effort less than half the load.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-mcq-08",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Movable pulley”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "A pulley where the load is attached and both the pulley and load can move."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Movable pulley as: A pulley where the load is attached and both the pulley and load can move.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-mcq-09",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Wheel and axle”?",
+      "options": [
+        "A simple machine using a wheel with a rod axle to move or lift loads.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Wheel and axle as: A simple machine using a wheel with a rod axle to move or lift loads.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-mcq-10",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Simple machine”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A basic mechanical device for applying a force and doing work."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Simple machine as: A basic mechanical device for applying a force and doing work.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-mcq-11",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Class 1 lever”?",
+      "options": [
+        "A lever where the fulcrum is between the effort and the load.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Class 1 lever as: A lever where the fulcrum is between the effort and the load.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-mcq-12",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Class 2 lever”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A lever where the load is between the effort and the fulcrum.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Class 2 lever as: A lever where the load is between the effort and the fulcrum.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-mcq-13",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Class 3 lever”?",
+      "options": [
+        "A lever where the effort is between the load and the fulcrum.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Class 3 lever as: A lever where the effort is between the load and the fulcrum.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-mcq-14",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Effort”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The force applied at one point to move or lift a load."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Effort as: The force applied at one point to move or lift a load.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-mcq-15",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Fixed pulley”?",
+      "options": [
+        "A pulley whose axle is fixed in place and cannot move.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Fixed pulley as: A pulley whose axle is fixed in place and cannot move.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-04-mcq-16",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Electrical circuit”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An interconnection of electrical components such as resistors, capacitors, and sources.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Electrical circuit as: An interconnection of electrical components such as resistors, capacitors, and sources.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-04-mcq-17",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Ohm's law”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "The relationship between voltage, current, and resistance, commonly written as V = IR.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Ohm's law as: The relationship between voltage, current, and resistance, commonly written as V = IR.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it1919-midterm-04-mcq-18",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “SI”?",
+      "options": [
+        "The International System of Units, an international measurement language and standard.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines SI as: The International System of Units, an international measurement language and standard.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-04-mcq-19",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Scientific notation”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A way of expressing very large or very small numbers for accuracy and precision.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Scientific notation as: A way of expressing very large or very small numbers for accuracy and precision.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-04-mcq-20",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Voltage”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The electrical potential difference that drives current, measured in volts.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Voltage as: The electrical potential difference that drives current, measured in volts.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-04-mcq-21",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Atom”?",
+      "options": [
+        "The basic unit of matter that can be built up into elements.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Atom as: The basic unit of matter that can be built up into elements.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-04-mcq-22",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Conductor”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "A material that allows electric charge to flow easily.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Conductor as: A material that allows electric charge to flow easily.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it1919-midterm-04-mcq-23",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Electric charge”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A fundamental property of matter measured in coulombs.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Electric charge as: A fundamental property of matter measured in coulombs.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-04-mcq-24",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Resistance”?",
+      "options": [
+        "The opposition to electric current, measured in ohms.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Resistance as: The opposition to electric current, measured in ohms.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-04-mcq-25",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Insulator”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A material that resists the flow of electric charge.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Insulator as: A material that resists the flow of electric charge.",
+      "sourcePage": 3
+    },
+    {
+      "id": "it1919-midterm-04-mcq-26",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Electric current”?",
+      "options": [
+        "The flow of electric charge, measured in amperes.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Electric current as: The flow of electric charge, measured in amperes.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-04-mcq-27",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Coulomb”?",
+      "options": [
+        "The SI unit used to measure electric charge.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Coulomb as: The SI unit used to measure electric charge.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-04-mcq-28",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Electron”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A negatively charged particle in an atom.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Electron as: A negatively charged particle in an atom.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-04-mcq-29",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Proton”?",
+      "options": [
+        "A positively charged particle in an atom.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Proton as: A positively charged particle in an atom.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-04-mcq-30",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Neutron”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A neutral particle in an atom."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Neutron as: A neutral particle in an atom.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-03-tf-01",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Pulley” is defined as: A basic mechanical device for applying a force and doing work.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Pulley",
+      "correction": "Simple machine",
+      "explanation": "The correct term is Simple machine. The handout defines it as: A basic mechanical device for applying a force and doing work.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-tf-02",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Lever” is defined as: A straight rigid object that pivots on a turning point to move or lift an object.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Lever",
+      "correction": "",
+      "explanation": "The correct term is Lever. The handout defines it as: A straight rigid object that pivots on a turning point to move or lift an object.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-tf-03",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Pulley” is defined as: The pivot point on a lever bar.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Pulley",
+      "correction": "Fulcrum",
+      "explanation": "The correct term is Fulcrum. The handout defines it as: The pivot point on a lever bar.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-tf-04",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Effort” is defined as: The force applied at one point to move or lift a load.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Effort",
+      "correction": "",
+      "explanation": "The correct term is Effort. The handout defines it as: The force applied at one point to move or lift a load.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-03-tf-05",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-03",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Pulley” is defined as: The object to be moved or lifted by a machine.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Pulley",
+      "correction": "Load",
+      "explanation": "The correct term is Load. The handout defines it as: The object to be moved or lifted by a machine.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-04-tf-06",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Electrical circuit” is defined as: An interconnection of electrical components such as resistors, capacitors, and sources.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Electrical circuit",
+      "correction": "",
+      "explanation": "The correct term is Electrical circuit. The handout defines it as: An interconnection of electrical components such as resistors, capacitors, and sources.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-04-tf-07",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Electrical circuit” is defined as: A way of expressing very large or very small numbers for accuracy and precision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Electrical circuit",
+      "correction": "Scientific notation",
+      "explanation": "The correct term is Scientific notation. The handout defines it as: A way of expressing very large or very small numbers for accuracy and precision.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-04-tf-08",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “SI” is defined as: The International System of Units, an international measurement language and standard.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "SI",
+      "correction": "",
+      "explanation": "The correct term is SI. The handout defines it as: The International System of Units, an international measurement language and standard.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-midterm-04-tf-09",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Electrical circuit” is defined as: The basic unit of matter that can be built up into elements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "Electrical circuit",
+      "correction": "Atom",
+      "explanation": "The correct term is Atom. The handout defines it as: The basic unit of matter that can be built up into elements.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-midterm-04-tf-10",
+      "termId": "midterm",
+      "handoutId": "it1919-midterm-04",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Proton” is defined as: A positively charged particle in an atom.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Proton",
+      "correction": "",
+      "explanation": "The correct term is Proton. The handout defines it as: A positively charged particle in an atom.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-01",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “System bus”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The internal set of address, data, and control buses that carries information during program execution."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines System bus as: The internal set of address, data, and control buses that carries information during program execution.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-02",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “RAM”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "Random access memory that loses its contents when power is off and stores temporary programs and data.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines RAM as: Random access memory that loses its contents when power is off and stores temporary programs and data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-03",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “ROM”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "Read-only memory that retains its contents when power is off and stores fixed instructions and data.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines ROM as: Read-only memory that retains its contents when power is off and stores fixed instructions and data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-04",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Microprocessor”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "The CPU of a microcomputer contained in a single chip, requiring memory and I/O chips to function.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Microprocessor as: The CPU of a microcomputer contained in a single chip, requiring memory and I/O chips to function.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-05",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Clock”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A timing circuit that synchronizes the components and instruction execution of a microcontroller.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Clock as: A timing circuit that synchronizes the components and instruction execution of a microcontroller.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-06",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Central Processing Unit”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "The component that executes instructions and performs arithmetic and logic operations on data.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Central Processing Unit as: The component that executes instructions and performs arithmetic and logic operations on data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-07",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Control bus”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The bus that carries signals used to synchronize the operation of microcomputer components."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Control bus as: The bus that carries signals used to synchronize the operation of microcomputer components.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-08",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Address bus”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The bus that transfers addresses in one direction from the processor to memory or I/O.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Address bus as: The bus that transfers addresses in one direction from the processor to memory or I/O.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-09",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Harvard architecture”?",
+      "options": [
+        "A processor architecture with separate program and data memories and separate buses.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Harvard architecture as: A processor architecture with separate program and data memories and separate buses.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-10",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Microcomputer”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer made of a microprocessor, input/output chips, and memory chips.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Microcomputer as: A computer made of a microprocessor, input/output chips, and memory chips.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-11",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Microcontroller”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "A single chip containing a CPU, memory, and input/output peripherals.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Microcontroller as: A single chip containing a CPU, memory, and input/output peripherals.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-12",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Instruction register”?",
+      "options": [
+        "The register that stores the instruction currently being processed.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Instruction register as: The register that stores the instruction currently being processed.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-13",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Program counter”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The register that contains the address of the next instruction."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Program counter as: The register that contains the address of the next instruction.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-14",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Memory address register”?",
+      "options": [
+        "The register that contains the address of data being accessed.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Memory address register as: The register that contains the address of data being accessed.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-15",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Data bus”?",
+      "options": [
+        "The bidirectional bus that carries data to or from the CPU.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines Data bus as: The bidirectional bus that carries data to or from the CPU.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-16",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Register”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A small volatile storage location for bits inside the CPU.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Register as: A small volatile storage location for bits inside the CPU.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-17",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe internal set of address, data, and control buses that carries information during program execution.",
+      "options": [
+        "Machine learning",
+        "Stanford Arm",
+        "System bus",
+        "Embedded system"
+      ],
+      "answerIndex": 2,
+      "explanation": "System bus is defined as: The internal set of address, data, and control buses that carries information during program execution.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-18",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nRandom access memory that loses its contents when power is off and stores temporary programs and data.",
+      "options": [
+        "Machine learning",
+        "RAM",
+        "Stanford Arm",
+        "Embedded system"
+      ],
+      "answerIndex": 1,
+      "explanation": "RAM is defined as: Random access memory that loses its contents when power is off and stores temporary programs and data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-19",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nRead-only memory that retains its contents when power is off and stores fixed instructions and data.",
+      "options": [
+        "Embedded system",
+        "Machine learning",
+        "ROM",
+        "Stanford Arm"
+      ],
+      "answerIndex": 2,
+      "explanation": "ROM is defined as: Read-only memory that retains its contents when power is off and stores fixed instructions and data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-20",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe CPU of a microcomputer contained in a single chip, requiring memory and I/O chips to function.",
+      "options": [
+        "Stanford Arm",
+        "Embedded system",
+        "Machine learning",
+        "Microprocessor"
+      ],
+      "answerIndex": 3,
+      "explanation": "Microprocessor is defined as: The CPU of a microcomputer contained in a single chip, requiring memory and I/O chips to function.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-21",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA timing circuit that synchronizes the components and instruction execution of a microcontroller.",
+      "options": [
+        "Stanford Arm",
+        "Clock",
+        "Embedded system",
+        "Machine learning"
+      ],
+      "answerIndex": 1,
+      "explanation": "Clock is defined as: A timing circuit that synchronizes the components and instruction execution of a microcontroller.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-22",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe component that executes instructions and performs arithmetic and logic operations on data.",
+      "options": [
+        "Machine learning",
+        "Embedded system",
+        "Central Processing Unit",
+        "Stanford Arm"
+      ],
+      "answerIndex": 2,
+      "explanation": "Central Processing Unit is defined as: The component that executes instructions and performs arithmetic and logic operations on data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-23",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe bus that carries signals used to synchronize the operation of microcomputer components.",
+      "options": [
+        "Embedded system",
+        "Stanford Arm",
+        "Control bus",
+        "Machine learning"
+      ],
+      "answerIndex": 2,
+      "explanation": "Control bus is defined as: The bus that carries signals used to synchronize the operation of microcomputer components.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-24",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe bus that transfers addresses in one direction from the processor to memory or I/O.",
+      "options": [
+        "Stanford Arm",
+        "Machine learning",
+        "Address bus",
+        "Embedded system"
+      ],
+      "answerIndex": 2,
+      "explanation": "Address bus is defined as: The bus that transfers addresses in one direction from the processor to memory or I/O.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-25",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA processor architecture with separate program and data memories and separate buses.",
+      "options": [
+        "Harvard architecture",
+        "Machine learning",
+        "Embedded system",
+        "Stanford Arm"
+      ],
+      "answerIndex": 0,
+      "explanation": "Harvard architecture is defined as: A processor architecture with separate program and data memories and separate buses.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-26",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA computer made of a microprocessor, input/output chips, and memory chips.",
+      "options": [
+        "Machine learning",
+        "Embedded system",
+        "Microcomputer",
+        "Stanford Arm"
+      ],
+      "answerIndex": 2,
+      "explanation": "Microcomputer is defined as: A computer made of a microprocessor, input/output chips, and memory chips.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-27",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA single chip containing a CPU, memory, and input/output peripherals.",
+      "options": [
+        "Embedded system",
+        "Machine learning",
+        "Microcontroller",
+        "Stanford Arm"
+      ],
+      "answerIndex": 2,
+      "explanation": "Microcontroller is defined as: A single chip containing a CPU, memory, and input/output peripherals.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-28",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe register that stores the instruction currently being processed.",
+      "options": [
+        "Embedded system",
+        "Stanford Arm",
+        "Machine learning",
+        "Instruction register"
+      ],
+      "answerIndex": 3,
+      "explanation": "Instruction register is defined as: The register that stores the instruction currently being processed.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-29",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe register that contains the address of the next instruction.",
+      "options": [
+        "Program counter",
+        "Embedded system",
+        "Machine learning",
+        "Stanford Arm"
+      ],
+      "answerIndex": 0,
+      "explanation": "Program counter is defined as: The register that contains the address of the next instruction.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-prefinals-05-mcq-30",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe register that contains the address of data being accessed.",
+      "options": [
+        "Stanford Arm",
+        "Embedded system",
+        "Memory address register",
+        "Machine learning"
+      ],
+      "answerIndex": 2,
+      "explanation": "Memory address register is defined as: The register that contains the address of data being accessed.",
+      "sourcePage": 2
+    },
+    {
+      "id": "it1919-prefinals-05-tf-01",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “System bus” is defined as: A computer made of a microprocessor, input/output chips, and memory chips.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "System bus",
+      "correction": "Microcomputer",
+      "explanation": "The correct term is Microcomputer. The handout defines it as: A computer made of a microprocessor, input/output chips, and memory chips.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-tf-02",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Microprocessor” is defined as: The CPU of a microcomputer contained in a single chip, requiring memory and I/O chips to function.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Microprocessor",
+      "correction": "",
+      "explanation": "The correct term is Microprocessor. The handout defines it as: The CPU of a microcomputer contained in a single chip, requiring memory and I/O chips to function.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-tf-03",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “System bus” is defined as: A single chip containing a CPU, memory, and input/output peripherals.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "System bus",
+      "correction": "Microcontroller",
+      "explanation": "The correct term is Microcontroller. The handout defines it as: A single chip containing a CPU, memory, and input/output peripherals.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-tf-04",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Central Processing Unit” is defined as: The component that executes instructions and performs arithmetic and logic operations on data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Central Processing Unit",
+      "correction": "",
+      "explanation": "The correct term is Central Processing Unit. The handout defines it as: The component that executes instructions and performs arithmetic and logic operations on data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-tf-05",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “System bus” is defined as: Read-only memory that retains its contents when power is off and stores fixed instructions and data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "System bus",
+      "correction": "ROM",
+      "explanation": "The correct term is ROM. The handout defines it as: Read-only memory that retains its contents when power is off and stores fixed instructions and data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-tf-06",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “RAM” is defined as: Random access memory that loses its contents when power is off and stores temporary programs and data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "RAM",
+      "correction": "",
+      "explanation": "The correct term is RAM. The handout defines it as: Random access memory that loses its contents when power is off and stores temporary programs and data.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-tf-07",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “RAM” is defined as: The internal set of address, data, and control buses that carries information during program execution.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "RAM",
+      "correction": "System bus",
+      "explanation": "The correct term is System bus. The handout defines it as: The internal set of address, data, and control buses that carries information during program execution.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-tf-08",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Address bus” is defined as: The bus that transfers addresses in one direction from the processor to memory or I/O.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Address bus",
+      "correction": "",
+      "explanation": "The correct term is Address bus. The handout defines it as: The bus that transfers addresses in one direction from the processor to memory or I/O.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-tf-09",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “System bus” is defined as: The bidirectional bus that carries data to or from the CPU.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "System bus",
+      "correction": "Data bus",
+      "explanation": "The correct term is Data bus. The handout defines it as: The bidirectional bus that carries data to or from the CPU.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-prefinals-05-tf-10",
+      "termId": "prefinals",
+      "handoutId": "it1919-prefinals-05",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Control bus” is defined as: The bus that carries signals used to synchronize the operation of microcomputer components.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Control bus",
+      "correction": "",
+      "explanation": "The correct term is Control bus. The handout defines it as: The bus that carries signals used to synchronize the operation of microcomputer components.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-01",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “setup()”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "The Arduino function called once when a sketch starts, used to set pin modes or initialize libraries.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines setup() as: The Arduino function called once when a sketch starts, used to set pin modes or initialize libraries.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-02",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “loop()”?",
+      "options": [
+        "The Arduino function that executes statements repeatedly and is considered the heart of a sketch.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines loop() as: The Arduino function that executes statements repeatedly and is considered the heart of a sketch.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-03",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Data type”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "A category such as int, float, boolean, or char that defines the kind of value a variable holds.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Data type as: A category such as int, float, boolean, or char that defines the kind of value a variable holds.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-04",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “delay()”?",
+      "options": [
+        "The Arduino function that pauses the program for a specified number of milliseconds.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines delay() as: The Arduino function that pauses the program for a specified number of milliseconds.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-05",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Function”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A programming construct used to control the Arduino board and perform computations."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Function as: A programming construct used to control the Arduino board and perform computations.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-06",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Structure”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "The elements of an Arduino sketch such as setup(), loop(), operators, and comments."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Structure as: The elements of an Arduino sketch such as setup(), loop(), operators, and comments.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-07",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Sketch”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "An Arduino program written in the Arduino IDE and saved with the .ino extension.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines Sketch as: An Arduino program written in the Arduino IDE and saved with the .ino extension.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-08",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Variable”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "A named storage location holding values that may change as the program runs.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Variable as: A named storage location holding values that may change as the program runs.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-09",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “LED_BUILTIN”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The constant giving the pin number connected to the board's on-board LED."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines LED_BUILTIN as: The constant giving the pin number connected to the board's on-board LED.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-10",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Constant”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "A named identifier whose value cannot change while the program runs.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Constant as: A named identifier whose value cannot change while the program runs.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-11",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “pinMode()”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The Arduino function that configures a pin as an input or an output.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines pinMode() as: The Arduino function that configures a pin as an input or an output.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-12",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “Array”?",
+      "options": [
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A collection of values of the same data type stored under one name.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system."
+      ],
+      "answerIndex": 2,
+      "explanation": "The handout defines Array as: A collection of values of the same data type stored under one name.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-13",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "easy",
+      "type": "multipleChoice",
+      "stem": "Which of the following best defines “digitalWrite()”?",
+      "options": [
+        "The Arduino function that outputs a HIGH or LOW value on a pin.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines digitalWrite() as: The Arduino function that outputs a HIGH or LOW value on a pin.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-14",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe Arduino function called once when a sketch starts, used to set pin modes or initialize libraries.",
+      "options": [
+        "Machine learning",
+        "Embedded system",
+        "Stanford Arm",
+        "setup()"
+      ],
+      "answerIndex": 3,
+      "explanation": "setup() is defined as: The Arduino function called once when a sketch starts, used to set pin modes or initialize libraries.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-15",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe Arduino function that executes statements repeatedly and is considered the heart of a sketch.",
+      "options": [
+        "Embedded system",
+        "Stanford Arm",
+        "Machine learning",
+        "loop()"
+      ],
+      "answerIndex": 3,
+      "explanation": "loop() is defined as: The Arduino function that executes statements repeatedly and is considered the heart of a sketch.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-16",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA category such as int, float, boolean, or char that defines the kind of value a variable holds.",
+      "options": [
+        "Data type",
+        "Stanford Arm",
+        "Embedded system",
+        "Machine learning"
+      ],
+      "answerIndex": 0,
+      "explanation": "Data type is defined as: A category such as int, float, boolean, or char that defines the kind of value a variable holds.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-17",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe Arduino function that pauses the program for a specified number of milliseconds.",
+      "options": [
+        "Machine learning",
+        "delay()",
+        "Stanford Arm",
+        "Embedded system"
+      ],
+      "answerIndex": 1,
+      "explanation": "delay() is defined as: The Arduino function that pauses the program for a specified number of milliseconds.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-18",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA programming construct used to control the Arduino board and perform computations.",
+      "options": [
+        "Machine learning",
+        "Function",
+        "Embedded system",
+        "Stanford Arm"
+      ],
+      "answerIndex": 1,
+      "explanation": "Function is defined as: A programming construct used to control the Arduino board and perform computations.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-19",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe elements of an Arduino sketch such as setup(), loop(), operators, and comments.",
+      "options": [
+        "Machine learning",
+        "Embedded system",
+        "Structure",
+        "Stanford Arm"
+      ],
+      "answerIndex": 2,
+      "explanation": "Structure is defined as: The elements of an Arduino sketch such as setup(), loop(), operators, and comments.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-20",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nAn Arduino program written in the Arduino IDE and saved with the .ino extension.",
+      "options": [
+        "Embedded system",
+        "Sketch",
+        "Stanford Arm",
+        "Machine learning"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sketch is defined as: An Arduino program written in the Arduino IDE and saved with the .ino extension.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-21",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA named storage location holding values that may change as the program runs.",
+      "options": [
+        "Stanford Arm",
+        "Machine learning",
+        "Variable",
+        "Embedded system"
+      ],
+      "answerIndex": 2,
+      "explanation": "Variable is defined as: A named storage location holding values that may change as the program runs.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-22",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe constant giving the pin number connected to the board's on-board LED.",
+      "options": [
+        "LED_BUILTIN",
+        "Machine learning",
+        "Stanford Arm",
+        "Embedded system"
+      ],
+      "answerIndex": 0,
+      "explanation": "LED_BUILTIN is defined as: The constant giving the pin number connected to the board's on-board LED.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-23",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA named identifier whose value cannot change while the program runs.",
+      "options": [
+        "Machine learning",
+        "Embedded system",
+        "Stanford Arm",
+        "Constant"
+      ],
+      "answerIndex": 3,
+      "explanation": "Constant is defined as: A named identifier whose value cannot change while the program runs.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-24",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "hard",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe Arduino function that configures a pin as an input or an output.",
+      "options": [
+        "Embedded system",
+        "pinMode()",
+        "Stanford Arm",
+        "Machine learning"
+      ],
+      "answerIndex": 1,
+      "explanation": "pinMode() is defined as: The Arduino function that configures a pin as an input or an output.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-25",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nA collection of values of the same data type stored under one name.",
+      "options": [
+        "Machine learning",
+        "Stanford Arm",
+        "Embedded system",
+        "Array"
+      ],
+      "answerIndex": 3,
+      "explanation": "Array is defined as: A collection of values of the same data type stored under one name.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-26",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which term is described by this statement?\n\nThe Arduino function that outputs a HIGH or LOW value on a pin.",
+      "options": [
+        "Embedded system",
+        "Machine learning",
+        "Stanford Arm",
+        "digitalWrite()"
+      ],
+      "answerIndex": 3,
+      "explanation": "digitalWrite() is defined as: The Arduino function that outputs a HIGH or LOW value on a pin.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-27",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “setup()”?",
+      "options": [
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "The Arduino function called once when a sketch starts, used to set pin modes or initialize libraries.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention."
+      ],
+      "answerIndex": 1,
+      "explanation": "The handout defines setup() as: The Arduino function called once when a sketch starts, used to set pin modes or initialize libraries.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-28",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “loop()”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "The Arduino function that executes statements repeatedly and is considered the heart of a sketch."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines loop() as: The Arduino function that executes statements repeatedly and is considered the heart of a sketch.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-29",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “Data type”?",
+      "options": [
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969.",
+        "A category such as int, float, boolean, or char that defines the kind of value a variable holds."
+      ],
+      "answerIndex": 3,
+      "explanation": "The handout defines Data type as: A category such as int, float, boolean, or char that defines the kind of value a variable holds.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-mcq-30",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Key concepts",
+      "difficulty": "medium",
+      "type": "multipleChoice",
+      "stem": "Which statement correctly describes “delay()”?",
+      "options": [
+        "The Arduino function that pauses the program for a specified number of milliseconds.",
+        "An AI subset that enables a system to learn from data, identify patterns, and make decisions with minimal human intervention.",
+        "A computer system designed to perform a specific task such as accessing, processing, storing, and controlling data in an electronics-based system.",
+        "The first successfully computer-controlled electrically powered robot arm, created by Victor Scheinman in 1969."
+      ],
+      "answerIndex": 0,
+      "explanation": "The handout defines delay() as: The Arduino function that pauses the program for a specified number of milliseconds.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-tf-01",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “setup()” is defined as: An Arduino program written in the Arduino IDE and saved with the .ino extension.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "setup()",
+      "correction": "Sketch",
+      "explanation": "The correct term is Sketch. The handout defines it as: An Arduino program written in the Arduino IDE and saved with the .ino extension.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-tf-02",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “setup()” is defined as: The Arduino function called once when a sketch starts, used to set pin modes or initialize libraries.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "setup()",
+      "correction": "",
+      "explanation": "The correct term is setup(). The handout defines it as: The Arduino function called once when a sketch starts, used to set pin modes or initialize libraries.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-tf-03",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “setup()” is defined as: The Arduino function that executes statements repeatedly and is considered the heart of a sketch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "setup()",
+      "correction": "loop()",
+      "explanation": "The correct term is loop(). The handout defines it as: The Arduino function that executes statements repeatedly and is considered the heart of a sketch.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-tf-04",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “pinMode()” is defined as: The Arduino function that configures a pin as an input or an output.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "pinMode()",
+      "correction": "",
+      "explanation": "The correct term is pinMode(). The handout defines it as: The Arduino function that configures a pin as an input or an output.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-tf-05",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “setup()” is defined as: The Arduino function that outputs a HIGH or LOW value on a pin.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "setup()",
+      "correction": "digitalWrite()",
+      "explanation": "The correct term is digitalWrite(). The handout defines it as: The Arduino function that outputs a HIGH or LOW value on a pin.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-tf-06",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “delay()” is defined as: The Arduino function that pauses the program for a specified number of milliseconds.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "delay()",
+      "correction": "",
+      "explanation": "The correct term is delay(). The handout defines it as: The Arduino function that pauses the program for a specified number of milliseconds.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-tf-07",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “setup()” is defined as: A named storage location holding values that may change as the program runs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "setup()",
+      "correction": "Variable",
+      "explanation": "The correct term is Variable. The handout defines it as: A named storage location holding values that may change as the program runs.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-tf-08",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Constant” is defined as: A named identifier whose value cannot change while the program runs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Constant",
+      "correction": "",
+      "explanation": "The correct term is Constant. The handout defines it as: A named identifier whose value cannot change while the program runs.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-tf-09",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “setup()” is defined as: A programming construct used to control the Arduino board and perform computations.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 1,
+      "underlined": "setup()",
+      "correction": "Function",
+      "explanation": "The correct term is Function. The handout defines it as: A programming construct used to control the Arduino board and perform computations.",
+      "sourcePage": 1
+    },
+    {
+      "id": "it1919-finals-06-tf-10",
+      "termId": "finals",
+      "handoutId": "it1919-finals-06",
+      "topic": "Modified True/False",
+      "difficulty": "medium",
+      "type": "modifiedTrueFalse",
+      "stem": "In the handout, the term “Structure” is defined as: The elements of an Arduino sketch such as setup(), loop(), operators, and comments.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answerIndex": 0,
+      "underlined": "Structure",
+      "correction": "",
+      "explanation": "The correct term is Structure. The handout defines it as: The elements of an Arduino sketch such as setup(), loop(), operators, and comments.",
+      "sourcePage": 1
+    }
+  ]
+}
