@@ -49,6 +49,11 @@ command needed. Never force-push.
 - The main tutor handout-context switch is opt-in.
 - Never reuse OpenCode credentials or claim OpenCode is a public inference API.
 - The optional custom provider is BYO: base URL, model ID, and the user's key.
+- Preserve multiple saved cloud profiles and their profile-specific secure keys.
+- Turning Local AI off unloads RAM only; never delete downloaded model files
+  unless the user explicitly deletes the model.
+- Selecting cloud AI should unload the local engine automatically.
+- Keep the full-text reader paginated by page/long-page parts.
 
 ## Content rules
 
