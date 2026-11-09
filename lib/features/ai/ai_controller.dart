@@ -89,10 +89,12 @@ class AiController extends ChangeNotifier {
        _contextPdfId = pdfId;
 
   static final ValueNotifier<int> providerRevision = ValueNotifier(0);
+  static final ValueNotifier<bool> localAiEnabledNotifier = ValueNotifier(true);
 
   static const _selectedModelKey = 'ai.selectedModelId';
   static const _providerKey = 'ai.provider';
   static const _thinkingKey = 'ai.deepseekThinking';
+  static const _localEnabledKey = 'ai.localEnabled';
   static const _maxInlineAttachmentBytes = 30 * 1024 * 1024;
   static const _maxAttachmentTextChars = 240000;
 
@@ -120,6 +122,7 @@ class AiController extends ChangeNotifier {
   bool _bootstrapped = false;
   bool _revisionAttached = false;
   bool _providerAttached = false;
+  bool _localEngineAttached = false;
   bool _deepSeekAttached = false;
   bool _compatibleAttached = false;
   bool _disposed = false;
@@ -134,6 +137,7 @@ class AiController extends ChangeNotifier {
   bool _stopping = false;
   bool _useDeepSeek = false;
   bool _useCompatible = false;
+  bool _localAiEnabled = true;
   bool _deepSeekThinking = false;
   bool _preparingAttachment = false;
   bool _cancelAttachment = false;
@@ -161,6 +165,7 @@ class AiController extends ChangeNotifier {
   bool get usesDeepSeek => _useDeepSeek;
   bool get usesCompatible => _useCompatible;
   bool get usesCloud => _useDeepSeek || _useCompatible;
+  bool get localAiEnabled => _localAiEnabled;
   bool get deepSeekThinking => _deepSeekThinking;
   bool get deepSeekReady => _deepSeekConfig.hasKey;
   bool get compatibleReady => _compatibleConfig.isConfigured;
@@ -217,6 +222,18 @@ class AiController extends ChangeNotifier {
       ? deepSeekModel.displayName
       : selectedModel.displayName;
   bool get providerIsOnline => usesCloud;
+  String get activeModelDescription {
+    if (_useCompatible) {
+      final profile = _compatibleConfig.activeProfile;
+      return profile == null
+          ? 'Custom cloud ? no profile'
+          : '${profile.displayName} ? ${profile.modelId}';
+    }
+    if (_useDeepSeek) {
+      return 'DeepSeek ? ${deepSeekModel.displayName}';
+    }
+    return '${selectedModel.displayName} ? on-device';
+  }
 
   int get installedCount =>
       _installed.values.where((installed) => installed).length;
@@ -241,6 +258,10 @@ class AiController extends ChangeNotifier {
       _providerAttached = true;
       providerRevision.addListener(_onProviderRevision);
     }
+    if (!_localEngineAttached) {
+      _localEngineAttached = true;
+      localAiEnabledNotifier.addListener(_onLocalAiEnabledChanged);
+    }
     if (!_deepSeekAttached) {
       _deepSeekAttached = true;
       _deepSeekConfig.addListener(_onDeepSeekChanged);
@@ -256,6 +277,8 @@ class AiController extends ChangeNotifier {
       final savedProvider = _prefs?.getString(_providerKey);
       _useDeepSeek = savedProvider == 'deepseek';
       _useCompatible = savedProvider == 'compatible';
+      _localAiEnabled = _prefs?.getBool(_localEnabledKey) ?? true;
+      localAiEnabledNotifier.value = _localAiEnabled;
       _deepSeekThinking = _prefs?.getBool(_thinkingKey) ?? false;
       _subjectIndex = await RagIndex.loadForSubject(subjectId);
       _pdfs = await pdfRepository.listPdfs();
@@ -285,6 +308,12 @@ class AiController extends ChangeNotifier {
     _useDeepSeek = nextDeepSeek;
     _useCompatible = nextCompatible;
     if (!usesCloud) _pendingAttachments = [];
+    _safeNotify();
+  }
+
+  void _onLocalAiEnabledChanged() {
+    if (localAiEnabledNotifier.value == _localAiEnabled) return;
+    _localAiEnabled = localAiEnabledNotifier.value;
     _safeNotify();
   }
 
@@ -338,7 +367,29 @@ class AiController extends ChangeNotifier {
 
   Future<void> refreshModelStatus() => _reloadModels();
 
+  Future<void> setLocalAiEnabled(bool enabled) async {
+    _localAiEnabled = enabled;
+    await _prefs?.setBool(_localEnabledKey, enabled);
+    localAiEnabledNotifier.value = enabled;
+    if (!enabled) {
+      if (_isStreaming && !usesCloud) await stopStreaming();
+      await AiService.instance.unloadModel();
+    }
+    _safeNotify();
+  }
+
+  Future<void> _unloadLocalForCloud() async {
+    try {
+      await AiService.instance.unloadModel();
+    } catch (_) {}
+  }
+
   Future<void> selectLocalProvider() async {
+    if (!_localAiEnabled) {
+      _error = 'Turn on Local AI first.';
+      _safeNotify();
+      return;
+    }
     if (_isStreaming) await stopStreaming();
     _useDeepSeek = false;
     _useCompatible = false;
@@ -356,6 +407,7 @@ class AiController extends ChangeNotifier {
     _useDeepSeek = true;
     _useCompatible = false;
     await _prefs?.setString(_providerKey, 'deepseek');
+    await _unloadLocalForCloud();
     _error = _deepSeekConfig.hasKey
         ? null
         : 'Add your DeepSeek API key in Settings to use the online tutor.';
@@ -369,6 +421,7 @@ class AiController extends ChangeNotifier {
     _useDeepSeek = false;
     _useCompatible = true;
     await _prefs?.setString(_providerKey, 'compatible');
+    await _unloadLocalForCloud();
     _error = _compatibleConfig.isConfigured
         ? null
         : 'Configure the OpenAI-compatible provider in Settings.';
@@ -383,6 +436,11 @@ class AiController extends ChangeNotifier {
   }
 
   Future<void> selectModel(AiModelSpec spec) async {
+    if (!_localAiEnabled) {
+      _error = 'Turn on Local AI first.';
+      _safeNotify();
+      return;
+    }
     if (!isInstalled(spec)) {
       _error = '${spec.displayName} is not installed yet.';
       _safeNotify();
@@ -432,7 +490,9 @@ class AiController extends ChangeNotifier {
         },
         isCancelled: () => _cancelDownload,
       );
-      await AiService.instance.ensureActive(spec);
+      if (_localAiEnabled) {
+        await AiService.instance.ensureActive(spec);
+      }
       _selectedModelId = spec.id;
       await _prefs?.setString(_selectedModelKey, spec.id);
       _installed[spec.id] = true;
@@ -1426,6 +1486,9 @@ class AiController extends ChangeNotifier {
     }
     if (_providerAttached) {
       providerRevision.removeListener(_onProviderRevision);
+    }
+    if (_localEngineAttached) {
+      localAiEnabledNotifier.removeListener(_onLocalAiEnabledChanged);
     }
     if (_deepSeekAttached) {
       _deepSeekConfig.removeListener(_onDeepSeekChanged);

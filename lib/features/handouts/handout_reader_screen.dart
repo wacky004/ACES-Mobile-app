@@ -6,6 +6,7 @@ import '../../data/reader_progress_controller.dart';
 import '../../models/handout_reader.dart';
 import '../../models/quiz_models.dart';
 import '../../services/quiz_service.dart';
+import '../../services/reader_text_parts.dart';
 import '../../state/app_scope.dart';
 import '../../widgets/ui_kit.dart';
 import 'reader_widgets.dart';
@@ -31,17 +32,32 @@ class HandoutReaderScreen extends StatefulWidget {
 class _HandoutReaderScreenState extends State<HandoutReaderScreen> {
   late double _fontSize;
   int _segment = 0;
-  late Future<List<ReaderFullTextPage>> _fullText;
+  late Future<List<ReaderTextPart>> _fullText;
+  final _scrollController = ScrollController();
+  int _textPartIndex = 0;
 
   @override
   void initState() {
     super.initState();
     _fontSize = widget.progress.fontSize;
-    _fullText = HandoutReaderRepository.instance.fullTextFor(
+    _textPartIndex = widget.progress.textPartFor(
       widget.pack.subjectId,
       widget.handout.id,
     );
+    _fullText = HandoutReaderRepository.instance
+        .fullTextFor(widget.pack.subjectId, widget.handout.id)
+        .then((pages) {
+          final parts = buildReaderTextParts(pages);
+          if (_textPartIndex >= parts.length) _textPartIndex = 0;
+          return parts;
+        });
     widget.progress.saveLast(widget.pack.subjectId, widget.handout.id, null);
+  }
+
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
   }
 
   String get _handoutTitle =>
@@ -104,6 +120,66 @@ class _HandoutReaderScreenState extends State<HandoutReaderScreen> {
     if (mounted) setState(() {});
   }
 
+  void _goToTextPart(List<ReaderTextPart> parts, int index) {
+    if (index < 0 || index >= parts.length) return;
+    setState(() => _textPartIndex = index);
+    widget.progress.saveTextPart(
+      widget.pack.subjectId,
+      widget.handout.id,
+      index,
+    );
+    if (_scrollController.hasClients) {
+      _scrollController.animateTo(
+        0,
+        duration: const Duration(milliseconds: 220),
+        curve: Curves.easeOut,
+      );
+    }
+  }
+
+  Future<void> _showPartPicker(List<ReaderTextPart> parts) async {
+    await showModalBottomSheet<void>(
+      context: context,
+      showDragHandle: true,
+      isScrollControlled: true,
+      builder: (sheetContext) => SafeArea(
+        child: ConstrainedBox(
+          constraints: BoxConstraints(
+            maxHeight: MediaQuery.of(sheetContext).size.height * 0.7,
+          ),
+          child: ListView.builder(
+            shrinkWrap: true,
+            itemCount: parts.length,
+            itemBuilder: (context, index) {
+              final part = parts[index];
+              final current = index == _textPartIndex;
+              return ListTile(
+                leading: Icon(
+                  current ? Icons.check_circle_rounded : Icons.article_outlined,
+                  color: current ? AppColors.teal : AppColors.muted,
+                ),
+                title: Text(
+                  part.label,
+                  style: const TextStyle(fontWeight: FontWeight.w700),
+                ),
+                subtitle: Text(
+                  part.text,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(fontSize: 10.5),
+                ),
+                onTap: () {
+                  Navigator.pop(sheetContext);
+                  _goToTextPart(parts, index);
+                },
+              );
+            },
+          ),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final session = AppScope.of(context).session;
@@ -140,6 +216,7 @@ class _HandoutReaderScreenState extends State<HandoutReaderScreen> {
       body: SafeArea(
         top: false,
         child: SingleChildScrollView(
+          controller: _scrollController,
           padding: const EdgeInsets.fromLTRB(20, 4, 20, 30),
           child: Center(
             child: ConstrainedBox(
@@ -266,7 +343,7 @@ class _HandoutReaderScreenState extends State<HandoutReaderScreen> {
                   if (_segment == 0)
                     _ReviewContent(handout: widget.handout, fontSize: _fontSize)
                   else
-                    FutureBuilder<List<ReaderFullTextPage>>(
+                    FutureBuilder<List<ReaderTextPart>>(
                       future: _fullText,
                       builder: (context, snapshot) {
                         if (snapshot.connectionState != ConnectionState.done) {
@@ -275,8 +352,8 @@ class _HandoutReaderScreenState extends State<HandoutReaderScreen> {
                             child: Center(child: CircularProgressIndicator()),
                           );
                         }
-                        final pages = snapshot.data ?? const [];
-                        if (pages.isEmpty) {
+                        final parts = snapshot.data ?? const [];
+                        if (parts.isEmpty) {
                           return const EmptyState(
                             icon: Icons.description_outlined,
                             title: 'Full text unavailable',
@@ -284,67 +361,122 @@ class _HandoutReaderScreenState extends State<HandoutReaderScreen> {
                                 'The source text for this handout could not be loaded.',
                           );
                         }
+                        if (_textPartIndex >= parts.length) {
+                          _textPartIndex = parts.length - 1;
+                        }
+                        final part = parts[_textPartIndex];
                         return Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            const Text(
-                              'Full handout text extracted from the source PDF. '
-                              'Use the page labels to match your printed copy.',
-                              style: TextStyle(
+                            Text(
+                              'Reading in parts ? ${_textPartIndex + 1} of '
+                              '${parts.length} ? ${part.label}',
+                              style: const TextStyle(
                                 fontSize: 10.5,
                                 height: 1.4,
                                 color: AppColors.muted,
                               ),
                             ),
+                            const SizedBox(height: 8),
+                            ClipRRect(
+                              borderRadius: BorderRadius.circular(8),
+                              child: LinearProgressIndicator(
+                                value: (_textPartIndex + 1) / parts.length,
+                                minHeight: 6,
+                              ),
+                            ),
                             const SizedBox(height: 10),
-                            for (final page in pages)
-                              Container(
-                                width: double.infinity,
-                                margin: const EdgeInsets.only(bottom: 10),
-                                padding: const EdgeInsets.all(14),
-                                decoration: BoxDecoration(
+                            Container(
+                              width: double.infinity,
+                              padding: const EdgeInsets.all(14),
+                              decoration: BoxDecoration(
+                                color: isDark
+                                    ? AppColors.darkSurface
+                                    : AppColors.surface,
+                                borderRadius: BorderRadius.circular(16),
+                                border: Border.all(
                                   color: isDark
-                                      ? AppColors.darkSurface
-                                      : AppColors.surface,
-                                  borderRadius: BorderRadius.circular(16),
-                                  border: Border.all(
-                                    color: isDark
-                                        ? AppColors.darkBorder
-                                        : AppColors.border,
-                                  ),
+                                      ? AppColors.darkBorder
+                                      : AppColors.border,
                                 ),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Row(
-                                      children: [
-                                        const Icon(
-                                          Icons.description_outlined,
-                                          size: 15,
-                                          color: AppColors.teal,
-                                        ),
-                                        const SizedBox(width: 5),
-                                        Text(
-                                          'Page ${page.page}',
+                              ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Icon(
+                                        Icons.article_outlined,
+                                        size: 15,
+                                        color: AppColors.teal,
+                                      ),
+                                      const SizedBox(width: 5),
+                                      Expanded(
+                                        child: Text(
+                                          part.label,
                                           style: const TextStyle(
                                             fontSize: 11,
                                             fontWeight: FontWeight.w800,
                                             color: AppColors.teal,
                                           ),
                                         ),
-                                      ],
-                                    ),
-                                    const SizedBox(height: 7),
-                                    SelectableText(
-                                      page.text,
-                                      style: TextStyle(
-                                        fontSize: _fontSize - 2,
-                                        height: 1.6,
                                       ),
+                                    ],
+                                  ),
+                                  const SizedBox(height: 9),
+                                  SelectableText(
+                                    part.text,
+                                    style: TextStyle(
+                                      fontSize: _fontSize - 2,
+                                      height: 1.65,
                                     ),
-                                  ],
-                                ),
+                                  ),
+                                ],
                               ),
+                            ),
+                            const SizedBox(height: 12),
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: OutlinedButton.icon(
+                                    onPressed: _textPartIndex == 0
+                                        ? null
+                                        : () => _goToTextPart(
+                                            parts,
+                                            _textPartIndex - 1,
+                                          ),
+                                    icon: const Icon(
+                                      Icons.arrow_back_rounded,
+                                      size: 17,
+                                    ),
+                                    label: const Text('Previous'),
+                                  ),
+                                ),
+                                const SizedBox(width: 8),
+                                IconButton.outlined(
+                                  tooltip: 'Jump to a part',
+                                  onPressed: () => _showPartPicker(parts),
+                                  icon: const Icon(Icons.list_rounded),
+                                ),
+                                const SizedBox(width: 8),
+                                Expanded(
+                                  child: FilledButton.icon(
+                                    onPressed:
+                                        _textPartIndex >= parts.length - 1
+                                        ? null
+                                        : () => _goToTextPart(
+                                            parts,
+                                            _textPartIndex + 1,
+                                          ),
+                                    icon: const Icon(
+                                      Icons.arrow_forward_rounded,
+                                      size: 17,
+                                    ),
+                                    label: const Text('Next'),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ],
                         );
                       },

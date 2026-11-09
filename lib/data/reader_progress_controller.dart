@@ -29,6 +29,18 @@ class ReaderProgressController extends ChangeNotifier {
     return null;
   }
 
+  int textPartFor(String subjectId, String handoutId) {
+    return _prefs?.getInt('reader.textPart.$subjectId.$handoutId') ?? 0;
+  }
+
+  Future<void> saveTextPart(
+    String subjectId,
+    String handoutId,
+    int index,
+  ) async {
+    await _prefs?.setInt('reader.textPart.$subjectId.$handoutId', index);
+  }
+
   String? lastSectionFor(String subjectId) {
     final scoped = _prefs?.getString('$_lastSectionKey.$subjectId');
     if (scoped != null) return scoped;

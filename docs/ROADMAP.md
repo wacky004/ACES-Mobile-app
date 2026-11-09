@@ -1,5 +1,13 @@
 # Roadmap
 
+## Completed in 1.7.0
+
+- Multiple saved custom cloud profiles with per-profile secure keys.
+- Local AI engine on/off with automatic unload on cloud.
+- Prominent active provider/model banner.
+- Reader full-text pages/parts with navigation and resume.
+- Cloud profile migration from the previous single slot.
+
 ## Completed in this repository import
 
 - Import current CPE Reviewer source into ACES-Mobile-app.

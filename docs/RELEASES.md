@@ -3,6 +3,17 @@
 Release binaries are stored outside git. SHA-256 values are recorded for
 verification.
 
+## 1.7.0
+
+Adds saved cloud profiles, local AI engine toggle, active-model banner, and
+paginated full-text reader.
+
+| File | Size | SHA-256 |
+|---|---:|---|
+| CPE-Reviewer-1.7.0-AI-arm64.apk | 111,512,390 | EC0BBEE47157CF602CC5B8252B1BDFE3749F207E3FA89A939630B870633F6418 |
+| CPE-Reviewer-1.7.0-AI-universal.apk | 182,480,489 | 7910F5318F713414B30BAF261A064367EBB7E62ECF30A3D9196CDF34BC9C18E8 |
+| CPE-Reviewer-Web-1.7.0.zip | 21,535,237 | 0BA7AD34A9EA41FC56E6EC8178C2557B7101A92010BC978A6DEA853AB7B781EB |
+
 ## 1.6.0
 
 Includes persistent chat sessions, cloud PDF excerpts, Tutor cleanup, draft

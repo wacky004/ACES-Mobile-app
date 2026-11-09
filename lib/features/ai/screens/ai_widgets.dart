@@ -357,6 +357,55 @@ class AiModelCard extends StatelessWidget {
 
   Widget _localContent(BuildContext context) {
     final selected = controller.selectedModel;
+    if (!controller.localAiEnabled) {
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Container(
+                width: 34,
+                height: 34,
+                decoration: BoxDecoration(
+                  color: AppColors.amber.withValues(alpha: 0.12),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Icon(
+                  Icons.power_settings_new_rounded,
+                  color: AppColors.amber,
+                  size: 19,
+                ),
+              ),
+              const SizedBox(width: 10),
+              const Expanded(
+                child: Text(
+                  'Local AI is off',
+                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w800),
+                ),
+              ),
+              const StatusPill(label: 'PAUSED', color: AppColors.amber),
+            ],
+          ),
+          const SizedBox(height: 8),
+          const Text(
+            'Downloaded models are kept, but the local model is unloaded from '
+            'memory. Turn Local AI on to use offline models again.',
+            style: TextStyle(fontSize: 11, height: 1.4, color: AppColors.muted),
+          ),
+          const SizedBox(height: 10),
+          FilledButton.icon(
+            onPressed: () => controller.setLocalAiEnabled(true),
+            style: FilledButton.styleFrom(
+              minimumSize: const Size.fromHeight(44),
+              backgroundColor: AppColors.teal,
+              foregroundColor: AppColors.navy,
+            ),
+            icon: const Icon(Icons.power_settings_new_rounded, size: 17),
+            label: const Text('Turn on Local AI'),
+          ),
+        ],
+      );
+    }
     final installed = controller.isInstalled(selected);
     if (controller.modelChecking) {
       return const Row(
@@ -826,27 +875,41 @@ Future<void> showModelPicker(
                     openCompatibleSetup(pageContext);
                   },
                 ),
-                if (controller.compatibleReady)
+                for (final profile in controller.compatibleConfig.profiles)
                   ListTile(
                     contentPadding: EdgeInsets.zero,
                     leading: Icon(
-                      controller.usesCompatible
+                      controller.usesCompatible &&
+                              controller.compatibleConfig.activeProfileId ==
+                                  profile.id
                           ? Icons.check_circle_rounded
-                          : Icons.cloud_queue_rounded,
-                      color: controller.usesCompatible
+                          : Icons.cloud_outlined,
+                      color:
+                          controller.usesCompatible &&
+                              controller.compatibleConfig.activeProfileId ==
+                                  profile.id
                           ? AppColors.blue
                           : AppColors.muted,
                     ),
                     title: Text(
-                      'Use ${controller.compatibleConfig.displayName}',
+                      profile.displayName,
                       style: const TextStyle(
                         fontSize: 13,
                         fontWeight: FontWeight.w700,
                       ),
                     ),
-                    onTap: () {
+                    subtitle: Text(
+                      '${profile.modelId} ? ${controller.compatibleConfig.maskedKeyFor(profile.id)}',
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: const TextStyle(fontSize: 10.5),
+                    ),
+                    onTap: () async {
                       Navigator.pop(sheetContext);
-                      controller.selectCompatibleProvider();
+                      await controller.compatibleConfig.selectProfile(
+                        profile.id,
+                      );
+                      await controller.selectCompatibleProvider();
                     },
                   ),
                 ListTile(
@@ -1191,34 +1254,7 @@ class _AiChatViewState extends State<AiChatView> {
         final online = controller.usesCloud;
         return Column(
           children: [
-            if (widget.showProviderBar)
-              Padding(
-                padding: const EdgeInsets.fromLTRB(16, 8, 16, 2),
-                child: Row(
-                  children: [
-                    ModelSelectorChip(controller: controller),
-                    const Spacer(),
-                    if (online && modelReady)
-                      const StatusPill(
-                        label: 'ONLINE',
-                        color: AppColors.blue,
-                        icon: Icons.cloud_queue_rounded,
-                      )
-                    else if (online)
-                      const StatusPill(
-                        label: 'KEY NEEDED',
-                        color: AppColors.amber,
-                        icon: Icons.key_rounded,
-                      )
-                    else if (modelReady)
-                      const StatusPill(
-                        label: 'OFFLINE',
-                        color: AppColors.green,
-                        icon: Icons.memory_rounded,
-                      ),
-                  ],
-                ),
-              ),
+            if (widget.showProviderBar) _ActiveAiBanner(controller: controller),
             if (controller.sessionsEnabled)
               _ChatSessionBar(controller: controller),
             if (widget.showSetupCard && !modelReady)
@@ -1491,6 +1527,109 @@ class _AiChatViewState extends State<AiChatView> {
           ],
         );
       },
+    );
+  }
+}
+
+class _ActiveAiBanner extends StatelessWidget {
+  const _ActiveAiBanner({required this.controller});
+
+  final AiController controller;
+
+  @override
+  Widget build(BuildContext context) {
+    final cloud = controller.usesCloud;
+    final accent = cloud ? AppColors.blue : AppColors.teal;
+    final localStatus = controller.localAiEnabled
+        ? (cloud
+              ? 'Local model paused while cloud AI is active'
+              : 'Runs on this phone')
+        : 'Local AI is off ? downloaded models are kept';
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 8, 12, 3),
+      child: Material(
+        color: accent.withValues(alpha: 0.08),
+        borderRadius: BorderRadius.circular(15),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(15),
+          onTap: () => showModelPicker(context, controller),
+          child: Container(
+            padding: const EdgeInsets.fromLTRB(12, 9, 8, 9),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(15),
+              border: Border.all(color: accent.withValues(alpha: 0.2)),
+            ),
+            child: Row(
+              children: [
+                Icon(
+                  cloud
+                      ? Icons.cloud_queue_rounded
+                      : Icons.phone_android_rounded,
+                  color: accent,
+                  size: 20,
+                ),
+                const SizedBox(width: 9),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        'ACTIVE AI',
+                        style: TextStyle(
+                          fontSize: 8.5,
+                          fontWeight: FontWeight.w800,
+                          letterSpacing: 0.7,
+                          color: AppColors.muted,
+                        ),
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        controller.activeModelDescription,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(
+                          fontSize: 12.5,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Text(
+                        localStatus,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(
+                          fontSize: 9.5,
+                          color: AppColors.muted,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Column(
+                  children: [
+                    Switch.adaptive(
+                      value: controller.localAiEnabled,
+                      onChanged: (value) => controller.setLocalAiEnabled(value),
+                    ),
+                    const Text(
+                      'Local',
+                      style: TextStyle(
+                        fontSize: 8.5,
+                        fontWeight: FontWeight.w700,
+                        color: AppColors.muted,
+                      ),
+                    ),
+                  ],
+                ),
+                const Icon(
+                  Icons.chevron_right_rounded,
+                  size: 18,
+                  color: AppColors.muted,
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

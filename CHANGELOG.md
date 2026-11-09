@@ -3,6 +3,22 @@
 All notable changes are recorded here. Release binaries are kept outside git;
 see `docs/RELEASES.md`.
 
+## 1.7.0 - 2026-11-09
+
+### Added
+- Multiple saved custom cloud profiles with per-profile secure API keys.
+- Cloud profile migration from the previous single custom-provider slot.
+- Local AI engine on/off switch that unloads RAM but keeps downloaded models.
+- Automatic local-model unload when switching to DeepSeek or custom cloud AI.
+- Prominent Active AI banner showing the current provider and model.
+- Full-text handout reader split into pages and smaller parts.
+- Page/part navigation, jump menu, progress, and resume position.
+
+### Changed
+- Cloud provider settings now manage a profile list instead of one slot.
+- The provider picker lists saved cloud profiles for quick switching.
+- The chat header shows a clear on-device/cloud status.
+
 ## 1.6.0 - 2026-11-09
 
 ### Added

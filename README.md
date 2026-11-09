@@ -19,10 +19,11 @@ Every term (Prelim, Midterm, Pre-Finals, Finals) has 40 items:
 - Practice and exam modes, timer, flags, bookmarks, and retry-missed.
 - Fresh-item priority on retakes and shuffled multiple-choice options.
 - Modified True/False questions with an underlined term and a correction.
-- Handout reader with full text, search, sections, key terms, tables, and flashcards.
+- Handout reader with page/part full text, search, sections, key terms, tables, and flashcards.
 - Offline AI with downloadable Qwen/Gemma models.
 - DeepSeek online AI with secure BYOK storage.
-- Optional OpenAI-compatible cloud provider for free tiers or self-hosted endpoints.
+- Multiple saved OpenAI-compatible cloud profiles for free tiers or self-hosted endpoints.
+- Local AI engine on/off switch and clear active-model indicator.
 - Automatic relevant PDF excerpts in PDF chats for local and cloud AI.
 - Persistent AI chat sessions with new/history/resume/delete.
 - PDF import, PDF chat, and draft-quiz generation.

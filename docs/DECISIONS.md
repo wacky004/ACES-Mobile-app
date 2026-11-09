@@ -47,3 +47,22 @@ self-hosted endpoint.
 
 AI code is Android-only. The web build may include quizzes/readers but no AI UI,
 keys, or cloud requests.
+
+
+## D010 - Multiple custom cloud profiles
+
+Save multiple OpenAI-compatible cloud profiles, each with its own secure key,
+base URL, model, and capability flags. DeepSeek remains a separate built-in
+provider.
+
+## D011 - Local engine can be paused
+
+The local AI engine can be switched off or automatically unloaded when cloud AI
+is selected. Downloaded model files are preserved; no deletion or re-download is
+required to turn it back on.
+
+## D012 - Reader full text in parts
+
+Show one PDF page at a time and split long pages at sentence boundaries. Provide
+Previous/Next, a jump menu, progress, and resume position. This avoids dumping
+the entire handout into one long scroll.

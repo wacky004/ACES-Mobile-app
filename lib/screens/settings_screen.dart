@@ -455,7 +455,7 @@ class _AboutCard extends StatelessWidget {
           ),
           const SizedBox(height: 2),
           const Text(
-            'Version 1.6.0',
+            'Version 1.7.0',
             style: TextStyle(fontSize: 10.5, color: AppColors.muted),
           ),
           const SizedBox(height: 14),

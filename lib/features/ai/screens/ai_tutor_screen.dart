@@ -102,7 +102,9 @@ class _AiTutorScreenState extends State<AiTutorScreen> {
                                   ? (controller.deepSeekReady
                                         ? 'DeepSeek online · ${controller.deepSeekModel.displayName}'
                                         : 'DeepSeek selected · add an API key')
-                                  : 'Runs on this phone · English only · cites the handouts',
+                                  : controller.localAiEnabled
+                                  ? 'Runs on this phone · English only · cites the handouts'
+                                  : 'Local AI is off · turn it on in AI settings',
                               style: const TextStyle(
                                 fontSize: 10.5,
                                 color: AppColors.muted,

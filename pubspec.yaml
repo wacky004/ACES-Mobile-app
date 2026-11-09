@@ -2,7 +2,7 @@ name: cpe_reviewer
 description: "Offline reviewer for Computer Engineering Laws and Discipline (IT2205) and future subject packs."
 publish_to: 'none'
 
-version: 1.6.0+7
+version: 1.7.0+8
 
 environment:
   sdk: ^3.12.2

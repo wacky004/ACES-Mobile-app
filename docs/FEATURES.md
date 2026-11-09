@@ -22,7 +22,8 @@ True/False.
 
 ## Handouts
 
-- Full-text reader.
+- Full-text reader in manageable pages/parts.
+- Page-by-page navigation, long-page splitting, jump menu, and resume position.
 - Search across handouts, sections, terms, and tables.
 - Key-term review and flashcards.
 - Per-subject reading progress.
@@ -33,6 +34,9 @@ True/False.
 - Offline Qwen/Gemma models.
 - DeepSeek online BYOK provider.
 - Optional OpenAI-compatible free/custom provider.
+- Multiple saved custom cloud profiles with separate secure API keys.
+- Local AI engine on/off switch with automatic RAM unload on cloud.
+- Clear active provider/model banner.
 - Tutor and PDF chats.
 - Automatic PDF excerpts in PDF chats.
 - Persistent chat sessions with history.

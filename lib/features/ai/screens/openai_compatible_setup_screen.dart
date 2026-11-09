@@ -38,12 +38,7 @@ class _OpenAiCompatibleSetupScreenState
       if (!mounted) return;
       setState(() {
         _loading = false;
-        _baseUrl.text = _config.baseUrl;
-        _modelId.text = _config.modelId;
-        _displayName.text = _config.displayName;
-        _vision = _config.supportsVision;
-        _json = _config.supportsJson;
-        _shareContext = _config.shareHandoutContext;
+        _syncFromConfig();
       });
     });
   }
@@ -64,6 +59,69 @@ class _OpenAiCompatibleSetupScreenState
     });
   }
 
+  void _syncFromConfig() {
+    _baseUrl.text = _config.baseUrl;
+    _modelId.text = _config.modelId;
+    _displayName.text = _config.displayName;
+    _vision = _config.supportsVision;
+    _json = _config.supportsJson;
+    _shareContext = _config.shareHandoutContext;
+    _key.clear();
+  }
+
+  Future<void> _newProfile() async {
+    await _config.createProfile();
+    if (!mounted) return;
+    setState(() {
+      _syncFromConfig();
+      _message = 'New cloud profile created. Enter its details and key.';
+      _messageError = false;
+    });
+  }
+
+  Future<void> _selectProfile(String? id) async {
+    if (id == null) return;
+    await _config.selectProfile(id);
+    if (!mounted) return;
+    setState(() {
+      _syncFromConfig();
+      _message = null;
+    });
+  }
+
+  Future<void> _deleteProfile() async {
+    final active = _config.activeProfile;
+    if (active == null) return;
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text('Delete ${active.displayName}?'),
+        content: const Text(
+          'This removes the saved key and profile. Other profiles are kept.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: const Text('Cancel'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(context, true),
+            style: FilledButton.styleFrom(backgroundColor: AppColors.red),
+            child: const Text('Delete'),
+          ),
+        ],
+      ),
+    );
+    if (confirmed != true) return;
+    await _config.deleteProfile(active.id);
+    if (!mounted) return;
+    setState(() {
+      _syncFromConfig();
+      _message = 'Cloud profile deleted.';
+      _messageError = false;
+    });
+  }
+
   Future<void> _save() async {
     if (_saving) return;
     if (_modelId.text.trim().isEmpty || _baseUrl.text.trim().isEmpty) {
@@ -76,21 +134,35 @@ class _OpenAiCompatibleSetupScreenState
     }
     setState(() => _saving = true);
     try {
-      if (_key.text.trim().isNotEmpty) {
-        await _config.saveKey(_key.text);
-        _key.clear();
+      if (_config.activeProfile == null) {
+        await _config.createProfile(
+          displayName: _displayName.text,
+          baseUrl: _baseUrl.text,
+          modelId: _modelId.text,
+          supportsVision: _vision,
+          supportsJson: _json,
+          shareHandoutContext: _shareContext,
+          key: _key.text,
+        );
+      } else {
+        if (_key.text.trim().isNotEmpty) {
+          await _config.saveKey(_key.text);
+        }
+        await _config.saveSettings(
+          baseUrl: _baseUrl.text,
+          modelId: _modelId.text,
+          displayName: _displayName.text,
+          supportsVision: _vision,
+          supportsJson: _json,
+          shareHandoutContext: _shareContext,
+        );
       }
-      await _config.saveSettings(
-        baseUrl: _baseUrl.text,
-        modelId: _modelId.text,
-        displayName: _displayName.text,
-        supportsVision: _vision,
-        supportsJson: _json,
-        shareHandoutContext: _shareContext,
-      );
       if (!mounted) return;
-      setState(() => _saving = false);
-      _setMessage('Custom cloud provider saved.');
+      setState(() {
+        _saving = false;
+        _syncFromConfig();
+      });
+      _setMessage('Cloud profile saved.');
     } catch (error) {
       if (!mounted) return;
       setState(() => _saving = false);
@@ -106,9 +178,30 @@ class _OpenAiCompatibleSetupScreenState
     }
     setState(() => _testing = true);
     try {
-      await _service.testConnection(
-        apiKey: _key.text.trim().isEmpty ? null : _key.text,
-      );
+      if (_config.activeProfile == null) {
+        await _config.createProfile(
+          displayName: _displayName.text,
+          baseUrl: _baseUrl.text,
+          modelId: _modelId.text,
+          supportsVision: _vision,
+          supportsJson: _json,
+          shareHandoutContext: _shareContext,
+          key: _key.text,
+        );
+      } else {
+        if (_key.text.trim().isNotEmpty) {
+          await _config.saveKey(_key.text);
+        }
+        await _config.saveSettings(
+          baseUrl: _baseUrl.text,
+          modelId: _modelId.text,
+          displayName: _displayName.text,
+          supportsVision: _vision,
+          supportsJson: _json,
+          shareHandoutContext: _shareContext,
+        );
+      }
+      await _service.testConnection();
       if (!mounted) return;
       setState(() => _testing = false);
       _setMessage('Connection successful.');
@@ -167,6 +260,84 @@ class _OpenAiCompatibleSetupScreenState
                             ),
                           ),
                         ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: 14),
+                  _Panel(
+                    isDark: isDark,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          children: [
+                            const Expanded(
+                              child: Text(
+                                'Cloud profiles',
+                                style: TextStyle(
+                                  fontSize: 13.5,
+                                  fontWeight: FontWeight.w800,
+                                ),
+                              ),
+                            ),
+                            TextButton.icon(
+                              onPressed: _newProfile,
+                              icon: const Icon(Icons.add_rounded, size: 16),
+                              label: const Text('New'),
+                            ),
+                          ],
+                        ),
+                        if (_config.profiles.isEmpty)
+                          const Text(
+                            'No saved profiles yet. Create one, enter its key, '
+                            'and save.',
+                            style: TextStyle(
+                              fontSize: 11,
+                              height: 1.4,
+                              color: AppColors.muted,
+                            ),
+                          )
+                        else ...[
+                          DropdownButton<String>(
+                            isExpanded: true,
+                            value: _config.activeProfile?.id,
+                            items: [
+                              for (final profile in _config.profiles)
+                                DropdownMenuItem(
+                                  value: profile.id,
+                                  child: Text(
+                                    '${profile.displayName} ? ${profile.modelId.isEmpty ? 'no model' : profile.modelId}',
+                                    overflow: TextOverflow.ellipsis,
+                                  ),
+                                ),
+                            ],
+                            onChanged: _selectProfile,
+                          ),
+                          const SizedBox(height: 4),
+                          Row(
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  _config.activeProfile == null
+                                      ? 'No active profile'
+                                      : 'Key: ${_config.maskedKeyFor(_config.activeProfile!.id)}',
+                                  style: const TextStyle(
+                                    fontSize: 10.5,
+                                    color: AppColors.muted,
+                                  ),
+                                ),
+                              ),
+                              TextButton(
+                                onPressed: _deleteProfile,
+                                style: TextButton.styleFrom(
+                                  foregroundColor: AppColors.red,
+                                  visualDensity: VisualDensity.compact,
+                                ),
+                                child: const Text('Delete profile'),
+                              ),
+                            ],
+                          ),
+                        ],
                       ],
                     ),
                   ),

@@ -22,9 +22,20 @@
 - User supplies base URL, model ID, API key, and capability switches.
 - Works with free-tier or self-hosted OpenAI-compatible endpoints.
 - No key is bundled.
+- Multiple cloud profiles can be saved. Each profile keeps its own name,
+  endpoint, model, secure API key, and capability switches.
+- Select the active profile from cloud settings or the provider picker.
 - PDF chats send relevant PDF excerpts automatically.
 - The app cannot reuse OpenCode credentials, OpenCode Go access, GitHub Copilot
   OAuth, or any internal OpenCode model access.
+
+## Local AI engine
+
+- The local AI engine can be turned off without deleting downloaded model files.
+- Turning it off unloads the model from memory.
+- Selecting a cloud provider automatically unloads the local model to free RAM.
+- Turning it back on makes local models available again; loading happens lazily.
+- The chat header shows the active provider/model and local engine status.
 
 ## Privacy rules
 

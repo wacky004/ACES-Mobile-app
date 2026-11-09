@@ -21,8 +21,10 @@ Sembast stores:
 - generated draft sets
 - AI chat sessions
 
-SharedPreferences stores lightweight settings and subject selection. API keys
-are stored with `flutter_secure_storage`, never in Sembast or preferences.
+SharedPreferences stores lightweight settings, subject selection, cloud-profile
+metadata, and the local AI engine toggle. API keys are stored with
+`flutter_secure_storage`, never in Sembast or preferences. Each custom cloud
+profile has its own secure key entry.
 
 ## Subject packs
 
@@ -48,7 +50,9 @@ shows scoring, term breakdown, review, corrections, and tutor actions.
 `assets/handouts/*_reader.json` provide curated sections, key terms, and tables.
 `assets/handouts/*.json` provide full-text chunks. `HandoutReaderRepository`
 loads these per subject; `ReaderProgressController` tracks read handouts, known
-terms, font size, and the last handout per subject.
+terms, font size, last handout per subject, and the last full-text part.
+Full text is shown one page/part at a time; long pages are split into smaller
+reading sections.
 
 ## PDFs
 
@@ -64,8 +68,10 @@ draft generation.
 
 - Local: `AiService` (flutter_edge_ai/llama.cpp) runs downloaded GGUF models.
 - DeepSeek: `DeepSeekService` streams from `https://api.deepseek.com`.
-- Custom: `OpenAiCompatibleService` streams from a user-supplied OpenAI-compatible
-  endpoint.
+- Custom: `OpenAiCompatibleService` streams from the selected user-supplied
+  OpenAI-compatible cloud profile.
+- Cloud selection automatically unloads the local engine; the local engine can
+  also be switched off explicitly without deleting model files.
 
 The web build uses the AI stub and exposes no AI UI or provider requests.
 

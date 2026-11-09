@@ -142,7 +142,37 @@ class _AiSettingsCardState extends State<AiSettingsCard> {
                         ),
                       ],
                     ),
-                    const SizedBox(height: 12),
+                    const SizedBox(height: 8),
+                    Text(
+                      'Active: ${controller.activeModelDescription}',
+                      style: const TextStyle(
+                        fontSize: 10.5,
+                        fontWeight: FontWeight.w600,
+                        color: AppColors.muted,
+                      ),
+                    ),
+                    SwitchListTile.adaptive(
+                      contentPadding: EdgeInsets.zero,
+                      value: controller.localAiEnabled,
+                      onChanged: (value) => controller.setLocalAiEnabled(value),
+                      title: const Text(
+                        'Local AI engine',
+                        style: TextStyle(
+                          fontSize: 12.5,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                      subtitle: Text(
+                        controller.localAiEnabled
+                            ? (controller.usesCloud
+                                  ? 'On, but the model is paused while cloud AI is active.'
+                                  : 'On-device models are available.')
+                            : 'Off. Downloaded models are kept and can be turned '
+                                  'back on.',
+                        style: const TextStyle(fontSize: 10.5),
+                      ),
+                    ),
+                    const SizedBox(height: 4),
                     if (checking)
                       const Row(
                         children: [
