@@ -435,9 +435,7 @@ class _PackFormatCard extends StatelessWidget {
             width: double.infinity,
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: isDark
-                  ? AppColors.darkBackground
-                  : AppColors.surfaceAlt,
+              color: isDark ? AppColors.darkBackground : AppColors.surfaceAlt,
               borderRadius: BorderRadius.circular(12),
               border: Border.all(
                 color: isDark ? AppColors.darkBorder : AppColors.border,

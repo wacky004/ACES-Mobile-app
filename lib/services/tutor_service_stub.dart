@@ -17,6 +17,5 @@ class TutorService {
     required String handoutTitle,
     required int sourcePage,
     required String difficulty,
-  }) async =>
-      const TutorAnswer(body: '', source: '');
+  }) async => const TutorAnswer(body: '', source: '');
 }

@@ -48,10 +48,7 @@ class SectionHeader extends StatelessWidget {
           ),
         ),
         if (actionLabel != null && onAction != null)
-          TextButton(
-            onPressed: onAction,
-            child: Text(actionLabel!),
-          ),
+          TextButton(onPressed: onAction, child: Text(actionLabel!)),
       ],
     );
   }
@@ -184,8 +181,9 @@ class LabeledProgress extends StatelessWidget {
             child: LinearProgressIndicator(
               value: value.clamp(0.0, 1.0),
               minHeight: 7,
-              backgroundColor:
-                  Theme.of(context).colorScheme.outline.withValues(alpha: 0.25),
+              backgroundColor: Theme.of(
+                context,
+              ).colorScheme.outline.withValues(alpha: 0.25),
               valueColor: AlwaysStoppedAnimation<Color>(accent),
             ),
           ),

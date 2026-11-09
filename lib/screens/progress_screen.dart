@@ -42,10 +42,7 @@ class ProgressScreen extends StatelessWidget {
     }
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (_) => QuizScreen(
-          buildResult: result,
-          subject: subject,
-        ),
+        builder: (_) => QuizScreen(buildResult: result, subject: subject),
       ),
     );
   }
@@ -91,8 +88,7 @@ class ProgressScreen extends StatelessWidget {
                     color: isDark ? AppColors.darkSurface : AppColors.surface,
                     borderRadius: BorderRadius.circular(22),
                     border: Border.all(
-                      color:
-                          isDark ? AppColors.darkBorder : AppColors.border,
+                      color: isDark ? AppColors.darkBorder : AppColors.border,
                     ),
                   ),
                   child: Column(
@@ -195,15 +191,16 @@ class ProgressScreen extends StatelessWidget {
                     color: isDark ? AppColors.darkSurface : AppColors.surface,
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(
-                      color:
-                          isDark ? AppColors.darkBorder : AppColors.border,
+                      color: isDark ? AppColors.darkBorder : AppColors.border,
                     ),
                   ),
                   child: Column(
                     children: [
-                      for (var index = 0;
-                          index < session.subject.terms.length;
-                          index++) ...[
+                      for (
+                        var index = 0;
+                        index < session.subject.terms.length;
+                        index++
+                      ) ...[
                         if (index > 0) const SizedBox(height: 15),
                         Builder(
                           builder: (context) {
@@ -215,7 +212,7 @@ class ProgressScreen extends StatelessWidget {
                               trailing: stat.answered == 0
                                   ? 'No data'
                                   : '${stat.correct}/${stat.answered} · '
-                                      '${percentText(stat.accuracy)}',
+                                        '${percentText(stat.accuracy)}',
                             );
                           },
                         ),
@@ -226,12 +223,11 @@ class ProgressScreen extends StatelessWidget {
                 const SizedBox(height: 24),
                 SectionHeader(
                   title: 'Weak topics',
-                  subtitle: 'Lowest accuracy first. Use this list to target '
+                  subtitle:
+                      'Lowest accuracy first. Use this list to target '
                       'your next review session.',
-                  actionLabel:
-                      weakTopics.isNotEmpty ? 'Practice' : null,
-                  onAction:
-                      weakTopics.isNotEmpty ? onPracticeWeakAreas : null,
+                  actionLabel: weakTopics.isNotEmpty ? 'Practice' : null,
+                  onAction: weakTopics.isNotEmpty ? onPracticeWeakAreas : null,
                 ),
                 const SizedBox(height: 12),
                 if (weakTopics.isEmpty)
@@ -246,19 +242,19 @@ class ProgressScreen extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.fromLTRB(16, 6, 16, 16),
                     decoration: BoxDecoration(
-                      color:
-                          isDark ? AppColors.darkSurface : AppColors.surface,
+                      color: isDark ? AppColors.darkSurface : AppColors.surface,
                       borderRadius: BorderRadius.circular(20),
                       border: Border.all(
-                        color:
-                            isDark ? AppColors.darkBorder : AppColors.border,
+                        color: isDark ? AppColors.darkBorder : AppColors.border,
                       ),
                     ),
                     child: Column(
                       children: [
-                        for (var index = 0;
-                            index < weakTopics.length;
-                            index++) ...[
+                        for (
+                          var index = 0;
+                          index < weakTopics.length;
+                          index++
+                        ) ...[
                           if (index > 0) const Divider(height: 1),
                           Padding(
                             padding: const EdgeInsets.symmetric(vertical: 11),
@@ -293,8 +289,7 @@ class ProgressScreen extends StatelessWidget {
                                   label: percentText(
                                     weakTopics[index].accuracy,
                                   ),
-                                  color:
-                                      scoreColor(weakTopics[index].accuracy),
+                                  color: scoreColor(weakTopics[index].accuracy),
                                 ),
                               ],
                             ),
@@ -310,8 +305,10 @@ class ProgressScreen extends StatelessWidget {
                               color: AppColors.teal.withValues(alpha: 0.4),
                             ),
                           ),
-                          icon: const Icon(Icons.track_changes_rounded,
-                              size: 18),
+                          icon: const Icon(
+                            Icons.track_changes_rounded,
+                            size: 18,
+                          ),
                           label: const Text('Practice weak areas'),
                         ),
                       ],
@@ -327,12 +324,10 @@ class ProgressScreen extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.all(16),
                     decoration: BoxDecoration(
-                      color:
-                          isDark ? AppColors.darkSurface : AppColors.surface,
+                      color: isDark ? AppColors.darkSurface : AppColors.surface,
                       borderRadius: BorderRadius.circular(20),
                       border: Border.all(
-                        color:
-                            isDark ? AppColors.darkBorder : AppColors.border,
+                        color: isDark ? AppColors.darkBorder : AppColors.border,
                       ),
                     ),
                     child: Row(
@@ -398,25 +393,21 @@ class ProgressScreen extends StatelessWidget {
                 else
                   Container(
                     decoration: BoxDecoration(
-                      color:
-                          isDark ? AppColors.darkSurface : AppColors.surface,
+                      color: isDark ? AppColors.darkSurface : AppColors.surface,
                       borderRadius: BorderRadius.circular(20),
                       border: Border.all(
-                        color:
-                            isDark ? AppColors.darkBorder : AppColors.border,
+                        color: isDark ? AppColors.darkBorder : AppColors.border,
                       ),
                     ),
                     child: Column(
                       children: [
-                        for (var index = 0;
-                            index < session.attempts.length;
-                            index++) ...[
+                        for (
+                          var index = 0;
+                          index < session.attempts.length;
+                          index++
+                        ) ...[
                           if (index > 0)
-                            const Divider(
-                              height: 1,
-                              indent: 16,
-                              endIndent: 16,
-                            ),
+                            const Divider(height: 1, indent: 16, endIndent: 16),
                           InkWell(
                             borderRadius: BorderRadius.circular(20),
                             onTap: () {

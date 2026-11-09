@@ -105,8 +105,7 @@ class AppSession extends ChangeNotifier {
   }
 
   TermStat termStat(String termId) =>
-      termStats[termId] ??
-      TermStat(termId: termId, answered: 0, correct: 0);
+      termStats[termId] ?? TermStat(termId: termId, answered: 0, correct: 0);
 
   double termMastery(String termId) => termStat(termId).accuracy;
 
@@ -116,8 +115,7 @@ class AppSession extends ChangeNotifier {
   int get correctCount =>
       termStats.values.fold<int>(0, (sum, stat) => sum + stat.correct);
 
-  double get accuracy =>
-      answeredCount == 0 ? 0 : correctCount / answeredCount;
+  double get accuracy => answeredCount == 0 ? 0 : correctCount / answeredCount;
 
   double get weightedMastery {
     final weights = settings.weightsFor(subject);
@@ -170,8 +168,7 @@ class AppSession extends ChangeNotifier {
     return stats;
   }
 
-  String termName(String termId) =>
-      subject.termById(termId)?.name ?? termId;
+  String termName(String termId) => subject.termById(termId)?.name ?? termId;
 
   String handoutTitle(String handoutId) {
     final handout = subject.handoutById(handoutId);

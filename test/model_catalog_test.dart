@@ -2,8 +2,7 @@ import 'package:cpe_reviewer/services/ai/ai_model_catalog.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  test('catalog has six unique pinned models and a recommended default',
-      () {
+  test('catalog has six unique pinned models and a recommended default', () {
     expect(aiModelCatalog.length, 6);
     expect(aiModelCatalog.where((model) => model.recommended).length, 1);
     expect(defaultAiModel.id, 'qwen25_3b');

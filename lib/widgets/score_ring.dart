@@ -33,33 +33,34 @@ class ScoreRing extends StatelessWidget {
     final percent = value.clamp(0.0, 1.0);
     final ringColor = color ?? scoreColor(percent);
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    final track = trackColor ??
+    final track =
+        trackColor ??
         Theme.of(context).colorScheme.outline.withValues(alpha: 0.35);
-    final resolvedLabelColor = labelColor ??
-        (isDark ? const Color(0xFFE8EEF8) : AppColors.ink);
+    final resolvedLabelColor =
+        labelColor ?? (isDark ? const Color(0xFFE8EEF8) : AppColors.ink);
     Widget ring(double animatedValue) => SizedBox(
-          width: size,
-          height: size,
-          child: CustomPaint(
-            painter: _RingPainter(
-              value: animatedValue,
-              color: ringColor,
-              trackColor: track,
-              strokeWidth: strokeWidth,
-            ),
-            child: Center(
-              child: Text(
-                label ?? '${(animatedValue * 100).round()}%',
-                style: TextStyle(
-                  fontSize: labelSize,
-                  fontWeight: FontWeight.w800,
-                  color: resolvedLabelColor,
-                  letterSpacing: -0.8,
-                ),
-              ),
+      width: size,
+      height: size,
+      child: CustomPaint(
+        painter: _RingPainter(
+          value: animatedValue,
+          color: ringColor,
+          trackColor: track,
+          strokeWidth: strokeWidth,
+        ),
+        child: Center(
+          child: Text(
+            label ?? '${(animatedValue * 100).round()}%',
+            style: TextStyle(
+              fontSize: labelSize,
+              fontWeight: FontWeight.w800,
+              color: resolvedLabelColor,
+              letterSpacing: -0.8,
             ),
           ),
-        );
+        ),
+      ),
+    );
 
     if (!animate) return ring(percent);
     return TweenAnimationBuilder<double>(
@@ -86,7 +87,8 @@ class _RingPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final rect = Offset(strokeWidth / 2, strokeWidth / 2) &
+    final rect =
+        Offset(strokeWidth / 2, strokeWidth / 2) &
         Size(size.width - strokeWidth, size.height - strokeWidth);
     final trackPaint = Paint()
       ..color = trackColor

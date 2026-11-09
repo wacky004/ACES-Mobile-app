@@ -5,11 +5,7 @@ import '../../models/handout_reader.dart';
 import '../../widgets/ui_kit.dart';
 
 class ReaderTableView extends StatelessWidget {
-  const ReaderTableView({
-    super.key,
-    required this.table,
-    this.fontScale = 1,
-  });
+  const ReaderTableView({super.key, required this.table, this.fontScale = 1});
 
   final ReaderTable table;
   final double fontScale;
@@ -41,8 +37,11 @@ class ReaderTableView extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(14, 12, 14, 0),
             child: Row(
               children: [
-                const Icon(Icons.table_chart_outlined,
-                    size: 17, color: AppColors.teal),
+                const Icon(
+                  Icons.table_chart_outlined,
+                  size: 17,
+                  color: AppColors.teal,
+                ),
                 const SizedBox(width: 7),
                 Expanded(
                   child: Text(
@@ -54,10 +53,7 @@ class ReaderTableView extends StatelessWidget {
                     ),
                   ),
                 ),
-                StatusPill(
-                  label: 'page ${table.page}',
-                  color: AppColors.muted,
-                ),
+                StatusPill(label: 'page ${table.page}', color: AppColors.muted),
               ],
             ),
           ),
@@ -86,33 +82,34 @@ class ReaderTableView extends StatelessWidget {
                       ),
                   ],
                 ),
-                for (var rowIndex = 0;
-                    rowIndex < table.rows.length;
-                    rowIndex++)
+                for (var rowIndex = 0; rowIndex < table.rows.length; rowIndex++)
                   TableRow(
                     decoration: BoxDecoration(
                       color: rowIndex.isOdd
                           ? (isDark
-                              ? AppColors.darkBackground
-                              : AppColors.surfaceAlt)
+                                ? AppColors.darkBackground
+                                : AppColors.surfaceAlt)
                           : null,
                     ),
                     children: [
-                      for (var col = 0;
-                          col < table.rows[rowIndex].length;
-                          col++)
+                      for (
+                        var col = 0;
+                        col < table.rows[rowIndex].length;
+                        col++
+                      )
                         _Cell(
                           text: table.rows[rowIndex][col],
                           style: cellStyle.copyWith(
-                            fontWeight:
-                                col == 0 ? FontWeight.w700 : FontWeight.w400,
+                            fontWeight: col == 0
+                                ? FontWeight.w700
+                                : FontWeight.w400,
                             color: col == 0
                                 ? (isDark
-                                    ? const Color(0xFFE8EEF8)
-                                    : AppColors.ink)
+                                      ? const Color(0xFFE8EEF8)
+                                      : AppColors.ink)
                                 : (isDark
-                                    ? AppColors.darkMuted
-                                    : AppColors.muted),
+                                      ? AppColors.darkMuted
+                                      : AppColors.muted),
                           ),
                         ),
                     ],
@@ -174,8 +171,11 @@ Future<void> showTermSheet(
           children: [
             Row(
               children: [
-                const Icon(Icons.menu_book_rounded,
-                    color: AppColors.teal, size: 20),
+                const Icon(
+                  Icons.menu_book_rounded,
+                  color: AppColors.teal,
+                  size: 20,
+                ),
                 const SizedBox(width: 8),
                 Expanded(
                   child: Text(
@@ -204,10 +204,7 @@ Future<void> showTermSheet(
             const SizedBox(height: 10),
             Text(
               '$handoutTitle · page ${term.page}',
-              style: const TextStyle(
-                fontSize: 10.5,
-                color: AppColors.muted,
-              ),
+              style: const TextStyle(fontSize: 10.5, color: AppColors.muted),
             ),
           ],
         ),

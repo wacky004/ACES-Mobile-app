@@ -11,8 +11,8 @@ class OpenAiCompatibleService {
   OpenAiCompatibleService({
     OpenAiCompatibleConfig? config,
     http.Client Function()? clientFactory,
-  })  : _config = config ?? OpenAiCompatibleConfig.instance,
-        _clientFactory = clientFactory ?? http.Client.new;
+  }) : _config = config ?? OpenAiCompatibleConfig.instance,
+       _clientFactory = clientFactory ?? http.Client.new;
 
   final OpenAiCompatibleConfig _config;
   final http.Client Function() _clientFactory;
@@ -96,9 +96,10 @@ class OpenAiCompatibleService {
         final text = await response.stream.bytesToString();
         throw _errorFromResponse(response.statusCode, text);
       }
-      await for (final line in response.stream
-          .transform(utf8.decoder)
-          .transform(const LineSplitter())) {
+      await for (final line
+          in response.stream
+              .transform(utf8.decoder)
+              .transform(const LineSplitter())) {
         if (_stopped) break;
         if (!line.startsWith('data:')) continue;
         final data = line.substring(5).trim();
@@ -183,7 +184,8 @@ class OpenAiCompatibleService {
           parts.add({
             'type': 'image_url',
             'image_url': {
-              'url': 'data:${attachment.mimeType};base64,${base64Encode(bytes)}',
+              'url':
+                  'data:${attachment.mimeType};base64,${base64Encode(bytes)}',
               'detail': attachment.highDetail ? 'high' : 'low',
             },
           });

@@ -22,10 +22,9 @@ class AiService {
     required String systemPrompt,
     required String userPrompt,
     int maxOutputTokens = 500,
-  }) =>
-      Stream<String>.error(
-        UnsupportedError('Offline AI is not available on this platform.'),
-      );
+  }) => Stream<String>.error(
+    UnsupportedError('Offline AI is not available on this platform.'),
+  );
 
   Future<void> stop() async {}
 

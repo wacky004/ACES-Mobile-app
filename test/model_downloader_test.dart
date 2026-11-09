@@ -11,22 +11,21 @@ AiModelSpec specFor({
   required String url,
   required List<int> bytes,
   required String sha,
-}) =>
-    AiModelSpec(
-      id: 'test-model',
-      displayName: 'Test model',
-      filename: 'test-model.gguf',
-      url: url,
-      sizeBytes: bytes.length,
-      sizeLabel: '${bytes.length} B',
-      sha256: sha,
-      modelType: ModelType.qwen,
-      license: 'Test',
-      ramGuide: 'Test',
-      tag: 'TEST',
-      description: 'Test',
-      minRamGb: 1,
-    );
+}) => AiModelSpec(
+  id: 'test-model',
+  displayName: 'Test model',
+  filename: 'test-model.gguf',
+  url: url,
+  sizeBytes: bytes.length,
+  sizeLabel: '${bytes.length} B',
+  sha256: sha,
+  modelType: ModelType.qwen,
+  license: 'Test',
+  ramGuide: 'Test',
+  tag: 'TEST',
+  description: 'Test',
+  minRamGb: 1,
+);
 
 Future<HttpServer> startRangeServer(List<int> bytes) async {
   final server = await HttpServer.bind(InternetAddress.loopbackIPv4, 0);
@@ -45,10 +44,7 @@ Future<HttpServer> startRangeServer(List<int> bytes) async {
     } else {
       request.response.statusCode = HttpStatus.ok;
     }
-    request.response.headers.set(
-      HttpHeaders.acceptRangesHeader,
-      'bytes',
-    );
+    request.response.headers.set(HttpHeaders.acceptRangesHeader, 'bytes');
     request.response.headers.contentType = ContentType.binary;
     request.response.contentLength = bytes.length - start;
     final chunkSize = 64 * 1024;

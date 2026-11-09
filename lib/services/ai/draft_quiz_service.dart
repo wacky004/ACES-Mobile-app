@@ -94,11 +94,7 @@ Every question must have exactly 4 unique options and exactly one correct answer
         );
         if (result.length >= count) break;
       }
-      onProgress(
-        result.length,
-        count,
-        'Generated ${result.length} of $count',
-      );
+      onProgress(result.length, count, 'Generated ${result.length} of $count');
       if (result.length >= count) break;
     }
     return result;
@@ -117,19 +113,18 @@ Every question must have exactly 4 unique options and exactly one correct answer
     final segmentLength = (end - start).clamp(1, chunks.length);
     final step = (segmentLength / maxChunks).ceil().clamp(1, segmentLength);
     final selected = <RagChunk>[];
-    for (var index = start;
-        index < chunks.length && index < end && selected.length < maxChunks;
-        index += step) {
+    for (
+      var index = start;
+      index < chunks.length && index < end && selected.length < maxChunks;
+      index += step
+    ) {
       selected.add(chunks[index]);
     }
     return selected;
   }
 
   List<DraftQuestion> parseQuestions(String raw, List<RagChunk> sourceChunks) {
-    final text = raw
-        .replaceAll('```json', '')
-        .replaceAll('```', '')
-        .trim();
+    final text = raw.replaceAll('```json', '').replaceAll('```', '').trim();
     final arrayStart = text.indexOf('[');
     final arrayEnd = text.lastIndexOf(']');
     dynamic decoded;
@@ -173,8 +168,8 @@ Every question must have exactly 4 unique options and exactly one correct answer
       final page = rawPage != null && pages.contains(rawPage)
           ? rawPage
           : defaultPage;
-      final difficulty =
-          switch ((map['difficulty'] as String? ?? 'medium').toLowerCase()) {
+      final difficulty = switch ((map['difficulty'] as String? ?? 'medium')
+          .toLowerCase()) {
         'easy' => 'easy',
         'hard' => 'hard',
         _ => 'medium',

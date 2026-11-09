@@ -75,7 +75,7 @@ class HomeScreen extends StatelessWidget {
                     final spacing = 12.0;
                     final width =
                         (constraints.maxWidth - spacing * (columns - 1)) /
-                            columns;
+                        columns;
                     return Wrap(
                       spacing: spacing,
                       runSpacing: spacing,
@@ -165,10 +165,14 @@ class HomeScreen extends StatelessWidget {
                     pack.subject,
                     style: const TextStyle(fontWeight: FontWeight.w700),
                   ),
-                  subtitle: Text('${pack.code} · ${pack.questions.length} items'),
+                  subtitle: Text(
+                    '${pack.code} · ${pack.questions.length} items',
+                  ),
                   trailing: pack.id == session.subject.id
-                      ? const Icon(Icons.check_circle_rounded,
-                          color: AppColors.teal)
+                      ? const Icon(
+                          Icons.check_circle_rounded,
+                          color: AppColors.teal,
+                        )
                       : null,
                   onTap: () async {
                     Navigator.of(context).pop();
@@ -201,7 +205,10 @@ class _HeroCard extends StatelessWidget {
     final subject = session.subject;
     final mastery = session.weightedMastery;
     final weights = session.settings.weightsFor(subject);
-    final weightTotal = weights.values.fold<int>(0, (sum, value) => sum + value);
+    final weightTotal = weights.values.fold<int>(
+      0,
+      (sum, value) => sum + value,
+    );
 
     return Container(
       decoration: BoxDecoration(
@@ -549,12 +556,13 @@ class _TermCard extends StatelessWidget {
                 child: LinearProgressIndicator(
                   value: mastery.clamp(0.0, 1.0),
                   minHeight: 6,
-                  backgroundColor: Theme.of(context)
-                      .colorScheme
-                      .outline
-                      .withValues(alpha: 0.22),
+                  backgroundColor: Theme.of(
+                    context,
+                  ).colorScheme.outline.withValues(alpha: 0.22),
                   valueColor: AlwaysStoppedAnimation<Color>(
-                    mastery == 0 ? AppColors.muted.withValues(alpha: 0.4) : accent,
+                    mastery == 0
+                        ? AppColors.muted.withValues(alpha: 0.4)
+                        : accent,
                   ),
                 ),
               ),
@@ -631,9 +639,7 @@ class _WeakAreasCard extends StatelessWidget {
             style: OutlinedButton.styleFrom(
               foregroundColor: AppColors.teal,
               minimumSize: const Size.fromHeight(44),
-              side: BorderSide(
-                color: AppColors.teal.withValues(alpha: 0.4),
-              ),
+              side: BorderSide(color: AppColors.teal.withValues(alpha: 0.4)),
             ),
             icon: const Icon(Icons.track_changes_rounded, size: 18),
             label: const Text('Practice weak areas'),
@@ -678,8 +684,10 @@ class _RecentAttempts extends StatelessWidget {
                 );
               },
               child: Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 16, vertical: 13),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 13,
+                ),
                 child: Row(
                   children: [
                     ScoreRing(

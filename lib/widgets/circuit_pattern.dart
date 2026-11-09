@@ -14,9 +14,7 @@ class CircuitPattern extends StatelessWidget {
   Widget build(BuildContext context) {
     return IgnorePointer(
       child: CustomPaint(
-        painter: _CircuitPainter(
-          color: color.withValues(alpha: opacity),
-        ),
+        painter: _CircuitPainter(color: color.withValues(alpha: opacity)),
         child: const SizedBox.expand(),
       ),
     );

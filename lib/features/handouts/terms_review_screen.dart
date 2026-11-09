@@ -50,11 +50,13 @@ class _TermsReviewScreenState extends State<TermsReviewScreen> {
   List<ReaderTermEntry> get _filtered {
     final query = _query.trim().toLowerCase();
     if (query.isEmpty) return _entries;
-    return _entries.where((entry) {
-      return entry.term.term.toLowerCase().contains(query) ||
-          entry.term.definition.toLowerCase().contains(query) ||
-          entry.handout.title.toLowerCase().contains(query);
-    }).toList(growable: false);
+    return _entries
+        .where((entry) {
+          return entry.term.term.toLowerCase().contains(query) ||
+              entry.term.definition.toLowerCase().contains(query) ||
+              entry.handout.title.toLowerCase().contains(query);
+        })
+        .toList(growable: false);
   }
 
   void _next() {
@@ -135,13 +137,15 @@ class _TermsReviewScreenState extends State<TermsReviewScreen> {
                         }),
                         decoration: InputDecoration(
                           hintText: 'Search terms or definitions…',
-                          prefixIcon:
-                              const Icon(Icons.search_rounded, size: 20),
+                          prefixIcon: const Icon(
+                            Icons.search_rounded,
+                            size: 20,
+                          ),
                           filled: true,
                           fillColor:
                               Theme.of(context).brightness == Brightness.dark
-                                  ? AppColors.darkSurface
-                                  : AppColors.surface,
+                              ? AppColors.darkSurface
+                              : AppColors.surface,
                           contentPadding: const EdgeInsets.symmetric(
                             horizontal: 12,
                             vertical: 10,
@@ -149,7 +153,8 @@ class _TermsReviewScreenState extends State<TermsReviewScreen> {
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(14),
                             borderSide: BorderSide(
-                              color: Theme.of(context).brightness ==
+                              color:
+                                  Theme.of(context).brightness ==
                                       Brightness.dark
                                   ? AppColors.darkBorder
                                   : AppColors.border,
@@ -158,7 +163,8 @@ class _TermsReviewScreenState extends State<TermsReviewScreen> {
                           enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(14),
                             borderSide: BorderSide(
-                              color: Theme.of(context).brightness ==
+                              color:
+                                  Theme.of(context).brightness ==
                                       Brightness.dark
                                   ? AppColors.darkBorder
                                   : AppColors.border,
@@ -185,8 +191,9 @@ class _TermsReviewScreenState extends State<TermsReviewScreen> {
                                     ? 0
                                     : knownCount / _entries.length,
                                 minHeight: 5,
-                                backgroundColor: AppColors.teal
-                                    .withValues(alpha: 0.12),
+                                backgroundColor: AppColors.teal.withValues(
+                                  alpha: 0.12,
+                                ),
                               ),
                             ),
                           ),
@@ -259,8 +266,9 @@ class _TermsReviewScreenState extends State<TermsReviewScreen> {
                       style: TextStyle(
                         fontSize: _flipped ? 16 : 24,
                         height: 1.45,
-                        fontWeight:
-                            _flipped ? FontWeight.w400 : FontWeight.w800,
+                        fontWeight: _flipped
+                            ? FontWeight.w400
+                            : FontWeight.w800,
                         letterSpacing: _flipped ? 0 : -0.5,
                       ),
                     ),
@@ -285,7 +293,9 @@ class _TermsReviewScreenState extends State<TermsReviewScreen> {
                     ],
                     const SizedBox(height: 8),
                     Text(
-                      _flipped ? 'Tap to show the term' : 'Tap to reveal the definition',
+                      _flipped
+                          ? 'Tap to show the term'
+                          : 'Tap to reveal the definition',
                       style: const TextStyle(
                         fontSize: 10,
                         color: AppColors.muted,
@@ -330,18 +340,12 @@ class _TermsReviewScreenState extends State<TermsReviewScreen> {
                   backgroundColor: AppColors.green,
                   foregroundColor: Colors.white,
                 ),
-                child: const Text(
-                  'Known',
-                  style: TextStyle(fontSize: 11),
-                ),
+                child: const Text('Known', style: TextStyle(fontSize: 11)),
               ),
               const Spacer(),
               Text(
                 '${safeIndex + 1}/${entries.length}',
-                style: const TextStyle(
-                  fontSize: 10.5,
-                  color: AppColors.muted,
-                ),
+                style: const TextStyle(fontSize: 10.5, color: AppColors.muted),
               ),
               IconButton.filledTonal(
                 tooltip: 'Next',
@@ -420,10 +424,7 @@ class _TermsReviewScreenState extends State<TermsReviewScreen> {
                 const SizedBox(height: 5),
                 Text(
                   '${entry.handout.number} · page ${entry.term.page}',
-                  style: const TextStyle(
-                    fontSize: 9.5,
-                    color: AppColors.muted,
-                  ),
+                  style: const TextStyle(fontSize: 9.5, color: AppColors.muted),
                 ),
               ],
             ),

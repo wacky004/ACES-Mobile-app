@@ -152,10 +152,7 @@ class AiModelCard extends StatelessWidget {
             const Expanded(
               child: Text(
                 'Connect a custom cloud provider',
-                style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w800,
-                ),
+                style: TextStyle(fontSize: 14, fontWeight: FontWeight.w800),
               ),
             ),
             const StatusPill(label: 'SETUP', color: AppColors.amber),
@@ -166,11 +163,7 @@ class AiModelCard extends StatelessWidget {
           'Use your own OpenAI-compatible base URL, model ID, and API key. '
           'Free tiers and self-hosted endpoints are supported when they '
           'expose a compatible API. No key is bundled.',
-          style: TextStyle(
-            fontSize: 11,
-            height: 1.4,
-            color: AppColors.muted,
-          ),
+          style: TextStyle(fontSize: 11, height: 1.4, color: AppColors.muted),
         ),
         if (controller.error != null) ...[
           const SizedBox(height: 7),
@@ -811,17 +804,18 @@ Future<void> showModelPicker(
                 const Divider(height: 16),
                 ListTile(
                   contentPadding: EdgeInsets.zero,
-                  leading:
-                      const Icon(Icons.hub_outlined, color: AppColors.blue),
+                  leading: const Icon(
+                    Icons.hub_outlined,
+                    color: AppColors.blue,
+                  ),
                   title: const Text(
                     'OpenAI-compatible cloud',
-                    style:
-                        TextStyle(fontSize: 13, fontWeight: FontWeight.w700),
+                    style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700),
                   ),
                   subtitle: Text(
                     controller.compatibleReady
                         ? '${controller.compatibleConfig.displayName} - '
-                            '${controller.compatibleConfig.modelId}'
+                              '${controller.compatibleConfig.modelId}'
                         : 'Use your own free/custom OpenAI-compatible endpoint.',
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
@@ -1566,8 +1560,7 @@ class _ChatSessionBar extends StatelessWidget {
                           current
                               ? Icons.check_circle_rounded
                               : Icons.chat_bubble_outline_rounded,
-                          color:
-                              current ? AppColors.teal : AppColors.muted,
+                          color: current ? AppColors.teal : AppColors.muted,
                         ),
                         title: Text(
                           session.title,

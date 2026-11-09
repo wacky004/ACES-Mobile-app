@@ -36,19 +36,17 @@ void main() {
       }),
     );
     final chunks = await service
-        .chat(
-          systemPrompt: 'system',
-          userPrompt: 'hello',
-          apiKey: 'test-key',
-        )
+        .chat(systemPrompt: 'system', userPrompt: 'hello', apiKey: 'test-key')
         .toList();
     expect(captured.url.toString(), 'https://example.test/v1/chat/completions');
     expect(captured.headers['Authorization'], 'Bearer test-key');
     final body = jsonDecode(captured.body) as Map<String, dynamic>;
     expect(body['model'], 'free/model');
     expect(body['stream'], true);
-    expect(chunks.map((chunk) => chunk.content).whereType<String>(),
-        contains('Hello'));
+    expect(
+      chunks.map((chunk) => chunk.content).whereType<String>(),
+      contains('Hello'),
+    );
     expect(chunks.last.usage!.totalTokens, 3);
   });
 }

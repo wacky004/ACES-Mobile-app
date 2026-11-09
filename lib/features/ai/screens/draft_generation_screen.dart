@@ -143,7 +143,11 @@ class _DraftGenerationScreenState extends State<DraftGenerationScreen> {
                   const SizedBox(height: 5),
                   Text(
                     'From ${widget.pdf.filename} · target $total questions · '
-                    '${widget.useCompatible ? widget.controller.compatibleConfig.displayName : widget.useDeepSeek ? 'DeepSeek online' : 'offline model'}',
+                    '${widget.useCompatible
+                        ? widget.controller.compatibleConfig.displayName
+                        : widget.useDeepSeek
+                        ? 'DeepSeek online'
+                        : 'offline model'}',
                     textAlign: TextAlign.center,
                     style: const TextStyle(
                       fontSize: 11.5,
@@ -252,6 +256,4 @@ class _DraftGenerationScreenState extends State<DraftGenerationScreen> {
     final rest = seconds % 60;
     return '$minutes:${rest.toString().padLeft(2, '0')}';
   }
-
-
 }

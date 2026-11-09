@@ -41,9 +41,7 @@ class _MainShellState extends State<MainShell> {
       ProgressScreen(
         onPracticeWeakAreas: () => _openSetup(focusWeakAreas: true),
       ),
-      LibraryScreen(
-        onSubjectOpened: () => setState(() => _index = 0),
-      ),
+      LibraryScreen(onSubjectOpened: () => setState(() => _index = 0)),
       const SettingsScreen(),
     ];
 

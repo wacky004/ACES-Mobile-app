@@ -21,11 +21,15 @@ class TutorService {
     await Future<void>.delayed(const Duration(milliseconds: 350));
     final answer = options[answerIndex];
     final studyTip = switch (difficulty.toLowerCase()) {
-      'easy' => 'Recall this definition without looking at the options before your next attempt.',
-      'hard' => 'Re-read this section of the handout and connect it to one real case or example.',
-      _ => 'Cover the options and explain this concept in your own words, then check the handout.',
+      'easy' =>
+        'Recall this definition without looking at the options before your next attempt.',
+      'hard' =>
+        'Re-read this section of the handout and connect it to one real case or example.',
+      _ =>
+        'Cover the options and explain this concept in your own words, then check the handout.',
     };
-    final body = 'Correct answer: $answer\n\n'
+    final body =
+        'Correct answer: $answer\n\n'
         'Why: $explanation\n\n'
         'Remember: $studyTip';
     return TutorAnswer(

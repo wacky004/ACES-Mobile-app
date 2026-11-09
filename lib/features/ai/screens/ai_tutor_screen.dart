@@ -36,10 +36,7 @@ class _AiTutorScreenState extends State<AiTutorScreen> {
     }
     if (_subjectId != subjectId) {
       _subjectId = subjectId;
-      _controller!.switchSubject(
-        subjectId,
-        chatContextKey: 'tutor:$subjectId',
-      );
+      _controller!.switchSubject(subjectId, chatContextKey: 'tutor:$subjectId');
     }
   }
 
@@ -102,10 +99,10 @@ class _AiTutorScreenState extends State<AiTutorScreen> {
                                         ? '${controller.compatibleConfig.displayName} · online custom provider'
                                         : 'Custom cloud selected · setup needed')
                                   : controller.usesDeepSeek
-                                      ? (controller.deepSeekReady
-                                            ? 'DeepSeek online · ${controller.deepSeekModel.displayName}'
-                                            : 'DeepSeek selected · add an API key')
-                                      : 'Runs on this phone · English only · cites the handouts',
+                                  ? (controller.deepSeekReady
+                                        ? 'DeepSeek online · ${controller.deepSeekModel.displayName}'
+                                        : 'DeepSeek selected · add an API key')
+                                  : 'Runs on this phone · English only · cites the handouts',
                               style: const TextStyle(
                                 fontSize: 10.5,
                                 color: AppColors.muted,

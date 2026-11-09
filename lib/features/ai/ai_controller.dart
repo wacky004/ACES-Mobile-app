@@ -49,37 +49,32 @@ class AiMessage {
   DeepSeekUsage? usage;
 
   Map<String, dynamic> toJson() => {
-        'isUser': isUser,
-        'text': text,
-        'citations': citations.map((chunk) => chunk.toJson()).toList(),
-        'attachmentLabels': attachmentLabels,
-        'isError': isError,
-        'reasoning': reasoning,
-        'providerLabel': providerLabel,
-        if (usage != null) 'usage': usage!.toJson(),
-      };
+    'isUser': isUser,
+    'text': text,
+    'citations': citations.map((chunk) => chunk.toJson()).toList(),
+    'attachmentLabels': attachmentLabels,
+    'isError': isError,
+    'reasoning': reasoning,
+    'providerLabel': providerLabel,
+    if (usage != null) 'usage': usage!.toJson(),
+  };
 
   factory AiMessage.fromJson(Map<String, dynamic> json) => AiMessage(
-        isUser: json['isUser'] as bool? ?? false,
-        text: json['text'] as String? ?? '',
-        citations: (json['citations'] as List<dynamic>? ?? const [])
-            .map((item) => RagChunk.fromJson(
-                  (item as Map).cast<String, dynamic>(),
-                ))
-            .toList(growable: false),
-        attachmentLabels:
-            (json['attachmentLabels'] as List<dynamic>? ?? const [])
-                .map((item) => item.toString())
-                .toList(growable: false),
-        isError: json['isError'] as bool? ?? false,
-        reasoning: json['reasoning'] as String? ?? '',
-        providerLabel: json['providerLabel'] as String? ?? '',
-        usage: json['usage'] is Map
-            ? DeepSeekUsage.fromJson(
-                (json['usage'] as Map).cast<String, dynamic>(),
-              )
-            : null,
-      );
+    isUser: json['isUser'] as bool? ?? false,
+    text: json['text'] as String? ?? '',
+    citations: (json['citations'] as List<dynamic>? ?? const [])
+        .map((item) => RagChunk.fromJson((item as Map).cast<String, dynamic>()))
+        .toList(growable: false),
+    attachmentLabels: (json['attachmentLabels'] as List<dynamic>? ?? const [])
+        .map((item) => item.toString())
+        .toList(growable: false),
+    isError: json['isError'] as bool? ?? false,
+    reasoning: json['reasoning'] as String? ?? '',
+    providerLabel: json['providerLabel'] as String? ?? '',
+    usage: json['usage'] is Map
+        ? DeepSeekUsage.fromJson((json['usage'] as Map).cast<String, dynamic>())
+        : null,
+  );
 }
 
 class AiController extends ChangeNotifier {
@@ -89,9 +84,9 @@ class AiController extends ChangeNotifier {
     ChatRepository? chatRepository,
     String? chatContextKey,
     String? pdfId,
-  })  : _chatRepository = chatRepository,
-        _chatContextKey = chatContextKey,
-        _contextPdfId = pdfId;
+  }) : _chatRepository = chatRepository,
+       _chatContextKey = chatContextKey,
+       _contextPdfId = pdfId;
 
   static final ValueNotifier<int> providerRevision = ValueNotifier(0);
 
@@ -199,6 +194,7 @@ class AiController extends ChangeNotifier {
     }
     return 'New chat';
   }
+
   List<ImportedPdf> get pdfs => List.unmodifiable(_pdfs);
   List<DraftSet> get drafts => List.unmodifiable(_drafts);
   Set<String> get termFilter => Set.unmodifiable(_termFilter);
@@ -213,13 +209,13 @@ class AiController extends ChangeNotifier {
   bool get isReady => _useCompatible
       ? compatibleReady
       : _useDeepSeek
-          ? deepSeekReady
-          : selectedModelInstalled;
+      ? deepSeekReady
+      : selectedModelInstalled;
   String get providerLabel => _useCompatible
       ? _compatibleConfig.displayName
       : _useDeepSeek
-          ? deepSeekModel.displayName
-          : selectedModel.displayName;
+      ? deepSeekModel.displayName
+      : selectedModel.displayName;
   bool get providerIsOnline => usesCloud;
 
   int get installedCount =>
@@ -283,8 +279,7 @@ class AiController extends ChangeNotifier {
     if (stored == null) return;
     final nextDeepSeek = stored == 'deepseek';
     final nextCompatible = stored == 'compatible';
-    if (nextDeepSeek == _useDeepSeek &&
-        nextCompatible == _useCompatible) {
+    if (nextDeepSeek == _useDeepSeek && nextCompatible == _useCompatible) {
       return;
     }
     _useDeepSeek = nextDeepSeek;
@@ -310,7 +305,6 @@ class AiController extends ChangeNotifier {
     }
     _safeNotify();
   }
-
 
   Future<void> _reloadModels() async {
     final installed = <String, bool>{};
@@ -502,7 +496,8 @@ class AiController extends ChangeNotifier {
       return false;
     }
     if (_useCompatible && !_compatibleConfig.supportsVision) {
-      _error = 'This custom cloud model is configured as text-only. '
+      _error =
+          'This custom cloud model is configured as text-only. '
           'Enable image support in its settings only if it accepts images.';
       _safeNotify();
       return false;
@@ -597,7 +592,8 @@ class AiController extends ChangeNotifier {
         isCancelled: () => _cancelAttachment,
       );
       if (!usesCloud) {
-        _error = 'The cloud provider was switched off while preparing this PDF.';
+        _error =
+            'The cloud provider was switched off while preparing this PDF.';
         return false;
       }
       if (attachment.text == null && attachment.pageImages.isEmpty) {
@@ -607,7 +603,8 @@ class AiController extends ChangeNotifier {
       if (_useCompatible &&
           !_compatibleConfig.supportsVision &&
           attachment.pageImages.isNotEmpty) {
-        _error = 'This custom cloud model is text-only. Use a PDF with '
+        _error =
+            'This custom cloud model is text-only. Use a PDF with '
             'selectable text, switch to DeepSeek Flash, or use local AI.';
         return false;
       }
@@ -671,8 +668,7 @@ class AiController extends ChangeNotifier {
     _safeNotify();
   }
 
-  String _newSessionId() =>
-      'chat-${DateTime.now().microsecondsSinceEpoch}';
+  String _newSessionId() => 'chat-${DateTime.now().microsecondsSinceEpoch}';
 
   DeepSeekUsage? _lastUsageFromMessages() {
     for (final message in _messages.reversed) {
@@ -822,8 +818,6 @@ class AiController extends ChangeNotifier {
       return;
     }
 
-
-
     if (_useCompatible) {
       if (!_compatibleConfig.isConfigured) {
         _error = 'Configure the OpenAI-compatible provider in Settings first.';
@@ -858,7 +852,8 @@ class AiController extends ChangeNotifier {
     }
 
     if (_pendingAttachments.isNotEmpty) {
-      _error = 'Attachments require a cloud provider. Remove them or switch provider.';
+      _error =
+          'Attachments require a cloud provider. Remove them or switch provider.';
       _safeNotify();
       return;
     }
@@ -887,8 +882,8 @@ class AiController extends ChangeNotifier {
     final includeContext = _useDeepSeek
         ? _deepSeekConfig.shareHandoutContext
         : _useCompatible
-            ? _compatibleConfig.shareHandoutContext
-            : true;
+        ? _compatibleConfig.shareHandoutContext
+        : true;
     final chunks = includeContext
         ? await retrieve('$question $topic', pdfId: null)
         : const <RagChunk>[];
@@ -1252,21 +1247,21 @@ class AiController extends ChangeNotifier {
             isCancelled: isCancelled,
           )
         : useDeepSeek
-            ? await _generateDraftDeepSeek(
-                pdf: pdf,
-                chunks: chunks,
-                count: count,
-                onProgress: onProgress,
-                isCancelled: isCancelled,
-              )
-            : await _draftService.generate(
-                model: selectedModel,
-                pdf: pdf,
-                chunks: chunks,
-                count: count,
-                onProgress: onProgress,
-                isCancelled: isCancelled,
-              );
+        ? await _generateDraftDeepSeek(
+            pdf: pdf,
+            chunks: chunks,
+            count: count,
+            onProgress: onProgress,
+            isCancelled: isCancelled,
+          )
+        : await _draftService.generate(
+            model: selectedModel,
+            pdf: pdf,
+            chunks: chunks,
+            count: count,
+            onProgress: onProgress,
+            isCancelled: isCancelled,
+          );
     final draft = DraftSet(
       id: DateTime.now().microsecondsSinceEpoch.toString(),
       pdfId: pdf.id,

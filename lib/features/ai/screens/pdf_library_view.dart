@@ -163,8 +163,10 @@ class _PdfLibraryViewState extends State<PdfLibraryView> {
                 onPressed: () => Navigator.pop(context, 'deepseek'),
                 child: const ListTile(
                   contentPadding: EdgeInsets.zero,
-                  leading:
-                      Icon(Icons.cloud_queue_rounded, color: AppColors.blue),
+                  leading: Icon(
+                    Icons.cloud_queue_rounded,
+                    color: AppColors.blue,
+                  ),
                   title: Text('DeepSeek online'),
                   subtitle: Text(
                     'Sends handout excerpts to DeepSeek.',
@@ -177,7 +179,10 @@ class _PdfLibraryViewState extends State<PdfLibraryView> {
                 onPressed: () => Navigator.pop(context, 'compatible'),
                 child: ListTile(
                   contentPadding: EdgeInsets.zero,
-                  leading: const Icon(Icons.hub_outlined, color: AppColors.blue),
+                  leading: const Icon(
+                    Icons.hub_outlined,
+                    color: AppColors.blue,
+                  ),
                   title: Text(widget.controller.compatibleConfig.displayName),
                   subtitle: const Text(
                     'Sends handout excerpts to your custom cloud provider.',

@@ -39,10 +39,8 @@ class SettingsController extends ChangeNotifier {
             (key, value) => MapEntry(
               key.toString(),
               (value as Map).map(
-                (termId, weight) => MapEntry(
-                  termId.toString(),
-                  (weight as num).toInt(),
-                ),
+                (termId, weight) =>
+                    MapEntry(termId.toString(), (weight as num).toInt()),
               ),
             ),
           );

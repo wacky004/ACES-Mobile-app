@@ -28,28 +28,28 @@ class AiChatSession {
   }
 
   Map<String, dynamic> toJson() => {
-        'id': id,
-        'subjectId': subjectId,
-        'contextKey': contextKey,
-        if (pdfId != null) 'pdfId': pdfId,
-        'title': title,
-        'createdAt': createdAt.toIso8601String(),
-        'updatedAt': updatedAt.toIso8601String(),
-        'messages': messages,
-      };
+    'id': id,
+    'subjectId': subjectId,
+    'contextKey': contextKey,
+    if (pdfId != null) 'pdfId': pdfId,
+    'title': title,
+    'createdAt': createdAt.toIso8601String(),
+    'updatedAt': updatedAt.toIso8601String(),
+    'messages': messages,
+  };
 
   factory AiChatSession.fromJson(Map<String, dynamic> json) => AiChatSession(
-        id: json['id'] as String,
-        subjectId: json['subjectId'] as String? ?? '',
-        contextKey: json['contextKey'] as String? ?? '',
-        pdfId: json['pdfId'] as String?,
-        title: json['title'] as String? ?? 'New chat',
-        createdAt: DateTime.tryParse(json['createdAt'] as String? ?? '') ??
-            DateTime.now(),
-        updatedAt: DateTime.tryParse(json['updatedAt'] as String? ?? '') ??
-            DateTime.now(),
-        messages: (json['messages'] as List<dynamic>? ?? const [])
-            .map((item) => (item as Map).cast<String, dynamic>())
-            .toList(growable: false),
-      );
+    id: json['id'] as String,
+    subjectId: json['subjectId'] as String? ?? '',
+    contextKey: json['contextKey'] as String? ?? '',
+    pdfId: json['pdfId'] as String?,
+    title: json['title'] as String? ?? 'New chat',
+    createdAt:
+        DateTime.tryParse(json['createdAt'] as String? ?? '') ?? DateTime.now(),
+    updatedAt:
+        DateTime.tryParse(json['updatedAt'] as String? ?? '') ?? DateTime.now(),
+    messages: (json['messages'] as List<dynamic>? ?? const [])
+        .map((item) => (item as Map).cast<String, dynamic>())
+        .toList(growable: false),
+  );
 }

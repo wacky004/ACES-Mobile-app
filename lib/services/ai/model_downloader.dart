@@ -22,8 +22,8 @@ class ModelDownloadException implements Exception {
 
 class ModelDownloader {
   ModelDownloader({ModelStore? store, http.Client Function()? clientFactory})
-      : _store = store ?? ModelStore(),
-        _clientFactory = clientFactory ?? http.Client.new;
+    : _store = store ?? ModelStore(),
+      _clientFactory = clientFactory ?? http.Client.new;
 
   final ModelStore _store;
   final http.Client Function() _clientFactory;
@@ -91,9 +91,11 @@ class ModelDownloader {
 
     final client = _clientFactory();
     try {
-      onStatus(start > 0
-          ? 'Resuming download at ${_mb(start)}…'
-          : 'Starting download…');
+      onStatus(
+        start > 0
+            ? 'Resuming download at ${_mb(start)}…'
+            : 'Starting download…',
+      );
       final request = http.Request('GET', Uri.parse(url));
       request.headers['User-Agent'] = 'CPE-Reviewer/1.2.0';
       request.headers['Accept'] = 'application/octet-stream';
@@ -137,8 +139,9 @@ class ModelDownloader {
           }
           sink.add(chunk);
           received += chunk.length;
-          final percent =
-              ((received / spec.sizeBytes) * 100).clamp(0, 99).round();
+          final percent = ((received / spec.sizeBytes) * 100)
+              .clamp(0, 99)
+              .round();
           if (percent != lastPercent) {
             lastPercent = percent;
             onProgress(received, spec.sizeBytes, percent);

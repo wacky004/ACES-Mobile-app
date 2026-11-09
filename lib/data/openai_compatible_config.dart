@@ -119,7 +119,9 @@ class OpenAiCompatibleConfig extends ChangeNotifier {
   }) async {
     _baseUrl = baseUrl.trim().replaceAll(RegExp(r'/+$'), '');
     _modelId = modelId.trim();
-    _displayName = displayName.trim().isEmpty ? 'Custom cloud AI' : displayName.trim();
+    _displayName = displayName.trim().isEmpty
+        ? 'Custom cloud AI'
+        : displayName.trim();
     _supportsVision = supportsVision;
     _supportsJson = supportsJson;
     _shareHandoutContext = shareHandoutContext;

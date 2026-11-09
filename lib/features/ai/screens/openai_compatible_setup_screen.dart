@@ -149,7 +149,11 @@ class _OpenAiCompatibleSetupScreenState
                     ),
                     child: const Row(
                       children: [
-                        Icon(Icons.hub_outlined, color: AppColors.blue, size: 22),
+                        Icon(
+                          Icons.hub_outlined,
+                          color: AppColors.blue,
+                          size: 22,
+                        ),
                         SizedBox(width: 10),
                         Expanded(
                           child: Text(
@@ -184,8 +188,9 @@ class _OpenAiCompatibleSetupScreenState
                             ),
                             StatusPill(
                               label: _config.hasKey ? 'KEY SAVED' : 'NO KEY',
-                              color:
-                                  _config.hasKey ? AppColors.green : AppColors.amber,
+                              color: _config.hasKey
+                                  ? AppColors.green
+                                  : AppColors.amber,
                             ),
                           ],
                         ),
@@ -307,8 +312,7 @@ class _OpenAiCompatibleSetupScreenState
                       _message!,
                       style: TextStyle(
                         fontSize: 11,
-                        color:
-                            _messageError ? AppColors.red : AppColors.green,
+                        color: _messageError ? AppColors.red : AppColors.green,
                       ),
                     ),
                   ],

@@ -67,9 +67,7 @@ class AiService {
 
   Future<void> _loadModelInternal(AiModelSpec spec) async {
     await ensureActive(spec);
-    _model = await FlutterEdgeAi.getActiveModel(
-      maxTokens: aiContextTokens,
-    );
+    _model = await FlutterEdgeAi.getActiveModel(maxTokens: aiContextTokens);
   }
 
   Future<void> _closeLoadedModel() async {

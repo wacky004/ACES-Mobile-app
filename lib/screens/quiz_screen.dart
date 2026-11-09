@@ -665,9 +665,7 @@ class _OptionTile extends StatelessWidget {
       case _OptionState.idle:
         border = isDark ? AppColors.darkBorder : AppColors.border;
         background = isDark ? AppColors.darkSurface : AppColors.surface;
-        letterBackground = isDark
-            ? AppColors.darkBorder
-            : AppColors.surfaceAlt;
+        letterBackground = isDark ? AppColors.darkBorder : AppColors.surfaceAlt;
         letterColor = AppColors.muted;
     }
 

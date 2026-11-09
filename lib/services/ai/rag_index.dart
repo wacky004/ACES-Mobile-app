@@ -45,15 +45,15 @@ class RagChunk {
   );
 
   Map<String, dynamic> toJson() => {
-        'id': id,
-        'termId': termId,
-        'handoutId': handoutId,
-        'handoutNumber': handoutNumber,
-        'handoutTitle': handoutTitle,
-        'page': page,
-        'text': text,
-        'isPdf': isPdf,
-      };
+    'id': id,
+    'termId': termId,
+    'handoutId': handoutId,
+    'handoutNumber': handoutNumber,
+    'handoutTitle': handoutTitle,
+    'page': page,
+    'text': text,
+    'isPdf': isPdf,
+  };
 
   static RagChunk fromPdfChunk(ImportedPdf pdf, PdfChunk chunk) => RagChunk(
     id: '${pdf.id}-${chunk.id}',

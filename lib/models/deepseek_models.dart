@@ -118,11 +118,11 @@ class DeepSeekUsage {
   final int reasoningTokens;
 
   Map<String, dynamic> toJson() => {
-        'prompt_tokens': promptTokens,
-        'completion_tokens': completionTokens,
-        'total_tokens': totalTokens,
-        'completion_tokens_details': {'reasoning_tokens': reasoningTokens},
-      };
+    'prompt_tokens': promptTokens,
+    'completion_tokens': completionTokens,
+    'total_tokens': totalTokens,
+    'completion_tokens_details': {'reasoning_tokens': reasoningTokens},
+  };
 
   factory DeepSeekUsage.fromJson(Map<String, dynamic> json) {
     final details = json['completion_tokens_details'];

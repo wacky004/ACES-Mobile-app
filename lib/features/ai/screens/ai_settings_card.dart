@@ -44,9 +44,7 @@ class _AiSettingsCardState extends State<AiSettingsCard> {
 
   void _openCompatible() {
     Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => const OpenAiCompatibleSetupScreen(),
-      ),
+      MaterialPageRoute(builder: (_) => const OpenAiCompatibleSetupScreen()),
     );
   }
 

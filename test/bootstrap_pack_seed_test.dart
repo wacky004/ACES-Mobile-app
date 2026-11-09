@@ -20,9 +20,11 @@ void main() {
       expect(SubjectPack.validate(pack), isEmpty);
       expect(pack.questions.length, 160);
       expect(
-        pack.questions.where(
-          (question) => question.type == QuestionType.modifiedTrueFalse,
-        ).length,
+        pack.questions
+            .where(
+              (question) => question.type == QuestionType.modifiedTrueFalse,
+            )
+            .length,
         40,
       );
     }

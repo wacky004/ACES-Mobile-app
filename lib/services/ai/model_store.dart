@@ -31,7 +31,8 @@ class ModelStore {
     return await file.length() == spec.sizeBytes;
   }
 
-  Future<bool> hasPartial(AiModelSpec spec) async => (await partFor(spec)).exists();
+  Future<bool> hasPartial(AiModelSpec spec) async =>
+      (await partFor(spec)).exists();
 
   Future<int> installedBytes() async {
     var total = 0;

@@ -7,8 +7,7 @@ class BookmarkRepository {
   static final StoreRef<String, Map<String, Object?>> _store =
       stringMapStoreFactory.store('bookmarks');
 
-  String _key(String subjectId, String questionId) =>
-      '$subjectId::$questionId';
+  String _key(String subjectId, String questionId) => '$subjectId::$questionId';
 
   Future<bool> isBookmarked(String subjectId, String questionId) async {
     final record = await _store.record(_key(subjectId, questionId)).get(_db);

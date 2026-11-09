@@ -14,16 +14,16 @@ class ReaderSection {
   final List<String> tableIds;
 
   factory ReaderSection.fromJson(Map<String, dynamic> json) => ReaderSection(
-        id: json['id'] as String,
-        title: json['title'] as String? ?? '',
-        page: (json['page'] as num?)?.toInt() ?? 1,
-        bullets: (json['bullets'] as List<dynamic>? ?? const [])
-            .map((item) => item.toString())
-            .toList(growable: false),
-        tableIds: (json['tableIds'] as List<dynamic>? ?? const [])
-            .map((item) => item.toString())
-            .toList(growable: false),
-      );
+    id: json['id'] as String,
+    title: json['title'] as String? ?? '',
+    page: (json['page'] as num?)?.toInt() ?? 1,
+    bullets: (json['bullets'] as List<dynamic>? ?? const [])
+        .map((item) => item.toString())
+        .toList(growable: false),
+    tableIds: (json['tableIds'] as List<dynamic>? ?? const [])
+        .map((item) => item.toString())
+        .toList(growable: false),
+  );
 }
 
 class ReaderTerm {
@@ -44,15 +44,15 @@ class ReaderTerm {
   final String sectionId;
 
   factory ReaderTerm.fromJson(Map<String, dynamic> json) => ReaderTerm(
-        id: json['id'] as String,
-        term: json['term'] as String? ?? '',
-        definition: json['definition'] as String? ?? '',
-        page: (json['page'] as num?)?.toInt() ?? 1,
-        aliases: (json['aliases'] as List<dynamic>? ?? const [])
-            .map((item) => item.toString())
-            .toList(growable: false),
-        sectionId: json['sectionId'] as String? ?? '',
-      );
+    id: json['id'] as String,
+    term: json['term'] as String? ?? '',
+    definition: json['definition'] as String? ?? '',
+    page: (json['page'] as num?)?.toInt() ?? 1,
+    aliases: (json['aliases'] as List<dynamic>? ?? const [])
+        .map((item) => item.toString())
+        .toList(growable: false),
+    sectionId: json['sectionId'] as String? ?? '',
+  );
 }
 
 class ReaderTable {
@@ -73,19 +73,21 @@ class ReaderTable {
   final String note;
 
   factory ReaderTable.fromJson(Map<String, dynamic> json) => ReaderTable(
-        id: json['id'] as String,
-        title: json['title'] as String? ?? '',
-        headers: (json['headers'] as List<dynamic>? ?? const [])
-            .map((item) => item.toString())
-            .toList(growable: false),
-        rows: (json['rows'] as List<dynamic>? ?? const [])
-            .map((row) => (row as List<dynamic>)
-                .map((cell) => cell.toString())
-                .toList(growable: false))
-            .toList(growable: false),
-        page: (json['page'] as num?)?.toInt() ?? 1,
-        note: json['note'] as String? ?? '',
-      );
+    id: json['id'] as String,
+    title: json['title'] as String? ?? '',
+    headers: (json['headers'] as List<dynamic>? ?? const [])
+        .map((item) => item.toString())
+        .toList(growable: false),
+    rows: (json['rows'] as List<dynamic>? ?? const [])
+        .map(
+          (row) => (row as List<dynamic>)
+              .map((cell) => cell.toString())
+              .toList(growable: false),
+        )
+        .toList(growable: false),
+    page: (json['page'] as num?)?.toInt() ?? 1,
+    note: json['note'] as String? ?? '',
+  );
 }
 
 class ReaderHandout {
@@ -110,24 +112,28 @@ class ReaderHandout {
   final List<ReaderTable> tables;
 
   factory ReaderHandout.fromJson(Map<String, dynamic> json) => ReaderHandout(
-        id: json['id'] as String,
-        termId: json['termId'] as String? ?? '',
-        number: json['number'] as String? ?? '',
-        title: json['title'] as String? ?? '',
-        summary: json['summary'] as String? ?? '',
-        sections: (json['sections'] as List<dynamic>? ?? const [])
-            .map((item) =>
-                ReaderSection.fromJson((item as Map).cast<String, dynamic>()))
-            .toList(growable: false),
-        terms: (json['terms'] as List<dynamic>? ?? const [])
-            .map((item) =>
-                ReaderTerm.fromJson((item as Map).cast<String, dynamic>()))
-            .toList(growable: false),
-        tables: (json['tables'] as List<dynamic>? ?? const [])
-            .map((item) =>
-                ReaderTable.fromJson((item as Map).cast<String, dynamic>()))
-            .toList(growable: false),
-      );
+    id: json['id'] as String,
+    termId: json['termId'] as String? ?? '',
+    number: json['number'] as String? ?? '',
+    title: json['title'] as String? ?? '',
+    summary: json['summary'] as String? ?? '',
+    sections: (json['sections'] as List<dynamic>? ?? const [])
+        .map(
+          (item) =>
+              ReaderSection.fromJson((item as Map).cast<String, dynamic>()),
+        )
+        .toList(growable: false),
+    terms: (json['terms'] as List<dynamic>? ?? const [])
+        .map(
+          (item) => ReaderTerm.fromJson((item as Map).cast<String, dynamic>()),
+        )
+        .toList(growable: false),
+    tables: (json['tables'] as List<dynamic>? ?? const [])
+        .map(
+          (item) => ReaderTable.fromJson((item as Map).cast<String, dynamic>()),
+        )
+        .toList(growable: false),
+  );
 
   ReaderTable? tableById(String id) {
     for (final table in tables) {
@@ -137,8 +143,8 @@ class ReaderHandout {
   }
 
   List<ReaderTable> tablesFor(ReaderSection section) => [
-        for (final id in section.tableIds) ?tableById(id),
-      ];
+    for (final id in section.tableIds) ?tableById(id),
+  ];
 }
 
 class HandoutReaderPack {
@@ -160,8 +166,10 @@ class HandoutReaderPack {
         subject: json['subject'] as String? ?? '',
         version: json['version'] as String? ?? '',
         handouts: (json['handouts'] as List<dynamic>? ?? const [])
-            .map((item) =>
-                ReaderHandout.fromJson((item as Map).cast<String, dynamic>()))
+            .map(
+              (item) =>
+                  ReaderHandout.fromJson((item as Map).cast<String, dynamic>()),
+            )
             .toList(growable: false),
       );
 
@@ -176,8 +184,8 @@ class HandoutReaderPack {
       handouts.where((handout) => handout.termId == termId).toList();
 
   List<ReaderTerm> get allTerms => [
-        for (final handout in handouts) ...handout.terms,
-      ];
+    for (final handout in handouts) ...handout.terms,
+  ];
 }
 
 class ReaderFullTextPage {
