@@ -20,3 +20,37 @@ jobs:
       - run: dart format --output=none --set-exit-if-changed lib test
       - run: flutter analyze
       - run: flutter test
+
+  windows-build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.44.3"
+          channel: stable
+          cache: true
+      - name: Enable Windows Developer Mode
+        shell: pwsh
+        run: |
+          New-Item -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" -Force | Out-Null
+          Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" -Name AllowDevelopmentWithoutDevLicense -Value 1 -Type DWord -Force
+      - name: Install Inno Setup
+        run: choco install innosetup --yes --no-progress
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+      - name: Build signed Windows installer
+        shell: pwsh
+        run: |
+          $pubspec = Get-Content -LiteralPath "pubspec.yaml" -Raw
+          if ($pubspec -notmatch '(?m)^version:\s*([0-9]+\.[0-9]+\.[0-9]+)') {
+            throw "Could not read version from pubspec.yaml"
+          }
+          $version = $Matches[1]
+          scripts\build_windows_release.ps1 -Version $version
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-release
+          path: dist/windows/*
+          if-no-files-found: error

@@ -6,6 +6,9 @@
 - Dart 3.12.2
 - Android SDK 36
 - minSdk 28, targetSdk 36
+- Windows 10/11 x64, Visual Studio Build Tools with Desktop C++, CMake, Windows
+  10 SDK, and C++/WinRT
+- Inno Setup 6
 - Python 3.11+
 
 ## Commands
@@ -29,11 +32,22 @@ The script checks formatting, analysis, and tests.
 ## Release build
 
 ```powershell
-scripts\build_release.ps1 -Version 1.6.0
+scripts\build_release.ps1
 ```
 
-The script builds web, arm64, and universal artifacts and computes SHA-256
+The script builds arm64 and universal Android artifacts and computes SHA-256
 hashes. Release files should be stored outside git. Update `docs/RELEASES.md`.
+
+### Windows release
+
+```powershell
+scripts\build_windows_release.ps1
+```
+
+The script builds the Windows runner, signs with the ACES certificate when the
+PFX environment variables are set, compiles the Inno Setup installer, and writes
+the installer plus `latest.json` to `dist\windows`. See `docs/WINDOWS.md` and
+`docs/UPDATES.md`.
 
 ## Content regeneration
 
@@ -49,7 +63,7 @@ python tools\build_subjects.py
 - Run format/analyze/test before committing.
 - Update CHANGELOG and relevant docs.
 - Push to `origin main`.
-- Do not commit build caches, keys, APKs, web ZIPs, or source PDFs.
+- Do not commit build caches, keys, APKs, Windows installers, or source PDFs.
 
 ## Troubleshooting
 

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../core/layout.dart';
 import '../core/theme.dart';
+import '../features/web_learning/web_learning_entries.dart';
 import '../models/quiz_models.dart';
 import '../state/app_scope.dart';
 import '../state/app_session.dart';
@@ -35,7 +37,9 @@ class HomeScreen extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(20, 16, 20, 28),
         child: Center(
           child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 720),
+            constraints: BoxConstraints(
+              maxWidth: AppLayout.contentWidth(context),
+            ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -61,6 +65,8 @@ class HomeScreen extends StatelessWidget {
                       ? () => _showSubjectSheet(context, session)
                       : null,
                 ),
+                const SizedBox(height: 24),
+                const WebLearningHomeSection(),
                 const SizedBox(height: 24),
                 SectionHeader(
                   title: 'Review by term',

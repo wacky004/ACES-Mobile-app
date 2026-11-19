@@ -36,14 +36,16 @@ command needed. Never force-push.
 
 - API keys, tokens, passwords, `.env` files
 - Android keystores, `key.properties`, `local.properties`
+- Windows code-signing PFX files and certificate passwords
 - `build/`, `.dart_tool/`, `android/.gradle/`, caches
-- APK/AAB files, web ZIPs
+- APK/AAB files and Windows installer binaries
 - Original handout PDFs
 - Personal or private student data
 
 ## AI rules
 
-- Local AI and cloud providers are Android-only. Keep the web build AI-free.
+- Local AI and cloud providers are supported on Android and Windows.
+- The web target is removed from `main`; do not reintroduce it without approval.
 - API keys live in secure storage, never in source or SharedPreferences.
 - PDF chats use relevant excerpts from the opened PDF automatically.
 - The main tutor handout-context switch is opt-in.
@@ -54,6 +56,11 @@ command needed. Never force-push.
   unless the user explicitly deletes the model.
 - Selecting cloud AI should unload the local engine automatically.
 - Keep the full-text reader paginated by page/long-page parts.
+- Protocol Explorer, Electronics 101, and Learn Arduino are remote WebViews. Do
+  not bundle or copy their website assets, 3D models, lesson text, or branding
+  without written permission from the author.
+- Keep each Web Learning navigation restricted to its resource host and keep
+  external links in the system browser.
 
 ## Content rules
 
@@ -67,5 +74,7 @@ command needed. Never force-push.
 1. Bump `pubspec.yaml` version and the Settings version label.
 2. Run `scripts/verify.ps1`.
 3. Run `scripts/build_release.ps1`.
-4. Record artifact filenames, sizes, and SHA-256 hashes in `docs/RELEASES.md`.
-5. Do not commit release binaries.
+4. Run `scripts/build_windows_release.ps1`.
+5. Record artifact filenames, sizes, and SHA-256 hashes in `docs/RELEASES.md`.
+6. Publish the Windows installer and `latest.json` to the public release repo.
+7. Do not commit release binaries.

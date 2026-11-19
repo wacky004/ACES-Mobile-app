@@ -5,7 +5,7 @@
 - Never commit API keys, tokens, passwords, `.env` files, keystores, or
   `key.properties`.
 - DeepSeek and custom-provider keys use secure storage.
-- No key is embedded in the APK, web bundle, or repository.
+- No key is embedded in the Android app, Windows app, or repository.
 
 ## Cloud privacy
 
@@ -18,9 +18,16 @@
 
 - Local models and prompts remain on the device.
 
-## Web
+## Web Learning
 
-- The web build contains no AI providers, keys, or cloud requests.
+- The app displays the live public Protocol Explorer, Electronics 101, and Learn
+  Arduino sites in restricted WebViews.
+- No website assets, lesson content, 3D models, or credentials are bundled.
+- Navigation is limited to each resource's host; external links open in the
+  system browser.
+- No JavaScript bridge exposes app data, AI keys, or local files.
+- Each website has its own storage and privacy behavior; CPE Reviewer data is
+  separate.
 
 ## Source materials
 
@@ -33,3 +40,9 @@
 
 - Current APKs use the Android debug key for sideloading.
 - Generate a release keystore outside the repo and configure signing locally.
+- Windows executables and installers are signed with the ACES code-signing
+  certificate when `ACES_WINDOWS_PFX_PATH` and `ACES_WINDOWS_PFX_PASSWORD` are
+  configured.
+- Never commit the PFX, password, or exported private key.
+- The updater verifies SHA-256 and, when configured, the Authenticode publisher
+  thumbprint before launching the setup wizard.

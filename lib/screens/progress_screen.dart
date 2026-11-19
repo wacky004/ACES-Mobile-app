@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../core/layout.dart';
 import '../core/theme.dart';
 import '../models/quiz_models.dart';
 import '../services/quiz_service.dart';
@@ -59,7 +60,9 @@ class ProgressScreen extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(20, 16, 20, 28),
         child: Center(
           child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 720),
+            constraints: BoxConstraints(
+              maxWidth: AppLayout.contentWidth(context),
+            ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [

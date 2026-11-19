@@ -3,6 +3,48 @@
 All notable changes are recorded here. Release binaries are kept outside git;
 see `docs/RELEASES.md`.
 
+## 1.10.0 - 2026-11-09
+
+### Added
+- Shared Web Learning section on Home.
+- Web tab in Library.
+- Electronics 101: 48 interactive electronics lessons on a 3D workbench.
+- Learn Arduino: 16 beginner lessons with a 3D board and simulator.
+- Reusable resource-based WebView screen for all three Web Learning sites.
+
+### Changed
+- Replaced the single Protocol Explorer entry with a shared resource layout.
+- Added 3D/WebGL and WebView2 validation.
+- Version bumped to 1.10.0+11.
+
+## 1.9.0 - 2026-11-09
+
+### Added
+- Protocol Explorer entry points on Home and in the Library.
+- In-app Android and Windows WebView for the live Protocol Explorer site.
+- Web history controls, reload, external-browser fallback, offline retry, and
+  author attribution.
+- Protocol Explorer documentation and licensing note.
+
+### Changed
+- Version bumped to 1.9.0+10.
+
+## 1.8.0 - 2026-11-09
+
+### Added
+- Windows 10/11 desktop target with an adaptive navigation rail and window sizing.
+- Windows-native OCR for scanned PDFs through `Windows.Media.Ocr`.
+- Single-instance handling and Windows app-support data paths.
+- Signed Inno Setup installer with per-user installation.
+- Public update feed, download verification, and update wizard launch.
+- Windows update controls in Settings.
+
+### Changed
+- Removed the web target from `main`.
+- Local AI now runs on Android and Windows through the existing llama.cpp stack.
+- Windows desktop builds share the quiz, reader, AI, and PDF features.
+- Version bumped to 1.8.0+9.
+
 ## 1.7.0 - 2026-11-09
 
 ### Added
@@ -61,7 +103,6 @@ see `docs/RELEASES.md`.
 - Added photo, PDF-page, and text attachments.
 - Added thinking/reasoning display, token usage, and JSON draft generation.
 - Added DeepSeek model/provider picker and privacy settings.
-- Verified the web build remains AI-free.
 
 ## 1.3.0
 

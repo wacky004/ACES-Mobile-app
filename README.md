@@ -1,6 +1,7 @@
-# ACES Mobile App - CPE Reviewer
+# ACES CPE Reviewer
 
-A Flutter reviewer for Computer Engineering students at STI Ortigas-Cainta.
+A Flutter reviewer for Computer Engineering students at STI Ortigas-Cainta,
+available on Android and Windows.
 
 ## Current subjects
 
@@ -27,14 +28,19 @@ Every term (Prelim, Midterm, Pre-Finals, Finals) has 40 items:
 - Automatic relevant PDF excerpts in PDF chats for local and cloud AI.
 - Persistent AI chat sessions with new/history/resume/delete.
 - PDF import, PDF chat, and draft-quiz generation.
-- AI-free web build; Android-only AI features.
+- Web Learning: Protocol Explorer, Electronics 101, and Learn Arduino.
+- Android and Windows desktop targets.
 
 ## Requirements
 
 - Flutter 3.44.3 / Dart 3.12.2
 - Android SDK 36, minSdk 28
+- Windows 10/11 x64, Visual Studio Build Tools with Desktop C++, CMake, and
+  the Windows 10 SDK
+- Microsoft Edge WebView2 Runtime for Web Learning
+- Inno Setup 6 for building the Windows installer
 - Python 3.11+ for content generation scripts
-- Internet only for model downloads and cloud AI
+- Internet for model downloads, cloud AI, update checks, and Web Learning
 
 ## Quick start
 
@@ -48,18 +54,21 @@ flutter run
 ## Build
 
 ```powershell
-flutter build web --release
 flutter build apk --release --target-platform android-arm64
 flutter build apk --release
+flutter build windows --release
+scripts\build_windows_release.ps1
 ```
 
-Release APKs, web ZIPs, source PDFs, and hashes are kept outside git. See
-`docs/RELEASES.md` and `docs/DEVELOPMENT.md`.
+Release APKs, Windows installers, source PDFs, and hashes are kept outside git.
+See `docs/WINDOWS.md`, `docs/UPDATES.md`, `docs/RELEASES.md`, and
+`docs/DEVELOPMENT.md`.
 
 ## Repository layout
 
 ```text
 android/            Android shell and manifest
+windows/            Windows desktop shell
 assets/handouts/    Reader packs and full-text chunks
 assets/packs/       Subject question packs
 lib/                Flutter application
@@ -77,6 +86,9 @@ scripts/            Verification and release helpers
 - [Content pipeline](docs/CONTENT.md)
 - [Development](docs/DEVELOPMENT.md)
 - [Security](docs/SECURITY.md)
+- [Web Learning](docs/WEB_LEARNING.md)
+- [Windows desktop](docs/WINDOWS.md)
+- [Windows updates](docs/UPDATES.md)
 - [Releases](docs/RELEASES.md)
 - [Decisions](docs/DECISIONS.md)
 - [Palette](docs/PALETTE.md)
@@ -93,3 +105,8 @@ and is intended for ACES classroom use.
 
 Current release APKs are debug-signed for sideloading. Create and protect a
 release keystore before publishing to Google Play.
+
+Windows builds are signed with the ACES certificate when
+`ACES_WINDOWS_PFX_PATH` and `ACES_WINDOWS_PFX_PASSWORD` are configured. The
+updater verifies the installer hash and publisher thumbprint before launching
+the setup wizard.

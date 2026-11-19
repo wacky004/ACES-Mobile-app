@@ -3,6 +3,63 @@
 Release binaries are stored outside git. SHA-256 values are recorded for
 verification.
 
+## 1.10.0
+
+Adds a shared Web Learning section with Protocol Explorer, Electronics 101, and
+Learn Arduino, including 3D WebGL validation on Windows.
+
+| File | Size | SHA-256 |
+|---|---:|---|
+| CPE-Reviewer-1.10.0-AI-arm64.apk | 112,139,107 | 4D0076D89121F7BD7DCB91A8BEF441C822640BE73E76006BD2BAB6F024935E40 |
+| CPE-Reviewer-1.10.0-AI-universal.apk | 183,565,958 | FBF1453FF368F95D845B16C9BD6349CD02405A2DDD20A07E47B2BDD4307FD449 |
+| CPE-Reviewer-1.10.0-Windows-x64-Setup.exe | 25,273,296 | 66ABEDFB6FCCEA0B5A7A813CA586408FC1B4835DE94FB5E96AF6932538D8CD77 |
+
+The local Windows setup build is unsigned because the certificate PFX was not
+configured in the build environment. Sign it before publishing.
+
+## 1.10.0
+
+Adds a shared Web Learning section with Protocol Explorer, Electronics 101, and
+Learn Arduino, including 3D WebGL validation on Windows.
+
+| File | Size | SHA-256 |
+|---|---:|---|
+| CPE-Reviewer-1.10.0-AI-arm64.apk | 112,139,107 | 4D0076D89121F7BD7DCB91A8BEF441C822640BE73E76006BD2BAB6F024935E40 |
+| CPE-Reviewer-1.10.0-AI-universal.apk | 183,565,958 | FBF1453FF368F95D845B16C9BD6349CD02405A2DDD20A07E47B2BDD4307FD449 |
+| CPE-Reviewer-1.10.0-Windows-x64-Setup.exe | 25,273,296 | 66ABEDFB6FCCEA0B5A7A813CA586408FC1B4835DE94FB5E96AF6932538D8CD77 |
+
+The local Windows setup build is unsigned because the certificate PFX was not
+configured in the build environment. Sign it before publishing.
+
+## 1.9.0
+
+Adds Protocol Explorer entry points and in-app Android/Windows WebView access
+to the live 39-lesson networking site.
+
+| File | Size | SHA-256 |
+|---|---:|---|
+| CPE-Reviewer-1.9.0-AI-arm64.apk | 112,138,867 | 1BA6C998A770013BC4350D94F7E14B8E3FCE873C36103771F213756E352355B6 |
+| CPE-Reviewer-1.9.0-AI-universal.apk | 183,565,718 | E0A0EE54FA85B4DB3FC2023D444D195CA3313655361B8B2F5F713D9A4EE77B29 |
+| CPE-Reviewer-1.9.0-Windows-x64-Setup.exe | 25,265,049 | 2DDB3CA682242AC44A0FFA9F0600E209CB64DCBDE487BDB3744261E0206D69B0 |
+
+The local Windows setup build is unsigned because the certificate PFX was not
+configured in the build environment. Sign it before publishing.
+
+## 1.8.0
+
+Adds the Windows desktop target, Windows OCR, Inno Setup installer, and the
+in-app update wizard. Web support was removed from `main`.
+
+| File | Size | SHA-256 |
+|---|---:|---|
+| CPE-Reviewer-1.8.0-AI-arm64.apk | 111,646,662 | F149AB62B4E40DCF74A0E187E8F33913F115613DCB5357E745DA8C32F04B4E9A |
+| CPE-Reviewer-1.8.0-AI-universal.apk | 182,680,293 | 7AFC8FCD07C13AD965B0789D1A5DF81730103AA040C00C8788CC280C09E5FE9C |
+| CPE-Reviewer-1.8.0-Windows-x64-Setup.exe | 24,995,106 | 8C121792BA9C909E5979C61E9DB21F250C73236CAE1B37147EB50C1110B7DBB |
+
+The local Windows setup build is unsigned because the certificate PFX was not
+configured in the build environment. Sign it with the ACES certificate before
+publishing to the public update repository.
+
 ## 1.7.0
 
 Adds saved cloud profiles, local AI engine toggle, active-model banner, and
@@ -12,7 +69,6 @@ paginated full-text reader.
 |---|---:|---|
 | CPE-Reviewer-1.7.0-AI-arm64.apk | 111,512,390 | EC0BBEE47157CF602CC5B8252B1BDFE3749F207E3FA89A939630B870633F6418 |
 | CPE-Reviewer-1.7.0-AI-universal.apk | 182,480,489 | 7910F5318F713414B30BAF261A064367EBB7E62ECF30A3D9196CDF34BC9C18E8 |
-| CPE-Reviewer-Web-1.7.0.zip | 21,535,237 | 0BA7AD34A9EA41FC56E6EC8178C2557B7101A92010BC978A6DEA853AB7B781EB |
 
 ## 1.6.0
 
@@ -23,7 +79,6 @@ progress fixes, ACES palette, and OpenAI-compatible provider support.
 |---|---:|---|
 | CPE-Reviewer-1.6.0-AI-arm64.apk | 111,512,270 | DD28EC1401ECCB96949238C60D02266BB54EA9E9D7E3C5D083CB839EC7CE7C7C |
 | CPE-Reviewer-1.6.0-AI-universal.apk | 182,414,833 | 0C1CB6718171844DA8694AFD940EA1699DE9148188612367C6AF32DEC53F50FD |
-| CPE-Reviewer-Web-1.6.0.zip | 21,532,616 | 9D23FD79D2E72B794A4EB314487BC86FF03F3A42A983284F7E80D12A5F0F09C9 |
 
 ## 1.5.0
 
@@ -31,7 +86,6 @@ progress fixes, ACES palette, and OpenAI-compatible provider support.
 |---|---:|---|
 | CPE-Reviewer-1.5.0-AI-arm64.apk | 111,446,342 | E503DF9840929D5FF26A169388C1EE2F6568FE93E5A4E432F0C0A407259BC3E8 |
 | CPE-Reviewer-1.5.0-AI-universal.apk | 182,283,369 | 40A66571F4FC375FFC7CBB574BC70364C2596438380EC4BDFD361FDB2E4203F8 |
-| CPE-Reviewer-Web-1.5.0.zip | 21,529,396 | DE2B73DD885A793ACF71B7CA52C21ACAABAAEB9B417A9E9C4A156D2B89F0AA00 |
 
 ## 1.4.0
 
@@ -39,7 +93,6 @@ progress fixes, ACES palette, and OpenAI-compatible provider support.
 |---|---:|---|
 | CPE-Reviewer-1.4.0-AI-arm64.apk | 111,373,400 | FF35E30A751626EF2C8AE267E9134B59C35AE2D662F82FE43754E1E03D5B1C3D |
 | CPE-Reviewer-1.4.0-AI-universal.apk | 182,210,427 | 26BFAFC87FA56BCE34DCF80BFD61EB02F5B53C5009E53278E6DCF0EE2A6AE8E2 |
-| CPE-Reviewer-Web-1.4.0.zip | 21,454,451 | 6D4CBDF528569D0E3FEB38B100BEAFD423FBE809875DCF0AF85A99331BB8DF3C |
 
 ## 1.3.0
 
@@ -70,5 +123,10 @@ progress fixes, ACES palette, and OpenAI-compatible provider support.
 
 ## Signing
 
-All artifacts above are signed with the Android debug key for sideloading.
+Android artifacts are signed with the Android debug key for sideloading.
 Do not publish to Google Play without a protected release keystore.
+
+Windows artifacts are signed with the ACES Authenticode certificate when the
+PFX environment variables are configured during the build. The 1.10.0 setup in
+this local build is unsigned because the PFX was not configured; sign it before
+publishing to the public update repository.

@@ -32,6 +32,7 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
+/dist/
 
 # Symbolication related
 app.*.symbols
@@ -66,5 +67,9 @@ tools/__pycache__/
 /releases/
 *.apk
 *.aab
+*.msix
+*.msixbundle
+*.pfx
 CPE-Reviewer-Web*.zip
+/web/
 /ALL HANDOUT/

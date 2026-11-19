@@ -3,8 +3,9 @@
 ## Local AI
 
 - Downloadable Qwen2.5 0.5B/1.5B/3B, Qwen3-4B, and Gemma 3 1B/4B models.
-- Models are downloaded directly to the phone and loaded locally.
+- Models are downloaded directly to the device and loaded locally.
 - No prompt leaves the device for local inference.
+- Android and Windows are supported.
 
 ## DeepSeek
 
@@ -43,7 +44,6 @@
 - Cloud prompts may include the question, optional attachments, and enabled
   context excerpts.
 - Local AI keeps content on-device.
-- The web build has no AI.
 
 ## Known limitations
 

@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import '../core/layout.dart';
 import '../core/theme.dart';
 import '../models/quiz_models.dart';
 import '../models/subject_pack.dart';
@@ -365,7 +366,9 @@ class _QuizScreenState extends State<QuizScreen> {
                 padding: const EdgeInsets.fromLTRB(20, 18, 20, 24),
                 child: Center(
                   child: ConstrainedBox(
-                    constraints: const BoxConstraints(maxWidth: 720),
+                    constraints: BoxConstraints(
+                      maxWidth: AppLayout.contentWidth(context),
+                    ),
                     child: AnimatedSwitcher(
                       duration: const Duration(milliseconds: 220),
                       child: Column(

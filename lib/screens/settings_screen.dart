@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+import '../core/layout.dart';
 import '../core/theme.dart';
 import '../features/ai/ai_feature.dart';
+import '../features/updates/update_card.dart';
 import '../services/tutor_service.dart';
 import '../state/app_scope.dart';
 import '../state/app_session.dart';
@@ -26,7 +28,9 @@ class SettingsScreen extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(20, 16, 20, 28),
         child: Center(
           child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 720),
+            constraints: BoxConstraints(
+              maxWidth: AppLayout.contentWidth(context),
+            ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -139,8 +143,8 @@ class SettingsScreen extends StatelessWidget {
                   _SettingsCard(
                     title: 'Study tutor',
                     subtitle:
-                        'Android only. Shows offline, handout-grounded '
-                        'explanations for every answer.',
+                        'Shows offline, handout-grounded explanations for '
+                        'every answer.',
                     child: SwitchListTile.adaptive(
                       contentPadding: EdgeInsets.zero,
                       value: settings.tutorEnabled,
@@ -208,6 +212,8 @@ class SettingsScreen extends StatelessWidget {
                     ],
                   ),
                 ),
+                const SizedBox(height: 14),
+                const WindowsUpdateCard(),
                 const SizedBox(height: 14),
                 _AboutCard(session: session),
                 const AttributionFooter(),
@@ -455,7 +461,7 @@ class _AboutCard extends StatelessWidget {
           ),
           const SizedBox(height: 2),
           const Text(
-            'Version 1.7.0',
+            'Version 1.10.0',
             style: TextStyle(fontSize: 10.5, color: AppColors.muted),
           ),
           const SizedBox(height: 14),

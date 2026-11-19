@@ -539,8 +539,7 @@ class _DeepSeekSetupScreenState extends State<DeepSeekSetupScreen> {
                           'is never bundled in the app. Online requests go '
                           'directly to DeepSeek. Prompts, photos, PDF pages, '
                           'PDF excerpts used in a PDF chat, and any enabled '
-                          'tutor handout excerpts are sent to DeepSeek. '
-                          'The web version has no AI.',
+                          'tutor handout excerpts are sent to DeepSeek.',
                           style: TextStyle(
                             fontSize: 10.5,
                             height: 1.45,

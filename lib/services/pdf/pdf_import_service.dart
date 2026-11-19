@@ -1,9 +1,9 @@
 import 'dart:typed_data';
 
-import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
 import 'package:pdfrx/pdfrx.dart';
 
 import '../../models/imported_pdf.dart';
+import '../ocr/ocr_service.dart';
 
 class PdfImportException implements Exception {
   PdfImportException(this.message);
@@ -35,7 +35,7 @@ class PdfImportService {
     }
 
     PdfDocument? document;
-    TextRecognizer? recognizer;
+    OcrService? ocr;
     final chunks = <PdfChunk>[];
     var ocrUsed = false;
     try {
@@ -70,7 +70,7 @@ class PdfImportService {
             'OCR page $pageNumber of ${pages.length}',
           );
           try {
-            recognizer ??= TextRecognizer(script: TextRecognitionScript.latin);
+            ocr ??= OcrService.create();
             final pageWidth = page.width <= 0 ? 1.0 : page.width;
             final pageHeight = page.height <= 0 ? 1.0 : page.height;
             final fullWidth = 1500.0;
@@ -80,14 +80,15 @@ class PdfImportService {
               fullHeight: fullHeight,
             );
             if (image != null) {
-              final input = InputImage.fromBitmap(
-                bitmap: image.pixels,
-                width: image.width,
-                height: image.height,
-              );
-              final recognized = await recognizer.processImage(input);
-              text = recognized.text.trim();
-              image.dispose();
+              try {
+                text = await ocr.recognize(
+                  pixels: image.pixels,
+                  width: image.width,
+                  height: image.height,
+                );
+              } finally {
+                image.dispose();
+              }
               if (text.isNotEmpty) ocrUsed = true;
             }
           } catch (_) {
@@ -125,7 +126,7 @@ class PdfImportService {
         await document?.dispose();
       } catch (_) {}
       try {
-        recognizer?.close();
+        await ocr?.dispose();
       } catch (_) {}
     }
   }

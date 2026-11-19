@@ -47,11 +47,24 @@ True/False.
 
 ## PDFs
 
-- Import text PDFs or use offline OCR for scanned pages.
+- Import text PDFs or use on-device OCR for scanned pages on Android and Windows.
 - Chat with a PDF using local or cloud AI without re-uploading it.
 - Generate draft quizzes and review every item before saving.
 
-## Web
+## Web Learning
 
-The web build includes quizzes, reader, progress, and subjects. It contains no
-AI UI, API keys, or cloud provider calls.
+- Shared Home section and Library Web tab.
+- Protocol Explorer: 39 networking lessons and 20 languages.
+- Electronics 101: 48 electronics lessons on a 3D workbench.
+- Learn Arduino: 16 lessons with a 3D board and virtual simulator.
+- In-app Android/Windows WebViews with site progress, attribution, and browser
+  fallback.
+- Requires internet; the websites are not bundled or copied.
+- Electronics 101 and Learn Arduino require WebGL/3D support.
+
+## Platforms
+
+- Android: quizzes, reader, progress, PDFs, OCR, local/cloud AI, and Web Learning.
+- Windows: the same reviewer features, with Windows OCR, Web Learning, and a
+  signed installer.
+- Web is not part of the supported targets.

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../core/layout.dart';
 import '../../core/theme.dart';
 import '../../data/handout_reader_repository.dart';
 import '../../data/reader_progress_controller.dart';
@@ -220,7 +221,9 @@ class _HandoutReaderScreenState extends State<HandoutReaderScreen> {
           padding: const EdgeInsets.fromLTRB(20, 4, 20, 30),
           child: Center(
             child: ConstrainedBox(
-              constraints: const BoxConstraints(maxWidth: 760),
+              constraints: const BoxConstraints(
+                maxWidth: AppLayout.readerWidth,
+              ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [

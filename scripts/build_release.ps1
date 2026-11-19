@@ -1,5 +1,5 @@
 param(
-    [string]$Version = "1.6.0",
+    [string]$Version,
     [string]$OutputRoot = $env:CPE_RELEASE_DIR
 )
 
@@ -7,18 +7,19 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path $PSScriptRoot -Parent
 Set-Location $root
 
+if ([string]::IsNullOrWhiteSpace($Version)) {
+    $pubspec = Get-Content -LiteralPath "pubspec.yaml" -Raw
+    if ($pubspec -notmatch '(?m)^version:\s*([0-9]+\.[0-9]+\.[0-9]+)') {
+        throw "Could not read version from pubspec.yaml."
+    }
+    $Version = $Matches[1]
+}
+
 if ([string]::IsNullOrWhiteSpace($OutputRoot)) {
     $desktop = Split-Path $root -Parent
     $OutputRoot = Join-Path $desktop "CPE APP REVIWER"
 }
 New-Item -ItemType Directory -Force -Path $OutputRoot | Out-Null
-
-flutter build web --release
-if ($LASTEXITCODE -ne 0) { throw "Web build failed." }
-
-$webZip = Join-Path $OutputRoot "CPE-Reviewer-Web-$Version.zip"
-if (Test-Path $webZip) { Remove-Item -LiteralPath $webZip -Force }
-Compress-Archive -Path "build\web\*" -DestinationPath $webZip -CompressionLevel Optimal
 
 $apkOut = "build\app\outputs\flutter-apk\app-release.apk"
 if (Test-Path $apkOut) { Remove-Item -LiteralPath $apkOut -Force }
@@ -33,8 +34,7 @@ Copy-Item -LiteralPath $apkOut -Destination (Join-Path $OutputRoot "CPE-Reviewer
 
 $files = @(
     (Join-Path $OutputRoot "CPE-Reviewer-$Version-AI-arm64.apk"),
-    (Join-Path $OutputRoot "CPE-Reviewer-$Version-AI-universal.apk"),
-    $webZip
+    (Join-Path $OutputRoot "CPE-Reviewer-$Version-AI-universal.apk")
 )
 $files | ForEach-Object {
     $hash = (Get-FileHash -Algorithm SHA256 -LiteralPath $_).Hash

@@ -129,8 +129,7 @@ class _AiSettingsCardState extends State<AiSettingsCard> {
                               SizedBox(height: 3),
                               Text(
                                 'Use DeepSeek or your own OpenAI-compatible '
-                                'cloud key, or download an on-device model. '
-                                'The web build has no AI.',
+                                'cloud key, or download an on-device model.',
                                 style: TextStyle(
                                   fontSize: 11,
                                   height: 1.4,

@@ -1,9 +1,11 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 
+import '../core/layout.dart';
 import '../core/theme.dart';
 import '../data/pack_repository.dart';
 import '../features/handouts/handouts_home_view.dart';
+import '../features/web_learning/web_learning_entries.dart';
 import '../models/subject_pack.dart';
 import '../state/app_scope.dart';
 import '../state/app_session.dart';
@@ -119,7 +121,9 @@ class _LibraryScreenState extends State<LibraryScreen> {
         padding: const EdgeInsets.fromLTRB(20, 16, 20, 28),
         child: Center(
           child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 720),
+            constraints: BoxConstraints(
+              maxWidth: AppLayout.contentWidth(context),
+            ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -133,7 +137,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
                 ),
                 const SizedBox(height: 3),
                 const Text(
-                  'Read the handouts or switch subject packs. Everything works offline.',
+                  'Read handouts, switch subject packs, or explore interactive labs.',
                   style: TextStyle(
                     fontSize: 12.5,
                     color: AppColors.muted,
@@ -153,6 +157,11 @@ class _LibraryScreenState extends State<LibraryScreen> {
                       label: Text('Subjects'),
                       icon: Icon(Icons.library_books_rounded, size: 16),
                     ),
+                    ButtonSegment(
+                      value: 2,
+                      label: Text('Web'),
+                      icon: Icon(Icons.public_rounded, size: 16),
+                    ),
                   ],
                   selected: {_segment},
                   onSelectionChanged: (value) =>
@@ -160,6 +169,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
                 ),
                 const SizedBox(height: 18),
                 if (_segment == 0) const HandoutsHomeView(),
+                if (_segment == 2) const WebLearningLibrarySection(),
                 if (_segment == 1) ...[
                   Container(
                     width: double.infinity,

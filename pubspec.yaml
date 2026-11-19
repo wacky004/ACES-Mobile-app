@@ -2,7 +2,7 @@ name: cpe_reviewer
 description: "Offline reviewer for Computer Engineering Laws and Discipline (IT2205) and future subject packs."
 publish_to: 'none'
 
-version: 1.7.0+8
+version: 1.10.0+11
 
 environment:
   sdk: ^3.12.2
@@ -13,7 +13,6 @@ dependencies:
 
   cupertino_icons: ^1.0.8
   sembast: ^3.10.0
-  sembast_web: ^2.4.6+1
   path_provider: ^2.1.6
   shared_preferences: ^2.5.6
   file_picker: ^13.3.2
@@ -30,6 +29,10 @@ dependencies:
   image_picker: ^1.2.4
   image: ^4.12.0
   url_launcher: ^6.3.3
+  package_info_plus: ^10.2.2
+  window_manager: ^0.5.2
+  windows_single_instance: ^1.2.0
+  webview_all: ^1.4.12
 
 dev_dependencies:
   flutter_test:
@@ -55,11 +58,10 @@ flutter_launcher_icons:
   adaptive_icon_foreground: "assets/images/logo_foreground.png"
   adaptive_icon_foreground_inset: 0
   min_sdk_android: 21
-  web:
+  windows:
     generate: true
     image_path: "assets/images/logo.png"
-    background_color: "#FFFFFF"
-    theme_color: "#0A1220"
+    icon_size: 256
 
 flutter_native_splash:
   color: "#FFFFFF"
@@ -72,8 +74,7 @@ flutter_native_splash:
     image_dark: assets/images/logo_splash_android12.png
     color_dark: "#FFFFFF"
   android: true
-  web: true
-  web_image_mode: center
+  windows: true
   fullscreen: false
 
 hooks:
